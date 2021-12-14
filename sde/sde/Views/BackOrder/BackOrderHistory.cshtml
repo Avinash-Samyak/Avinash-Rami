@@ -1,0 +1,70 @@
+﻿@model Tuple<sde.Models.backorderCancelList>
+@{
+    ViewBag.Title = "Back Order Cancellation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+  
+<div class="span11">
+    <div class="leaderboard" style="padding-left:10px;padding-right:10px;">
+        <h1>Back Order Cancellation</h1>
+        <br />
+       
+        <div class="content">
+          <ul id="tabs1" class="nav nav-tabs" data-tabs="tabs1">
+                <li><a href="../BackOrder/BackOrder">New Back Order Cancellation</a></li>
+                <li class="active"><a href="../BackOrder/BackOrderHistory">Back Order Cancellation History</a></li>   
+          </ul> 
+          <br /> 
+
+          <div id="my-tab-content1" class="tab-content">
+                <div class="tab-pane active table-responsive" id="tabScheduler">  
+                  <table id="myTable" class="table table-bordered table-condensed" style="width:100%" border="0"> 
+                            <thead>
+                                <tr style="background-color: #FF8336">
+                                    <th class="tblCell">Source File</th>
+                                    <th class="tblCell">Row No</th>
+                                    <th class="tblCell">Isbn</th>
+                                    <th class="tblCell">Sales Order</th>
+                                    <th class="tblCell" style="text-align:right;">Quantity</th>
+                                    <th class="tblCell">Created Date</th>
+                                    <th class="tblCell">Status</th>
+                                    <th class="tblCell">Job Completeness</th>
+                                    <th class="tblCell">Job Error</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @for (int i = 0; i < Model.Item1._backorderCancelList.Count(); i++)
+                                {
+                                    <tr style="background-color: #FCDAB6;">
+                                        <td class="tblCell">@Model.Item1._backorderCancelList[i].boc_sourceFile</td>
+                                        <td class="tblCell">@Model.Item1._backorderCancelList[i].boc_insertSequence</td>
+                                        <td class="tblCell">@Model.Item1._backorderCancelList[i].boc_isbn</td>
+                                        <td class="tblCell">@Model.Item1._backorderCancelList[i].boc_moNo</td>
+                                        <td class="tblCell" style="text-align:right;">@Model.Item1._backorderCancelList[i].boc_quantity</td>
+                                        <td class="tblCell">@Model.Item1._backorderCancelList[i].boc_createdDate</td>
+                                        <td class="tblCell">@Model.Item1._backorderCancelList[i].boc_netsuiteProcess</td>
+                                        <td class="tblCell">@Model.Item1._backorderCancelList[i].boc_netsuiteJobStatus</td>
+                                        <td class="tblCell">@Model.Item1._backorderCancelList[i].boc_netsuiteJobError</td>
+                                    </tr>
+                                }
+                            </tbody> 
+                  </table>
+               </div>
+          </div>
+        </div> 
+   </div>
+</div>
+ 
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs1').tab();
+    });
+
+    $(document).ready(function () {
+        $('#myTable').dataTable();
+    });
+</script>
+
+<link rel="stylesheet" href="../../Scripts/bootstrap/jquery.dataTables.min.css">
+<script type="text/javascript" src="../../Scripts/bootstrap/bootstrap.min.js"></script> 
+<script type="text/javascript" src="../../Scripts/bootstrap/jquery.dataTables.min.js"></script>

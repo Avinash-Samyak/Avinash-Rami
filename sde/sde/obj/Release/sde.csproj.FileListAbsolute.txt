@@ -1,0 +1,2023 @@
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\obj\Release\sde.Resource.resources
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\obj\Release\sde.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\obj\Release\sde.XmlSerializers.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\sde.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\sde.XmlSerializers.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\sde.pdb
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\Antlr3.Runtime.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\DotNetOpenAuth.Core.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\EntityFramework.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\log4net.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\MySql.Data.Entity.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\MySql.Web.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\Newtonsoft.Json.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\Sybase.Data.AseClient.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\System.Web.Helpers.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\System.Web.Mvc.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\System.Web.Optimization.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\System.Web.Razor.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\System.Web.WebPages.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\System.Web.WebPages.Razor.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\WebGrease.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\WebMatrix.Data.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\WebMatrix.WebData.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\Mono.Math.dll
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\log4net.xml
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\EntityFramework.xml
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\Newtonsoft.Json.xml
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\System.Web.Helpers.xml
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\System.Web.Mvc.xml
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\System.Web.Razor.xml
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\System.Web.WebPages.xml
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.xml
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\System.Web.WebPages.Razor.xml
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\WebMatrix.Data.xml
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\WebMatrix.WebData.xml
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\DotNetOpenAuth.Core.xml
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\bin\Mono.Math.xml
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\obj\Release\sde.pdb
+C:\Dev\sde-ver6.0-wychong01\sdeMVC4\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\sde.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\sde.XmlSerializers.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\sde.pdb
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\Antlr3.Runtime.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.Core.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\EntityFramework.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\log4net.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\MySql.Data.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\MySql.Data.Entity.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\MySql.Web.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\Newtonsoft.Json.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\Sybase.Data.AseClient.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\System.Web.Helpers.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\System.Web.Mvc.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\System.Web.Optimization.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\System.Web.Razor.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\System.Web.WebPages.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\System.Web.WebPages.Razor.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\WebGrease.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\WebMatrix.Data.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\WebMatrix.WebData.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\Mono.Math.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\log4net.xml
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\EntityFramework.xml
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\Newtonsoft.Json.xml
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\System.Web.Helpers.xml
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\System.Web.Mvc.xml
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\System.Web.Razor.xml
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\System.Web.WebPages.xml
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.xml
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\System.Web.WebPages.Razor.xml
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\WebMatrix.Data.xml
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\WebMatrix.WebData.xml
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.Core.xml
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\bin\Mono.Math.xml
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\obj\Release\sde.Resource.resources
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\obj\Release\sde.dll
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\obj\Release\sde.pdb
+C:\Dev\sde-ver6.0-khng01\sdeMVC4\sde\obj\Release\sde.XmlSerializers.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\sde.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\sde.XmlSerializers.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\sde.pdb
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\Antlr3.Runtime.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\DotNetOpenAuth.Core.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\EntityFramework.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\log4net.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\MySql.Data.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\MySql.Data.Entity.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\MySql.Web.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\Newtonsoft.Json.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\Sybase.Data.AseClient.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\System.Web.Helpers.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\System.Web.Mvc.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\System.Web.Optimization.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\System.Web.Razor.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\System.Web.WebPages.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\System.Web.WebPages.Razor.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\WebGrease.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\WebMatrix.Data.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\WebMatrix.WebData.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\Mono.Math.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\log4net.xml
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\EntityFramework.xml
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\Newtonsoft.Json.xml
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\System.Web.Helpers.xml
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\System.Web.Mvc.xml
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\System.Web.Razor.xml
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\System.Web.WebPages.xml
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.xml
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\System.Web.WebPages.Razor.xml
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\WebMatrix.Data.xml
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\WebMatrix.WebData.xml
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\DotNetOpenAuth.Core.xml
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\bin\Mono.Math.xml
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\obj\Release\sde.Resource.resources
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\obj\Release\sde.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\obj\Release\sde.pdb
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\obj\Release\sde.XmlSerializers.dll
+C:\Dev\sde-ver6.0-khng02\sdeMVC4\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\Dev\sde\sdeMVC4\sde\bin\sde.dll
+C:\Dev\sde\sdeMVC4\sde\bin\sde.XmlSerializers.dll
+C:\Dev\sde\sdeMVC4\sde\bin\sde.pdb
+C:\Dev\sde\sdeMVC4\sde\bin\Antlr3.Runtime.dll
+C:\Dev\sde\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\Dev\sde\sdeMVC4\sde\bin\DotNetOpenAuth.Core.dll
+C:\Dev\sde\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Dev\sde\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\Dev\sde\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\Dev\sde\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Dev\sde\sdeMVC4\sde\bin\EntityFramework.dll
+C:\Dev\sde\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\Dev\sde\sdeMVC4\sde\bin\log4net.dll
+C:\Dev\sde\sdeMVC4\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\Dev\sde\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Dev\sde\sdeMVC4\sde\bin\MySql.Data.Entity.dll
+C:\Dev\sde\sdeMVC4\sde\bin\MySql.Web.dll
+C:\Dev\sde\sdeMVC4\sde\bin\Newtonsoft.Json.dll
+C:\Dev\sde\sdeMVC4\sde\bin\Sybase.Data.AseClient.dll
+C:\Dev\sde\sdeMVC4\sde\bin\System.Web.Helpers.dll
+C:\Dev\sde\sdeMVC4\sde\bin\System.Web.Mvc.dll
+C:\Dev\sde\sdeMVC4\sde\bin\System.Web.Optimization.dll
+C:\Dev\sde\sdeMVC4\sde\bin\System.Web.Razor.dll
+C:\Dev\sde\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.dll
+C:\Dev\sde\sdeMVC4\sde\bin\System.Web.WebPages.dll
+C:\Dev\sde\sdeMVC4\sde\bin\System.Web.WebPages.Razor.dll
+C:\Dev\sde\sdeMVC4\sde\bin\WebGrease.dll
+C:\Dev\sde\sdeMVC4\sde\bin\WebMatrix.Data.dll
+C:\Dev\sde\sdeMVC4\sde\bin\WebMatrix.WebData.dll
+C:\Dev\sde\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Dev\sde\sdeMVC4\sde\bin\Mono.Math.dll
+C:\Dev\sde\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\Dev\sde\sdeMVC4\sde\bin\log4net.xml
+C:\Dev\sde\sdeMVC4\sde\bin\EntityFramework.xml
+C:\Dev\sde\sdeMVC4\sde\bin\Newtonsoft.Json.xml
+C:\Dev\sde\sdeMVC4\sde\bin\System.Web.Helpers.xml
+C:\Dev\sde\sdeMVC4\sde\bin\System.Web.Mvc.xml
+C:\Dev\sde\sdeMVC4\sde\bin\System.Web.Razor.xml
+C:\Dev\sde\sdeMVC4\sde\bin\System.Web.WebPages.xml
+C:\Dev\sde\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.xml
+C:\Dev\sde\sdeMVC4\sde\bin\System.Web.WebPages.Razor.xml
+C:\Dev\sde\sdeMVC4\sde\bin\WebMatrix.Data.xml
+C:\Dev\sde\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Dev\sde\sdeMVC4\sde\bin\WebMatrix.WebData.xml
+C:\Dev\sde\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\Dev\sde\sdeMVC4\sde\bin\DotNetOpenAuth.Core.xml
+C:\Dev\sde\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Dev\sde\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\Dev\sde\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\Dev\sde\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Dev\sde\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Dev\sde\sdeMVC4\sde\bin\Mono.Math.xml
+C:\Dev\sde\sdeMVC4\sde\obj\Release\sde.Resource.resources
+C:\Dev\sde\sdeMVC4\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\Dev\sde\sdeMVC4\sde\obj\Release\sde.dll
+C:\Dev\sde\sdeMVC4\sde\obj\Release\sde.pdb
+C:\Dev\sde\sdeMVC4\sde\obj\Release\sde.XmlSerializers.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\sde.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\sde.XmlSerializers.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\sde.pdb
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\Antlr3.Runtime.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.Core.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\EntityFramework.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\log4net.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\MySql.Data.Entity.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\MySql.Web.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\Newtonsoft.Json.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\Sybase.Data.AseClient.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\System.Web.Helpers.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\System.Web.Mvc.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\System.Web.Optimization.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\System.Web.Razor.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\System.Web.WebPages.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\System.Web.WebPages.Razor.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\WebGrease.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\WebMatrix.Data.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\WebMatrix.WebData.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\Mono.Math.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\log4net.xml
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\EntityFramework.xml
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\Newtonsoft.Json.xml
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\System.Web.Helpers.xml
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\System.Web.Mvc.xml
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\System.Web.Razor.xml
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\System.Web.WebPages.xml
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.xml
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\System.Web.WebPages.Razor.xml
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\WebMatrix.Data.xml
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\WebMatrix.WebData.xml
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.Core.xml
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\bin\Mono.Math.xml
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\obj\Release\sde.Resource.resources
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\obj\Release\sde.dll
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\obj\Release\sde.pdb
+C:\Dev\sde-ver6.0-wychong07\sdeMVC4\sde\obj\Release\sde.XmlSerializers.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\sde.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\sde.XmlSerializers.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\sde.pdb
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\Antlr3.Runtime.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\DotNetOpenAuth.Core.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\EntityFramework.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\log4net.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\MySql.Data.Entity.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\MySql.Web.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\Newtonsoft.Json.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\Sybase.Data.AseClient.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\System.Web.Helpers.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\System.Web.Mvc.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\System.Web.Optimization.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\System.Web.Razor.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\System.Web.WebPages.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\System.Web.WebPages.Razor.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\WebGrease.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\WebMatrix.Data.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\WebMatrix.WebData.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\Mono.Math.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\log4net.xml
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\EntityFramework.xml
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\Newtonsoft.Json.xml
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\System.Web.Helpers.xml
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\System.Web.Mvc.xml
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\System.Web.Razor.xml
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\System.Web.WebPages.xml
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.xml
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\System.Web.WebPages.Razor.xml
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\WebMatrix.Data.xml
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\WebMatrix.WebData.xml
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\DotNetOpenAuth.Core.xml
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\bin\Mono.Math.xml
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\obj\Release\sde.Resource.resources
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\obj\Release\sde.dll
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\obj\Release\sde.pdb
+C:\Dev\sde-ver6.0-wychong08\sdeMVC4\sde\obj\Release\sde.XmlSerializers.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\sde.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\sde.XmlSerializers.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\sde.pdb
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\Antlr3.Runtime.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.Core.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\EntityFramework.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\log4net.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\MySql.Data.Entity.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\MySql.Web.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\Newtonsoft.Json.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\Sybase.Data.AseClient.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\System.Web.Helpers.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\System.Web.Mvc.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\System.Web.Optimization.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\System.Web.Razor.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\System.Web.WebPages.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\System.Web.WebPages.Razor.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\WebGrease.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\WebMatrix.Data.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\WebMatrix.WebData.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\Mono.Math.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\log4net.xml
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\EntityFramework.xml
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\Newtonsoft.Json.xml
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\System.Web.Helpers.xml
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\System.Web.Mvc.xml
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\System.Web.Razor.xml
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\System.Web.WebPages.xml
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.xml
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\System.Web.WebPages.Razor.xml
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\WebMatrix.Data.xml
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\WebMatrix.WebData.xml
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.Core.xml
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\bin\Mono.Math.xml
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\obj\Release\sde.Resource.resources
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\obj\Release\sde.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\obj\Release\sde.pdb
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\obj\Release\sde.XmlSerializers.dll
+C:\Dev\sde-ver8.0-khng01\sdeMVC4\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\Dev\sde\sdeMVC4\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\sde.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\sde.XmlSerializers.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\sde.pdb
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\Antlr3.Runtime.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.Core.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\EntityFramework.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\log4net.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\MySql.Data.Entity.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\MySql.Web.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\Newtonsoft.Json.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\Sybase.Data.AseClient.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\System.Web.Helpers.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\System.Web.Mvc.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\System.Web.Optimization.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\System.Web.Razor.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\System.Web.WebPages.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\System.Web.WebPages.Razor.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\WebGrease.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\WebMatrix.Data.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\WebMatrix.WebData.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\Mono.Math.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\log4net.xml
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\EntityFramework.xml
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\Newtonsoft.Json.xml
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\System.Web.Helpers.xml
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\System.Web.Mvc.xml
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\System.Web.Razor.xml
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\System.Web.WebPages.xml
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.xml
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\System.Web.WebPages.Razor.xml
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\WebMatrix.Data.xml
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\WebMatrix.WebData.xml
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.Core.xml
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\bin\Mono.Math.xml
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\obj\Release\sde.Resource.resources
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\obj\Release\sde.dll
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\obj\Release\sde.pdb
+C:\Dev\sde-ver7.0-wychong03\sdeMVC4\sde\obj\Release\sde.XmlSerializers.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\sde.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\sde.XmlSerializers.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\sde.pdb
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\Antlr3.Runtime.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\DotNetOpenAuth.Core.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\EntityFramework.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\log4net.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\MySql.Data.Entity.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\MySql.Web.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\Newtonsoft.Json.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\Sybase.Data.AseClient.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\System.Web.Helpers.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\System.Web.Mvc.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\System.Web.Optimization.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\System.Web.Razor.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\System.Web.WebPages.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\System.Web.WebPages.Razor.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\WebGrease.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\WebMatrix.Data.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\WebMatrix.WebData.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\Mono.Math.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\log4net.xml
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\EntityFramework.xml
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\Newtonsoft.Json.xml
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\System.Web.Helpers.xml
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\System.Web.Mvc.xml
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\System.Web.Razor.xml
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\System.Web.WebPages.xml
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.xml
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\System.Web.WebPages.Razor.xml
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\WebMatrix.Data.xml
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\WebMatrix.WebData.xml
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\DotNetOpenAuth.Core.xml
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\bin\Mono.Math.xml
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\obj\Release\sde.Resource.resources
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\obj\Release\sde.dll
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\obj\Release\sde.pdb
+C:\Dev\sde-ver7.0-wychong04\sdeMVC4\sde\obj\Release\sde.XmlSerializers.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\sde.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\sde.XmlSerializers.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\sde.pdb
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\Antlr3.Runtime.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.Core.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\EntityFramework.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\log4net.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\MySql.Data.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\MySql.Data.Entity.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\MySql.Web.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\Newtonsoft.Json.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\Sybase.Data.AseClient.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\System.Web.Helpers.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\System.Web.Mvc.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\System.Web.Optimization.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\System.Web.Razor.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\System.Web.WebPages.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\System.Web.WebPages.Razor.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\WebGrease.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\WebMatrix.Data.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\WebMatrix.WebData.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\Mono.Math.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\log4net.xml
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\EntityFramework.xml
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\Newtonsoft.Json.xml
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\System.Web.Helpers.xml
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\System.Web.Mvc.xml
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\System.Web.Razor.xml
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\System.Web.WebPages.xml
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.xml
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\System.Web.WebPages.Razor.xml
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\WebMatrix.Data.xml
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\WebMatrix.WebData.xml
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.Core.xml
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\bin\Mono.Math.xml
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\obj\Release\sde.Resource.resources
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\obj\Release\sde.dll
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\obj\Release\sde.pdb
+C:\Dev\sde-ver9.0-wychong03\sdeMVC4\sde\obj\Release\sde.XmlSerializers.dll
+C:\Dev\sde\sdeMVC4\sde\bin\MySql.Data.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\sde.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\sde.XmlSerializers.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\sde.pdb
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\Antlr3.Runtime.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.Core.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\EntityFramework.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\log4net.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\MySql.Data.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\MySql.Data.Entity.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\MySql.Web.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\Newtonsoft.Json.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\Sybase.Data.AseClient.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\System.Web.Helpers.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\System.Web.Mvc.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\System.Web.Optimization.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\System.Web.Razor.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\System.Web.WebPages.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\System.Web.WebPages.Razor.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\WebGrease.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\WebMatrix.Data.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\WebMatrix.WebData.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\Mono.Math.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\log4net.xml
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\EntityFramework.xml
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\Newtonsoft.Json.xml
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\System.Web.Helpers.xml
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\System.Web.Mvc.xml
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\System.Web.Razor.xml
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\System.Web.WebPages.xml
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.xml
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\System.Web.WebPages.Razor.xml
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\WebMatrix.Data.xml
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\WebMatrix.WebData.xml
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.Core.xml
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\bin\Mono.Math.xml
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\obj\Release\sde.Resource.resources
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\obj\Release\sde.dll
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\obj\Release\sde.pdb
+C:\Dev\sde-ver9.0-wychong07\sdeMVC4\sde\obj\Release\sde.XmlSerializers.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\sde.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\sde.XmlSerializers.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\sde.pdb
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\Antlr3.Runtime.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\DotNetOpenAuth.Core.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\EntityFramework.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\log4net.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\MySql.Data.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\MySql.Data.Entity.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\MySql.Web.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\Newtonsoft.Json.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\Sybase.Data.AseClient.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\System.Web.Helpers.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\System.Web.Mvc.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\System.Web.Optimization.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\System.Web.Razor.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\System.Web.WebPages.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\System.Web.WebPages.Razor.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\WebGrease.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\WebMatrix.Data.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\WebMatrix.WebData.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\Mono.Math.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\log4net.xml
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\EntityFramework.xml
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\Newtonsoft.Json.xml
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\System.Web.Helpers.xml
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\System.Web.Mvc.xml
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\System.Web.Razor.xml
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\System.Web.WebPages.xml
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\System.Web.WebPages.Deployment.xml
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\System.Web.WebPages.Razor.xml
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\WebMatrix.Data.xml
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\WebMatrix.WebData.xml
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\DotNetOpenAuth.Core.xml
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\bin\Mono.Math.xml
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\obj\Release\sde.Resource.resources
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\obj\Release\sde.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\obj\Release\sde.pdb
+C:\Dev\sde\branches\sde_ver1.0-kang01\sdeMVC4\sde\obj\Release\sde.XmlSerializers.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\sde.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\sde.XmlSerializers.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\sde.pdb
+D:\Project\sde\sdeMVC4Live\sde\bin\Antlr3.Runtime.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\EntityFramework.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\log4net.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\Microsoft.Web.Infrastructure.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\MySql.Data.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\MySql.Data.Entity.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\MySql.Web.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\Newtonsoft.Json.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\System.Web.Helpers.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\System.Web.Mvc.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\System.Web.Optimization.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\System.Web.Razor.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\System.Web.WebPages.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\WebGrease.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\WebMatrix.Data.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\WebMatrix.WebData.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\Mono.Math.dll
+D:\Project\sde\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+D:\Project\sde\sdeMVC4Live\sde\bin\log4net.xml
+D:\Project\sde\sdeMVC4Live\sde\bin\EntityFramework.xml
+D:\Project\sde\sdeMVC4Live\sde\bin\Newtonsoft.Json.xml
+D:\Project\sde\sdeMVC4Live\sde\bin\System.Web.Helpers.xml
+D:\Project\sde\sdeMVC4Live\sde\bin\System.Web.Mvc.xml
+D:\Project\sde\sdeMVC4Live\sde\bin\System.Web.Razor.xml
+D:\Project\sde\sdeMVC4Live\sde\bin\System.Web.WebPages.xml
+D:\Project\sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.xml
+D:\Project\sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.xml
+D:\Project\sde\sdeMVC4Live\sde\bin\WebMatrix.Data.xml
+D:\Project\sde\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Project\sde\sdeMVC4Live\sde\bin\WebMatrix.WebData.xml
+D:\Project\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.xml
+D:\Project\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.xml
+D:\Project\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Project\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.xml
+D:\Project\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.xml
+D:\Project\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Project\sde\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.xml
+D:\Project\sde\sdeMVC4Live\sde\bin\Mono.Math.xml
+D:\Project\sde\sdeMVC4Live\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+D:\Project\sde\sdeMVC4Live\sde\obj\Release\sde.Resource.resources
+D:\Project\sde\sdeMVC4Live\sde\obj\Release\sde.csproj.GenerateResource.Cache
+D:\Project\sde\sdeMVC4Live\sde\obj\Release\sde.dll
+D:\Project\sde\sdeMVC4Live\sde\obj\Release\sde.pdb
+D:\Project\sde\sdeMVC4Live\sde\obj\Release\sde.XmlSerializers.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\sde.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\sde.XmlSerializers.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\sde.pdb
+D:\project1\sde\sdeMVC4Live\sde\bin\Antlr3.Runtime.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\EntityFramework.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\log4net.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\Microsoft.Web.Infrastructure.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\MySql.Data.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\MySql.Data.Entity.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\MySql.Web.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\Newtonsoft.Json.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\System.Web.Helpers.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\System.Web.Mvc.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\System.Web.Optimization.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\System.Web.Razor.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\System.Web.WebPages.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\WebGrease.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\WebMatrix.Data.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\WebMatrix.WebData.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\Mono.Math.dll
+D:\project1\sde\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+D:\project1\sde\sdeMVC4Live\sde\bin\log4net.xml
+D:\project1\sde\sdeMVC4Live\sde\bin\EntityFramework.xml
+D:\project1\sde\sdeMVC4Live\sde\bin\Newtonsoft.Json.xml
+D:\project1\sde\sdeMVC4Live\sde\bin\System.Web.Helpers.xml
+D:\project1\sde\sdeMVC4Live\sde\bin\System.Web.Mvc.xml
+D:\project1\sde\sdeMVC4Live\sde\bin\System.Web.Razor.xml
+D:\project1\sde\sdeMVC4Live\sde\bin\System.Web.WebPages.xml
+D:\project1\sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.xml
+D:\project1\sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.xml
+D:\project1\sde\sdeMVC4Live\sde\bin\WebMatrix.Data.xml
+D:\project1\sde\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\project1\sde\sdeMVC4Live\sde\bin\WebMatrix.WebData.xml
+D:\project1\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.xml
+D:\project1\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.xml
+D:\project1\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\project1\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.xml
+D:\project1\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.xml
+D:\project1\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\project1\sde\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.xml
+D:\project1\sde\sdeMVC4Live\sde\bin\Mono.Math.xml
+D:\project1\sde\sdeMVC4Live\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+D:\project1\sde\sdeMVC4Live\sde\obj\Release\sde.Resource.resources
+D:\project1\sde\sdeMVC4Live\sde\obj\Release\sde.csproj.GenerateResource.Cache
+D:\project1\sde\sdeMVC4Live\sde\obj\Release\sde.dll
+D:\project1\sde\sdeMVC4Live\sde\obj\Release\sde.pdb
+D:\project1\sde\sdeMVC4Live\sde\obj\Release\sde.XmlSerializers.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\sde.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\sde.XmlSerializers.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\sde.pdb
+D:\project3\sde\sdeMVC4Live\sde\bin\Antlr3.Runtime.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\EntityFramework.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\log4net.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\Microsoft.Web.Infrastructure.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\MySql.Data.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\MySql.Data.Entity.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\MySql.Web.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\Newtonsoft.Json.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\System.Web.Helpers.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\System.Web.Mvc.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\System.Web.Optimization.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\System.Web.Razor.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\System.Web.WebPages.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\WebGrease.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\WebMatrix.Data.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\WebMatrix.WebData.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\Mono.Math.dll
+D:\project3\sde\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+D:\project3\sde\sdeMVC4Live\sde\bin\log4net.xml
+D:\project3\sde\sdeMVC4Live\sde\bin\EntityFramework.xml
+D:\project3\sde\sdeMVC4Live\sde\bin\Newtonsoft.Json.xml
+D:\project3\sde\sdeMVC4Live\sde\bin\System.Web.Helpers.xml
+D:\project3\sde\sdeMVC4Live\sde\bin\System.Web.Mvc.xml
+D:\project3\sde\sdeMVC4Live\sde\bin\System.Web.Razor.xml
+D:\project3\sde\sdeMVC4Live\sde\bin\System.Web.WebPages.xml
+D:\project3\sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.xml
+D:\project3\sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.xml
+D:\project3\sde\sdeMVC4Live\sde\bin\WebMatrix.Data.xml
+D:\project3\sde\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\project3\sde\sdeMVC4Live\sde\bin\WebMatrix.WebData.xml
+D:\project3\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.xml
+D:\project3\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.xml
+D:\project3\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\project3\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.xml
+D:\project3\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.xml
+D:\project3\sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\project3\sde\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.xml
+D:\project3\sde\sdeMVC4Live\sde\bin\Mono.Math.xml
+D:\project3\sde\sdeMVC4Live\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+D:\project3\sde\sdeMVC4Live\sde\obj\Release\sde.Resource.resources
+D:\project3\sde\sdeMVC4Live\sde\obj\Release\sde.csproj.GenerateResource.Cache
+D:\project3\sde\sdeMVC4Live\sde\obj\Release\sde.dll
+D:\project3\sde\sdeMVC4Live\sde\obj\Release\sde.pdb
+D:\project3\sde\sdeMVC4Live\sde\obj\Release\sde.XmlSerializers.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\sde.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\sde.XmlSerializers.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\sde.pdb
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\Antlr3.Runtime.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\EntityFramework.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\log4net.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\Microsoft.Web.Infrastructure.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\MySql.Data.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\MySql.Data.Entity.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\MySql.Web.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\Newtonsoft.Json.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Helpers.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Mvc.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Optimization.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Razor.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\WebGrease.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.Data.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.WebData.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\Mono.Math.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\log4net.xml
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\EntityFramework.xml
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\Newtonsoft.Json.xml
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Helpers.xml
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Mvc.xml
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Razor.xml
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.xml
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.xml
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.xml
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.Data.xml
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.WebData.xml
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.xml
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.xml
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.xml
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.xml
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.xml
+D:\project5\asiarit_sde\sdeMVC4Live\sde\bin\Mono.Math.xml
+D:\project5\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+D:\project5\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.Resource.resources
+D:\project5\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.csproj.GenerateResource.Cache
+D:\project5\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.dll
+D:\project5\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.pdb
+D:\project5\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.XmlSerializers.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\sde.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\sde.XmlSerializers.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\sde.pdb
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\Antlr3.Runtime.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\EntityFramework.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\log4net.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\Microsoft.Web.Infrastructure.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\MySql.Data.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\MySql.Data.Entity.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\MySql.Web.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\Newtonsoft.Json.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Helpers.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Mvc.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Optimization.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Razor.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\WebGrease.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.Data.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.WebData.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\Mono.Math.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\log4net.xml
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\EntityFramework.xml
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\Newtonsoft.Json.xml
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Helpers.xml
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Mvc.xml
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Razor.xml
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.xml
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.xml
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.xml
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.Data.xml
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.WebData.xml
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.xml
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.xml
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.xml
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.xml
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.xml
+D:\project7\asiarit_sde\sdeMVC4Live\sde\bin\Mono.Math.xml
+D:\project7\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+D:\project7\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.Resource.resources
+D:\project7\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.csproj.GenerateResource.Cache
+D:\project7\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.dll
+D:\project7\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.pdb
+D:\project7\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.XmlSerializers.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\sde.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\sde.XmlSerializers.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\sde.pdb
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\Antlr3.Runtime.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\EntityFramework.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\log4net.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\Microsoft.Web.Infrastructure.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\MySql.Data.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\MySql.Data.Entity.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\MySql.Web.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\Newtonsoft.Json.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Helpers.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Mvc.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Optimization.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Razor.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\WebGrease.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.Data.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.WebData.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\Mono.Math.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\log4net.xml
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\EntityFramework.xml
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\Newtonsoft.Json.xml
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Helpers.xml
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Mvc.xml
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Razor.xml
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.xml
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.xml
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.xml
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.Data.xml
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.WebData.xml
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.xml
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.xml
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.xml
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.xml
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.xml
+D:\project1\asiarit_sde\sdeMVC4Live\sde\bin\Mono.Math.xml
+D:\project1\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+D:\project1\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.Resource.resources
+D:\project1\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.csproj.GenerateResource.Cache
+D:\project1\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.dll
+D:\project1\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.pdb
+D:\project1\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.XmlSerializers.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\sde.dll.config
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\sde.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\sde.XmlSerializers.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\sde.pdb
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\Antlr3.Runtime.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\EntityFramework.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\log4net.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\MySql.Data.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\MySql.Data.Entity.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\MySql.Web.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\Newtonsoft.Json.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Helpers.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Http.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Mvc.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Optimization.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Razor.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\WebGrease.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.Data.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.WebData.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\Mono.Math.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\log4net.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\EntityFramework.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\Newtonsoft.Json.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Helpers.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Http.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Mvc.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Razor.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.Data.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.WebData.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\bin\Mono.Math.xml
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.Resource.resources
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.dll
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.pdb
+C:\WORK\sde1\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.XmlSerializers.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\sde.dll.config
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\sde.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\sde.XmlSerializers.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\sde.pdb
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\Antlr3.Runtime.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\EntityFramework.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\log4net.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\MySql.Data.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\MySql.Data.Entity.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\MySql.Web.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\Newtonsoft.Json.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\System.Web.Helpers.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\System.Web.Http.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\System.Web.Mvc.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\System.Web.Optimization.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\System.Web.Razor.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\System.Web.WebPages.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\WebGrease.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\WebMatrix.Data.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\WebMatrix.WebData.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\Mono.Math.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\log4net.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\EntityFramework.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\Newtonsoft.Json.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\System.Web.Helpers.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\System.Web.Http.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\System.Web.Mvc.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\System.Web.Razor.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\System.Web.WebPages.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\WebMatrix.Data.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\WebMatrix.WebData.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\Mono.Math.xml
+C:\WORK\sde1\Development\sdeMVC4Live\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\WORK\sde1\Development\sdeMVC4Live\sde\obj\Release\sde.Resource.resources
+C:\WORK\sde1\Development\sdeMVC4Live\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\WORK\sde1\Development\sdeMVC4Live\sde\obj\Release\sde.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\obj\Release\sde.pdb
+C:\WORK\sde1\Development\sdeMVC4Live\sde\obj\Release\sde.XmlSerializers.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\sde.dll.config
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\sde.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\sde.XmlSerializers.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\sde.pdb
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\Antlr3.Runtime.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\EntityFramework.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\log4net.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\MySql.Data.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\MySql.Data.Entity.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\MySql.Web.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\Newtonsoft.Json.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\Sybase.Data.AseClient.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Helpers.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Http.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Mvc.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Optimization.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Razor.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\WebGrease.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.Data.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.WebData.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\Mono.Math.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\log4net.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\EntityFramework.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\Newtonsoft.Json.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Helpers.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Http.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Mvc.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Razor.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.Data.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.WebData.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\Mono.Math.xml
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\ja\Sybase.Data.AseClient.resources.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\bin\zh-CHS\Sybase.Data.AseClient.resources.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.Resource.resources
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.dll
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.pdb
+C:\asiarit\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.XmlSerializers.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\ja\Sybase.Data.AseClient.resources.dll
+C:\WORK\sde1\Development\sdeMVC4Live\sde\bin\zh-CHS\Sybase.Data.AseClient.resources.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\sde.dll.config
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\sde.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\sde.XmlSerializers.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\sde.pdb
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\Antlr3.Runtime.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\EntityFramework.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\log4net.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\MySql.Data.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\MySql.Data.Entity.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\MySql.Web.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\Newtonsoft.Json.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\System.Web.Helpers.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\System.Web.Http.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\System.Web.Mvc.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\System.Web.Optimization.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\System.Web.Razor.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\System.Web.WebPages.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\WebGrease.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\WebMatrix.Data.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\WebMatrix.WebData.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\Mono.Math.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\log4net.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\EntityFramework.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\Newtonsoft.Json.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\System.Web.Helpers.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\System.Web.Http.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\System.Web.Mvc.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\System.Web.Razor.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\System.Web.WebPages.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\WebMatrix.Data.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\WebMatrix.WebData.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\Mono.Math.xml
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\ja\Sybase.Data.AseClient.resources.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\bin\zh-CHS\Sybase.Data.AseClient.resources.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\obj\Release\sde.Resource.resources
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\obj\Release\sde.dll
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\obj\Release\sde.pdb
+C:\WORK\sde\sdeMVC4Live\sdeMVC4Live\sde\obj\Release\sde.XmlSerializers.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\sde.dll.config
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\sde.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\sde.XmlSerializers.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\sde.pdb
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\Antlr3.Runtime.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\EntityFramework.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\log4net.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\MySql.Data.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\MySql.Data.Entity.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\MySql.Web.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\Newtonsoft.Json.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\System.Web.Helpers.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\System.Web.Http.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\System.Web.Mvc.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\System.Web.Optimization.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\System.Web.Razor.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\System.Web.WebPages.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\WebGrease.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\WebMatrix.Data.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\WebMatrix.WebData.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\Mono.Math.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\log4net.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\EntityFramework.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\Newtonsoft.Json.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\System.Web.Helpers.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\System.Web.Http.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\System.Web.Mvc.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\System.Web.Razor.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\System.Web.WebPages.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\WebMatrix.Data.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\WebMatrix.WebData.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\bin\Mono.Math.xml
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\obj\Release\sde.Resource.resources
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\obj\Release\sde.dll
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\obj\Release\sde.pdb
+C:\asiarit\sdeMVC4Live_02052019\sdeMVC4Live\sde\obj\Release\sde.XmlSerializers.dll
+C:\working\Development\sdeMVC4Live\sde\bin\sde.dll.config
+C:\working\Development\sdeMVC4Live\sde\bin\sde.dll
+C:\working\Development\sdeMVC4Live\sde\bin\sde.XmlSerializers.dll
+C:\working\Development\sdeMVC4Live\sde\bin\sde.pdb
+C:\working\Development\sdeMVC4Live\sde\bin\Antlr3.Runtime.dll
+C:\working\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\working\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.dll
+C:\working\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\working\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\working\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\working\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\working\Development\sdeMVC4Live\sde\bin\EntityFramework.dll
+C:\working\Development\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\working\Development\sdeMVC4Live\sde\bin\log4net.dll
+C:\working\Development\sdeMVC4Live\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\working\Development\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\working\Development\sdeMVC4Live\sde\bin\MySql.Data.dll
+C:\working\Development\sdeMVC4Live\sde\bin\MySql.Data.Entity.dll
+C:\working\Development\sdeMVC4Live\sde\bin\MySql.Web.dll
+C:\working\Development\sdeMVC4Live\sde\bin\Newtonsoft.Json.dll
+C:\working\Development\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.dll
+C:\working\Development\sdeMVC4Live\sde\bin\System.Web.Helpers.dll
+C:\working\Development\sdeMVC4Live\sde\bin\System.Web.Http.dll
+C:\working\Development\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.dll
+C:\working\Development\sdeMVC4Live\sde\bin\System.Web.Mvc.dll
+C:\working\Development\sdeMVC4Live\sde\bin\System.Web.Optimization.dll
+C:\working\Development\sdeMVC4Live\sde\bin\System.Web.Razor.dll
+C:\working\Development\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.dll
+C:\working\Development\sdeMVC4Live\sde\bin\System.Web.WebPages.dll
+C:\working\Development\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.dll
+C:\working\Development\sdeMVC4Live\sde\bin\WebGrease.dll
+C:\working\Development\sdeMVC4Live\sde\bin\WebMatrix.Data.dll
+C:\working\Development\sdeMVC4Live\sde\bin\WebMatrix.WebData.dll
+C:\working\Development\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\working\Development\sdeMVC4Live\sde\bin\Mono.Math.dll
+C:\working\Development\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\working\Development\sdeMVC4Live\sde\bin\log4net.xml
+C:\working\Development\sdeMVC4Live\sde\bin\EntityFramework.xml
+C:\working\Development\sdeMVC4Live\sde\bin\Newtonsoft.Json.xml
+C:\working\Development\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.xml
+C:\working\Development\sdeMVC4Live\sde\bin\System.Web.Helpers.xml
+C:\working\Development\sdeMVC4Live\sde\bin\System.Web.Http.xml
+C:\working\Development\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.xml
+C:\working\Development\sdeMVC4Live\sde\bin\System.Web.Mvc.xml
+C:\working\Development\sdeMVC4Live\sde\bin\System.Web.Razor.xml
+C:\working\Development\sdeMVC4Live\sde\bin\System.Web.WebPages.xml
+C:\working\Development\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.xml
+C:\working\Development\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.xml
+C:\working\Development\sdeMVC4Live\sde\bin\WebMatrix.Data.xml
+C:\working\Development\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\working\Development\sdeMVC4Live\sde\bin\WebMatrix.WebData.xml
+C:\working\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\working\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.xml
+C:\working\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\working\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\working\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\working\Development\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\working\Development\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\working\Development\sdeMVC4Live\sde\bin\Mono.Math.xml
+C:\working\Development\sdeMVC4Live\sde\bin\ja\Sybase.Data.AseClient.resources.dll
+C:\working\Development\sdeMVC4Live\sde\bin\zh-CHS\Sybase.Data.AseClient.resources.dll
+C:\working\Development\sdeMVC4Live\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\working\Development\sdeMVC4Live\sde\obj\Release\sde.Resource.resources
+C:\working\Development\sdeMVC4Live\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\working\Development\sdeMVC4Live\sde\obj\Release\sde.dll
+C:\working\Development\sdeMVC4Live\sde\obj\Release\sde.pdb
+C:\working\Development\sdeMVC4Live\sde\obj\Release\sde.XmlSerializers.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\sde.dll.config
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\sde.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\sde.XmlSerializers.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\sde.pdb
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\Antlr3.Runtime.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\EntityFramework.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\log4net.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\MySql.Data.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\MySql.Data.Entity.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\MySql.Web.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\Newtonsoft.Json.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\Sybase.Data.AseClient.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Helpers.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Http.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Mvc.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Optimization.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Razor.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\WebGrease.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.Data.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.WebData.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\Mono.Math.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\log4net.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\EntityFramework.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\Newtonsoft.Json.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Helpers.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Http.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Mvc.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Razor.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.Data.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.WebData.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\Mono.Math.xml
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\ja\Sybase.Data.AseClient.resources.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\bin\zh-CHS\Sybase.Data.AseClient.resources.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.Resource.resources
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.dll
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.pdb
+C:\Users\qqaw\Desktop\LUCAS\code\asiarit_sde_20190712\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.XmlSerializers.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\sde.dll.config
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\sde.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\sde.XmlSerializers.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\sde.pdb
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\Antlr3.Runtime.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\EntityFramework.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\log4net.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\MySql.Data.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\MySql.Data.Entity.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\MySql.Web.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\Newtonsoft.Json.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\System.Web.Helpers.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\System.Web.Http.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\System.Web.Mvc.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\System.Web.Optimization.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\System.Web.Razor.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\System.Web.WebPages.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\WebGrease.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\WebMatrix.Data.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\WebMatrix.WebData.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\Mono.Math.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\log4net.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\EntityFramework.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\Newtonsoft.Json.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\System.Web.Helpers.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\System.Web.Http.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\System.Web.Mvc.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\System.Web.Razor.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\System.Web.WebPages.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\WebMatrix.Data.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\WebMatrix.WebData.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\Mono.Math.xml
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\ja\Sybase.Data.AseClient.resources.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\bin\zh-CHS\Sybase.Data.AseClient.resources.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\obj\Release\sde.Resource.resources
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\obj\Release\sde.dll
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\obj\Release\sde.pdb
+C:\Users\ynng\Desktop\sdeMVC4Live\sde\obj\Release\sde.XmlSerializers.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\sde.dll.config
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\sde.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\sde.XmlSerializers.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\sde.pdb
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\Antlr3.Runtime.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\EntityFramework.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\log4net.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\MySql.Data.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\MySql.Data.Entity.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\MySql.Web.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\Newtonsoft.Json.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\System.Web.Helpers.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\System.Web.Http.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\System.Web.Mvc.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\System.Web.Optimization.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\System.Web.Razor.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\System.Web.WebPages.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\WebGrease.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\WebMatrix.Data.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\WebMatrix.WebData.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\Mono.Math.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\log4net.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\EntityFramework.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\Newtonsoft.Json.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\System.Web.Helpers.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\System.Web.Http.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\System.Web.Mvc.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\System.Web.Razor.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\System.Web.WebPages.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\WebMatrix.Data.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\WebMatrix.WebData.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\bin\Mono.Math.xml
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\obj\Release\sde.Resource.resources
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\obj\Release\sde.dll
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\obj\Release\sde.pdb
+C:\Users\ynng\Desktop\SDE_LIVE 25072019\SDE_LIVE 25072019\sdeMVC4Live\sde\obj\Release\sde.XmlSerializers.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\sde.dll.config
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\sde.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\sde.XmlSerializers.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\sde.pdb
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\Antlr3.Runtime.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\EntityFramework.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\log4net.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\MySql.Data.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\MySql.Data.Entity.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\MySql.Web.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\Newtonsoft.Json.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\System.Web.Helpers.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\System.Web.Http.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\System.Web.Mvc.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\System.Web.Optimization.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\System.Web.Razor.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\System.Web.WebPages.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\WebGrease.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\WebMatrix.Data.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\WebMatrix.WebData.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\Mono.Math.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\log4net.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\EntityFramework.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\Newtonsoft.Json.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\System.Web.Helpers.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\System.Web.Http.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\System.Web.Mvc.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\System.Web.Razor.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\System.Web.WebPages.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\WebMatrix.Data.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\WebMatrix.WebData.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\bin\Mono.Math.xml
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\obj\Release\sde.Resource.resources
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\obj\Release\sde.dll
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\obj\Release\sde.pdb
+C:\Users\ynng\Desktop\SDE_LIVE 29072019\sdeMVC4Live\sde\obj\Release\sde.XmlSerializers.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\sde.dll.config
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\sde.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\sde.XmlSerializers.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\sde.pdb
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\Antlr3.Runtime.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\EntityFramework.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\log4net.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\MySql.Data.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\MySql.Data.Entity.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\MySql.Web.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\Newtonsoft.Json.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\Sybase.Data.AseClient.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\System.Web.Helpers.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\System.Web.Mvc.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\System.Web.Optimization.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\System.Web.Razor.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\System.Web.WebPages.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\WebGrease.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\WebMatrix.Data.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\WebMatrix.WebData.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\Mono.Math.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\log4net.xml
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\EntityFramework.xml
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\Newtonsoft.Json.xml
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\System.Web.Helpers.xml
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\System.Web.Mvc.xml
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\System.Web.Razor.xml
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\System.Web.WebPages.xml
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.xml
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.xml
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\WebMatrix.Data.xml
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\WebMatrix.WebData.xml
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.xml
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\Mono.Math.xml
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\ja\Sybase.Data.AseClient.resources.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\bin\zh-CHS\Sybase.Data.AseClient.resources.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\obj\Release\sde.Resource.resources
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\obj\Release\sde.dll
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\obj\Release\sde.pdb
+C:\Dev\SDE\SDE (Lucas)\SDE (Lucas)\SDE_LIVE 010820192\SDE_LIVE 01082019\sdeMVC4Live\sde\obj\Release\sde.XmlSerializers.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\sde.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\sde.XmlSerializers.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\sde.pdb
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\log4net.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\MySql.Data.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\MySql.Data.Entity.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\Sybase.Data.AseClient.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Http.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\WebGrease.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.Data.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.WebData.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\Mono.Math.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\log4net.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Http.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.Data.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\WebMatrix.WebData.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.Core.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\bin\Mono.Math.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.Resource.resources
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.pdb
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live\sde\obj\Release\sde.XmlSerializers.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\sde.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\sde.XmlSerializers.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\sde.pdb
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\DotNetOpenAuth.Core.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\log4net.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\MySql.Data.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\MySql.Data.Entity.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\Sybase.Data.AseClient.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\System.Web.Http.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\WebGrease.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\WebMatrix.Data.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\WebMatrix.WebData.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\Mono.Math.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\log4net.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\System.Web.Http.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\WebMatrix.Data.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\WebMatrix.WebData.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\DotNetOpenAuth.Core.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\bin\Mono.Math.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\obj\Release\sde.Resource.resources
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\obj\Release\sde.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\obj\Release\sde.pdb
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\obj\Release\sde.XmlSerializers.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_UAT\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\sde.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\sde.XmlSerializers.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\sde.pdb
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\DotNetOpenAuth.Core.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\log4net.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\MySql.Data.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\MySql.Data.Entity.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\Sybase.Data.AseClient.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\System.Web.Http.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\WebGrease.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\WebMatrix.Data.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\WebMatrix.WebData.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\Mono.Math.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\log4net.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\System.Web.Http.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\WebMatrix.Data.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\WebMatrix.WebData.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\DotNetOpenAuth.Core.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\bin\Mono.Math.xml
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\obj\Release\sde.Resource.resources
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\obj\Release\sde.dll
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\obj\Release\sde.pdb
+C:\Users\Administrator\Desktop\asiarit_sde_20200330\asiarit_sde\sdeMVC4Live_Production_For_PO_AND_LIMIT_To_Commit_Changes_14_JAN_2021\sde\obj\Release\sde.XmlSerializers.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\sde.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\sde.XmlSerializers.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\sde.pdb
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\Antlr3.Runtime.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\DotNetOpenAuth.AspNet.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\DotNetOpenAuth.Core.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\DotNetOpenAuth.OAuth.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\DotNetOpenAuth.OpenId.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\EntityFramework.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\log4net.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\Microsoft.Web.Infrastructure.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\MySql.Data.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\MySql.Data.Entity.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\MySql.Web.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\Newtonsoft.Json.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\System.Web.Helpers.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\System.Web.Mvc.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\System.Web.Optimization.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\System.Web.Razor.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\System.Web.WebPages.Deployment.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\System.Web.WebPages.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\System.Web.WebPages.Razor.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\WebGrease.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\WebMatrix.Data.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\WebMatrix.WebData.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\Org.Mentalis.Security.Cryptography.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\Mono.Math.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\log4net.xml
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\EntityFramework.xml
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\Newtonsoft.Json.xml
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\System.Web.Helpers.xml
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\System.Web.Mvc.xml
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\System.Web.Razor.xml
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\System.Web.WebPages.xml
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\System.Web.WebPages.Deployment.xml
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\System.Web.WebPages.Razor.xml
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\WebMatrix.Data.xml
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\WebMatrix.WebData.xml
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\DotNetOpenAuth.AspNet.xml
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\DotNetOpenAuth.Core.xml
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\DotNetOpenAuth.OAuth.xml
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\DotNetOpenAuth.OpenId.xml
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\Org.Mentalis.Security.Cryptography.xml
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\Mono.Math.xml
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\ja\Sybase.Data.AseClient.resources.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\bin\zh-CHS\Sybase.Data.AseClient.resources.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\obj\Release\sde.csprojResolveAssemblyReference.cache
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\obj\Release\sde.Resource.resources
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\obj\Release\sde.csproj.GenerateResource.Cache
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\obj\Release\sde.dll
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\obj\Release\sde.pdb
+C:\JIRA Project\Jira Project sde\Jira Project Sde\sdeMVC4Live_Production\sde\obj\Release\sde.XmlSerializers.dll

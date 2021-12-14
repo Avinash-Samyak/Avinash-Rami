@@ -1,0 +1,126 @@
+﻿@model IEnumerable<sde.Models.cls_scheduler>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script type="text/javascript">
+    function loaderDiv() {
+        document.getElementById('loaderDiv').style.visibility = 'visible';
+        return true;
+    }
+</script>
+
+<div class="span11">
+    <div class="leaderboard" style="padding-left:10px;padding-right:10px;">
+        <h1>SETUP</h1>
+        <div class="content">
+            <ul id="tabs1" class="nav nav-tabs" data-tabs="tabs1">
+                <li><a href="AdhocScheduler">Scheduler</a></li>
+                <li class="active"><a href="AdhocExecuteWS">Execute WCF</a></li>
+            </ul>
+
+            <div id="my-tab-content1" class="tab-content">
+                <div class="tab-pane active table-responsive" id="tabExecuteWS">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <td>
+                                @using (Html.BeginForm("RunScheduler", "AdHoc", FormMethod.Post))
+                                {
+                                    <input class="btn btn-primary" id="btnScheduler" name="Command" type="submit" value="Scheduler" onclick="loaderDiv();" style="width: 130px;" />
+                                }
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                @using (Html.BeginForm("PushNetsuite", "AdHoc", FormMethod.Post))
+                                {
+                                    <input class="btn btn-primary" id="btnPushNetsuite" name="Command" type="submit" value="Push Netsuite" onclick="loaderDiv();" style="width: 130px;" />
+                                }
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                @using (Html.BeginForm("PullNetsuite", "AdHoc", FormMethod.Post))
+                                {
+                                    <input class="btn btn-primary" id="btnPullNetsuite" name="Command" type="submit" value="Pull Netsuite" onclick="loaderDiv();" style="width: 130px;" />
+                                }
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                @using (Html.BeginForm("PushMQ", "AdHoc", FormMethod.Post))
+                                {   
+                                    <input class="btn btn-primary" id="btnPushMQ" name="Command" type="submit" value="Push MQ" onclick="loaderDiv();" style="width: 130px;" />
+                                }
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                @using (Html.BeginForm("PullMQ", "AdHoc", FormMethod.Post))
+                                {
+                                    <input class="btn btn-primary" id="btnPullMQ" name="Command" type="submit" value="Pull MQ" onclick="loaderDiv();" style="width: 130px;" />
+                                }
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                @using (Html.BeginForm("SSApullMQ", "AdHoc", FormMethod.Post))
+                                {
+                                    <input class="btn btn-primary" id="btnSSApullMQ" name="Command" type="submit" value="SSApullMQ" onclick="loaderDiv();" style="width: 130px;" />
+                                }
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                @using (Html.BeginForm("WMSpullMQ", "AdHoc", FormMethod.Post))
+                                {
+                                    <input class="btn btn-primary" id="btnWMSpullMQ" name="Command" type="submit" value="WMSpullMQ" onclick="loaderDiv();" style="width: 130px;" />
+                                }
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                @using (Html.BeginForm("Test", "AdHoc", FormMethod.Post))
+                                {
+                                    <input class="btn btn-primary" id="btnTest" name="Command" type="submit" value="Test" onclick="loaderDiv();" style="width: 130px;" />
+                                }
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                @using (Html.BeginForm("SSIS", "AdHoc", FormMethod.Post))
+                                {
+                                    <input class="btn btn-primary" id="btnSSIS" name="Command" type="submit" value="SSIS" onclick="loaderDiv();" style="width: 130px;" />
+                                }
+                            </td>
+                        </tr>
+
+
+                    </table>
+                </div>
+            </div>
+        </div>
+   </div>
+</div>
+<div id="loaderDiv" style="position: absolute; top: 0%; left: 0%; width: 100%; height: 100%; visibility: hidden; filter: alpha(opacity=70); background-color: gray; z-index: 10000; opacity: 0.8;">
+   <div style="position:absolute; text-align:center;vertical-align:middle;top:50%;width:100%; height:100%;"><img src="../../Content/images/ajax-loader.gif" /></div>
+</div>
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs1').tab();
+        $('#tabs2').tab();
+    });
+</script>
+
+<script type="text/javascript" src="../../Scripts/bootstrap/bootstrap.min.js"></script>

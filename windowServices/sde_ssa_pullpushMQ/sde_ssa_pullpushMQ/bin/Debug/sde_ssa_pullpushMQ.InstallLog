@@ -1,0 +1,13 @@
+﻿Installing assembly 'C:\Dev\sde\windowServices\sde_ssa_pullpushMQ\sde_ssa_pullpushMQ\bin\Debug\sde_ssa_pullpushMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Dev\sde\windowServices\sde_ssa_pullpushMQ\sde_ssa_pullpushMQ\bin\Debug\sde_ssa_pullpushMQ.exe
+   logfile = C:\Dev\sde\windowServices\sde_ssa_pullpushMQ\sde_ssa_pullpushMQ\bin\Debug\sde_ssa_pullpushMQ.InstallLog
+Installing service sde_ssa_pullpushMQ...
+Service sde_ssa_pullpushMQ has been successfully installed.
+Creating EventLog source sde_ssa_pullpushMQ in log Application...
+Committing assembly 'C:\Dev\sde\windowServices\sde_ssa_pullpushMQ\sde_ssa_pullpushMQ\bin\Debug\sde_ssa_pullpushMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Dev\sde\windowServices\sde_ssa_pullpushMQ\sde_ssa_pullpushMQ\bin\Debug\sde_ssa_pullpushMQ.exe
+   logfile = C:\Dev\sde\windowServices\sde_ssa_pullpushMQ\sde_ssa_pullpushMQ\bin\Debug\sde_ssa_pullpushMQ.InstallLog

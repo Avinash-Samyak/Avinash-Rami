@@ -1,0 +1,263 @@
+﻿@model sde.Models.cls_scheduler
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*This is for jquery UI, for Calender control*@
+<script src="../../Scripts/jquery-ui-1.8.11.js" type="text/javascript"></script>
+
+@*This is for JSON*@
+<script src="../../Scripts/json2.js" type="text/javascript"></script>
+
+@*These are for DataTables*@
+<script src="../../Scripts/DataTables-1.8.1/media/js/jquery.dataTables.js" type="text/javascript"></script>
+<script src="../../Scripts/DataTables-1.8.1/extras/TableTools/media/js/TableTools.js" type="text/javascript"></script>
+<script src="../../Scripts/DataTables-1.8.1/extras/TableTools/media/js/ZeroClipboard.js" type="text/javascript"></script>
+<script src="../../Scripts/jQuery.tmpl.js" type="text/javascript"></script>
+
+@*These are for styling Control*@
+<link href="../../Content/DataTables-1.8.1/extras/TableTools/media/css/TableTools.css" rel="stylesheet" type="text/css" />
+<link href="../../Content/DataTables-1.8.1/extras/TableTools/media/css/TableTools_JUI.css" rel="stylesheet" type="text/css" />
+<link href="../../Content/themes/base/jquery.ui.all.css" rel="stylesheet" type="text/css" />
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+<script src="../../Scripts/bootstrap/bootstrap.min.js" type="text/javascript" ></script>
+    
+<h2 class="h2">@ViewBag.Title</h2>
+
+<div class="span11">
+    <div class="leaderboard" style="padding-left: 10px; padding-right: 10px;">
+         <h1>SETUP</h1>
+    </div>
+</div>     
+
+@using (Html.BeginForm())
+{
+	Html.EnableUnobtrusiveJavaScript(true);
+	@Html.ValidationSummary(true)
+	<table style="width:103%;">
+	<tr>
+  	  <td style="vertical-align:top;">
+	     <fieldset> 
+		   <table>
+		     <tr>
+			   <td>
+					<div class="editor-label">
+						ID
+					</div>
+			   </td>
+			   <td>
+					<div class="editor-field">
+						<input type="text" id="_scheId" value="@ViewData["scheId"]" readonly="readonly" />
+						<input type="hidden" id="_tranType" value="@ViewData["tranType"]" />
+					</div>
+				</td>   
+			 </tr>
+
+		     <tr>
+			   <td>
+					<div class="editor-label">
+						TRANS. TYPE
+					</div>
+			   </td>
+			   <td>
+					<div class="editor-field">
+						<input type="text" id="_scheType" value="@ViewData["scheType"]" readonly="readonly" />
+					</div>
+				</td>
+			 </tr>
+
+		     <tr>
+			   <td colspan="4">
+					<div id="wwResults">
+					</div>  
+			   </td>
+			 </tr>
+
+			 <!-- Button Begin -->
+		     <tr>
+			   <td>
+					<input type="button" value="SAVE"  
+					style="height:45px; width:150px; color:Green; font-size:25px; font-weight: bold; font-family: arial; border: solid 1px #000000"" 
+					onclick="tran_save()" />
+			   </td>						
+			   <td>
+					<input type="button"  value="BACK" 
+					style="height:45px; width:150px; color:Red; font-size:25px; font-weight: bold; font-family: arial; border: solid 1px #000000"" 
+					onclick="returnToList()" />
+			   </td>
+			 </tr>
+			 <!-- Button End -->
+
+		 </table>
+  	     <div id="log"></div>			 
+       </fieldset>
+	  </td>
+
+	</tr>
+	</table>
+}
+
+<div id="loaderDiv" style="position:absolute; float:left; top:10px; width:40%; height:100%; background:#CCCCCC; visibility:hidden; 
+	filter:alpha(opacity=70);" align="center">
+			<br /><br /><br /><br /><br /><br /><br /><br />
+			<img src="../../Content/images/ajax-loader.gif" align="middle"/>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        // here i have used datatables.js (jQuery Data Table)
+        $('.tbl').dataTable({
+            "sDom": 'T<"clear">lfrtip',
+            "oTableTools": {
+                "aButtons": [],
+                "sRowSelect": "single"
+            },
+            "bLengthChange": false,
+            "bFilter": false,
+            "bSort": false,
+            "bInfo": false
+        });
+
+        var oTable = $('.tbl').dataTable();
+        //document.getElementById('WORKWEEK').focus();
+        window.onload = getDetails();
+    });
+
+    function returnToList() {
+        window.location.href = "/AdHoc/" + $('#_tranType').val();
+    }
+
+    //This function is used for sending data(JSON Data) to Controller
+    function tran_save() {
+        //var overwrite_olddata;
+        //overwrite_olddata = "YES";
+
+        //if (typeof $('#EntryOverwrite').val() === "undefined") {
+        //    overwrite_olddata = "NO";
+        //}
+
+        //if ($('#EntryOverwrite').val() == "NO") {
+        //    alert("Cannot submit this form due to Overwrite option is set to NO!");
+        //    overwrite_olddata = "NO";
+        //    return;
+
+        //}
+        // Step 1: Read View Data and Create JSON Object
+        var formParameters = {
+            "scheId": "", "scheType": "", "scheStatus": "",
+            "scheMinuteGap": "", "scheNextRun": ""
+        };
+        formParameters.scheId = $('#_scheId').val();
+        formParameters.scheType = $('#_scheType').val();
+        formParameters.scheStatus = $('#_scheStatus').val();
+        formParameters.scheMinuteGap = $('#_scheMinuteGap').val();
+        formParameters.scheNextRun = $('#_scheNextRun').val();
+        // Step 1: Ends Here
+
+        ///////////////////////////
+
+        // Step 2: Ajax Post - Here i have used ajax post for saving/updating information
+        $.ajax({
+            type: 'POST',
+            url: '/AdHoc/UpdateScheduler',
+            data: JSON.stringify(formParameters),
+            cache: true,
+            contentType: 'application/json;',
+            dataType: 'json',
+            success: function (result) {
+                if (result.Success == "1") {
+                    window.location.href = "/AdHoc/" + $('#_tranType').val();
+                }
+                else {
+                    alert(result.ex);
+                }
+            }
+        });
+        // Step 2: Ends Here
+    }
+
+    function getDetails() {
+        $('#wwResults').empty();
+        $('#waitajax').tmpl('nodata').appendTo('#wwResults');
+
+        if ($('#_scheId').val() != "0") {
+            $.ajaxSetup({ cache: false }); /* set no cache */
+            $.getJSON("../../JsonDataResponse/GetSchedulerInfo/" + $('#_scheId').val() + "/" + $('#_scheType').val(),
+			function (data) {
+			    $('#log').ajaxStart(function () {
+			        $(this).text('Loading...');
+			    });
+			    $('#log').ajaxComplete(function () {
+			        $(this).text('');
+			    });
+			    if (data.toString() != "") {
+			        $('#wwResults').empty();
+			        $('#detailsTmpl').tmpl(data).appendTo('#wwResults');
+			    } else {
+			        $('#wwResults').empty();
+			        $('#colourList').attr('disabled', true);
+                }
+			});
+        } else {
+            $('#colourList').attr('disabled', true);
+        }
+    }
+
+    function getDetails2() {
+        alert('The date is wrong!');
+    }
+</script>
+<script id="detailsTmpl" type="text/x-jQuery-tmpl">
+    <div class="schedulerListing">
+	 <table>
+        <tr>
+			<td style="vertical-align:top; width:150px;">
+  				<div class="editor-label">
+                    STATUS
+				</div>
+			</td>
+			<td style="vertical-align:top;">
+				<div class="editor-field">
+    				<input type="text" id="_scheStatus" value="${status}" />
+				</div>
+			</td>
+		</tr>
+
+        <tr>
+			<td style="vertical-align:top; width:150px;">
+  				<div class="editor-label">
+                    MINUTE GAP
+				</div>
+			</td>
+			<td style="vertical-align:top;">
+				<div class="editor-field">
+    				<input type="text" id="_scheMinuteGap" value="${minuteGap}" />
+				</div>
+			</td>
+		</tr>
+
+        <tr>
+			<td style="vertical-align:top; width:150px;">
+  				<div class="editor-label">
+                    NEXT RUN (DATETIME)
+				</div>
+			</td>
+			<td style="vertical-align:top;">
+				<div class="editor-field">
+    				<input type="text" id="_scheNextRun" value="${nextRun}" />
+				</div>
+			</td>
+		</tr>
+
+     </table>
+    </div>
+</script>
+<script id="waitajax" type="text/x-jQuery-tmpl">
+	<div id="waitDiv" align="center">
+			<img src="../../Content/images/please_wait.gif" align="middle"/>
+	</div>
+</script>
+

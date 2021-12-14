@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="sde_pullNetsuite.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="sde_pullNetsuite_localhost_Service1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:54775/WCF/Service1.svc</Value>
+    </Setting>
+    <Setting Name="sde_pullNetsuite_WCFsde_Service1" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:54775/WCF/Service1.svc</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

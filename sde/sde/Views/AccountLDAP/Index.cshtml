@@ -1,0 +1,37 @@
+﻿@model sde.Models.LoginModel2
+
+@{
+    ViewBag.Title = "Log in thru LDAP";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<hgroup class="title" style="font-size:160%">
+    <h1>@ViewBag.Title.</h1>
+</hgroup>
+
+<section id="loginForm" style="font-size:160%">
+<h2></h2>
+@using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl })) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Log in Form</legend>
+        <ol>
+            <li>
+                @Html.LabelFor(model => model.username)
+                @Html.TextBoxFor(model => model.username)
+                @Html.ValidationMessageFor(model => model.username)
+            </li>
+            <li>
+                @Html.LabelFor(model => model.password)
+                @Html.PasswordFor(model => model.password)
+                @Html.ValidationMessageFor(model => model.password)
+            </li>
+        </ol>
+        <input type="submit" value="Log in" />
+    </fieldset>
+}
+</section>
+
+

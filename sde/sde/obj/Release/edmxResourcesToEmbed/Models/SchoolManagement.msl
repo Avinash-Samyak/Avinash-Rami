@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SchoolManagementModelStoreContainer" CdmEntityContainer="SchoolManagementEntities">
+    <EntitySetMapping Name="schedulers">
+      <EntityTypeMapping TypeName="SchoolManagementModel.scheduler">
+        <MappingFragment StoreEntitySet="scheduler">
+          <ScalarProperty Name="sche_desc" ColumnName="sche_desc" />
+          <ScalarProperty Name="sche_id" ColumnName="sche_id" />
+          <ScalarProperty Name="sche_sequence" ColumnName="sche_sequence" />
+          <ScalarProperty Name="sche_date" ColumnName="sche_date" />
+          <ScalarProperty Name="sche_lastRunSeqNo" ColumnName="sche_lastRunSeqNo" />
+          <ScalarProperty Name="sche_lastRun" ColumnName="sche_lastRun" />
+          <ScalarProperty Name="sche_nextRunSeqNo" ColumnName="sche_nextRunSeqNo" />
+          <ScalarProperty Name="sche_nextRun" ColumnName="sche_nextRun" />
+          <ScalarProperty Name="sche_minuteGap" ColumnName="sche_minuteGap" />
+          <ScalarProperty Name="sche_status" ColumnName="sche_status" />
+          <ScalarProperty Name="sche_transactionType" ColumnName="sche_transactionType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="SchoolManagementModel.Students">
+        <MappingFragment StoreEntitySet="Students">
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="EnrollYear" ColumnName="EnrollYear" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="School">
+      <EntityTypeMapping TypeName="SchoolManagementModel.School">
+        <MappingFragment StoreEntitySet="School">
+          <ScalarProperty Name="School_Section" ColumnName="School_Section" />
+          <ScalarProperty Name="School_Email" ColumnName="School_Email" />
+          <ScalarProperty Name="School_Country" ColumnName="School_Country" />
+          <ScalarProperty Name="School_Address" ColumnName="School_Address" />
+          <ScalarProperty Name="School_Standard" ColumnName="School_Standard" />
+          <ScalarProperty Name="School_Name" ColumnName="School_Name" />
+          <ScalarProperty Name="School_ID" ColumnName="School_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Books">
+      <EntityTypeMapping TypeName="SchoolManagementModel.Books">
+        <MappingFragment StoreEntitySet="Books">
+          <ScalarProperty Name="Book_Edition" ColumnName="Book_Edition" />
+          <ScalarProperty Name="Book_PublishYear" ColumnName="Book_PublishYear" />
+          <ScalarProperty Name="Book_Pages" ColumnName="Book_Pages" />
+          <ScalarProperty Name="Book_Author" ColumnName="Book_Author" />
+          <ScalarProperty Name="Book_Genre" ColumnName="Book_Genre" />
+          <ScalarProperty Name="Book_Name" ColumnName="Book_Name" />
+          <ScalarProperty Name="Book_ID" ColumnName="Book_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderM">
+      <EntityTypeMapping TypeName="SchoolManagementModel.OrderM">
+        <MappingFragment StoreEntitySet="OrderM">
+          <ScalarProperty Name="School_ID" ColumnName="School_ID" />
+          <ScalarProperty Name="OrderMaster_ID" ColumnName="OrderMaster_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

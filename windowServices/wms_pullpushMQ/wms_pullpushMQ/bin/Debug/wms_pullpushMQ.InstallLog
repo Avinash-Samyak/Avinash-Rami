@@ -1,0 +1,26 @@
+﻿Installing assembly 'C:\Dev\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Dev\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe
+   logfile = C:\Dev\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.InstallLog
+Installing service sde_wms_pullpushMQ...
+Service sde_wms_pullpushMQ has been successfully installed.
+Creating EventLog source sde_wms_pullpushMQ in log Application...
+Committing assembly 'C:\Dev\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Dev\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe
+   logfile = C:\Dev\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.InstallLog
+Installing assembly 'C:\inetpub\wwwroot\sde_publish\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\inetpub\wwwroot\sde_publish\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.InstallLog
+   assemblypath = C:\inetpub\wwwroot\sde_publish\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe
+Installing service sde_wms_pullpushMQ...
+Service sde_wms_pullpushMQ has been successfully installed.
+Creating EventLog source sde_wms_pullpushMQ in log Application...
+Committing assembly 'C:\inetpub\wwwroot\sde_publish\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\inetpub\wwwroot\sde_publish\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.InstallLog
+   assemblypath = C:\inetpub\wwwroot\sde_publish\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe

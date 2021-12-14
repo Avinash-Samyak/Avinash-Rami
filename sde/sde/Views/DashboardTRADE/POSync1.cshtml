@@ -1,0 +1,90 @@
+﻿@model Tuple<sde.Models.poSyncList>
+@{
+    ViewBag.Title = "PO Sync";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="span11">
+    <div class="leaderboard" style="padding-left: 10px; padding-right: 10px;">
+        <h1>TRADE/EDU/OS Dashboard</h1>
+        <div class="content">
+            <ul id="tabs1" class="nav nav-tabs" data-tabs="tabs1">
+                <li><a href="../DashboardTrade/SOSync1">SO Sync <img src="\Content\images\go.png" alt="" height='14' width='14' /></a> </li>
+                @*ANET-26 - Exception Report: Inbound & outbound Reports  *@
+                <li><a href="../DashboardTrade/SONotSync1">SO Not Sync <img src="\Content\images\go.png" alt="" height='14' width='14' /></a> </li>   
+                <li class="active"><a href="../DashboardTrade/POSync1">PO Sync <img src="\Content\images\go.png" alt="" height='14' width='14' /></a> </li> 
+                <li><a href="../DashboardTrade/SORSync1">SOR Sync <img src="\Content\images\go.png" alt="" height='14' width='14' /></a> </li> 
+                <li><a href="../DashboardTrade/SOFulfillment1">SO Fulfillment <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>    
+                <li><a href="../DashboardTrade/IncompleteSOFulfillment">Incomplete SO Fulfillment <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li> 
+                 @*ANET-26 - Exception Report: Inbound & outbound Reports  *@
+                <li><a href="../DashboardTrade/SOInvoiceGenerate">SO Invoice Generate <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>   
+                <li><a href="../DashboardTrade/SOInvoiceNotGenerate">SO Invoice Not Generate <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>    
+                <li><a href="../DashboardTrade/POReceive1">PO Receive <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>       
+                <li><a href="../DashboardTrade/SORReceive1">SOR Receive <img src="\Content\images\back.png" alt="" height='14' width='14' /></a>                 
+            </ul>
+            <div id="my-tab-content1" class="tab-content">
+                <div class="tab-pane active table-responsive" id="tabScheduler">
+                    <ul id="tabs2" class="nav nav-pills" data-tabs="tabs2">
+                        <li class="active"><a href="../DashboardTrade/POSync1">Filter by Date</a></li>
+                        <li><a href="../DashboardTrade/POSync2">Search by PO Number</a></li>
+                        <li><a href="../DashboardTrade/POSyncExport">Export Data File</a></li>
+                    </ul>
+                    <ul>
+                    </ul>
+                    @using (Html.BeginForm("POSync1", "DashboardTRADE", FormMethod.Post))
+                    {
+                        <label>From</label>
+                        <input class="datepicker" id="datepicker1" name="fromDate1" type="date" value="@Convert.ToDateTime(Session["FromDate"]).ToString("yyyy-MM-dd")" style="width:150px;"/>
+                        <label>To</label>
+                        <input class="datepicker" id="datepicker2" name="toDate1" type="date" value="@Convert.ToDateTime(Session["ToDate"]).ToString("yyyy-MM-dd")" style="width:150px;"/>
+                        <button type="submit" class="btn btn-primary">Filter</button>
+                    }
+                    <br />
+                    <table id="myTable" class="table table-bordered table-condensed">
+                        <thead>
+                            <tr style="background-color: #FF8336;">
+                                <th>Extract Date</th>
+                                <th>PO Number</th>
+                                <th>Supplier</th>
+                                <th>Location</th>
+                                <th>Total Items</th>
+                                <th>Quantity Synced</th>
+                                <th>Items View</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.Item1.poSync.Count(); i++)
+                            {
+                                <tr style="background-color: #FCDAB6;">
+                                    <td>@Model.Item1.poSync[i].rangeTo</td>
+                                    <td>@Model.Item1.poSync[i].pr_number</td>
+                                    <td>@Model.Item1.poSync[i].pr_supplier</td>
+                                    <td>@Model.Item1.poSync[i].pr_location</td>
+                                    <td style="text-align: center">@Model.Item1.poSync[i].numOfItems</td>
+                                    <td style="text-align:center">@Model.Item1.poSync[i].sum_pritemQty</td>
+                                    <td>@Html.ActionLink("View", "POSyncItemView", "DashboardTrade", new { @pass1 = Model.Item1.poSync[i].pr_number }, null)</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs1').tab();
+        $('#tabs2').tab();
+    });
+</script>
+<script type="text/javascript" src="../../Scripts/bootstrap/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#myTable').dataTable();
+    });
+</script>
+<link rel="stylesheet" href="../../Scripts/bootstrap/jquery.dataTables.min.css">
+<script type="text/javascript" src="../../Scripts/bootstrap/jquery.dataTables.min.js"></script>

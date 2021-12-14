@@ -1,0 +1,5 @@
+C:\Dev\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe.config
+C:\Dev\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe
+C:\Dev\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.pdb
+C:\Dev\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.exe
+C:\Dev\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.pdb

@@ -1,0 +1,86 @@
+﻿Installing assembly 'C:\Dev\sde\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Dev\sde\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe
+   logfile = C:\Dev\sde\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.InstallLog
+Installing service sde_pushMQ...
+Service sde_pushMQ has been successfully installed.
+Creating EventLog source sde_pushMQ in log Application...
+Committing assembly 'C:\Dev\sde\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Dev\sde\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe
+   logfile = C:\Dev\sde\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.InstallLog
+Uninstalling assembly 'C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.InstallLog
+   assemblypath = C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe
+Removing EventLog source sde_pushMQ.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.InstallLog
+   assemblypath = C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe
+Installing service sde_pushMQ...
+Creating EventLog source sde_pushMQ in log Application...
+Rolling back assembly 'C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.InstallLog
+   assemblypath = C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe
+Restoring event log to previous state for source sde_pushMQ.
+Uninstalling assembly 'C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.InstallLog
+   assemblypath = C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe
+Removing EventLog source sde_pushMQ.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.InstallLog
+   assemblypath = C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe
+Removing EventLog source sde_pushMQ.
+Service sde_pushMQ is being removed from the system...
+Service sde_pushMQ was successfully removed from the system.
+Installing assembly 'C:\inetpub\wwwroot\sde_publish\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\inetpub\wwwroot\sde_publish\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe
+   logfile = C:\inetpub\wwwroot\sde_publish\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.InstallLog
+Installing service sde_pushMQ...
+Service sde_pushMQ has been successfully installed.
+Creating EventLog source sde_pushMQ in log Application...
+Committing assembly 'C:\inetpub\wwwroot\sde_publish\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\inetpub\wwwroot\sde_publish\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe
+   logfile = C:\inetpub\wwwroot\sde_publish\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.InstallLog
+Uninstalling assembly 'C:\Users\Administrator\Desktop\sde\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Administrator\Desktop\sde\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe
+   logfile = C:\Users\Administrator\Desktop\sde\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.InstallLog
+Removing EventLog source sde_pushMQ.
+Service sde_pushMQ is being removed from the system...
+Service sde_pushMQ was successfully removed from the system.
+Installing assembly 'C:\Users\Administrator\Desktop\sde\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Administrator\Desktop\sde\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe
+   logfile = C:\Users\Administrator\Desktop\sde\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.InstallLog
+Installing service sde_pushMQ...
+Service sde_pushMQ has been successfully installed.
+Creating EventLog source sde_pushMQ in log Application...
+Committing assembly 'C:\Users\Administrator\Desktop\sde\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Administrator\Desktop\sde\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.exe
+   logfile = C:\Users\Administrator\Desktop\sde\windowServices\sde_pushMQ\sde_pushMQ\bin\Debug\sde_pushMQ.InstallLog

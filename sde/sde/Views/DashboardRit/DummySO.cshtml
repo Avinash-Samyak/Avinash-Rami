@@ -1,0 +1,95 @@
+﻿@model Tuple<sde.Models.dummySOList>
+@{
+    ViewBag.Title = "Dummy SO";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="span11">
+    <div class="leaderboard" style="padding-left: 10px; padding-right: 10px;">
+        <h1>RIT</h1>
+        <div class="content">
+            <ul id="tabs1" class="nav nav-tabs" data-tabs="tabs1">
+                <li><a href="../DashboardRIT/TasksStatus">NetSuite Tasks</a></li>
+                <li ><a href="../DashboardRIT/MQStatus">MSMQ</a></li>
+                <li><a href="../DashboardRIT/SDEStatus">NetSuite</a></li>
+                <li><a href="../DashboardRIT/Logger">Logger</a></li>
+                <li><a href="../DashboardRIT/Index">Scheduler</a></li>
+                <li><a href="../DashboardRIT/DataSyncBack">Data Sync Back</a></li>
+                <li class="active"><a href="../DashboardRIT/DummySO">DummySO</a></li>
+                
+            </ul>
+
+                       <div id="my-tab-content1" class="tab-content">
+                <div class="tab-pane active table-responsive" id="tabScheduler">
+                      @using (Html.BeginForm("DummySO", "DashboardRIT", FormMethod.Post))
+                    {
+                        <label>From</label>
+                        <input class="datepicker" id="datepicker1" name="fromDate1" type="date" value="@Convert.ToDateTime(Session["FromDate"]).ToString("yyyy-MM-dd")" style="width:150px;" />
+                        <label>To</label>
+                        <input class="datepicker" id="datepicker2" name="toDate1" type="date" value="@Convert.ToDateTime(Session["ToDate"]).ToString("yyyy-MM-dd")" style="width:150px;"/>
+                        <button type="submit" class="btn btn-primary">Filter</button>
+                    }
+                   
+                    <table class="table table-bordered table-condensed">
+                        <tr style="background-color: #FF8336;">
+                           <th>Dummy SO ID</th>
+                            <th>Item Internal ID</th>
+                            <th>Original Qty</th>
+                            <th>New Qty</th>
+                            <th>Deducted Qty</th>
+                            <th>Push to NS Date</th>
+                            <th>Sync from WMS Date</th>
+                            <th>Subsidiary ID</th>
+                            <th>BusinessChannel ID</th>
+                            <th>Item ID</th>
+                            <th>ISBN</th>
+                            <th>Title</th>
+                        </tr>
+
+
+                        @for (int i = 0; i < Model.Item1.dummySO.Count(); i++)
+                        {
+                            
+                            <tr style="background-color: #FCDAB6;">
+                                <td>@Model.Item1.dummySO[i].dummySOID</td>
+                                <td>@Model.Item1.dummySO[i].itemInternalID</td>
+                                <td>@Model.Item1.dummySO[i].originalQty</td>
+                                <td>@Model.Item1.dummySO[i].newQty</td>
+                                <td>@Html.Raw(string.Format("{0}",(Convert.ToInt32(@Model.Item1.dummySO[i].originalQty) - Convert.ToInt32(@Model.Item1.dummySO[i].newQty)))) </td>
+                                <td>@Model.Item1.dummySO[i].pushtoNSDate</td>
+                                <td>@Model.Item1.dummySO[i].pullFromWMSDate</td>
+                                <td>@Model.Item1.dummySO[i].subsidiaryID</td>
+                                <td>@Model.Item1.dummySO[i].businessChannelID</td>
+                                <td>@Model.Item1.dummySO[i].item_ID</td>
+                                <td>@Model.Item1.dummySO[i].ISBN</td>
+                                <td>@Model.Item1.dummySO[i].title</td>
+                                
+                                
+                            </tr>
+                            }
+                           
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+     
+    });
+
+    function loaderDiv() {
+        document.getElementById('loaderDiv').style.visibility = 'visible';
+        return true;
+    }
+</script>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs1').tab();
+        $('#tabs2').tab();
+        $('#tabs3').tab();
+    });
+</script>
+<script type="text/javascript" src="../../Scripts/bootstrap.min.js"></script>

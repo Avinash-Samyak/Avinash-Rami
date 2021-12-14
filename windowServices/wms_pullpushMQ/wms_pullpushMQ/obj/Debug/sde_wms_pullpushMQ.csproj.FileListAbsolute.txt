@@ -1,0 +1,59 @@
+C:\Dev\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe.config
+C:\Dev\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.exe
+C:\Dev\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.pdb
+C:\Development\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe.config
+C:\Development\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.exe
+C:\Development\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.pdb
+C:\Development\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe
+C:\Development\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.pdb
+C:\Development\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\sde_wms_pullpushMQ.csprojResolveAssemblyReference.cache
+C:\Development\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.ProjectInstaller.resources
+C:\Development\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.Service1.resources
+C:\Development\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\sde_wms_pullpushMQ.csproj.GenerateResource.Cache
+C:\Development\sde v1.2-LiShan-20140430\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe.config
+C:\Development\sde v1.2-LiShan-20140430\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.exe
+C:\Development\sde v1.2-LiShan-20140430\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.pdb
+C:\Development\sde v1.2-LiShan-20140430\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe
+C:\Development\sde v1.2-LiShan-20140430\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.pdb
+C:\Development\sde v1.2-LiShan-20140430\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.ProjectInstaller.resources
+C:\Development\sde v1.2-LiShan-20140430\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.Service1.resources
+C:\Development\sde v1.2-LiShan-20140430\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\sde_wms_pullpushMQ.csproj.GenerateResource.Cache
+C:\Dev\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe
+C:\Dev\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.ProjectInstaller.resources
+C:\Dev\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.Service1.resources
+C:\Dev\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\sde_wms_pullpushMQ.csproj.GenerateResource.Cache
+C:\Dev\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.pdb
+C:\Development\sde v1.2-LiShan-20140430\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe.manifest
+C:\Development\sde v1.2-LiShan-20140430\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.application
+C:\Development\sde v1.2-LiShan-20140430\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\sde_wms_pullpushMQ.csprojResolveAssemblyReference.cache
+C:\Development\sde v1.2-LiShan-20140430\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.exe.manifest
+C:\Development\sde v1.2-LiShan-20140430\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.application
+C:\Users\Administrator\Desktop\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe.config
+C:\Users\Administrator\Desktop\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.exe
+C:\Users\Administrator\Desktop\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.pdb
+C:\Users\Administrator\Desktop\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe.manifest
+C:\Users\Administrator\Desktop\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.application
+C:\Users\Administrator\Desktop\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe
+C:\Users\Administrator\Desktop\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.pdb
+C:\Users\Administrator\Desktop\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\sde_wms_pullpushMQ.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.ProjectInstaller.resources
+C:\Users\Administrator\Desktop\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.Service1.resources
+C:\Users\Administrator\Desktop\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\sde_wms_pullpushMQ.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.exe.manifest
+C:\Users\Administrator\Desktop\sde\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.application
+C:\inetpub\wwwroot\sde_publish\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe.config
+C:\inetpub\wwwroot\sde_publish\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.exe
+C:\inetpub\wwwroot\sde_publish\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.pdb
+C:\inetpub\wwwroot\sde_publish\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe.manifest
+C:\inetpub\wwwroot\sde_publish\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.application
+C:\inetpub\wwwroot\sde_publish\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe
+C:\inetpub\wwwroot\sde_publish\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.pdb
+C:\inetpub\wwwroot\sde_publish\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\sde_wms_pullpushMQ.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\sde_publish\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.ProjectInstaller.resources
+C:\inetpub\wwwroot\sde_publish\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.Service1.resources
+C:\inetpub\wwwroot\sde_publish\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\sde_wms_pullpushMQ.csproj.GenerateResource.Cache
+C:\inetpub\wwwroot\sde_publish\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.exe.manifest
+C:\inetpub\wwwroot\sde_publish\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.application
+C:\Dev\sde\branches\sde_ver1.0-kang01\windowServices\wms_pullpushMQ\wms_pullpushMQ\bin\Debug\wms_pullpushMQ.exe.config
+C:\Dev\sde\branches\sde_ver1.0-kang01\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.exe
+C:\Dev\sde\branches\sde_ver1.0-kang01\windowServices\wms_pullpushMQ\wms_pullpushMQ\obj\Debug\wms_pullpushMQ.pdb

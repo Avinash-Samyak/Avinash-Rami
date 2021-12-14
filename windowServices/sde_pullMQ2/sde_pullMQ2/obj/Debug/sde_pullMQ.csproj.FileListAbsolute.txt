@@ -1,0 +1,68 @@
+C:\Development\sde v1.2-LiShan-20140403\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe.config
+C:\Development\sde v1.2-LiShan-20140403\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe
+C:\Development\sde v1.2-LiShan-20140403\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.pdb
+C:\Development\sde v1.2-LiShan-20140403\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.csprojResolveAssemblyReference.cache
+C:\Development\sde v1.2-LiShan-20140403\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.exe
+C:\Development\sde v1.2-LiShan-20140403\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.pdb
+C:\Development\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe.config
+C:\Development\sde\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.exe
+C:\Development\sde\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.pdb
+C:\Development\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe
+C:\Development\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.pdb
+C:\Development\sde\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.csprojResolveAssemblyReference.cache
+C:\Development\sde\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.ProjectInstaller.resources
+C:\Development\sde\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.Service1.resources
+C:\Development\sde\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.csproj.GenerateResource.Cache
+C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe.config
+C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.exe
+C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.pdb
+C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe
+C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.pdb
+C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.csprojResolveAssemblyReference.cache
+C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.ProjectInstaller.resources
+C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.Service1.resources
+C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.csproj.GenerateResource.Cache
+C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe.manifest
+C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.application
+C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.exe.manifest
+C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.application
+C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe.config
+C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.exe
+C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.pdb
+C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe.manifest
+C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.application
+C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe
+C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.pdb
+C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.ProjectInstaller.resources
+C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.Service1.resources
+C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.csproj.GenerateResource.Cache
+C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.exe.manifest
+C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.application
+C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe.config
+C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe.manifest
+C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.application
+C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe
+C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.pdb
+C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.ProjectInstaller.resources
+C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.Service1.resources
+C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.exe.manifest
+C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.application
+C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.exe
+C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.pdb
+C:\Dev\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe.config
+C:\Dev\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe.manifest
+C:\Dev\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.application
+C:\Dev\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe
+C:\Dev\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.pdb
+C:\Dev\sde\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.ProjectInstaller.resources
+C:\Dev\sde\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.Service1.resources
+C:\Dev\sde\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.csproj.GenerateResource.Cache
+C:\Dev\sde\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.exe.manifest
+C:\Dev\sde\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.application
+C:\Dev\sde\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.exe
+C:\Dev\sde\windowServices\sde_pullMQ\sde_pullMQ\obj\Debug\sde_pullMQ.pdb
+C:\Dev\sde\windowServices\sde_pullMQ2\sde_pullMQ\bin\Debug\sde_pullMQ.exe.config
+C:\Dev\sde\windowServices\sde_pullMQ2\sde_pullMQ\obj\Debug\sde_pullMQ.exe
+C:\Dev\sde\windowServices\sde_pullMQ2\sde_pullMQ\obj\Debug\sde_pullMQ.pdb

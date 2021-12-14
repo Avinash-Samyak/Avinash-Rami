@@ -1,0 +1,89 @@
+﻿@model Tuple<sde.Models.sorReceiveList>
+@{
+    ViewBag.Title = "SOR Receive";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="span11">
+    <div class="leaderboard" style="padding-left: 10px; padding-right: 10px;">
+        <h1>TRADE/EDU/OS Dashboard</h1>
+        <div class="content">
+            <ul id="tabs1" class="nav nav-tabs" data-tabs="tabs1">
+                <li><a href="../DashboardTrade/SOSync1">SO Sync <img src="\Content\images\go.png" alt="" height='14' width='14' /></a> </li>  
+                 @*ANET-26 - Exception Report: Inbound & outbound Reports  *@
+                <li ><a href="../DashboardTrade/SONotSync1">SO Not Sync <img src="\Content\images\go.png" alt="" height='14' width='14' /></a> </li>  
+                <li><a href="../DashboardTrade/POSync1">PO Sync <img src="\Content\images\go.png" alt="" height='14' width='14' /></a> </li>  
+                <li><a href="../DashboardTrade/SORSync1">SOR Sync <img src="\Content\images\go.png" alt="" height='14' width='14' /></a> </li> 
+                <li><a href="../DashboardTrade/SOFulfillment1">SO Fulfillment <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>         
+                <li><a href="../DashboardTrade/IncompleteSOFulfillment">Incomplete SO Fulfillment <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li> 
+                 @*ANET-26 - Exception Report: Inbound & outbound Reports  *@
+                <li><a href="../DashboardTrade/SOInvoiceGenerate">SO Invoice Generate <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>   
+                <li><a href="../DashboardTrade/SOInvoiceNotGenerate">SO Invoice Not Generate <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>                        
+                <li><a href="../DashboardTrade/POReceive1">PO Receive <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>   
+                <li class="active"><a href="../DashboardTrade/SORReceive1">SOR Receive <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>                 
+            </ul>
+            <div id="my-tab-content1" class="tab-content">
+                <div class="tab-pane active table-responsive" id="tabScheduler"> 
+                    <ul id="tabs2" class="nav nav-pills" data-tabs="tabs2">
+                        <li class="active"><a href="../DashboardTrade/SORReceive1">Filter by Date</a></li>
+                        <li><a href="../DashboardTrade/SORReceive2">Search by Return Number</a></li>
+                    </ul>
+                    <ul>
+                    </ul> 
+                    @using (Html.BeginForm("SORReceive1", "DashboardTRADE", FormMethod.Post))
+                    {
+                        <label>From</label>
+                        <input class="datepicker" id="datepicker1" name="fromDate1" type="date" value="@Convert.ToDateTime(Session["FromDate"]).ToString("yyyy-MM-dd")" style="width:150px;"/>
+                        <label>To</label>
+                        <input class="datepicker" id="datepicker2" name="toDate1" type="date" value="@Convert.ToDateTime(Session["ToDate"]).ToString("yyyy-MM-dd")" style="width:150px;"/>
+                        <button type="submit" class="btn btn-primary">Filter</button>                    
+                    }
+                    <br />
+                    <table id="myTable" class="table table-bordered table-condensed">
+                        <thead>
+                            <tr style="background-color: #FF8336;">
+                                <th>Return Date</th>
+                                <th>Return Number</th>
+                                <th>Customer</th>
+                                <th>Invoice</th>
+                                <th>Total Items</th>
+                                <th>Quantity Received</th>
+                                <th>Items View</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.Item1.sorReceive.Count(); i++)
+                            {
+                                <tr style="background-color: #FCDAB6;">
+                                    <td>@Model.Item1.sorReceive[i].returnDate</td>
+                                    <td>@Model.Item1.sorReceive[i].number</td>
+                                    <td>@Model.Item1.sorReceive[i].schID</td>
+                                    <td>@Model.Item1.sorReceive[i].invoice</td>
+                                    <td style="text-align:center">@Model.Item1.sorReceive[i].numOfItems</td>
+                                    <td style="text-align:center">@Model.Item1.sorReceive[i].sum_receive_qty</td>
+                                     <td>@Html.ActionLink("View", "SORReceiveItemView", "DashboardTrade", new { @pass1 = Model.Item1.sorReceive[i].number },null)</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs1').tab();
+        $('#tabs2').tab();
+    });
+</script>
+<script type="text/javascript" src="../../Scripts/bootstrap/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#myTable').dataTable();
+    });
+</script>
+<link rel="stylesheet" href="../../Scripts/bootstrap/jquery.dataTables.min.css">
+<script type="text/javascript" src="../../Scripts/bootstrap/jquery.dataTables.min.js"></script>

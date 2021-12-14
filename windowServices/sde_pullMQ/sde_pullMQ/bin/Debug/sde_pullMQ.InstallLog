@@ -1,0 +1,68 @@
+﻿Installing assembly 'C:\Dev\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Dev\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe
+   logfile = C:\Dev\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.InstallLog
+Installing service sde_pullMQ...
+Service sde_pullMQ has been successfully installed.
+Creating EventLog source sde_pullMQ in log Application...
+Committing assembly 'C:\Dev\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Dev\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe
+   logfile = C:\Dev\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.InstallLog
+Uninstalling assembly 'C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.InstallLog
+   assemblypath = C:\Development\sde v1.2-LiShan-20140430\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe
+Removing EventLog source sde_pullMQ.
+Service sde_pullMQ is being removed from the system...
+Service sde_pullMQ was successfully removed from the system.
+Installing assembly 'C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe
+   logfile = C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.InstallLog
+Installing service sde_pullMQ...
+Service sde_pullMQ has been successfully installed.
+Creating EventLog source sde_pullMQ in log Application...
+Committing assembly 'C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe
+   logfile = C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.InstallLog
+Installing assembly 'C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe
+   logfile = C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.InstallLog
+Installing service sde_pullMQ...
+Creating EventLog source sde_pullMQ in log Application...
+Rolling back assembly 'C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe
+   logfile = C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.InstallLog
+Restoring event log to previous state for source sde_pullMQ.
+Uninstalling assembly 'C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe
+   logfile = C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.InstallLog
+Removing EventLog source sde_pullMQ.
+Service sde_pullMQ is being removed from the system...
+Service sde_pullMQ was successfully removed from the system.
+Installing assembly 'C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe
+   logfile = C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.InstallLog
+Installing service sde_pullMQ...
+Service sde_pullMQ has been successfully installed.
+Creating EventLog source sde_pullMQ in log Application...
+Committing assembly 'C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.exe
+   logfile = C:\Users\Administrator\Desktop\sde\windowServices\sde_pullMQ\sde_pullMQ\bin\Debug\sde_pullMQ.InstallLog

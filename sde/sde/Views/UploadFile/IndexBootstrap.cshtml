@@ -1,0 +1,216 @@
+﻿@{
+    //Layout = null;
+}
+
+<!DOCTYPE html>  
+<html lang="en">  
+  <head>  
+    <meta charset="utf-8">  
+    <title>Monthly Data Upload</title>  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <meta name="description" content="Example of Fluid Layout with Twitter Bootstrap version 2.0 from w3resource.com">  
+    <meta name="author" content="">  
+  
+    @*<link href="../../Content/bootstrap.css" rel="stylesheet" />*@
+    <link href="../../Content/fluid-layout.css" rel="stylesheet" />
+  
+    <!-- Touch icons -->  
+    <link rel="shortcut icon" href="twitter-bootstrap-v2/docs/examples/images/favicon.ico">  
+    <link rel="apple-touch-icon" href="twitter-bootstrap-v2/docs/examples/images/apple-touch-icon.png">  
+    <link rel="apple-touch-icon" sizes="72x72" href="twitter-bootstrap-v2/docs/examples/images/apple-touch-icon-72x72.png">  
+    <link rel="apple-touch-icon" sizes="114x114" href="twitter-bootstrap-v2/docs/examples/images/apple-touch-icon-114x114.png">  
+  </head>  
+  <body>  
+    <div class="navbar navbar-fixed-top">  
+      <div class="navbar-inner">  
+        <div class="container-fluid">  
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">  
+            <span class="icon-bar"></span>  
+            <span class="icon-bar"></span>  
+            <span class="icon-bar"></span>  
+          </a>  
+          <a class="brand" href="#"><img src="@Url.Content("~/Content/images/schasia_logo.jpg")" width="222" height="30" alt="scholastic logo"/></a>  
+          <div class="nav-collapse">  
+            <ul class="nav">  
+              <li class="active"><a href="#">Home</a></li>  
+              <li><a href="#contact">Helpdesk</a></li>  
+            </ul>  
+            <p class="navbar-text pull-right">Logged in as <a href="#">username</a></p>  
+          </div><!--/.nav-collapse -->  
+        </div>  
+      </div>  
+    </div>  
+
+    <div class="container-fluid">  
+       <div class="row-fluid">  
+         <div class="span2">  
+            <div class="well sidebar-nav">  
+            <ul class="nav nav-list">  
+              <li class="nav-header">Menu</li>  
+              <li class="active"><a href="#">Monthly Upload</a></li>  
+              <li><a href="#">Currency</a></li>  
+              <li><a href="#">Product Master</a></li>  
+              <li class="nav-header">Report</li>  
+              <li><a href="#">Report 1</a></li>  
+              <li><a href="#">Report 2</a></li>  
+           </ul>  
+          </div><!--/.well -->  
+         </div><!--/span-->  
+
+         <div class="span10">  
+            <div class="leaderboard">  
+                <h1>Monthly Data Readiness</h1>  
+                <p><a class="btn btn-success btn-large">Upload</a></p>
+
+                <!-- header -->  
+                <div class="span4" style="font-weight:bold">Source</div>  
+                <div class="span2" style="font-weight:bold">Tran Type</div>  
+                <div class="span2" style="font-weight:bold">Period Ready</div>  
+                <div class="span2" style="font-weight:bold">Status</div>  
+                <div class="span1" style="font-weight:bold">Progress</div>
+
+                <!-- data-->
+                <div class="span4">
+                    <div class="controls">  
+                        <input class="input-file" id="csvInput" type="file">  
+                    </div>  
+                </div>  
+                <div class="span2">US Revenue</div>  
+                <div class="span2">1501</div>  
+                <div class="span2">Not Ready</div>  
+                <div class="span1">
+                     <div class="progress progress-success progress-striped active" style="margin-bottom: 9px;">  
+                        <div class="bar" style="width: 80%"></div>  
+                     </div>  
+                </div>
+                <!-- -->
+
+                <br />
+                <hr>
+                <br />
+
+                <!-- table style -->  
+                <h1>Histories</h1>  
+                <table class="table table-striped">  
+                        <thead>  
+                          <tr>  
+                            <th>Trans Type</th>  
+                            <th>Uploaded Date</th>  
+                            <th>Uploaded Period</th>  
+                            <th>Total Records</th>  
+                          </tr>  
+                        </thead>  
+                        <tbody>  
+                          <tr>  
+                            <td>001</td>  
+                            <td>Rammohan </td>  
+                            <td>Reddy</td>  
+                            <td>A+</td>  
+                          </tr>  
+                          <tr>  
+                            <td>002</td>  
+                            <td>Smita</td>  
+                            <td>Pallod</td>  
+                            <td>A</td>  
+                          </tr>  
+                          <tr>  
+                            <td>003</td>  
+                            <td>Rabindranath</td>  
+                            <td>Sen</td>  
+                            <td>A+</td>  
+                          </tr>  
+                        </tbody>  
+                      </table>  
+
+            </div>  
+            <div>  
+                 <form class="form-horizontal">  
+                     <fieldset>  
+                        <legend>Currency Entry</legend>  
+                        <div class="control-group">  
+                            <label class="control-label" for="input01">Text input</label>  
+                            <div class="controls">  
+                              <input type="text" class="input-xlarge" id="input01">  
+                              <p class="help-block">any HTML5 text-based input appears like so.</p>  
+                            </div>  
+                        </div>  
+                        <div class="control-group">  
+                            <label class="control-label" for="optionsCheckbox">Checkbox</label>  
+                            <div class="controls">  
+                              <label class="checkbox">  
+                                <input type="checkbox" id="optionsCheckbox" value="option1">  
+                                Option one is this and that—be sure to include why it's great  
+                              </label>  
+                            </div>  
+                        </div>  
+                        <div class="control-group">  
+                            <label class="control-label" for="select01">Select list</label>  
+                            <div class="controls">  
+                              <select id="select01">  
+                                <option>something</option>  
+                                <option>2</option>  
+                                <option>3</option>  
+                                <option>4</option>  
+                                <option>5</option>  
+                              </select>  
+                            </div>  
+                        </div>  
+                        <div class="control-group">  
+                            <label class="control-label" for="multiSelect">Multicon-select</label>  
+                            <div class="controls">  
+                              <select multiple="multiple" id="multiSelect">  
+                                <option>1</option>  
+                                <option>2</option>  
+                                <option>3</option>  
+                                <option>4</option>  
+                                <option>5</option>  
+                              </select>  
+                            </div>  
+                        </div>  
+                        <div class="control-group">  
+                            <label class="control-label" for="fileInput">File input</label>  
+                            <div class="controls">  
+                              <input class="input-file" id="fileInput" type="file">  
+                            </div>  
+                        </div>  
+                        <div class="control-group">  
+                            <label class="control-label" for="textarea">Textarea</label>  
+                            <div class="controls">  
+                              <textarea class="input-xlarge" id="textarea" rows="3"></textarea>  
+                            </div>  
+                        </div>  
+                        <div class="form-actions">  
+                            <button type="submit" class="btn btn-primary">Save changes</button>  
+                            <button class="btn">Cancel</button>  
+                        </div>  
+                     </fieldset>  
+                 </form>
+            </div>  
+         </div>
+       </div><!--/row-->  
+
+       <hr>  
+
+       <footer>  
+          <p>© Scholastic Asia</p>  
+       </footer>  
+    </div><!--/.fluid-container-->  
+      
+    <!-- ================================================== -->  
+    <!-- Placed at the end of the document so the pages load faster -->  
+    <script src="twitter-bootstrap-v2/docs/assets/js/jquery.js"></script>  
+    <script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-transition.js"></script>  
+    <script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-alert.js"></script>  
+    <script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-modal.js"></script>  
+    <script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-dropdown.js"></script>  
+    <script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-scrollspy.js"></script>  
+    <script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-tab.js"></script>  
+    <script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-tooltip.js"></script>  
+    <script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-popover.js"></script>  
+    <script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-button.js"></script>  
+    <script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-collapse.js"></script>  
+    <script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-carousel.js"></script>  
+    <script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-typeahead.js"></script>  
+  
+  </body>  
+</html>

@@ -1,0 +1,1184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACCOUNTINGLIST_TERMS_INTERNALID" xml:space="preserve">
+    <value>3</value>
+    <comment>60 days</comment>
+  </data>
+  <data name="ACTION" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="ADJUSTMENT_ACCOUNT_ID" xml:space="preserve">
+    <value>1001</value>
+  </data>
+  <data name="ADJUSTMENT_ACCOUNT_REPLACEMENT" xml:space="preserve">
+    <value>994</value>
+  </data>
+  <data name="ADJUSTMENT_ACCOUNT_RETURN" xml:space="preserve">
+    <value>995</value>
+  </data>
+  <data name="ADJUSTMENT_ACCOUNT_RETURN_CHARGEOFF" xml:space="preserve">
+    <value>1289</value>
+  </data>
+  <data name="ADJUSTMENT_ACCOUNT_WRITEOFFDMG" xml:space="preserve">
+    <value>1001</value>
+  </data>
+  <data name="ASIA_WEBSERVICE_4_TOKEN_ID" xml:space="preserve">
+    <value>21ef49918967405808a7c85eb065d53142fecca006b50222342fccaba3087208</value>
+    <comment>pro=471f4f9babc5100e878e7d741b466cf2adf2c230337e24e0ce43b12c970a3f4e oldsb=739764c7ade299af3526db1c95b62e7dcccce231182fdd5ae9960f598ffd4112</comment>
+  </data>
+  <data name="ASIA_WEBSERVICE_4_TOKEN_SECRET" xml:space="preserve">
+    <value>adaf71a37eee8fa03e8ace578c477fb483650a3d8611757edfec3e328b90b699</value>
+    <comment>pro=b6e85290a408ad72a7738098f78ce0949cf9851a47e556e17ffdbb6f960fdf0d oldsb1=056abe27d72f9bf28ed71c3e8938620fa4ada06e44c01f5b3ccc8f08eb47e320</comment>
+  </data>
+  <data name="ASIA_WEBSERVICE_TOKEN_ID" xml:space="preserve">
+    <value>7342239c06edb89ecd663bb94d88d2a7f837124518045359a4b5dad6cd97aa8c</value>
+    <comment>pro=cbbe146ad10765be1e01661b9a8cf686b0a7cd933f3315056b452725ca8dad16 oldsb1=eb84d1f7ea7d599c241b82dffa26a7be7c9fe330f3fc45f7b5decfb90e6dc798</comment>
+  </data>
+  <data name="ASIA_WEBSERVICE_TOKEN_SECRET" xml:space="preserve">
+    <value>c5a23682e056f3303b9f4475b61a4a69c337659cad966c83b4b376ac9156b10f</value>
+    <comment>pro=9332e0e248a3c5266969515ad003c034630d7ba74699b1b91566360abc8fd941 oldsb1=3f0528b6c660ff354ce6812d3e6771034b48676ffb6237045f0bcb266b2fae0b</comment>
+  </data>
+  <data name="BCAS_CREDITMEMO_CUSTOMFORM_ID" xml:space="preserve">
+    <value>169</value>
+  </data>
+  <data name="BCAS_CUSTOMER_ID" xml:space="preserve">
+    <value>1222814</value>
+    <comment>Customer-BCAS ID/ old : 3249</comment>
+  </data>
+  <data name="BCAS_CUSTOMER_MY" xml:space="preserve">
+    <value>1222815</value>
+    <comment>Customer-BCAS MY/ old : 3247</comment>
+  </data>
+  <data name="BCAS_CUSTOMER_SG" xml:space="preserve">
+    <value>1223691</value>
+    <comment>Customer-BCAS SG/ old : 10648</comment>
+  </data>
+  <data name="BCAS_CUSTOMER_TH" xml:space="preserve">
+    <value>1223039</value>
+    <comment>156102/ old : 156102</comment>
+  </data>
+  <data name="BCAS_DEFAULT_BIN" xml:space="preserve">
+    <value>708</value>
+    <comment>old : 126</comment>
+  </data>
+  <data name="BCAS_DEFAULT_BIN_COMMIT" xml:space="preserve">
+    <value>706</value>
+    <comment>old : 131</comment>
+  </data>
+  <data name="BCAS_DEFAULT_BIN_UNFULFILL" xml:space="preserve">
+    <value>711</value>
+    <comment>old : 130</comment>
+  </data>
+  <data name="BCAS_DUMMYSALES_BUSINESSCHANNEL" xml:space="preserve">
+    <value>101</value>
+    <comment>BC - BUSINESS CHANNEL INTERNAL ID</comment>
+  </data>
+  <data name="BCAS_DUMMYSALES_INTERNALID" xml:space="preserve">
+    <value>53641</value>
+    <comment>DUMMY SALES ORDER INTERNAL ID</comment>
+  </data>
+  <data name="BCAS_DUMMYSALES_INTERNALID_ID" xml:space="preserve">
+    <value>146447</value>
+  </data>
+  <data name="BCAS_DUMMYSALES_INTERNALID_SG" xml:space="preserve">
+    <value>146446</value>
+  </data>
+  <data name="BCAS_DUMMYSALES_INTERNALID_TH" xml:space="preserve">
+    <value>1485411</value>
+  </data>
+  <data name="BCAS_DUMMYSALES_LOCATION" xml:space="preserve">
+    <value>83</value>
+    <comment>LOCATION INTERNAL ID/ old : 71</comment>
+  </data>
+  <data name="BCAS_DUMMYSALES_MY" xml:space="preserve">
+    <value>38</value>
+    <comment>MY - SUBSIDIARY INTERNAL ID/ old : 3</comment>
+  </data>
+  <data name="BCAS_ID_SUBSIDAIRY" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="BCAS_INVOICE_CUSTOMFORM_GMY" xml:space="preserve">
+    <value>147</value>
+  </data>
+  <data name="BCAS_MY_DC_INTERNALID" xml:space="preserve">
+    <value>34838</value>
+    <comment>34838</comment>
+  </data>
+  <data name="BCAS_MY_RETNNONINV_INTERNALID" xml:space="preserve">
+    <value>34840</value>
+    <comment>34840</comment>
+  </data>
+  <data name="BCAS_MY_ROUDING_INTERNALID" xml:space="preserve">
+    <value>35248</value>
+    <comment>34838</comment>
+  </data>
+  <data name="BCAS_MY_SUBSIDAIRY" xml:space="preserve">
+    <value>38</value>
+    <comment>old : 3</comment>
+  </data>
+  <data name="BCAS_MY_TAXCODE_SR_INTERNALID" xml:space="preserve">
+    <value>944075</value>
+    <comment>old : 27710 new SR-0%-944075</comment>
+  </data>
+  <data name="BCAS_MY_TAXCODE_ZRE_INTERNALID" xml:space="preserve">
+    <value>29016</value>
+  </data>
+  <data name="BCAS_MY_TAXCODE_ZRL_INTERNALID" xml:space="preserve">
+    <value>29015</value>
+  </data>
+  <data name="BCAS_RETURN_CUSTOMFORM_ID" xml:space="preserve">
+    <value>85</value>
+  </data>
+  <data name="BCAS_SALES_CUSTOMFORM_MY" xml:space="preserve">
+    <value>143</value>
+  </data>
+  <data name="BCAS_SG_SUBSIDAIRY" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="COMPANY_COSTCENTER_INTERNALID" xml:space="preserve">
+    <value>112</value>
+    <comment>Credit &amp; Collections</comment>
+  </data>
+  <data name="CONNECTIONSTRING_IMAS" xml:space="preserve">
+    <value>Dsn=imasv3;Uid=sa;Pwd=vectra;</value>
+  </data>
+  <data name="CONNECTIONSTRING_ISAAC" xml:space="preserve">
+    <value>Dsn=isaac;Uid=sa;Pwd=vectra;</value>
+  </data>
+  <data name="CONNECTIONSTRING_TRADE" xml:space="preserve">
+    <value>Dsn=trade;Uid=sa;Pwd=vectra;</value>
+  </data>
+  <data name="CONNECTIONSTRING_TRADE_ASIA" xml:space="preserve">
+    <value>Dsn=trade_asia;Uid=sa;Pwd=vectra;</value>
+  </data>
+  <data name="CONNECTIONSTRING_TRADE_HK" xml:space="preserve">
+    <value>Dsn=trade_hk;Uid=sa;Pwd=vectra;</value>
+  </data>
+  <data name="CONNECTIONSTRING_TRADE_ID" xml:space="preserve">
+    <value>Dsn=trade_id;Uid=sa;Pwd=vectra;</value>
+  </data>
+  <data name="CONNECTIONSTRING_TRADE_SG" xml:space="preserve">
+    <value>Dsn=trade_sg;Uid=sa;Pwd=vectra;</value>
+  </data>
+  <data name="CONNECTIONSTRING_TRADE_TH" xml:space="preserve">
+    <value>Dsn=trade_th;Uid=sa;Pwd=vectra;</value>
+  </data>
+  <data name="CONNECTIONSTRING_WMS" xml:space="preserve">
+    <value>Dsn=wms_test;Uid=dba;Pwd=sql;</value>
+  </data>
+  <data name="COPYRIGHT" xml:space="preserve">
+    <value>©Scholastic Asia</value>
+  </data>
+  <data name="COSTCENTER_ACCOUNTING_INTERNALID" xml:space="preserve">
+    <value>112</value>
+    <comment>Finance &amp; Accounting : Credit &amp; Collections</comment>
+  </data>
+  <data name="COSTCENTER_SALESANDMARKETING" xml:space="preserve">
+    <value>2</value>
+    <comment>Sales &amp; Marketing</comment>
+  </data>
+  <data name="CPAS_CREDIT_MEMO_CUSTOMFORM_GIFI" xml:space="preserve">
+    <value>252</value>
+  </data>
+  <data name="CPAS_CUSTOMER_ID" xml:space="preserve">
+    <value>7575</value>
+  </data>
+  <data name="CPAS_CUSTOMER_IN" xml:space="preserve">
+    <value>10520</value>
+  </data>
+  <data name="CPAS_CUSTOMER_MY" xml:space="preserve">
+    <value>3250</value>
+  </data>
+  <data name="CPAS_CUSTOMER_MY_CASH" xml:space="preserve">
+    <value>18034</value>
+  </data>
+  <data name="CPAS_CUSTOMER_MY_TRADE" xml:space="preserve">
+    <value>17930</value>
+  </data>
+  <data name="CPAS_CUSTOMER_PH" xml:space="preserve">
+    <value>995553</value>
+  </data>
+  <data name="CPAS_CUSTOMER_PH_CASH" xml:space="preserve">
+    <value>995551</value>
+    <comment>UAT:752065    DEV:463242</comment>
+  </data>
+  <data name="CPAS_CUSTOMER_PH_GIFI" xml:space="preserve">
+    <value>995555</value>
+  </data>
+  <data name="CPAS_CUSTOMER_PH_TRADE" xml:space="preserve">
+    <value>995554</value>
+    <comment>UAT: 752064 DEV:463243</comment>
+  </data>
+  <data name="CPAS_CUSTOMER_SG" xml:space="preserve">
+    <value>3251</value>
+  </data>
+  <data name="CPAS_CUSTOMER_TH" xml:space="preserve">
+    <value>9908</value>
+  </data>
+  <data name="CPAS_CUSTOMER_TH_CASH" xml:space="preserve">
+    <value>876407</value>
+  </data>
+  <data name="CPAS_CUSTOMER_TH_TRADE" xml:space="preserve">
+    <value>876408</value>
+  </data>
+  <data name="CPAS_DEFAULT_BIN" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CPAS_INVOICE_CUSTOMFORM_GIFI" xml:space="preserve">
+    <value>148</value>
+  </data>
+  <data name="CPAS_INVOICE_CUSTOMFORM_GMY" xml:space="preserve">
+    <value>147</value>
+  </data>
+  <data name="CPAS_INV_BEFORECUTOFFII_INTERNALID" xml:space="preserve">
+    <value>000000</value>
+  </data>
+  <data name="CPAS_MY_CASHSALES_ACCTCODE" xml:space="preserve">
+    <value>161</value>
+  </data>
+  <data name="CPAS_MY_DC_INTERNALID" xml:space="preserve">
+    <value>34838</value>
+  </data>
+  <data name="CPAS_MY_DOWNPAYMENT_INTERNALID" xml:space="preserve">
+    <value>34836</value>
+  </data>
+  <data name="CPAS_MY_NONINV_INTERNALID" xml:space="preserve">
+    <value>34839</value>
+  </data>
+  <data name="CPAS_MY_OPENJOURNAL_INTERNALID" xml:space="preserve">
+    <value>443758</value>
+  </data>
+  <data name="CPAS_MY_PAYMENT_DEFAULT_ACCTCODE" xml:space="preserve">
+    <value>161</value>
+  </data>
+  <data name="CPAS_MY_RETNNONINV_INTERNALID" xml:space="preserve">
+    <value>34840</value>
+  </data>
+  <data name="CPAS_MY_REVENUEOTHER_INTERNALID" xml:space="preserve">
+    <value>34842</value>
+  </data>
+  <data name="CPAS_MY_REVENUE_FIN_CHARGE" xml:space="preserve">
+    <value>34841</value>
+  </data>
+  <data name="CPAS_MY_RNCOBadDebt_INTERNALID" xml:space="preserve">
+    <value>34843</value>
+  </data>
+  <data name="CPAS_MY_RNCONONINV_INTERNALID" xml:space="preserve">
+    <value>34844</value>
+  </data>
+  <data name="CPAS_MY_SUSPENDBadDebt_INTERNALID" xml:space="preserve">
+    <value>34845</value>
+  </data>
+  <data name="CPAS_MY_TAXCODE_OS_INTERNALID" xml:space="preserve">
+    <value>29019</value>
+  </data>
+  <data name="CPAS_MY_TAXCODE_SR_INTERNALID" xml:space="preserve">
+    <value>944075</value>
+    <comment>old : 27710 new SR-0%-944075</comment>
+  </data>
+  <data name="CPAS_MY_TAXCODE_SR_INTERNALID_OLD_Transaction" xml:space="preserve">
+    <value>27710</value>
+    <comment>keeping this to cater refund for GST period</comment>
+  </data>
+  <data name="CPAS_MY_TAXCODE_ZRE_INTERNALID" xml:space="preserve">
+    <value>29016</value>
+  </data>
+  <data name="CPAS_MY_TAXCODE_ZRL_INTERNALID" xml:space="preserve">
+    <value>29015</value>
+  </data>
+  <data name="CPAS_MY_UFC_INTERNALID" xml:space="preserve">
+    <value>34837</value>
+  </data>
+  <data name="CPAS_PH_CASHSALES_ACCTCODE" xml:space="preserve">
+    <value>170</value>
+  </data>
+  <data name="CPAS_PH_CUSTOMER_PAYMENT_INTERNALID" xml:space="preserve">
+    <value>487027</value>
+  </data>
+  <data name="CPAS_PH_DC_INTERNALID" xml:space="preserve">
+    <value>34838</value>
+  </data>
+  <data name="CPAS_PH_DOWNPAYMENT_INTERNALID" xml:space="preserve">
+    <value>487128</value>
+  </data>
+  <data name="CPAS_PH_GIFI_PAYMENT_DEFAULT_ACCTCODE" xml:space="preserve">
+    <value>1692</value>
+  </data>
+  <data name="CPAS_PH_ISCGIIBAL_INTERNALID" xml:space="preserve">
+    <value>487229</value>
+  </data>
+  <data name="CPAS_PH_NONINV_INTERNALID" xml:space="preserve">
+    <value>34839</value>
+  </data>
+  <data name="CPAS_PH_PAYMENT_DEFAULT_ACCTCODE" xml:space="preserve">
+    <value>170</value>
+  </data>
+  <data name="CPAS_PH_RETNNONINV_INTERNALID" xml:space="preserve">
+    <value>34840</value>
+  </data>
+  <data name="CPAS_PH_RETN_DOWNPAYMENT_INTERNALID" xml:space="preserve">
+    <value>488530</value>
+  </data>
+  <data name="CPAS_PH_REVENUEOTHER_INTERNALID" xml:space="preserve">
+    <value>968</value>
+  </data>
+  <data name="CPAS_PH_REVENUE_FIN_CHARGE" xml:space="preserve">
+    <value>34841</value>
+  </data>
+  <data name="CPAS_PH_RNCOBadDebt_INTERNALID" xml:space="preserve">
+    <value>34843</value>
+  </data>
+  <data name="CPAS_PH_RNCONONINV_INTERNALID" xml:space="preserve">
+    <value>34844</value>
+  </data>
+  <data name="CPAS_PH_ROUNDING_GIFI" xml:space="preserve">
+    <value>674574</value>
+  </data>
+  <data name="CPAS_PH_SUSPENDBadDebt_INTERNALID" xml:space="preserve">
+    <value>34845</value>
+  </data>
+  <data name="CPAS_PH_TAXCODE_OS_INTERNALID" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="CPAS_PH_TAXCODE_SR_INTERNALID" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="CPAS_PH_TAXCODE_ZRE_INTERNALID" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="CPAS_PH_TAXCODE_ZRL_INTERNALID" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="CPAS_PH_TAX_PCT_INTERNALID" xml:space="preserve">
+    <value>488631</value>
+  </data>
+  <data name="CPAS_PH_THC_GPM_INTERNALID" xml:space="preserve">
+    <value>488632</value>
+  </data>
+  <data name="CPAS_PH_THC_INTERNALID" xml:space="preserve">
+    <value>488633</value>
+  </data>
+  <data name="CPAS_PH_UFC_INTERNALID" xml:space="preserve">
+    <value>34837</value>
+  </data>
+  <data name="CPAS_PH_VENDOR" xml:space="preserve">
+    <value>995556</value>
+  </data>
+  <data name="CPAS_PH_VENDOR_CAD" xml:space="preserve">
+    <value>995557</value>
+  </data>
+  <data name="CPAS_PH_VENDOR_COD" xml:space="preserve">
+    <value>995557</value>
+  </data>
+  <data name="CPAS_PH_VENDOR_GIFI" xml:space="preserve">
+    <value>995558</value>
+  </data>
+  <data name="CPAS_RETURN_CUSTOMFORM_ID" xml:space="preserve">
+    <value>85</value>
+  </data>
+  <data name="CPAS_SALES_CUSTOMFORM_ID" xml:space="preserve">
+    <value>143</value>
+    <comment>old=68</comment>
+  </data>
+  <data name="CPAS_SALES_CUSTOMFORM_IN" xml:space="preserve">
+    <value>143</value>
+    <comment>old=68</comment>
+  </data>
+  <data name="CPAS_SALES_CUSTOMFORM_MY" xml:space="preserve">
+    <value>143</value>
+    <comment>old = 143</comment>
+  </data>
+  <data name="CPAS_SALES_CUSTOMFORM_PH" xml:space="preserve">
+    <value>143</value>
+  </data>
+  <data name="CPAS_SALES_CUSTOMFORM_SG" xml:space="preserve">
+    <value>143</value>
+    <comment>old = 138</comment>
+  </data>
+  <data name="CPAS_SALES_CUSTOMFORM_TH" xml:space="preserve">
+    <value>143</value>
+    <comment>old=68</comment>
+  </data>
+  <data name="CPAS_SALES_FULFILL_CUSTOMFORM_MY" xml:space="preserve">
+    <value>146</value>
+  </data>
+  <data name="CPAS_TH_CASHSALES_ACCTCODE" xml:space="preserve">
+    <value>116</value>
+  </data>
+  <data name="CPAS_TH_DC_INTERNALID" xml:space="preserve">
+    <value>34838</value>
+  </data>
+  <data name="CPAS_TH_DOWNPAYMENT_INTERNALID" xml:space="preserve">
+    <value>448701</value>
+  </data>
+  <data name="CPAS_TH_NONINV_INTERNALID" xml:space="preserve">
+    <value>34839</value>
+  </data>
+  <data name="CPAS_TH_PAYMENT_DEFAULT_ACCTCODE" xml:space="preserve">
+    <value>116</value>
+  </data>
+  <data name="CPAS_TH_RETNNONINV_INTERNALID" xml:space="preserve">
+    <value>34840</value>
+  </data>
+  <data name="CPAS_TH_REVENUEOTHER_INTERNALID" xml:space="preserve">
+    <value>34842</value>
+  </data>
+  <data name="CPAS_TH_REVENUE_FIN_CHARGE" xml:space="preserve">
+    <value>34841</value>
+  </data>
+  <data name="CPAS_TH_RNCOBadDebt_INTERNALID" xml:space="preserve">
+    <value>34843</value>
+  </data>
+  <data name="CPAS_TH_RNCONONINV_INTERNALID" xml:space="preserve">
+    <value>34844</value>
+  </data>
+  <data name="CPAS_TH_SUSPENDBadDebt_INTERNALID" xml:space="preserve">
+    <value>34845</value>
+  </data>
+  <data name="CPAS_TH_TAXCODE_OS_INTERNALID" xml:space="preserve">
+    <value>339056</value>
+  </data>
+  <data name="CPAS_TH_TAXCODE_VAT0_INTERNALID" xml:space="preserve">
+    <value>339056</value>
+  </data>
+  <data name="CPAS_TH_TAXCODE_VAT7_INTERNALID" xml:space="preserve">
+    <value>339055</value>
+  </data>
+  <data name="CPAS_TH_UFC_INTERNALID" xml:space="preserve">
+    <value>34837</value>
+  </data>
+  <data name="CPAS_TH_VAT_INTERNALID" xml:space="preserve">
+    <value>268526</value>
+  </data>
+  <data name="CPAS_VENDOR_BILL_CUSTOMFORM_GIFI" xml:space="preserve">
+    <value>117</value>
+  </data>
+  <data name="CUSTBODY_SOREND_SCRIPTID" xml:space="preserve">
+    <value>custbody_end_date</value>
+  </data>
+  <data name="CUSTBODY_SORSTART_SCRIPTID" xml:space="preserve">
+    <value>custbody_start_date</value>
+  </data>
+  <data name="CUSTBODY_SORTAG_SCRIPTID" xml:space="preserve">
+    <value>custbody_so_sortag</value>
+  </data>
+  <data name="CUSTEC_SEISFORDWARTO_EDUGENERAL_INTERNALID" xml:space="preserve">
+    <value>868</value>
+    <comment>old : 708</comment>
+  </data>
+  <data name="CUSTEC_SEISFORDWARTO_INTERNALID" xml:space="preserve">
+    <value>1006</value>
+    <comment>old : 410</comment>
+  </data>
+  <data name="CUSTEC_SEISFORDWARTO_INTERNALID_OS" xml:space="preserve">
+    <value>1364</value>
+    <comment>Sandbox id = 1364, Added by Brash Developer on 20-Apr-2021</comment>
+  </data>
+  <data name="CUSTOMFIELD_BASEDPRICE_SCRIPTID" xml:space="preserve">
+    <value>custcol_rrp_usd</value>
+  </data>
+  <data name="CUSTOMFIELD_BOOKCLUBCLASS_INTERNAL_ID" xml:space="preserve">
+    <value>2933</value>
+  </data>
+  <data name="CUSTOMFIELD_BOOK_CLUB_CLASS_INTERNAL_ID" xml:space="preserve">
+    <value>2933</value>
+  </data>
+  <data name="CUSTOMFIELD_BOOK_CLUB_CLASS_INTERNAL_SCRIPTID" xml:space="preserve">
+    <value>custcol_bookclubclass</value>
+  </data>
+  <data name="CUSTOMFIELD_CUST_BOOKING_INTERNALID" xml:space="preserve">
+    <value>5034</value>
+  </data>
+  <data name="CUSTOMFIELD_CUST_BOOKING_SCRIPTID" xml:space="preserve">
+    <value>custbody_booking_bin_fulfillment</value>
+  </data>
+  <data name="CUSTOMFIELD_DISCPERCENTAGE_SCRIPTID" xml:space="preserve">
+    <value>custcol8</value>
+  </data>
+  <data name="CUSTOMFIELD_DISCTOTAL_SCRIPTID" xml:space="preserve">
+    <value>custcol_discttotal</value>
+  </data>
+  <data name="CUSTOMFIELD_DROPSHIPCUSTOMERNAME_INTERNALID" xml:space="preserve">
+    <value>1510</value>
+  </data>
+  <data name="CUSTOMFIELD_DROPSHIPCUSTOMERNAME_SCRIPTID" xml:space="preserve">
+    <value>custbody22</value>
+  </data>
+  <data name="CUSTOMFIELD_DROPSHIPSODISC_INTERNALID" xml:space="preserve">
+    <value>2237</value>
+  </data>
+  <data name="CUSTOMFIELD_DROPSHIPSODISC_SCRIPTID" xml:space="preserve">
+    <value>custbody27</value>
+  </data>
+  <data name="CUSTOMFIELD_DROPSHIPSOINTERNALID_INTERNALID" xml:space="preserve">
+    <value>2182</value>
+  </data>
+  <data name="CUSTOMFIELD_DROPSHIPSOINTERNALID_SCRIPTID" xml:space="preserve">
+    <value>custbody_interco_seisso_id</value>
+  </data>
+  <data name="CUSTOMFIELD_FAS_ORDER_INTERNAL_ID" xml:space="preserve">
+    <value>7005</value>
+  </data>
+  <data name="CUSTOMFIELD_FAS_ORDER_INTERNAL_SCRIPTID" xml:space="preserve">
+    <value>custbody_fasorder</value>
+  </data>
+  <data name="CUSTOMFIELD_FORWARDERTO_INTERNALID" xml:space="preserve">
+    <value>1521</value>
+  </data>
+  <data name="CUSTOMFIELD_FORWARDERTO_SCRIPTID" xml:space="preserve">
+    <value>custbody24</value>
+  </data>
+  <data name="CUSTOMFIELD_FORWARDER_ADDR1_SCRIPTID" xml:space="preserve">
+    <value>custbody16</value>
+  </data>
+  <data name="CUSTOMFIELD_FORWARDER_ADDR2_SCRIPTID" xml:space="preserve">
+    <value>custbody17</value>
+  </data>
+  <data name="CUSTOMFIELD_FORWARDER_ADDR3_SCRIPTID" xml:space="preserve">
+    <value>custbody18</value>
+  </data>
+  <data name="CUSTOMFIELD_FORWARDER_ADDRESSEE_SCRIPTID" xml:space="preserve">
+    <value>custbody14</value>
+  </data>
+  <data name="CUSTOMFIELD_FORWARDER_ATTENTION_SCRIPTID" xml:space="preserve">
+    <value>custbody13</value>
+  </data>
+  <data name="CUSTOMFIELD_FORWARDER_CITY_SCRIPTID" xml:space="preserve">
+    <value>custbody19</value>
+  </data>
+  <data name="CUSTOMFIELD_FORWARDER_COUNTRY_SCRIPTID" xml:space="preserve">
+    <value>custbody21</value>
+  </data>
+  <data name="CUSTOMFIELD_FORWARDER_LABEL_SCRIPTID" xml:space="preserve">
+    <value>custbody12</value>
+  </data>
+  <data name="CUSTOMFIELD_FORWARDER_PHONE_SCRIPTID" xml:space="preserve">
+    <value>custbody15</value>
+  </data>
+  <data name="CUSTOMFIELD_FORWARDER_POSTCODE_SCRIPTID" xml:space="preserve">
+    <value>custbodycust_trans_forwpostcode</value>
+  </data>
+  <data name="CUSTOMFIELD_FORWARDER_STATE_SCRIPTID" xml:space="preserve">
+    <value>custbody20</value>
+  </data>
+  <data name="CUSTOMFIELD_INVADJ_ADJTYPE_INTERNALID" xml:space="preserve">
+    <value>1515</value>
+  </data>
+  <data name="CUSTOMFIELD_INVADJ_ADJTYPE_SCRIPTID" xml:space="preserve">
+    <value>custbody1</value>
+  </data>
+  <data name="CUSTOMFIELD_INVENTORY_ISBN_INTERNALID" xml:space="preserve">
+    <value>2649</value>
+    <comment>2426</comment>
+  </data>
+  <data name="CUSTOMFIELD_INVENTORY_ISBN_SCRIPTID" xml:space="preserve">
+    <value>custitem_isbn</value>
+  </data>
+  <data name="CUSTOMFIELD_INVENTORY_LEGACY_CODE_INTERNALID" xml:space="preserve">
+    <value>2816</value>
+    <comment>2992</comment>
+  </data>
+  <data name="CUSTOMFIELD_ITEMDROPSHIPPRICE_INTERNALID" xml:space="preserve">
+    <value>2332</value>
+  </data>
+  <data name="CUSTOMFIELD_ITEMDROPSHIPPRICE_SCRIPTID" xml:space="preserve">
+    <value>custcol_sgdrpshp_price</value>
+  </data>
+  <data name="CUSTOMFIELD_ITEMSYNCED_INTERNALID" xml:space="preserve">
+    <value>2339</value>
+  </data>
+  <data name="CUSTOMFIELD_ITEMSYNCED_SCRIPTID" xml:space="preserve">
+    <value>custcol_synced</value>
+  </data>
+  <data name="CUSTOMFIELD_ITEMUSDPRICE_INTERNALID" xml:space="preserve">
+    <value>1488</value>
+  </data>
+  <data name="CUSTOMFIELD_ITEMUSDPRICE_SCRIPTID" xml:space="preserve">
+    <value>custcol_rrp_usd</value>
+  </data>
+  <data name="CUSTOMFIELD_NO_BACK_ORDER_INTERNAL_SCRIPTID" xml:space="preserve">
+    <value>custbody_nobackorder</value>
+    <comment>ANET-37 - Sales Order - Auto stop back order , Added by Brash Developer on 28-Apr-2021</comment>
+  </data>
+  <data name="CUSTOMFIELD_OFFER_DESC_INTERNAL_ID" xml:space="preserve">
+    <value>2943</value>
+  </data>
+  <data name="CUSTOMFIELD_OFFER_DESC_INTERNAL_SCRIPTID" xml:space="preserve">
+    <value>custbody_offer_desc</value>
+  </data>
+  <data name="CUSTOMFIELD_PH_BRANCH_INTERNALID" xml:space="preserve">
+    <value>4382</value>
+  </data>
+  <data name="CUSTOMFIELD_PH_BRANCH_SCRIPTID" xml:space="preserve">
+    <value>custbody_cseg_branch</value>
+  </data>
+  <data name="CUSTOMFIELD_PH_SUPPINV_INTERNALID" xml:space="preserve">
+    <value>3531</value>
+  </data>
+  <data name="CUSTOMFIELD_PH_SUPPINV_SCRIPTID" xml:space="preserve">
+    <value>custbody_atchsupplierinvoicecpy</value>
+  </data>
+  <data name="CUSTOMFIELD_PH_SUPPINV_VALUE" xml:space="preserve">
+    <value>1244958</value>
+  </data>
+  <data name="CUSTOMFIELD_PODATE_SCRIPTID" xml:space="preserve">
+    <value>custbody_custom_opsdate</value>
+  </data>
+  <data name="CUSTOMFIELD_REMARKS_INTERNALID" xml:space="preserve">
+    <value>1520</value>
+  </data>
+  <data name="CUSTOMFIELD_REMARKS_SCRIPTID" xml:space="preserve">
+    <value>custbody10</value>
+  </data>
+  <data name="CUSTOMFIELD_SALESTERRITORY_SCRIPTID" xml:space="preserve">
+    <value>custentity_mp_schosalesterritory</value>
+  </data>
+  <data name="CUSTOMFIELD_SCHADD_INTERNALID" xml:space="preserve">
+    <value>custbody22</value>
+  </data>
+  <data name="CUSTOMFIELD_SCHO_SALESTERRITORY_INTERNALID" xml:space="preserve">
+    <value>1503</value>
+  </data>
+  <data name="CUSTOMFIELD_SCHO_SALESTERRITORY_SCRIPTID" xml:space="preserve">
+    <value>custcol_salesterritory_sch</value>
+  </data>
+  <data name="CUSTOMFIELD_SEISSALESORDERNUMBER_INTERNALID" xml:space="preserve">
+    <value>2181</value>
+  </data>
+  <data name="CUSTOMFIELD_SEISSALESORDERNUMBER_SCRIPTID" xml:space="preserve">
+    <value>custbody_interco_seisso</value>
+  </data>
+  <data name="CUSTOMFIELD_SORTAG_SCRIPTID" xml:space="preserve">
+    <value>custentity_customer_sortag</value>
+  </data>
+  <data name="CUSTOMFIELD_SYNCINDICATOR_INTERNALID" xml:space="preserve">
+    <value>2330</value>
+  </data>
+  <data name="CUSTOMFIELD_SYNCINDICATOR_SCRIPTID" xml:space="preserve">
+    <value>custbody28</value>
+  </data>
+  <data name="CUSTOMFIELD_SYNCTOWMS_INTERNALID" xml:space="preserve">
+    <value>1517</value>
+  </data>
+  <data name="CUSTOMFIELD_SYNCTOWMS_SCRIPTID" xml:space="preserve">
+    <value>custbody_wms_field</value>
+  </data>
+  <data name="CUSTOMFIELD_TRANS_ISBN_INTERNALID" xml:space="preserve">
+    <value>2818</value>
+    <comment>2651</comment>
+  </data>
+  <data name="CUSTOMFIELD_TRANS_ISBN_SCRIPTID" xml:space="preserve">
+    <value>custcol_isbn</value>
+  </data>
+  <data name="CUSTOMREC_FORWADD1_SCRIPTID" xml:space="preserve">
+    <value>custrecord21</value>
+  </data>
+  <data name="CUSTOMREC_FORWADD2_SCRIPTID" xml:space="preserve">
+    <value>custrecord22</value>
+  </data>
+  <data name="CUSTOMREC_FORWADD3_SCRIPTID" xml:space="preserve">
+    <value>custrecord23</value>
+  </data>
+  <data name="CUSTOMREC_FORWADDRESSEE_SCRIPTID" xml:space="preserve">
+    <value>custrecord19</value>
+  </data>
+  <data name="CUSTOMREC_FORWADDRESS_SCRIPTID" xml:space="preserve">
+    <value>custrecord27</value>
+  </data>
+  <data name="CUSTOMREC_FORWADD_INTERNALID" xml:space="preserve">
+    <value>177</value>
+  </data>
+  <data name="CUSTOMREC_FORWATTENTION_SCRIPTID" xml:space="preserve">
+    <value>custrecord18</value>
+  </data>
+  <data name="CUSTOMREC_FORWCITY_SCRIPTID" xml:space="preserve">
+    <value>custrecord24</value>
+  </data>
+  <data name="CUSTOMREC_FORWCOUNTRY_SCRIPTID" xml:space="preserve">
+    <value>custrecord26</value>
+  </data>
+  <data name="CUSTOMREC_FORWISDEFAULT_SCRIPTID" xml:space="preserve">
+    <value>custrecord29</value>
+  </data>
+  <data name="CUSTOMREC_FORWLABEL_SCRIPTID" xml:space="preserve">
+    <value>custrecord17</value>
+  </data>
+  <data name="CUSTOMREC_FORWNAME_SCRIPTID" xml:space="preserve">
+    <value>custrecord28</value>
+  </data>
+  <data name="CUSTOMREC_FORWPHONE_SCRIPTID" xml:space="preserve">
+    <value>custrecord20</value>
+  </data>
+  <data name="CUSTOMREC_FORWPOSTCODE_SCRIPTID" xml:space="preserve">
+    <value>custrecord30</value>
+  </data>
+  <data name="CUSTOMREC_FORWSTATE_SCRIPTID" xml:space="preserve">
+    <value>custrecord25</value>
+  </data>
+  <data name="CUSTOMREC_SYNCDATE_SCRIPTID" xml:space="preserve">
+    <value>custrecord_syncrecorddate</value>
+  </data>
+  <data name="CUSTOMREC_SYNCHISTORY_INTERNALID" xml:space="preserve">
+    <value>481</value>
+  </data>
+  <data name="CUSTOMREC_SYNCTYPE_SCRIPTID" xml:space="preserve">
+    <value>custrecord_syncrecorddescription</value>
+  </data>
+  <data name="CUSTOMREC_TRXSYNC_SCRIPTID" xml:space="preserve">
+    <value>custrecord_syncrecordtransaction</value>
+  </data>
+  <data name="CUSTOMVALUE_INVADJ_ADJTYPE_ADJ" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="CUSTOMVALUE_INVADJ_ADJTYPE_PHYSICALCOUNT" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CUSTOMVALUE_INVADJ_ADJTYPE_RCV" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="CUSTOMVALUE_INVADJ_ADJTYPE_REPLACEMENT" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CUSTOMVALUE_INVADJ_ADJTYPE_RETN" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="CUSTOMVALUE_INVADJ_ADJTYPE_RNCO" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="CUSTOMVALUE_INVADJ_ADJTYPE_WRITEOFFDMG" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CUST_BCASID_INTERNALID" xml:space="preserve">
+    <value>10648</value>
+  </data>
+  <data name="CUST_BCASMY_INTERNALID" xml:space="preserve">
+    <value>3247</value>
+  </data>
+  <data name="CUST_BCASSG_INTERNALID" xml:space="preserve">
+    <value>3249</value>
+  </data>
+  <data name="DATE_TIME" xml:space="preserve">
+    <value>Date Time</value>
+  </data>
+  <data name="DROPSHIPSG_LOCATION_INTERNALID" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="DROPSHIPTH_LOCATION_INTERNALID" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="DROPSHIP_CUSTOMER_TH" xml:space="preserve">
+    <value>P38333- C2</value>
+    <comment>old : P01042</comment>
+  </data>
+  <data name="DROPSHIP_CUSTOMER_TH_INTERNALID" xml:space="preserve">
+    <value>1223040</value>
+    <comment>old : 10567</comment>
+  </data>
+  <data name="DROPSHIP_CUSTOMER_TH_ONLINESTORE" xml:space="preserve">
+    <value>P38333- C148237</value>
+    <comment>Added by Brash Dev on 23-Apr-2021</comment>
+  </data>
+  <data name="FROM_DATE" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="LOB_BOOKCLUBS_BIZCHANNELID" xml:space="preserve">
+    <value>365c2b8b-9a20-4840-ae50-cfc7a48a8e01</value>
+    <comment>Line of Business - Business Channel ID from SSA</comment>
+  </data>
+  <data name="LOB_BOOKCLUBS_INTERNALID" xml:space="preserve">
+    <value>101</value>
+    <comment>Line of Business - Internal ID from Netsuite</comment>
+  </data>
+  <data name="LOB_BOOKFAIR_BIZCHANNELID" xml:space="preserve">
+    <value>16612eb3-c84d-468b-bb43-cfc7a48a8e01</value>
+    <comment>Line of Business - Business Channel ID from SSA</comment>
+  </data>
+  <data name="LOB_BOOKFAIR_INTERNALID" xml:space="preserve">
+    <value>102</value>
+    <comment>Line of Business - Internal ID from Netsuite</comment>
+  </data>
+  <data name="LOB_DIRECTMARKETING_BIZCHANNELID" xml:space="preserve">
+    <value>8107538c-3809-445d-9f25-cfc7a48a8e01</value>
+    <comment>Line of Business - Business Channel ID from SSA</comment>
+  </data>
+  <data name="LOB_DIRECTSALES_BIZCHANNELID" xml:space="preserve">
+    <value>f9444d39-3b45-4a89-8d13-cfc7a48a8e01</value>
+    <comment>Line of Business - Business Channel ID from SSA</comment>
+  </data>
+  <data name="LOB_DIRECTSALES_INTERNALID" xml:space="preserve">
+    <value>105</value>
+    <comment>Line of Business - Internal ID from Netsuite</comment>
+  </data>
+  <data name="LOB_EDUCATIONGENERAL_INTERNALID" xml:space="preserve">
+    <value>109</value>
+    <comment>Line of Business - Internal ID from Netsuite - Exclude from items</comment>
+  </data>
+  <data name="LOB_EDUCATION_BIZCHANNELID" xml:space="preserve">
+    <value>dd6317c4-97d1-4c88-a9ae-dd4bf8f97070</value>
+    <comment>Line of Business - Business Channel ID from SSA</comment>
+  </data>
+  <data name="LOB_EDUCATION_INTERNALID" xml:space="preserve">
+    <value>2</value>
+    <comment>Line of Business - Internal ID from Netsuite</comment>
+  </data>
+  <data name="LOB_EDUDIGITAL_INTERNALID" xml:space="preserve">
+    <value>110</value>
+  </data>
+  <data name="LOB_EDUEARLY_INTERNALID" xml:space="preserve">
+    <value>113</value>
+  </data>
+  <data name="LOB_EDUFRANCHISE_INTERNALID" xml:space="preserve">
+    <value>116</value>
+  </data>
+  <data name="LOB_ONLINESTORE_INTERNALID" xml:space="preserve">
+    <value>215</value>
+    <comment>Line of Business - Internal ID from Netsuite , Added By Brash Dev in March 2021</comment>
+  </data>
+  <data name="LOB_PROMOTIONMATERIALS_BIZCHANNELID" xml:space="preserve">
+    <value>aaedd660-e30d-4c76-90ea-19481e28ba2e</value>
+    <comment>Line of Business - Business Channel ID from SSA</comment>
+  </data>
+  <data name="LOB_TRADE_BIZCHANNELID" xml:space="preserve">
+    <value>4cc04da6-f632-4c49-bd9e-cfc7a48a8e01</value>
+    <comment>Line of Business - Business Channel ID from SSA</comment>
+  </data>
+  <data name="LOB_TRADE_INTERNALID" xml:space="preserve">
+    <value>103</value>
+    <comment>Line of Business - Internal ID from Netsuite</comment>
+  </data>
+  <data name="MESSAGE_LABEL_QUEUENAME_SDE" xml:space="preserve">
+    <value>sde21881</value>
+    <comment>prod=sde21881, staging=sde13771</comment>
+  </data>
+  <data name="MESSAGE_LABEL_QUEUENAME_SDE2" xml:space="preserve">
+    <value>sde08911</value>
+    <comment>prod=sde08911, staging=sde18881</comment>
+  </data>
+  <data name="MESSAGE_LABEL_QUEUENAME_SSA" xml:space="preserve">
+    <value>ssa93145</value>
+    <comment>prod=ssa93145, staging=ssa74123</comment>
+  </data>
+  <data name="MESSAGE_LABEL_QUEUENAME_WMS" xml:space="preserve">
+    <value>wms6532</value>
+  </data>
+  <data name="NETSUITESANDBOX_APPLICATIONID" xml:space="preserve">
+    <value>4EFCED3F-A2CF-4267-97ED-6AED959B5A6C</value>
+  </data>
+  <data name="NETSUITESANDBOX_LOGIN_EMAIL" xml:space="preserve">
+    <value>kkkang@scholastic.asia</value>
+    <comment>nsws-id1@scholastic.asia</comment>
+  </data>
+  <data name="NETSUITESANDBOX_LOGIN_PASSWORD" xml:space="preserve">
+    <value>Scholastic123</value>
+    <comment>SchWS2014#!</comment>
+  </data>
+  <data name="NETSUITE_Consumer_Key" xml:space="preserve">
+    <value>b03dbfc351e8d6a80f6d990193b5313d79ac9bdb27bb7c79b8384fe22a359ae9</value>
+    <comment>prod=e573114e9ee7d01049763a26affd70f618f2c197bcff7db88a561aeb7ae8a69e</comment>
+  </data>
+  <data name="NETSUITE_Consumer_Secret" xml:space="preserve">
+    <value>5b993f16b92fcd5308f97f144ae32cac87a297479fcdc7877c5d5f5a036146b3</value>
+    <comment>prod=67c224f6c4cf87741d54a4a39c8fe254c32dcd24e8d61a5ed07f06fa92048d4e</comment>
+  </data>
+  <data name="NETSUITE_LOGIN_ACCOUNT" xml:space="preserve">
+    <value>3479023_SB2</value>
+    <comment>prod = 3479023, sandbox uat = 3479023_SB2</comment>
+  </data>
+  <data name="NETSUITE_LOGIN_APPLICATIONID" xml:space="preserve">
+    <value>65758E57-F3A3-4449-9E1E-3221B0C08EF7</value>
+    <comment>prod=4EFCED3F-A2CF-4267-97ED-6AED959B5A6C, beta =EAFFD682-E748-46F6-9833-B19E7C06BA72 , dev=2B9B3501-98F2-4B76-BEE1-6819AFAD8EB2</comment>
+  </data>
+  <data name="NETSUITE_LOGIN_EMAIL" xml:space="preserve">
+    <value>netsuitewebservice4@scholastic.asia</value>
+    <comment>prod = netsuitewebservice@scholastic.asia,beta uat = netsuitewebservice3@scholastic.asia</comment>
+  </data>
+  <data name="NETSUITE_LOGIN_EMAIL_PULL" xml:space="preserve">
+    <value>netsuitewebservice4@scholastic.asia</value>
+  </data>
+  <data name="NETSUITE_LOGIN_PASSWORD" xml:space="preserve">
+    <value>S1618ws2#$</value>
+    <comment>prod = S1618ws2#$ , sandbox uat = S2688ws5th#$</comment>
+  </data>
+  <data name="NETSUITE_LOGIN_ROLE_INTERNALID" xml:space="preserve">
+    <value>1234</value>
+    <comment>Full Access=18 in production, New Role For both for prodcution and sandbox=1234</comment>
+  </data>
+  <data name="Netsuite_Prod_URL" xml:space="preserve">
+    <value>https://webservices.na1.netsuite.com/wsdl/v2016_2_0/netsuite.wsdl</value>
+    <comment>old: https://webservices.netsuite.com/wsdl/v2013_2_0/netsuite.wsdl</comment>
+  </data>
+  <data name="Netsuite_SandBox_URL" xml:space="preserve">
+    <value>https://webservices.sandbox.netsuite.com/wsdl/v2016_2_0/netsuite.wsdl</value>
+  </data>
+  <data name="NON_TAXABLE_TAXCODE" xml:space="preserve">
+    <value>ZRL</value>
+  </data>
+  <data name="NON_TAXABLE_TAXSCHEDULE" xml:space="preserve">
+    <value>SCH2</value>
+  </data>
+  <data name="NON_TAXABLE_TAXSCHEDULE5" xml:space="preserve">
+    <value>SCH5</value>
+  </data>
+  <data name="PO_2014_inv_2_internal_id" xml:space="preserve">
+    <value>260</value>
+  </data>
+  <data name="PURCHASEORDER_EMPLOYEE_INTERNALID" xml:space="preserve">
+    <value>1201793</value>
+  </data>
+  <data name="QUEUENAME_CPAS" xml:space="preserve">
+    <value>.\private$\sde_cpas</value>
+  </data>
+  <data name="QUEUENAME_SDE" xml:space="preserve">
+    <value>.\private$\sde21881</value>
+  </data>
+  <data name="QUEUENAME_SDE2" xml:space="preserve">
+    <value>.\private$\sde08911</value>
+  </data>
+  <data name="QUEUENAME_SSA" xml:space="preserve">
+    <value>.\private$\ssa93145</value>
+  </data>
+  <data name="QUEUENAME_WMS" xml:space="preserve">
+    <value>.\private$\wms93145</value>
+  </data>
+  <data name="QUEUENAME_WMS_PULL" xml:space="preserve">
+    <value>.\private$\wms93145</value>
+  </data>
+  <data name="RESOURCE_FILE_FOR" xml:space="preserve">
+    <value>Sandbox</value>
+  </data>
+  <data name="RUNSYNCHRONOUS" xml:space="preserve">
+    <value>NO</value>
+  </data>
+  <data name="SALES_ORDER_CREDIT_HOLD_FIELDID" xml:space="preserve">
+    <value>custbody_credit_hold</value>
+  </data>
+  <data name="SEIS_CUSTOMER_MY" xml:space="preserve">
+    <value>P38676- C3</value>
+    <comment>Scholastic Education International (S) Pte. Ltd. / old : P00892</comment>
+  </data>
+  <data name="SEIS_CUSTOMER_MY_EDUGENERAL" xml:space="preserve">
+    <value>P38676- C2</value>
+    <comment>old : P00891- C1054</comment>
+  </data>
+  <data name="SEIS_CUSTOMER_MY_EDUGENERAL_INTERNALID" xml:space="preserve">
+    <value>1223692</value>
+    <comment>old : 995550</comment>
+  </data>
+  <data name="SEIS_CUSTOMER_MY_INTERNALID" xml:space="preserve">
+    <value>1223693</value>
+    <comment>old : 6568</comment>
+  </data>
+  <data name="SEIS_CUSTOMER_MY_ONLINESTORE" xml:space="preserve">
+    <value>P38676- C4</value>
+    <comment>Added By Brash dev on 23-Apr-2021</comment>
+  </data>
+  <data name="SEIS_CUSTOMER_MY_ONLINESTORE_INTERNALID" xml:space="preserve">
+    <value>2516077</value>
+    <comment>Sandbox id = 2516077 , Brash Dev March 2021</comment>
+  </data>
+  <data name="SEND_QUEUE_SIZE" xml:space="preserve">
+    <value>1000</value>
+  </data>
+  <data name="SUBSIDIARY_INTERNALID_MY" xml:space="preserve">
+    <value>38</value>
+    <comment>old : 3</comment>
+  </data>
+  <data name="SUBSIDIARY_INTERNALID_SA" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="SUBSIDIARY_INTERNALID_SEIS" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="SUBSIDIARY_INTERNALID_SG" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="SUBSIDIARY_INTERNALID_TH" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="SUBSIDIARY_NAME_MY" xml:space="preserve">
+    <value>SCHOLASTIC (ASIA) SDN BHD</value>
+  </data>
+  <data name="TAXABLE_TAXCODE" xml:space="preserve">
+    <value>SR-0%</value>
+    <comment>old value: SR</comment>
+  </data>
+  <data name="TAXABLE_TAXSCHEDULE" xml:space="preserve">
+    <value>SCH3</value>
+  </data>
+  <data name="TAXABLE_TAXSCHEDULE4" xml:space="preserve">
+    <value>SCH4</value>
+  </data>
+  <data name="TH_CUSTOMER_MY_EDUGENERAL_INTERNALID" xml:space="preserve">
+    <value>2503104</value>
+    <comment>16july add</comment>
+  </data>
+  <data name="TH_CUSTOMER_MY_ONLINESTORE_INTERNALID" xml:space="preserve">
+    <value>2516076</value>
+    <comment>Sandbox id = 2516076, Brash Dev March 2021</comment>
+  </data>
+  <data name="TIMEOUTQUEUE" xml:space="preserve">
+    <value>900</value>
+  </data>
+  <data name="TRADE_BOOKED_BIN" xml:space="preserve">
+    <value>808</value>
+    <comment>old:808, varun bin:822</comment>
+  </data>
+  <data name="TRADE_DEFAULT_BIN" xml:space="preserve">
+    <value>716</value>
+    <comment>old : 117, Limit to commit=820, PO=712</comment>
+  </data>
+  <data name="TRADE_DEFAULT_BIN_COMMIT" xml:space="preserve">
+    <value>712</value>
+    <comment>old : 712, 821: varun commit bin</comment>
+  </data>
+  <data name="TRADE_DEFAULT_BIN_UNFULFILL" xml:space="preserve">
+    <value>719</value>
+    <comment>old : 719, varun wip :823</comment>
+  </data>
+  <data name="TRADE_DEFAULT_LOCATION" xml:space="preserve">
+    <value>83</value>
+    <comment>old :83, varun location:110</comment>
+  </data>
+  <data name="TRADE_EXCESSFULFILLMENTLOCATION_INTERNALID" xml:space="preserve">
+    <value>83</value>
+    <comment>TRADE MAIN WAREHOUSE/ old : 71</comment>
+  </data>
+  <data name="TRADE_INVOICE_CUSTOMFORM_DROPSHIPSG" xml:space="preserve">
+    <value>163</value>
+  </data>
+  <data name="TRADE_INVOICE_CUSTOMFORM_DROPSHIPTH" xml:space="preserve">
+    <value>175</value>
+  </data>
+  <data name="TRADE_INVOICE_CUSTOMFORM_GMY" xml:space="preserve">
+    <value>293</value>
+  </data>
+  <data name="TRADE_SALES_CUSTOMFORM_MY" xml:space="preserve">
+    <value>142</value>
+  </data>
+  <data name="WCF_URL_SDE" xml:space="preserve">
+    <value>http://localhost:54775/WCF/Service1.svc</value>
+  </data>
+  <data name="WCF_URL_SSA" xml:space="preserve">
+    <value>http://localhost:54776/WCF%20SSA/SSA_Service1.svc</value>
+  </data>
+  <data name="WCF_URL_WMS" xml:space="preserve">
+    <value>http://localhost:54776/WCF%20WMS/WMS_Service1.svc</value>
+  </data>
+</root>

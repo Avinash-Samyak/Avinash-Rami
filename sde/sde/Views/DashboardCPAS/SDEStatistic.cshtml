@@ -1,0 +1,46 @@
+﻿@model IEnumerable<sde.Models.DashboardSalesOrderList>
+@{
+    ViewBag.Title = "SDEStatistic";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*This is for JSON*@
+<script src="../../Scripts/json2.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        // here i have used datatables.js (jQuery Data Table)
+        $('.tbl').dataTable({
+            "sDom": 'T<"clear">lfrtip',
+            "oTableTools": {
+                "aButtons": [],
+                "sRowSelect": "single"
+            },
+            "bLengthChange": false,
+            "bFilter": false,
+            "bSort": false,
+            "bInfo": false
+        });
+
+        var oTable = $('.tbl').dataTable();
+        document.getElementById('WORKWEEK').focus();
+    });
+
+    function returnToList() {
+        window.location.href = "/DashboardCPAS/" + $('#TranType').val();
+    }
+</script>
+
+<div class="span11">
+    <div class="leaderboard" style="padding-left: 10px; padding-right: 10px;">
+        <h1>SDE Status Details</h1>
+        <div class="content">
+            <table>
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+

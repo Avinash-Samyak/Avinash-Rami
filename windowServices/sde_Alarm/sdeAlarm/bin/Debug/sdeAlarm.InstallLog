@@ -1,0 +1,1660 @@
+﻿Installing assembly 'C:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe assembly.
+Committing assembly 'C:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing assembly 'c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Restoring event log to previous state for source Service1.
+Uninstalling assembly 'c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = c:\Users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.InstallLog
+   assemblypath = c:\users\xypang\Documents\Visual Studio 2012\Projects\sdeAlarm\sdeAlarm\bin\debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Warning: The source sde_Alarm is not registered on the local machine.
+Service sde_Alarm is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Warning: The source sde_Alarm is not registered on the local machine.
+Service sde_Alarm is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Warning: The source sde_Alarm is not registered on the local machine.
+Service sde_Alarm is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang09\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang09\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang09\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang09\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang09\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang09\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang09\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang09\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang09\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang12\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang12\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang12\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.
+Installing assembly 'C:\dev\sde-ver1.0-xypang12\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang12\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang12\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Installing service sde_Alarm...
+Service sde_Alarm has been successfully installed.
+Creating EventLog source sde_Alarm in log Application...
+Committing assembly 'C:\dev\sde-ver1.0-xypang12\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang12\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang12\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Uninstalling assembly 'C:\dev\sde-ver1.0-xypang12\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\sde-ver1.0-xypang12\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.InstallLog
+   assemblypath = C:\dev\sde-ver1.0-xypang12\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+Removing EventLog source sde_Alarm.
+Service sde_Alarm is being removed from the system...
+Service sde_Alarm was successfully removed from the system.

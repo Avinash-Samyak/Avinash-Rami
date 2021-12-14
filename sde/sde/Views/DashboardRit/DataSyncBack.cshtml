@@ -1,0 +1,63 @@
+﻿@model Tuple<sde.Models.NSDataForMqList>
+@{
+    ViewBag.Title = "Data Sync Back";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="leaderboard" style="padding-left: 10px; padding-right: 10px;">
+            <h1>RIT</h1>
+            <ul id="tabs1" class="nav nav-tabs" data-tabs="tabs1">
+                <li><a href="../DashboardRIT/TasksStatus">NetSuite Tasks</a></li>
+                <li><a href="../DashboardRIT/MQStatus">MSMQ</a></li>
+                <li><a href="../DashboardRIT/SDEStatus">NetSuite</a></li>
+                <li><a href="../DashboardRIT/Logger">Logger</a></li>
+                <li><a href="../DashboardRIT/Index">Scheduler</a></li>
+                <li class="active"><a href="../DashboardRIT/Data Sync Back">Data Sync Back</a></li>
+                <li><a href="../DashboardRIT/DummySO">Dummy SO</a></li>                         
+            </ul>
+</div>
+
+<div id="my-tab-content1" class="tab-content">
+    <div class="tab-pane active table-responsive" id="tabScheduler">
+                    <table class="table table-bordered table-condensed">
+                        <tr style="background-color: #FF8336;">
+                            <th>Transaction Type</th>
+                            <th>Job ID</th>
+                            <th>Internal ID</th>
+                            <th>Consolidate Table</th>
+                            <th>Status</th>
+                            <th>Push Date</th>
+                            <th>Pull Date</th>
+                            <th>Updated Date</th>
+                            <th>TranID</th>
+
+                        </tr>
+                        @for (int i = 0; i < Model.Item1.list.Count(); i++)
+                        {
+                            
+                            <tr style="background-color: #FCDAB6;">
+                                <td>@Model.Item1.list[i].transactionType</td>
+                                <td>@Model.Item1.list[i].jobID</td>
+                                <td>@Model.Item1.list[i].internalID</td>
+                                <td>@Model.Item1.list[i].consolidateTable</td>
+                                <td>@Model.Item1.list[i].status</td>
+                                <td>@Model.Item1.list[i].pushDate</td>
+                                <td>@Model.Item1.list[i].pullDate</td>
+                                <td>@Model.Item1.list[i].updatedDate</td>
+                                <td>@Model.Item1.list[i].tranID</td>
+                                
+                            </tr>
+                            }
+                           
+                    </table>
+                </div>
+</div>
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs1').tab();
+        $('#tabs2').tab();
+    });
+</script>
+
+<script type="text/javascript" src="../../Scripts/bootstrap.min.js"></script>

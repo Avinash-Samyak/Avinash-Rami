@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:54775/WCF/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:54775/WCF/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:54775/WCF/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/sde.WCF" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetActivatedSchedule_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetActivatedSchedule" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetActivatedSchedule_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetActivatedScheduleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ExecuteScheduler_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteScheduler" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ExecuteScheduler_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteSchedulerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PushNetsuite_InputMessage">
+    <wsdl:part name="parameters" element="tns:PushNetsuite" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PushNetsuite_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PushNetsuiteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PullNetsuite_InputMessage">
+    <wsdl:part name="parameters" element="tns:PullNetsuite" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PullNetsuite_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PullNetsuiteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PushMQ_InputMessage">
+    <wsdl:part name="parameters" element="tns:PushMQ" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PushMQ_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PushMQResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PullMQ_InputMessage">
+    <wsdl:part name="parameters" element="tns:PullMQ" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PullMQ_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PullMQResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PullMQ2_InputMessage">
+    <wsdl:part name="parameters" element="tns:PullMQ2" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PullMQ2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PullMQ2Response" />
+  </wsdl:message>
+  <wsdl:message name="IService1_WelComeMessage_InputMessage">
+    <wsdl:part name="parameters" element="tns:WelComeMessage" />
+  </wsdl:message>
+  <wsdl:message name="IService1_WelComeMessage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WelComeMessageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ConnectToSde_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConnectToSde" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ConnectToSde_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConnectToSdeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetActivatedSchedule">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetActivatedSchedule" message="tns:IService1_GetActivatedSchedule_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetActivatedScheduleResponse" message="tns:IService1_GetActivatedSchedule_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteScheduler">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ExecuteScheduler" message="tns:IService1_ExecuteScheduler_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ExecuteSchedulerResponse" message="tns:IService1_ExecuteScheduler_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PushNetsuite">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/PushNetsuite" message="tns:IService1_PushNetsuite_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/PushNetsuiteResponse" message="tns:IService1_PushNetsuite_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PullNetsuite">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/PullNetsuite" message="tns:IService1_PullNetsuite_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/PullNetsuiteResponse" message="tns:IService1_PullNetsuite_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PushMQ">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/PushMQ" message="tns:IService1_PushMQ_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/PushMQResponse" message="tns:IService1_PushMQ_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PullMQ">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/PullMQ" message="tns:IService1_PullMQ_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/PullMQResponse" message="tns:IService1_PullMQ_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PullMQ2">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/PullMQ2" message="tns:IService1_PullMQ2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/PullMQ2Response" message="tns:IService1_PullMQ2_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WelComeMessage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/WelComeMessage" message="tns:IService1_WelComeMessage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/WelComeMessageResponse" message="tns:IService1_WelComeMessage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConnectToSde">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ConnectToSde" message="tns:IService1_ConnectToSde_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ConnectToSdeResponse" message="tns:IService1_ConnectToSde_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetActivatedSchedule">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetActivatedSchedule" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteScheduler">
+      <soap:operation soapAction="http://tempuri.org/IService1/ExecuteScheduler" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PushNetsuite">
+      <soap:operation soapAction="http://tempuri.org/IService1/PushNetsuite" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PullNetsuite">
+      <soap:operation soapAction="http://tempuri.org/IService1/PullNetsuite" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PushMQ">
+      <soap:operation soapAction="http://tempuri.org/IService1/PushMQ" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PullMQ">
+      <soap:operation soapAction="http://tempuri.org/IService1/PullMQ" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PullMQ2">
+      <soap:operation soapAction="http://tempuri.org/IService1/PullMQ2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WelComeMessage">
+      <soap:operation soapAction="http://tempuri.org/IService1/WelComeMessage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConnectToSde">
+      <soap:operation soapAction="http://tempuri.org/IService1/ConnectToSde" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:54775/WCF/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,118 @@
+﻿@{
+    ViewBag.Title = "";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="leaderboard" style="padding-left: 10px; padding-right: 10px;">
+            <h1>RIT</h1>
+            <ul id="tabs1" class="nav nav-tabs" data-tabs="tabs1">
+                <li><a href="../Dashboard/Index">Scheduler</a></li>
+                <li><a href="../Dashboard/SDEStatus">NetSuite</a></li>
+                <li><a href="../Dashboard/MQStatus">MSMQ</a></li>
+                <li><a href="../Dashboard/TasksStatus">NetSuite Tasks</a></li>
+                <li><a href="../Dashboard/Logger">Logger</a></li>
+                <li class ="active"><a href="../Dashboard/Adjustment">Adjustment</a></li>
+            </ul>
+@*    @using (Html.BeginForm("UploadToNetsuite", "Dashboard", FormMethod.Post))
+    {
+    *@<button  id="adjustmentbtn" style="position:relative;text-align:center;" type="submit" class="btn btn-primary">Upload Adjustment to Netsuite</button>@*
+    }*@
+  <button  id="transferbtn" style="position:relative;text-align:center;" type="submit" class="btn btn-primary">Netsuite Stock Transfer</button>
+    </div>
+       <div id="loaderDiv" style="position: absolute; top: 0%; left: 0%; width: 100%; height: 100%; visibility: hidden; filter: alpha(opacity=70); background-color: gray; z-index: 10000; opacity: 0.8;">
+     <div style="position:absolute; text-align:center;vertical-align:middle;top:50%;width:100%; height:100%;"><img src="../../Content/images/ajax-loader.gif" /></div></div>
+
+  @*     <div id="loaderDiv" style="position: absolute; top: 0%; left: 0%; width: 100%; height: 100%; visibility: hidden; filter: alpha(opacity=70); background-color: gray; z-index: 10000; opacity: 0.8;">
+     <div style="position:absolute; text-align:center;vertical-align:middle;top:50%;width:100%; height:100%;">testest</div></div>*@
+     
+<form action="csvFileUpload" method="post" enctype="multipart/form-data">
+
+  <input type="file" name="file" id="file" style="position:absolute;top:165px;left:450px"  />
+  <input type="submit" value="Upload File" style="position:absolute;top:195px;left:450px" />
+
+</form>
+<input type="button" id="loaddbbtn" style="position:absolute;top:225px;left:450px" value="Load csv into database"/>
+    
+
+
+
+<script>
+
+    function loaderDiv() {
+       // progress();
+        document.getElementById('loaderDiv').style.visibility = 'visible';
+    }
+
+
+    //function progress() {
+    //    $.ajax({
+    //        url: "/Dashboard/loopingItem",
+    //        type: "GET",
+    //        success: function () {
+                
+    //            alert("testing done");
+    //            window.location = 'Adjustment';
+    //        },
+    //        error: function (xhr, status, error) {
+    //            alert("testing failed. " + error);
+    //            window.location = 'Adjustment';
+    //        }
+    //    });
+    //}
+
+    $(function () {
+        $("#adjustmentbtn").click(function () {
+            loaderDiv();
+            $.ajax({
+                url: "/Dashboard/NetsuiteAdjustment",
+                type: "POST",
+                data: { fileName: file.innerHTML },
+                success: function () {
+                    alert("Adjustment upload completed");
+                    window.location = 'Adjustment';
+                },
+                error: function (xhr,status,error) {
+                    alert("Adjustment failed. "+ error);
+                    window.location = 'Adjustment';
+            }
+
+
+
+            });
+
+        }),
+
+        $("#loaddbbtn").click(function () {
+            loaderDiv();
+            $.ajax({
+                url: "/Dashboard/csvToDB",
+                type: "POST",
+                success: function () {
+                    alert("Loading completed");
+                    window.location = 'Adjustment';
+                },
+                error: function (xhr, status, error) {
+                    alert("Loading failed. " + error);
+                    window.location = 'Adjustment';
+                }
+            });
+        }),
+
+
+        $("#transferbtn").click(function () {
+            loaderDiv();
+            $.ajax({
+                url: "/Dashboard/StockTransfer",
+                type: "POST",
+                success: function () {
+                    alert("Stock transfer upload completed");
+                    window.location = 'Adjustment';
+                },
+                error: function (xhr, status, error) {
+                    alert("Stock Transfer failed. " + error);
+                    window.location = 'Adjustment';
+                }
+            });
+        });
+    });
+</script>

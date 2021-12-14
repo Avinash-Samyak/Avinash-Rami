@@ -1,0 +1,112 @@
+﻿@model Tuple<sde.Models.gstDSList>
+@{
+    ViewBag.Title = "Direct Sales GST Extract History";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+  
+<div class="span11">
+    <div class="leaderboard" style="padding-left:10px;padding-right:10px;">
+        <h1>Direct Sales GST Extract History</h1>
+        <br />
+       
+        <div class="content">
+           <ul id="tabs1" class="nav nav-tabs" data-tabs="tabs1">
+                <li><a href="../GSTExtraction/GSTDataExtract">New Submission</a></li> 
+                <li><a href="../GSTExtraction/GSTDataExtractHistoryBC">BC Historical Data</a></li>   
+                <li class="active"><a href="../GSTExtraction/GSTDataExtractHistoryDS">DS Historical Data</a></li>                     
+            </ul> 
+          <br /> 
+          <div id="my-tab-content1" class="tab-content">
+                <div class="tab-pane active table-responsive" id="tabScheduler">  
+                  <table id="myTable" class="table table-bordered table-condensed" style="width:100%" border="0"> 
+                            <thead>
+                                <tr style="background-color: #FF8336">
+                                    <th style="width:2%"></th> 
+                                    <th style="width:18%">Date Submit</th>
+                                    <th style="width:12%">Entity</th>
+                                    <th style="width:5%">From</th>
+                                    <th style="width:5%">To</th>
+                                    <th style="width:7%">Status</th> 
+                                    <th style="width:11%">Total Rows Export</th>
+                                    <th style="width:11%">Total Amount Export</th>
+                                    <th style="width:14%">Total GST Amount Export</th> 
+                                    <th style="width:15%">Export File Name</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @for (int i = 0; i < Model.Item1.gstDSEntity.Count(); i++)
+                                {
+                                    var tmpID = @Model.Item1.gstDSEntity[i].entity + ";" + @Model.Item1.gstDSEntity[i].fromPeriod + ";" + @Model.Item1.gstDSEntity[i].toPeriod + ";" + @Model.Item1.gstDSEntity[i].exportFileName + ";" + @Model.Item1.gstDSEntity[i].exportFolderPath;
+                                    <tr style="background-color: #FCDAB6;">
+                                        <td><input type="checkbox" value="@tmpID"></td>
+                                        <td>@Model.Item1.gstDSEntity[i].dateSubmit</td>
+                                        <td>@Model.Item1.gstDSEntity[i].entity</td>
+                                        <td>@Model.Item1.gstDSEntity[i].fromPeriod</td>
+                                        <td>@Model.Item1.gstDSEntity[i].toPeriod</td>
+                                        <td>@Model.Item1.gstDSEntity[i].status</td> 
+                                        <td>@Model.Item1.gstDSEntity[i].totalRowsExport.ToString("#,##0")</td>
+                                         @if (Model.Item1.gstDSEntity[i].entity.Contains("Customer"))
+                                        {  
+                                        <td style="text-align:right;">-</td> 
+                                        <td style="text-align:right;">-</td> 
+                                        }
+                                        else
+                                        {   
+                                        <td style="text-align:right;">@Model.Item1.gstDSEntity[i].totalAmountExport.ToString("#,##0.00")</td>  
+                                        <td style="text-align:right;">@Model.Item1.gstDSEntity[i].totalGstAmountExport.ToString("#,##0.00")</td> 
+                                        }  
+                                        <td>@Model.Item1.gstDSEntity[i].exportFileName</td> 
+                                    </tr>
+                                }
+                            </tbody> 
+                  </table>
+          
+                  <div style="text-align:left;">
+                      <input type="button" id="btnResend" style="position:relative;"  class="btn btn-primary" value="Re-send"/>
+                  </div>
+               </div>
+          </div>
+        </div> 
+   </div>
+</div>
+ 
+  
+<script type="text/javascript" src="../../Scripts/bootstrap/bootstrap.min.js"></script> 
+  
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs1').tab();
+    });
+</script> 
+<script>
+    $(document).ready(function () {
+        $('#myTable').dataTable();
+
+        $('#btnResend').on('click', function () {
+            var task = [];
+
+            $('input:checked').each(function () {
+                task.push($(this).attr("value"));
+            });
+
+            if (task.length == 0) {
+                alert("No records has been selected!");
+            }
+            else {
+                $.ajax({
+                    url: "/GSTExtraction/DSHistoryResend",
+                    type: "POST",
+                    data: { resendList: task },
+                    dataType: "json",
+                    traditional: true,
+                    success: function () {
+                        alert("Your request has been proceed, please wait for the mail of the requested file(s).");
+                        window.location = 'GSTDataExtractHistoryDS';
+                    }
+                });
+            }
+        });
+    });
+</script>
+<link rel="stylesheet" href="../../Scripts/bootstrap/jquery.dataTables.min.css">
+<script type="text/javascript" src="../../Scripts/bootstrap/jquery.dataTables.min.js"></script>

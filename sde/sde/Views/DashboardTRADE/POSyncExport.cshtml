@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "PO Sync Export";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="span11">
+    <div class="leaderboard" style="padding-left: 10px; padding-right: 10px;">
+        <h1>TRADE/EDU/OS Dashboard</h1>
+        <div class="content">
+            <ul id="tabs1" class="nav nav-tabs" data-tabs="tabs1">
+                <li><a href="../DashboardTrade/SOSync1">SO Sync <img src="\Content\images\go.png" alt="" height='14' width='14' /></a> </li>   
+                 @*ANET-26 - Exception Report: Inbound & outbound Reports  *@
+                <li ><a href="../DashboardTrade/SONotSync1">SO Not Sync <img src="\Content\images\go.png" alt="" height='14' width='14' /></a> </li> 
+                <li class="active"><a href="../DashboardTrade/POSync1">PO Sync <img src="\Content\images\go.png" alt="" height='14' width='14' /></a> </li> 
+                <li><a href="../DashboardTrade/SORSync1">SOR Sync <img src="\Content\images\go.png" alt="" height='14' width='14' /></a> </li> 
+                <li><a href="../DashboardTrade/SOFulfillment1">SO Fulfillment <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>   
+                <li><a href="../DashboardTrade/IncompleteSOFulfillment">Incomplete SO Fulfillment <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>  
+                 @*ANET-26 - Exception Report: Inbound & outbound Reports  *@
+                <li><a href="../DashboardTrade/SOInvoiceGenerate">SO Invoice Generate <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>   
+                <li><a href="../DashboardTrade/SOInvoiceNotGenerate">SO Invoice Not Generate <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>    
+                <li><a href="../DashboardTrade/POReceive1">PO Receive <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>       
+                <li><a href="../DashboardTrade/SORReceive1">SOR Receive <img src="\Content\images\back.png" alt="" height='14' width='14' /></a>                 
+            </ul>
+            <div id="my-tab-content1" class="tab-content">
+                <div class="tab-pane active table-responsive" id="tabScheduler">
+                    <ul id="tabs2" class="nav nav-pills" data-tabs="tabs2">
+                        <li><a href="../DashboardTrade/POSync1">Filter by Date</a></li>
+                        <li><a href="../DashboardTrade/POSync2">Search by PO Number</a></li>
+                        <li class="active"><a href="../DashboardTrade/POSyncExport">Export Data File</a></li>
+                    </ul>
+                    <ul>
+                    </ul>
+                    @using (Html.BeginForm("POSyncExportProcess", "DashboardTRADE", FormMethod.Post))
+                    {
+                        <label>From</label>
+                        <input class="datepicker" id="datepicker1a" name="fromDate1" type="date" value="@Convert.ToDateTime(Session["FromDate"]).ToString("yyyy-MM-dd")" style="width:150px;"/>
+                        <label>To</label>
+                        <input class="datepicker" id="datepicker2a" name="toDate1" type="date" value="@Convert.ToDateTime(Session["ToDate"]).ToString("yyyy-MM-dd")" style="width:150px;"/>
+                        <button type="submit" class="btn btn-primary" style="width: 90px" onclick="return confirm('Confirm export to Excel?');">PO</button>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs1').tab();
+        $('#tabs2').tab();
+    });
+</script>
+<script type="text/javascript" src="../../Scripts/bootstrap/bootstrap.min.js"></script>

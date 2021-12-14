@@ -1,0 +1,6 @@
+@{
+    //retrieve info of a particular lot like current status, quantity, pending process etc
+    sde.Models.linq_scheduler scheInfo = new sde.Models.linq_scheduler(); //define object
+    var data = scheInfo.GetSchedulerInfo(UrlData[0], UrlData[1]); //accept one parameter
+    Json.Write(data, Response.Output); //return data as output
+}

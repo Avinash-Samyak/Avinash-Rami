@@ -1,0 +1,2675 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="sdeModelStoreContainer" CdmEntityContainer="sdeEntities">
+    <EntitySetMapping Name="backorder_cancellation">
+      <EntityTypeMapping TypeName="sdeModel.backorder_cancellation">
+        <MappingFragment StoreEntitySet="backorder_cancellation">
+          <ScalarProperty Name="boc_netsuiteJobError" ColumnName="boc_netsuiteJobError" />
+          <ScalarProperty Name="boc_netsuiteJobStatus" ColumnName="boc_netsuiteJobStatus" />
+          <ScalarProperty Name="boc_netsuiteJob" ColumnName="boc_netsuiteJob" />
+          <ScalarProperty Name="boc_netsuiteProcess" ColumnName="boc_netsuiteProcess" />
+          <ScalarProperty Name="boc_insertSequence" ColumnName="boc_insertSequence" />
+          <ScalarProperty Name="boc_sourceFile" ColumnName="boc_sourceFile" />
+          <ScalarProperty Name="boc_createdDate" ColumnName="boc_createdDate" />
+          <ScalarProperty Name="boc_quantity" ColumnName="boc_quantity" />
+          <ScalarProperty Name="boc_moNo" ColumnName="boc_moNo" />
+          <ScalarProperty Name="boc_isbn" ColumnName="boc_isbn" />
+          <ScalarProperty Name="boc_recid" ColumnName="boc_recid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bcas_inventoryadjustment">
+      <EntityTypeMapping TypeName="sdeModel.bcas_inventoryadjustment">
+        <MappingFragment StoreEntitySet="bcas_inventoryadjustment">
+          <ScalarProperty Name="ia_rangeTo" ColumnName="ia_rangeTo" />
+          <ScalarProperty Name="ia_rangeFrom" ColumnName="ia_rangeFrom" />
+          <ScalarProperty Name="ia_createdDate" ColumnName="ia_createdDate" />
+          <ScalarProperty Name="ia_adjQty" ColumnName="ia_adjQty" />
+          <ScalarProperty Name="ia_item_internalID" ColumnName="ia_item_internalID" />
+          <ScalarProperty Name="ia_moNo_prefix" ColumnName="ia_moNo_prefix" />
+          <ScalarProperty Name="ia_countryTag" ColumnName="ia_countryTag" />
+          <ScalarProperty Name="ia_businessChannel_code" ColumnName="ia_businessChannel_code" />
+          <ScalarProperty Name="ia_jobID" ColumnName="ia_jobID" />
+          <ScalarProperty Name="ia_recID" ColumnName="ia_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bcas_journalcalclist">
+      <EntityTypeMapping TypeName="sdeModel.bcas_journalcalclist">
+        <MappingFragment StoreEntitySet="bcas_journalcalclist">
+          <ScalarProperty Name="jcl_rangeTo" ColumnName="jcl_rangeTo" />
+          <ScalarProperty Name="jcl_rangeFrom" ColumnName="jcl_rangeFrom" />
+          <ScalarProperty Name="jcl_createdDate" ColumnName="jcl_createdDate" />
+          <ScalarProperty Name="jcl_moNo" ColumnName="jcl_moNo" />
+          <ScalarProperty Name="jcl_jos_rangeTo" ColumnName="jcl_jos_rangeTo" />
+          <ScalarProperty Name="jcl_currency_internalID" ColumnName="jcl_currency_internalID" />
+          <ScalarProperty Name="jcl_country_internalID" ColumnName="jcl_country_internalID" />
+          <ScalarProperty Name="jcl_country_tag" ColumnName="jcl_country_tag" />
+          <ScalarProperty Name="jcl_businessChannel_code" ColumnName="jcl_businessChannel_code" />
+          <ScalarProperty Name="jcl_job_ID" ColumnName="jcl_job_ID" />
+          <ScalarProperty Name="jcl_amt" ColumnName="jcl_amt" />
+          <ScalarProperty Name="jcl_recID" ColumnName="jcl_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bcas_ordersfulfill">
+      <EntityTypeMapping TypeName="sdeModel.bcas_ordersfulfill">
+        <MappingFragment StoreEntitySet="bcas_ordersfulfill">
+          <ScalarProperty Name="of_ordPackGst" ColumnName="of_ordPackGst" />
+          <ScalarProperty Name="of_ordPackPrice" ColumnName="of_ordPackPrice" />
+          <ScalarProperty Name="of_ordPackQty" ColumnName="of_ordPackQty" />
+          <ScalarProperty Name="of_ordPack" ColumnName="of_ordPack" />
+          <ScalarProperty Name="of_item_ISBN" ColumnName="of_item_ISBN" />
+          <ScalarProperty Name="of_netsuiteAdjustment" ColumnName="of_netsuiteAdjustment" />
+          <ScalarProperty Name="of_netsuiteSalesorder" ColumnName="of_netsuiteSalesorder" />
+          <ScalarProperty Name="of_netsuiteDummySo" ColumnName="of_netsuiteDummySo" />
+          <ScalarProperty Name="of_createdDate" ColumnName="of_createdDate" />
+          <ScalarProperty Name="of_ordSkuQty" ColumnName="of_ordSkuQty" />
+          <ScalarProperty Name="of_ordFulfillQty" ColumnName="of_ordFulfillQty" />
+          <ScalarProperty Name="of_ordQty" ColumnName="of_ordQty" />
+          <ScalarProperty Name="of_item_internalID" ColumnName="of_item_internalID" />
+          <ScalarProperty Name="of_item_ID" ColumnName="of_item_ID" />
+          <ScalarProperty Name="of_jobOrdMaster_ID" ColumnName="of_jobOrdMaster_ID" />
+          <ScalarProperty Name="of_pack_ID" ColumnName="of_pack_ID" />
+          <ScalarProperty Name="of_country_tag" ColumnName="of_country_tag" />
+          <ScalarProperty Name="of_rangeTo" ColumnName="of_rangeTo" />
+          <ScalarProperty Name="of_moNo" ColumnName="of_moNo" />
+          <ScalarProperty Name="of_jobID" ColumnName="of_jobID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bcas_ordersfulfill_history">
+      <EntityTypeMapping TypeName="sdeModel.bcas_ordersfulfill_history">
+        <MappingFragment StoreEntitySet="bcas_ordersfulfill_history">
+          <ScalarProperty Name="of_ordPackGst" ColumnName="of_ordPackGst" />
+          <ScalarProperty Name="of_ordPackPrice" ColumnName="of_ordPackPrice" />
+          <ScalarProperty Name="of_ordPackQty" ColumnName="of_ordPackQty" />
+          <ScalarProperty Name="of_ordPack" ColumnName="of_ordPack" />
+          <ScalarProperty Name="of_item_ISBN" ColumnName="of_item_ISBN" />
+          <ScalarProperty Name="of_netsuiteAdjustment" ColumnName="of_netsuiteAdjustment" />
+          <ScalarProperty Name="of_netsuiteSalesorder" ColumnName="of_netsuiteSalesorder" />
+          <ScalarProperty Name="of_netsuiteDummySo" ColumnName="of_netsuiteDummySo" />
+          <ScalarProperty Name="of_createdDate" ColumnName="of_createdDate" />
+          <ScalarProperty Name="of_ordSkuQty" ColumnName="of_ordSkuQty" />
+          <ScalarProperty Name="of_ordFulfillQty" ColumnName="of_ordFulfillQty" />
+          <ScalarProperty Name="of_ordQty" ColumnName="of_ordQty" />
+          <ScalarProperty Name="of_item_internalID" ColumnName="of_item_internalID" />
+          <ScalarProperty Name="of_item_ID" ColumnName="of_item_ID" />
+          <ScalarProperty Name="of_jobOrdMaster_ID" ColumnName="of_jobOrdMaster_ID" />
+          <ScalarProperty Name="of_pack_ID" ColumnName="of_pack_ID" />
+          <ScalarProperty Name="of_country_tag" ColumnName="of_country_tag" />
+          <ScalarProperty Name="of_rangeTo" ColumnName="of_rangeTo" />
+          <ScalarProperty Name="of_moNo" ColumnName="of_moNo" />
+          <ScalarProperty Name="of_jobID" ColumnName="of_jobID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bcas_otherstransaction">
+      <EntityTypeMapping TypeName="sdeModel.bcas_otherstransaction">
+        <MappingFragment StoreEntitySet="bcas_otherstransaction">
+          <ScalarProperty Name="bot_postingDate" ColumnName="bot_postingDate" />
+          <ScalarProperty Name="bot_crSeqNo" ColumnName="bot_crSeqNo" />
+          <ScalarProperty Name="bot_crProgressStatus" ColumnName="bot_crProgressStatus" />
+          <ScalarProperty Name="bot_crUpdatedDate" ColumnName="bot_crUpdatedDate" />
+          <ScalarProperty Name="bot_crInternalID" ColumnName="bot_crInternalID" />
+          <ScalarProperty Name="bot_cnSeqNo" ColumnName="bot_cnSeqNo" />
+          <ScalarProperty Name="bot_cnProgressStatus" ColumnName="bot_cnProgressStatus" />
+          <ScalarProperty Name="bot_cnUpdatedDate" ColumnName="bot_cnUpdatedDate" />
+          <ScalarProperty Name="bot_cnInternalID" ColumnName="bot_cnInternalID" />
+          <ScalarProperty Name="bot_irSeqNo" ColumnName="bot_irSeqNo" />
+          <ScalarProperty Name="bot_irProgressStatus" ColumnName="bot_irProgressStatus" />
+          <ScalarProperty Name="bot_irUpdateDate" ColumnName="bot_irUpdateDate" />
+          <ScalarProperty Name="bot_irInternalID" ColumnName="bot_irInternalID" />
+          <ScalarProperty Name="bot_trxProgressStatus" ColumnName="bot_trxProgressStatus" />
+          <ScalarProperty Name="bot_trxUpdatedDate" ColumnName="bot_trxUpdatedDate" />
+          <ScalarProperty Name="bot_trxInternalID" ColumnName="bot_trxInternalID" />
+          <ScalarProperty Name="bot_seqNo" ColumnName="bot_seqNo" />
+          <ScalarProperty Name="bot_trxType" ColumnName="bot_trxType" />
+          <ScalarProperty Name="bot_salesType" ColumnName="bot_salesType" />
+          <ScalarProperty Name="bot_invDate" ColumnName="bot_invDate" />
+          <ScalarProperty Name="bot_invInternalID" ColumnName="bot_invInternalID" />
+          <ScalarProperty Name="bot_refNo" ColumnName="bot_refNo" />
+          <ScalarProperty Name="bot_subsidiaryInternalID" ColumnName="bot_subsidiaryInternalID" />
+          <ScalarProperty Name="bot_subsidiary" ColumnName="bot_subsidiary" />
+          <ScalarProperty Name="bot_recID" ColumnName="bot_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bcas_salestransaction">
+      <EntityTypeMapping TypeName="sdeModel.bcas_salestransaction">
+        <MappingFragment StoreEntitySet="bcas_salestransaction">
+          <ScalarProperty Name="bst_postingDate" ColumnName="bst_postingDate" />
+          <ScalarProperty Name="bst_invProgressStatus" ColumnName="bst_invProgressStatus" />
+          <ScalarProperty Name="bst_invUpdatedDate" ColumnName="bst_invUpdatedDate" />
+          <ScalarProperty Name="bst_invInternalID" ColumnName="bst_invInternalID" />
+          <ScalarProperty Name="bst_invJobID" ColumnName="bst_invJobID" />
+          <ScalarProperty Name="bst_invSeqNo" ColumnName="bst_invSeqNo" />
+          <ScalarProperty Name="bst_ifUpdatedDate" ColumnName="bst_ifUpdatedDate" />
+          <ScalarProperty Name="bst_ifInternalID" ColumnName="bst_ifInternalID" />
+          <ScalarProperty Name="bst_ifJobID" ColumnName="bst_ifJobID" />
+          <ScalarProperty Name="bst_ifSeqNo" ColumnName="bst_ifSeqNo" />
+          <ScalarProperty Name="bst_soInternalID" ColumnName="bst_soInternalID" />
+          <ScalarProperty Name="bst_createdDate" ColumnName="bst_createdDate" />
+          <ScalarProperty Name="bst_recID" ColumnName="bst_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bcas_sep_loaded">
+      <EntityTypeMapping TypeName="sdeModel.bcas_sep_loaded">
+        <MappingFragment StoreEntitySet="bcas_sep_loaded">
+          <ScalarProperty Name="id_qty" ColumnName="id_qty" />
+          <ScalarProperty Name="sg_qty" ColumnName="sg_qty" />
+          <ScalarProperty Name="my_qty" ColumnName="my_qty" />
+          <ScalarProperty Name="item_isbn" ColumnName="item_isbn" />
+          <ScalarProperty Name="type" ColumnName="type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bcas_sep_sales">
+      <EntityTypeMapping TypeName="sdeModel.bcas_sep_sales">
+        <MappingFragment StoreEntitySet="bcas_sep_sales">
+          <ScalarProperty Name="sales_type" ColumnName="sales_type" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="isbn" ColumnName="isbn" />
+          <ScalarProperty Name="mo_type" ColumnName="mo_type" />
+          <ScalarProperty Name="country" ColumnName="country" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cpas_dataposting">
+      <EntityTypeMapping TypeName="sdeModel.cpas_dataposting">
+        <MappingFragment StoreEntitySet="cpas_dataposting">
+          <ScalarProperty Name="spl_netsuiteProgress" ColumnName="spl_netsuiteProgress" />
+          <ScalarProperty Name="spl_tolRevenueFinCharges" ColumnName="spl_tolRevenueFinCharges" />
+          <ScalarProperty Name="spl_tolUnearnedInt" ColumnName="spl_tolUnearnedInt" />
+          <ScalarProperty Name="spl_suspendDate" ColumnName="spl_suspendDate" />
+          <ScalarProperty Name="spl_cancelType" ColumnName="spl_cancelType" />
+          <ScalarProperty Name="spl_salesType" ColumnName="spl_salesType" />
+          <ScalarProperty Name="spl_tolDeliveryCharges" ColumnName="spl_tolDeliveryCharges" />
+          <ScalarProperty Name="spl_tolUFC" ColumnName="spl_tolUFC" />
+          <ScalarProperty Name="spl_tolGstAmount" ColumnName="spl_tolGstAmount" />
+          <ScalarProperty Name="spl_tolNettPrice" ColumnName="spl_tolNettPrice" />
+          <ScalarProperty Name="spl_taxCode" ColumnName="spl_taxCode" />
+          <ScalarProperty Name="spl_noOfInstallments" ColumnName="spl_noOfInstallments" />
+          <ScalarProperty Name="spl_salespostingcategory" ColumnName="spl_salespostingcategory" />
+          <ScalarProperty Name="spl_sp_id" ColumnName="spl_sp_id" />
+          <ScalarProperty Name="spl_readyPushDate" ColumnName="spl_readyPushDate" />
+          <ScalarProperty Name="spl_createdDate" ColumnName="spl_createdDate" />
+          <ScalarProperty Name="spl_syncDate" ColumnName="spl_syncDate" />
+          <ScalarProperty Name="spl_postingDate" ColumnName="spl_postingDate" />
+          <ScalarProperty Name="spl_subsidiary_internalID" ColumnName="spl_subsidiary_internalID" />
+          <ScalarProperty Name="spl_subsidiary" ColumnName="spl_subsidiary" />
+          <ScalarProperty Name="spl_mb_businessChannel_internalID" ColumnName="spl_mb_businessChannel_internalID" />
+          <ScalarProperty Name="spl_businessChannel" ColumnName="spl_businessChannel" />
+          <ScalarProperty Name="spl_ml_location_internalID" ColumnName="spl_ml_location_internalID" />
+          <ScalarProperty Name="spl_sLoc" ColumnName="spl_sLoc" />
+          <ScalarProperty Name="spl_dQty" ColumnName="spl_dQty" />
+          <ScalarProperty Name="spl_inout" ColumnName="spl_inout" />
+          <ScalarProperty Name="spl_sDesc" ColumnName="spl_sDesc" />
+          <ScalarProperty Name="spl_mi_item_internalID" ColumnName="spl_mi_item_internalID" />
+          <ScalarProperty Name="spl_sPID" ColumnName="spl_sPID" />
+          <ScalarProperty Name="spl_transactionType" ColumnName="spl_transactionType" />
+          <ScalarProperty Name="spl_recID" ColumnName="spl_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cpas_dataposting_adj_out">
+      <EntityTypeMapping TypeName="sdeModel.cpas_dataposting_adj_out">
+        <MappingFragment StoreEntitySet="cpas_dataposting_adj_out">
+          <ScalarProperty Name="spl_netsuiteProgress" ColumnName="spl_netsuiteProgress" />
+          <ScalarProperty Name="spl_tolRevenueFinCharges" ColumnName="spl_tolRevenueFinCharges" />
+          <ScalarProperty Name="spl_tolUnearnedInt" ColumnName="spl_tolUnearnedInt" />
+          <ScalarProperty Name="spl_suspendDate" ColumnName="spl_suspendDate" />
+          <ScalarProperty Name="spl_cancelType" ColumnName="spl_cancelType" />
+          <ScalarProperty Name="spl_salesType" ColumnName="spl_salesType" />
+          <ScalarProperty Name="spl_tolDeliveryCharges" ColumnName="spl_tolDeliveryCharges" />
+          <ScalarProperty Name="spl_tolUFC" ColumnName="spl_tolUFC" />
+          <ScalarProperty Name="spl_tolGstAmount" ColumnName="spl_tolGstAmount" />
+          <ScalarProperty Name="spl_tolNettPrice" ColumnName="spl_tolNettPrice" />
+          <ScalarProperty Name="spl_taxCode" ColumnName="spl_taxCode" />
+          <ScalarProperty Name="spl_noOfInstallments" ColumnName="spl_noOfInstallments" />
+          <ScalarProperty Name="spl_salespostingcategory" ColumnName="spl_salespostingcategory" />
+          <ScalarProperty Name="spl_sp_id" ColumnName="spl_sp_id" />
+          <ScalarProperty Name="spl_readyPushDate" ColumnName="spl_readyPushDate" />
+          <ScalarProperty Name="spl_createdDate" ColumnName="spl_createdDate" />
+          <ScalarProperty Name="spl_syncDate" ColumnName="spl_syncDate" />
+          <ScalarProperty Name="spl_postingDate" ColumnName="spl_postingDate" />
+          <ScalarProperty Name="spl_subsidiary_internalID" ColumnName="spl_subsidiary_internalID" />
+          <ScalarProperty Name="spl_subsidiary" ColumnName="spl_subsidiary" />
+          <ScalarProperty Name="spl_mb_businessChannel_internalID" ColumnName="spl_mb_businessChannel_internalID" />
+          <ScalarProperty Name="spl_businessChannel" ColumnName="spl_businessChannel" />
+          <ScalarProperty Name="spl_ml_location_internalID" ColumnName="spl_ml_location_internalID" />
+          <ScalarProperty Name="spl_sLoc" ColumnName="spl_sLoc" />
+          <ScalarProperty Name="spl_dQty" ColumnName="spl_dQty" />
+          <ScalarProperty Name="spl_inout" ColumnName="spl_inout" />
+          <ScalarProperty Name="spl_sDesc" ColumnName="spl_sDesc" />
+          <ScalarProperty Name="spl_mi_item_internalID" ColumnName="spl_mi_item_internalID" />
+          <ScalarProperty Name="spl_sPID" ColumnName="spl_sPID" />
+          <ScalarProperty Name="spl_transactionType" ColumnName="spl_transactionType" />
+          <ScalarProperty Name="spl_recID" ColumnName="spl_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cpas_dataposting_check">
+      <EntityTypeMapping TypeName="sdeModel.cpas_dataposting_check">
+        <MappingFragment StoreEntitySet="cpas_dataposting_check">
+          <ScalarProperty Name="spl_netsuiteProgress" ColumnName="spl_netsuiteProgress" />
+          <ScalarProperty Name="spl_tolRevenueFinCharges" ColumnName="spl_tolRevenueFinCharges" />
+          <ScalarProperty Name="spl_tolUnearnedInt" ColumnName="spl_tolUnearnedInt" />
+          <ScalarProperty Name="spl_suspendDate" ColumnName="spl_suspendDate" />
+          <ScalarProperty Name="spl_cancelType" ColumnName="spl_cancelType" />
+          <ScalarProperty Name="spl_salesType" ColumnName="spl_salesType" />
+          <ScalarProperty Name="spl_tolDeliveryCharges" ColumnName="spl_tolDeliveryCharges" />
+          <ScalarProperty Name="spl_tolUFC" ColumnName="spl_tolUFC" />
+          <ScalarProperty Name="spl_tolGstAmount" ColumnName="spl_tolGstAmount" />
+          <ScalarProperty Name="spl_tolNettPrice" ColumnName="spl_tolNettPrice" />
+          <ScalarProperty Name="spl_taxCode" ColumnName="spl_taxCode" />
+          <ScalarProperty Name="spl_noOfInstallments" ColumnName="spl_noOfInstallments" />
+          <ScalarProperty Name="spl_salespostingcategory" ColumnName="spl_salespostingcategory" />
+          <ScalarProperty Name="spl_sp_id" ColumnName="spl_sp_id" />
+          <ScalarProperty Name="spl_readyPushDate" ColumnName="spl_readyPushDate" />
+          <ScalarProperty Name="spl_createdDate" ColumnName="spl_createdDate" />
+          <ScalarProperty Name="spl_syncDate" ColumnName="spl_syncDate" />
+          <ScalarProperty Name="spl_postingDate" ColumnName="spl_postingDate" />
+          <ScalarProperty Name="spl_subsidiary_internalID" ColumnName="spl_subsidiary_internalID" />
+          <ScalarProperty Name="spl_subsidiary" ColumnName="spl_subsidiary" />
+          <ScalarProperty Name="spl_mb_businessChannel_internalID" ColumnName="spl_mb_businessChannel_internalID" />
+          <ScalarProperty Name="spl_businessChannel" ColumnName="spl_businessChannel" />
+          <ScalarProperty Name="spl_ml_location_internalID" ColumnName="spl_ml_location_internalID" />
+          <ScalarProperty Name="spl_sLoc" ColumnName="spl_sLoc" />
+          <ScalarProperty Name="spl_dQty" ColumnName="spl_dQty" />
+          <ScalarProperty Name="spl_inout" ColumnName="spl_inout" />
+          <ScalarProperty Name="spl_sDesc" ColumnName="spl_sDesc" />
+          <ScalarProperty Name="spl_mi_item_internalID" ColumnName="spl_mi_item_internalID" />
+          <ScalarProperty Name="spl_sPID" ColumnName="spl_sPID" />
+          <ScalarProperty Name="spl_transactionType" ColumnName="spl_transactionType" />
+          <ScalarProperty Name="spl_recID" ColumnName="spl_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cpas_dataposting_hs_in">
+      <EntityTypeMapping TypeName="sdeModel.cpas_dataposting_hs_in">
+        <MappingFragment StoreEntitySet="cpas_dataposting_hs_in">
+          <ScalarProperty Name="spl_netsuiteProgress" ColumnName="spl_netsuiteProgress" />
+          <ScalarProperty Name="spl_tolRevenueFinCharges" ColumnName="spl_tolRevenueFinCharges" />
+          <ScalarProperty Name="spl_tolUnearnedInt" ColumnName="spl_tolUnearnedInt" />
+          <ScalarProperty Name="spl_suspendDate" ColumnName="spl_suspendDate" />
+          <ScalarProperty Name="spl_cancelType" ColumnName="spl_cancelType" />
+          <ScalarProperty Name="spl_salesType" ColumnName="spl_salesType" />
+          <ScalarProperty Name="spl_tolDeliveryCharges" ColumnName="spl_tolDeliveryCharges" />
+          <ScalarProperty Name="spl_tolUFC" ColumnName="spl_tolUFC" />
+          <ScalarProperty Name="spl_tolGstAmount" ColumnName="spl_tolGstAmount" />
+          <ScalarProperty Name="spl_tolNettPrice" ColumnName="spl_tolNettPrice" />
+          <ScalarProperty Name="spl_taxCode" ColumnName="spl_taxCode" />
+          <ScalarProperty Name="spl_noOfInstallments" ColumnName="spl_noOfInstallments" />
+          <ScalarProperty Name="spl_salespostingcategory" ColumnName="spl_salespostingcategory" />
+          <ScalarProperty Name="spl_sp_id" ColumnName="spl_sp_id" />
+          <ScalarProperty Name="spl_readyPushDate" ColumnName="spl_readyPushDate" />
+          <ScalarProperty Name="spl_createdDate" ColumnName="spl_createdDate" />
+          <ScalarProperty Name="spl_syncDate" ColumnName="spl_syncDate" />
+          <ScalarProperty Name="spl_postingDate" ColumnName="spl_postingDate" />
+          <ScalarProperty Name="spl_subsidiary_internalID" ColumnName="spl_subsidiary_internalID" />
+          <ScalarProperty Name="spl_subsidiary" ColumnName="spl_subsidiary" />
+          <ScalarProperty Name="spl_mb_businessChannel_internalID" ColumnName="spl_mb_businessChannel_internalID" />
+          <ScalarProperty Name="spl_businessChannel" ColumnName="spl_businessChannel" />
+          <ScalarProperty Name="spl_ml_location_internalID" ColumnName="spl_ml_location_internalID" />
+          <ScalarProperty Name="spl_sLoc" ColumnName="spl_sLoc" />
+          <ScalarProperty Name="spl_dQty" ColumnName="spl_dQty" />
+          <ScalarProperty Name="spl_inout" ColumnName="spl_inout" />
+          <ScalarProperty Name="spl_sDesc" ColumnName="spl_sDesc" />
+          <ScalarProperty Name="spl_mi_item_internalID" ColumnName="spl_mi_item_internalID" />
+          <ScalarProperty Name="spl_sPID" ColumnName="spl_sPID" />
+          <ScalarProperty Name="spl_transactionType" ColumnName="spl_transactionType" />
+          <ScalarProperty Name="spl_recID" ColumnName="spl_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cpas_dataposting_parent">
+      <EntityTypeMapping TypeName="sdeModel.cpas_dataposting_parent">
+        <MappingFragment StoreEntitySet="cpas_dataposting_parent">
+          <ScalarProperty Name="spl_netsuiteProgress" ColumnName="spl_netsuiteProgress" />
+          <ScalarProperty Name="spl_UFC" ColumnName="spl_UFC" />
+          <ScalarProperty Name="spl_RFC" ColumnName="spl_RFC" />
+          <ScalarProperty Name="spl_OS_BAL" ColumnName="spl_OS_BAL" />
+          <ScalarProperty Name="spl_CP" ColumnName="spl_CP" />
+          <ScalarProperty Name="spl_TSP" ColumnName="spl_TSP" />
+          <ScalarProperty Name="spl_DC" ColumnName="spl_DC" />
+          <ScalarProperty Name="spl_GPM_RS" ColumnName="spl_GPM_RS" />
+          <ScalarProperty Name="spl_GPM" ColumnName="spl_GPM" />
+          <ScalarProperty Name="spl_Tax_PCT" ColumnName="spl_Tax_PCT" />
+          <ScalarProperty Name="spl_FC" ColumnName="spl_FC" />
+          <ScalarProperty Name="spl_THC" ColumnName="spl_THC" />
+          <ScalarProperty Name="spl_THC_DM" ColumnName="spl_THC_DM" />
+          <ScalarProperty Name="spl_DP" ColumnName="spl_DP" />
+          <ScalarProperty Name="spl_WP" ColumnName="spl_WP" />
+          <ScalarProperty Name="spl_cancelType" ColumnName="spl_cancelType" />
+          <ScalarProperty Name="spl_taxCode" ColumnName="spl_taxCode" />
+          <ScalarProperty Name="spl_noOfInstallments" ColumnName="spl_noOfInstallments" />
+          <ScalarProperty Name="spl_salespostingcategory" ColumnName="spl_salespostingcategory" />
+          <ScalarProperty Name="spl_sp_id" ColumnName="spl_sp_id" />
+          <ScalarProperty Name="spl_suspendDate" ColumnName="spl_suspendDate" />
+          <ScalarProperty Name="spl_readyPushDate" ColumnName="spl_readyPushDate" />
+          <ScalarProperty Name="spl_createdDate" ColumnName="spl_createdDate" />
+          <ScalarProperty Name="spl_syncDate" ColumnName="spl_syncDate" />
+          <ScalarProperty Name="spl_postingDate" ColumnName="spl_postingDate" />
+          <ScalarProperty Name="spl_subsidiary_internalID" ColumnName="spl_subsidiary_internalID" />
+          <ScalarProperty Name="spl_subsidiary" ColumnName="spl_subsidiary" />
+          <ScalarProperty Name="spl_mb_businessChannel_internalID" ColumnName="spl_mb_businessChannel_internalID" />
+          <ScalarProperty Name="spl_businessChannel" ColumnName="spl_businessChannel" />
+          <ScalarProperty Name="spl_ml_location_internalID" ColumnName="spl_ml_location_internalID" />
+          <ScalarProperty Name="spl_sLoc" ColumnName="spl_sLoc" />
+          <ScalarProperty Name="spl_sDesc" ColumnName="spl_sDesc" />
+          <ScalarProperty Name="spl_transactionType" ColumnName="spl_transactionType" />
+          <ScalarProperty Name="spl_recID" ColumnName="spl_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cpas_journal">
+      <EntityTypeMapping TypeName="sdeModel.cpas_journal">
+        <MappingFragment StoreEntitySet="cpas_journal">
+          <ScalarProperty Name="jn_journalID" ColumnName="jn_journalID" />
+          <ScalarProperty Name="jn_isMonthlyUnship" ColumnName="jn_isMonthlyUnship" />
+          <ScalarProperty Name="jn_rangeTo" ColumnName="jn_rangeTo" />
+          <ScalarProperty Name="jn_createdDate" ColumnName="jn_createdDate" />
+          <ScalarProperty Name="jn_postingYear" ColumnName="jn_postingYear" />
+          <ScalarProperty Name="jn_postingMonth" ColumnName="jn_postingMonth" />
+          <ScalarProperty Name="jn_postingWeek" ColumnName="jn_postingWeek" />
+          <ScalarProperty Name="jn_postingDate" ColumnName="jn_postingDate" />
+          <ScalarProperty Name="jn_crAmount" ColumnName="jn_crAmount" />
+          <ScalarProperty Name="jn_drAmount" ColumnName="jn_drAmount" />
+          <ScalarProperty Name="jn_desc" ColumnName="jn_desc" />
+          <ScalarProperty Name="jn_businessChannel_internalID" ColumnName="jn_businessChannel_internalID" />
+          <ScalarProperty Name="jn_businessChannel" ColumnName="jn_businessChannel" />
+          <ScalarProperty Name="jn_subsidiary_internalID" ColumnName="jn_subsidiary_internalID" />
+          <ScalarProperty Name="jn_subsidiary" ColumnName="jn_subsidiary" />
+          <ScalarProperty Name="jn_tranType" ColumnName="jn_tranType" />
+          <ScalarProperty Name="jn_account_internalID" ColumnName="jn_account_internalID" />
+          <ScalarProperty Name="jn_account" ColumnName="jn_account" />
+          <ScalarProperty Name="jn_recID" ColumnName="jn_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cpas_otherstransaction">
+      <EntityTypeMapping TypeName="sdeModel.cpas_otherstransaction">
+        <MappingFragment StoreEntitySet="cpas_otherstransaction">
+          <ScalarProperty Name="cot_suspendDate" ColumnName="cot_suspendDate" />
+          <ScalarProperty Name="cot_vcGIFISeqNo" ColumnName="cot_vcGIFISeqNo" />
+          <ScalarProperty Name="cot_vcGIFIProgressStatus" ColumnName="cot_vcGIFIProgressStatus" />
+          <ScalarProperty Name="cot_vcGIFIUpdatedDate" ColumnName="cot_vcGIFIUpdatedDate" />
+          <ScalarProperty Name="cot_vcGIFIInternalID" ColumnName="cot_vcGIFIInternalID" />
+          <ScalarProperty Name="cot_vcSeqNo" ColumnName="cot_vcSeqNo" />
+          <ScalarProperty Name="cot_vcProgressStatus" ColumnName="cot_vcProgressStatus" />
+          <ScalarProperty Name="cot_vcUpdatedDate" ColumnName="cot_vcUpdatedDate" />
+          <ScalarProperty Name="cot_vcInternalID" ColumnName="cot_vcInternalID" />
+          <ScalarProperty Name="cot_cnGIFISeqNo" ColumnName="cot_cnGIFISeqNo" />
+          <ScalarProperty Name="cot_cnGIFIProgressStatus" ColumnName="cot_cnGIFIProgressStatus" />
+          <ScalarProperty Name="cot_cnGIFIUpdatedDate" ColumnName="cot_cnGIFIUpdatedDate" />
+          <ScalarProperty Name="cot_cnGIFIInternalID" ColumnName="cot_cnGIFIInternalID" />
+          <ScalarProperty Name="cot_sp_id" ColumnName="cot_sp_id" />
+          <ScalarProperty Name="cot_ml_location_internalID" ColumnName="cot_ml_location_internalID" />
+          <ScalarProperty Name="cot_postingDate" ColumnName="cot_postingDate" />
+          <ScalarProperty Name="cot_crSeqNo" ColumnName="cot_crSeqNo" />
+          <ScalarProperty Name="cot_crProgressStatus" ColumnName="cot_crProgressStatus" />
+          <ScalarProperty Name="cot_crUpdatedDate" ColumnName="cot_crUpdatedDate" />
+          <ScalarProperty Name="cot_crInternalID" ColumnName="cot_crInternalID" />
+          <ScalarProperty Name="cot_cnSeqNo" ColumnName="cot_cnSeqNo" />
+          <ScalarProperty Name="cot_cnProgressStatus" ColumnName="cot_cnProgressStatus" />
+          <ScalarProperty Name="cot_cnUpdatedDate" ColumnName="cot_cnUpdatedDate" />
+          <ScalarProperty Name="cot_cnInternalID" ColumnName="cot_cnInternalID" />
+          <ScalarProperty Name="cot_irSeqNo" ColumnName="cot_irSeqNo" />
+          <ScalarProperty Name="cot_irProgressStatus" ColumnName="cot_irProgressStatus" />
+          <ScalarProperty Name="cot_irUpdateDate" ColumnName="cot_irUpdateDate" />
+          <ScalarProperty Name="cot_irInternalID" ColumnName="cot_irInternalID" />
+          <ScalarProperty Name="cot_trxProgressStatus" ColumnName="cot_trxProgressStatus" />
+          <ScalarProperty Name="cot_trxUpdatedDate" ColumnName="cot_trxUpdatedDate" />
+          <ScalarProperty Name="cot_trxInternalID" ColumnName="cot_trxInternalID" />
+          <ScalarProperty Name="cot_seqNo" ColumnName="cot_seqNo" />
+          <ScalarProperty Name="cot_trxType" ColumnName="cot_trxType" />
+          <ScalarProperty Name="cot_salesType" ColumnName="cot_salesType" />
+          <ScalarProperty Name="cot_invDate" ColumnName="cot_invDate" />
+          <ScalarProperty Name="cot_invInternalID" ColumnName="cot_invInternalID" />
+          <ScalarProperty Name="cot_refNo" ColumnName="cot_refNo" />
+          <ScalarProperty Name="cot_subsidiaryInternalID" ColumnName="cot_subsidiaryInternalID" />
+          <ScalarProperty Name="cot_subsidiary" ColumnName="cot_subsidiary" />
+          <ScalarProperty Name="cot_recID" ColumnName="cot_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cpas_otherstransaction_error">
+      <EntityTypeMapping TypeName="sdeModel.cpas_otherstransaction_error">
+        <MappingFragment StoreEntitySet="cpas_otherstransaction_error">
+          <ScalarProperty Name="cot_postingDate" ColumnName="cot_postingDate" />
+          <ScalarProperty Name="cot_crSeqNo" ColumnName="cot_crSeqNo" />
+          <ScalarProperty Name="cot_crProgressStatus" ColumnName="cot_crProgressStatus" />
+          <ScalarProperty Name="cot_crUpdatedDate" ColumnName="cot_crUpdatedDate" />
+          <ScalarProperty Name="cot_crInternalID" ColumnName="cot_crInternalID" />
+          <ScalarProperty Name="cot_cnSeqNo" ColumnName="cot_cnSeqNo" />
+          <ScalarProperty Name="cot_cnProgressStatus" ColumnName="cot_cnProgressStatus" />
+          <ScalarProperty Name="cot_cnUpdatedDate" ColumnName="cot_cnUpdatedDate" />
+          <ScalarProperty Name="cot_cnInternalID" ColumnName="cot_cnInternalID" />
+          <ScalarProperty Name="cot_irSeqNo" ColumnName="cot_irSeqNo" />
+          <ScalarProperty Name="cot_irProgressStatus" ColumnName="cot_irProgressStatus" />
+          <ScalarProperty Name="cot_irUpdateDate" ColumnName="cot_irUpdateDate" />
+          <ScalarProperty Name="cot_irInternalID" ColumnName="cot_irInternalID" />
+          <ScalarProperty Name="cot_trxProgressStatus" ColumnName="cot_trxProgressStatus" />
+          <ScalarProperty Name="cot_trxUpdatedDate" ColumnName="cot_trxUpdatedDate" />
+          <ScalarProperty Name="cot_trxInternalID" ColumnName="cot_trxInternalID" />
+          <ScalarProperty Name="cot_seqNo" ColumnName="cot_seqNo" />
+          <ScalarProperty Name="cot_trxType" ColumnName="cot_trxType" />
+          <ScalarProperty Name="cot_salesType" ColumnName="cot_salesType" />
+          <ScalarProperty Name="cot_invDate" ColumnName="cot_invDate" />
+          <ScalarProperty Name="cot_invInternalID" ColumnName="cot_invInternalID" />
+          <ScalarProperty Name="cot_refNo" ColumnName="cot_refNo" />
+          <ScalarProperty Name="cot_subsidiaryInternalID" ColumnName="cot_subsidiaryInternalID" />
+          <ScalarProperty Name="cot_subsidiary" ColumnName="cot_subsidiary" />
+          <ScalarProperty Name="cot_recID" ColumnName="cot_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cpas_payment">
+      <EntityTypeMapping TypeName="sdeModel.cpas_payment">
+        <MappingFragment StoreEntitySet="cpas_payment">
+          <ScalarProperty Name="cpm_pmUpdatedDate" ColumnName="cpm_pmUpdatedDate" />
+          <ScalarProperty Name="cpm_pmInternalId" ColumnName="cpm_pmInternalId" />
+          <ScalarProperty Name="cpm_salesPostingCatOld" ColumnName="cpm_salesPostingCatOld" />
+          <ScalarProperty Name="cpm_ProgressStatusSeqNo" ColumnName="cpm_ProgressStatusSeqNo" />
+          <ScalarProperty Name="cpm_ProgressStatus" ColumnName="cpm_ProgressStatus" />
+          <ScalarProperty Name="cpm_createdDate" ColumnName="cpm_createdDate" />
+          <ScalarProperty Name="cpm_sp_id" ColumnName="cpm_sp_id" />
+          <ScalarProperty Name="cpm_mb_businessChannel_internalID" ColumnName="cpm_mb_businessChannel_internalID" />
+          <ScalarProperty Name="cpm_businessChannel" ColumnName="cpm_businessChannel" />
+          <ScalarProperty Name="cpm_totalcontracts" ColumnName="cpm_totalcontracts" />
+          <ScalarProperty Name="cpm_applyPayment" ColumnName="cpm_applyPayment" />
+          <ScalarProperty Name="cpm_payment" ColumnName="cpm_payment" />
+          <ScalarProperty Name="cpm_ml_location_internalID" ColumnName="cpm_ml_location_internalID" />
+          <ScalarProperty Name="cpm_location" ColumnName="cpm_location" />
+          <ScalarProperty Name="cpm_salesPostingCat" ColumnName="cpm_salesPostingCat" />
+          <ScalarProperty Name="cpm_syncDate" ColumnName="cpm_syncDate" />
+          <ScalarProperty Name="cpm_subsidiary_internalID" ColumnName="cpm_subsidiary_internalID" />
+          <ScalarProperty Name="cpm_subsidiary" ColumnName="cpm_subsidiary" />
+          <ScalarProperty Name="cpm_contractWeek" ColumnName="cpm_contractWeek" />
+          <ScalarProperty Name="cpm_contractMonth" ColumnName="cpm_contractMonth" />
+          <ScalarProperty Name="cpm_contractYear" ColumnName="cpm_contractYear" />
+          <ScalarProperty Name="cpm_priceCode" ColumnName="cpm_priceCode" />
+          <ScalarProperty Name="cpm_postingDate" ColumnName="cpm_postingDate" />
+          <ScalarProperty Name="cpm_postingType" ColumnName="cpm_postingType" />
+          <ScalarProperty Name="cpm_recId" ColumnName="cpm_recId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cpas_presales">
+      <EntityTypeMapping TypeName="sdeModel.cpas_presales">
+        <MappingFragment StoreEntitySet="cpas_presales">
+          <ScalarProperty Name="ps_jn_journalID" ColumnName="ps_jn_journalID" />
+          <ScalarProperty Name="ps_createdDate" ColumnName="ps_createdDate" />
+          <ScalarProperty Name="ps_tranDate" ColumnName="ps_tranDate" />
+          <ScalarProperty Name="ps_year" ColumnName="ps_year" />
+          <ScalarProperty Name="ps_month" ColumnName="ps_month" />
+          <ScalarProperty Name="ps_amount" ColumnName="ps_amount" />
+          <ScalarProperty Name="ps_businessChannel_internalID" ColumnName="ps_businessChannel_internalID" />
+          <ScalarProperty Name="ps_businessChannel" ColumnName="ps_businessChannel" />
+          <ScalarProperty Name="ps_subsidiary_internalID" ColumnName="ps_subsidiary_internalID" />
+          <ScalarProperty Name="ps_subsidiary" ColumnName="ps_subsidiary" />
+          <ScalarProperty Name="ps_tranType" ColumnName="ps_tranType" />
+          <ScalarProperty Name="ps_id" ColumnName="ps_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cpas_salestransaction">
+      <EntityTypeMapping TypeName="sdeModel.cpas_salestransaction">
+        <MappingFragment StoreEntitySet="cpas_salestransaction">
+          <ScalarProperty Name="cst_vbGIFISeqNo" ColumnName="cst_vbGIFISeqNo" />
+          <ScalarProperty Name="cst_vbGIFIProgressStatus" ColumnName="cst_vbGIFIProgressStatus" />
+          <ScalarProperty Name="cst_vbGIFIUpdatedDate" ColumnName="cst_vbGIFIUpdatedDate" />
+          <ScalarProperty Name="cst_vbGIFIInternalID" ColumnName="cst_vbGIFIInternalID" />
+          <ScalarProperty Name="cst_vbSeqNo" ColumnName="cst_vbSeqNo" />
+          <ScalarProperty Name="cst_vbProgressStatus" ColumnName="cst_vbProgressStatus" />
+          <ScalarProperty Name="cst_vbUpdatedDate" ColumnName="cst_vbUpdatedDate" />
+          <ScalarProperty Name="cst_vbInternalID" ColumnName="cst_vbInternalID" />
+          <ScalarProperty Name="cst_invGIFISeqNo" ColumnName="cst_invGIFISeqNo" />
+          <ScalarProperty Name="cst_invGIFIProgressStatus" ColumnName="cst_invGIFIProgressStatus" />
+          <ScalarProperty Name="cst_invGIFIUpdatedDate" ColumnName="cst_invGIFIUpdatedDate" />
+          <ScalarProperty Name="cst_invGIFIInternalID" ColumnName="cst_invGIFIInternalID" />
+          <ScalarProperty Name="cst_salesType" ColumnName="cst_salesType" />
+          <ScalarProperty Name="cst_postingDate" ColumnName="cst_postingDate" />
+          <ScalarProperty Name="cst_subsidiary_internalID" ColumnName="cst_subsidiary_internalID" />
+          <ScalarProperty Name="cst_subsidiary" ColumnName="cst_subsidiary" />
+          <ScalarProperty Name="cst_ml_location_internalID" ColumnName="cst_ml_location_internalID" />
+          <ScalarProperty Name="cst_sLoc" ColumnName="cst_sLoc" />
+          <ScalarProperty Name="cst_sDesc" ColumnName="cst_sDesc" />
+          <ScalarProperty Name="cst_sp_id" ColumnName="cst_sp_id" />
+          <ScalarProperty Name="cst_invProgressStatus" ColumnName="cst_invProgressStatus" />
+          <ScalarProperty Name="cst_invUpdatedDate" ColumnName="cst_invUpdatedDate" />
+          <ScalarProperty Name="cst_invInternalID" ColumnName="cst_invInternalID" />
+          <ScalarProperty Name="cst_invJobID" ColumnName="cst_invJobID" />
+          <ScalarProperty Name="cst_invSeqNo" ColumnName="cst_invSeqNo" />
+          <ScalarProperty Name="cst_ifUpdatedDate" ColumnName="cst_ifUpdatedDate" />
+          <ScalarProperty Name="cst_ifInternalID" ColumnName="cst_ifInternalID" />
+          <ScalarProperty Name="cst_ifJobID" ColumnName="cst_ifJobID" />
+          <ScalarProperty Name="cst_ifSeqNo" ColumnName="cst_ifSeqNo" />
+          <ScalarProperty Name="cst_soUpdatedDate" ColumnName="cst_soUpdatedDate" />
+          <ScalarProperty Name="cst_soInternalID" ColumnName="cst_soInternalID" />
+          <ScalarProperty Name="cst_soJobID" ColumnName="cst_soJobID" />
+          <ScalarProperty Name="cst_soSeqNo" ColumnName="cst_soSeqNo" />
+          <ScalarProperty Name="cst_createdDate" ColumnName="cst_createdDate" />
+          <ScalarProperty Name="cst_refNo" ColumnName="cst_refNo" />
+          <ScalarProperty Name="cst_recID" ColumnName="cst_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cpas_stockposting">
+      <EntityTypeMapping TypeName="sdeModel.cpas_stockposting">
+        <MappingFragment StoreEntitySet="cpas_stockposting">
+          <ScalarProperty Name="spl_tolRevenueFinCharges" ColumnName="spl_tolRevenueFinCharges" />
+          <ScalarProperty Name="spl_tolUnearnedInt" ColumnName="spl_tolUnearnedInt" />
+          <ScalarProperty Name="spl_suspendDate" ColumnName="spl_suspendDate" />
+          <ScalarProperty Name="spl_cancelType" ColumnName="spl_cancelType" />
+          <ScalarProperty Name="spl_salesType" ColumnName="spl_salesType" />
+          <ScalarProperty Name="spl_tolDeliveryCharges" ColumnName="spl_tolDeliveryCharges" />
+          <ScalarProperty Name="spl_tolUFC" ColumnName="spl_tolUFC" />
+          <ScalarProperty Name="spl_tolGstAmount" ColumnName="spl_tolGstAmount" />
+          <ScalarProperty Name="spl_tolNettPrice" ColumnName="spl_tolNettPrice" />
+          <ScalarProperty Name="spl_taxCode" ColumnName="spl_taxCode" />
+          <ScalarProperty Name="spl_noOfInstallments" ColumnName="spl_noOfInstallments" />
+          <ScalarProperty Name="spl_salespostingcategory" ColumnName="spl_salespostingcategory" />
+          <ScalarProperty Name="spl_sp_id" ColumnName="spl_sp_id" />
+          <ScalarProperty Name="spl_readyPushDate" ColumnName="spl_readyPushDate" />
+          <ScalarProperty Name="spl_createdDate" ColumnName="spl_createdDate" />
+          <ScalarProperty Name="spl_syncDate" ColumnName="spl_syncDate" />
+          <ScalarProperty Name="spl_postingDate" ColumnName="spl_postingDate" />
+          <ScalarProperty Name="spl_subsidiary_internalID" ColumnName="spl_subsidiary_internalID" />
+          <ScalarProperty Name="spl_subsidiary" ColumnName="spl_subsidiary" />
+          <ScalarProperty Name="spl_mb_businessChannel_internalID" ColumnName="spl_mb_businessChannel_internalID" />
+          <ScalarProperty Name="spl_businessChannel" ColumnName="spl_businessChannel" />
+          <ScalarProperty Name="spl_ml_location_internalID" ColumnName="spl_ml_location_internalID" />
+          <ScalarProperty Name="spl_sLoc" ColumnName="spl_sLoc" />
+          <ScalarProperty Name="spl_dQty" ColumnName="spl_dQty" />
+          <ScalarProperty Name="spl_inout" ColumnName="spl_inout" />
+          <ScalarProperty Name="spl_sDesc" ColumnName="spl_sDesc" />
+          <ScalarProperty Name="spl_mi_item_internalID" ColumnName="spl_mi_item_internalID" />
+          <ScalarProperty Name="spl_sPID" ColumnName="spl_sPID" />
+          <ScalarProperty Name="spl_transactionType" ColumnName="spl_transactionType" />
+          <ScalarProperty Name="spl_recID" ColumnName="spl_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cpas_stockposting_history">
+      <EntityTypeMapping TypeName="sdeModel.cpas_stockposting_history">
+        <MappingFragment StoreEntitySet="cpas_stockposting_history">
+          <ScalarProperty Name="spl_tolDeliveryCharges" ColumnName="spl_tolDeliveryCharges" />
+          <ScalarProperty Name="spl_tolUFC" ColumnName="spl_tolUFC" />
+          <ScalarProperty Name="spl_tolGstAmount" ColumnName="spl_tolGstAmount" />
+          <ScalarProperty Name="spl_tolNettPrice" ColumnName="spl_tolNettPrice" />
+          <ScalarProperty Name="spl_taxCode" ColumnName="spl_taxCode" />
+          <ScalarProperty Name="spl_noOfInstallments" ColumnName="spl_noOfInstallments" />
+          <ScalarProperty Name="spl_salespostingcategory" ColumnName="spl_salespostingcategory" />
+          <ScalarProperty Name="spl_sp_id" ColumnName="spl_sp_id" />
+          <ScalarProperty Name="spl_readyPushDate" ColumnName="spl_readyPushDate" />
+          <ScalarProperty Name="spl_createdDate" ColumnName="spl_createdDate" />
+          <ScalarProperty Name="spl_syncDate" ColumnName="spl_syncDate" />
+          <ScalarProperty Name="spl_postingDate" ColumnName="spl_postingDate" />
+          <ScalarProperty Name="spl_subsidiary_internalID" ColumnName="spl_subsidiary_internalID" />
+          <ScalarProperty Name="spl_subsidiary" ColumnName="spl_subsidiary" />
+          <ScalarProperty Name="spl_mb_businessChannel_internalID" ColumnName="spl_mb_businessChannel_internalID" />
+          <ScalarProperty Name="spl_businessChannel" ColumnName="spl_businessChannel" />
+          <ScalarProperty Name="spl_ml_location_internalID" ColumnName="spl_ml_location_internalID" />
+          <ScalarProperty Name="spl_sLoc" ColumnName="spl_sLoc" />
+          <ScalarProperty Name="spl_dQty" ColumnName="spl_dQty" />
+          <ScalarProperty Name="spl_inout" ColumnName="spl_inout" />
+          <ScalarProperty Name="spl_sDesc" ColumnName="spl_sDesc" />
+          <ScalarProperty Name="spl_mi_item_internalID" ColumnName="spl_mi_item_internalID" />
+          <ScalarProperty Name="spl_sPID" ColumnName="spl_sPID" />
+          <ScalarProperty Name="spl_transactionType" ColumnName="spl_transactionType" />
+          <ScalarProperty Name="spl_recID" ColumnName="spl_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cpas_testposting">
+      <EntityTypeMapping TypeName="sdeModel.cpas_testposting">
+        <MappingFragment StoreEntitySet="cpas_testposting">
+          <ScalarProperty Name="spl_netsuiteProgress" ColumnName="spl_netsuiteProgress" />
+          <ScalarProperty Name="spl_tolRevenueFinCharges" ColumnName="spl_tolRevenueFinCharges" />
+          <ScalarProperty Name="spl_tolUnearnedInt" ColumnName="spl_tolUnearnedInt" />
+          <ScalarProperty Name="spl_suspendDate" ColumnName="spl_suspendDate" />
+          <ScalarProperty Name="spl_cancelType" ColumnName="spl_cancelType" />
+          <ScalarProperty Name="spl_salesType" ColumnName="spl_salesType" />
+          <ScalarProperty Name="spl_tolDeliveryCharges" ColumnName="spl_tolDeliveryCharges" />
+          <ScalarProperty Name="spl_tolUFC" ColumnName="spl_tolUFC" />
+          <ScalarProperty Name="spl_tolGstAmount" ColumnName="spl_tolGstAmount" />
+          <ScalarProperty Name="spl_tolNettPrice" ColumnName="spl_tolNettPrice" />
+          <ScalarProperty Name="spl_taxCode" ColumnName="spl_taxCode" />
+          <ScalarProperty Name="spl_noOfInstallments" ColumnName="spl_noOfInstallments" />
+          <ScalarProperty Name="spl_salespostingcategory" ColumnName="spl_salespostingcategory" />
+          <ScalarProperty Name="spl_sp_id" ColumnName="spl_sp_id" />
+          <ScalarProperty Name="spl_readyPushDate" ColumnName="spl_readyPushDate" />
+          <ScalarProperty Name="spl_createdDate" ColumnName="spl_createdDate" />
+          <ScalarProperty Name="spl_syncDate" ColumnName="spl_syncDate" />
+          <ScalarProperty Name="spl_postingDate" ColumnName="spl_postingDate" />
+          <ScalarProperty Name="spl_subsidiary_internalID" ColumnName="spl_subsidiary_internalID" />
+          <ScalarProperty Name="spl_subsidiary" ColumnName="spl_subsidiary" />
+          <ScalarProperty Name="spl_mb_businessChannel_internalID" ColumnName="spl_mb_businessChannel_internalID" />
+          <ScalarProperty Name="spl_businessChannel" ColumnName="spl_businessChannel" />
+          <ScalarProperty Name="spl_ml_location_internalID" ColumnName="spl_ml_location_internalID" />
+          <ScalarProperty Name="spl_sLoc" ColumnName="spl_sLoc" />
+          <ScalarProperty Name="spl_dQty" ColumnName="spl_dQty" />
+          <ScalarProperty Name="spl_inout" ColumnName="spl_inout" />
+          <ScalarProperty Name="spl_sDesc" ColumnName="spl_sDesc" />
+          <ScalarProperty Name="spl_mi_item_internalID" ColumnName="spl_mi_item_internalID" />
+          <ScalarProperty Name="spl_sPID" ColumnName="spl_sPID" />
+          <ScalarProperty Name="spl_transactionType" ColumnName="spl_transactionType" />
+          <ScalarProperty Name="spl_recID" ColumnName="spl_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="default_forwarder">
+      <EntityTypeMapping TypeName="sdeModel.default_forwarder">
+        <MappingFragment StoreEntitySet="default_forwarder">
+          <ScalarProperty Name="countryRate" ColumnName="countryRate" />
+          <ScalarProperty Name="gst" ColumnName="gst" />
+          <ScalarProperty Name="fobUen" ColumnName="fobUen" />
+          <ScalarProperty Name="fobContactName" ColumnName="fobContactName" />
+          <ScalarProperty Name="fobCity" ColumnName="fobCity" />
+          <ScalarProperty Name="fobAddr2" ColumnName="fobAddr2" />
+          <ScalarProperty Name="fobAddr1" ColumnName="fobAddr1" />
+          <ScalarProperty Name="focCoName" ColumnName="focCoName" />
+          <ScalarProperty Name="contact_name" ColumnName="contact_name" />
+          <ScalarProperty Name="uen" ColumnName="uen" />
+          <ScalarProperty Name="fobCountry" ColumnName="fobCountry" />
+          <ScalarProperty Name="fobState" ColumnName="fobState" />
+          <ScalarProperty Name="fobFaxNo" ColumnName="fobFaxNo" />
+          <ScalarProperty Name="fobTelNo" ColumnName="fobTelNo" />
+          <ScalarProperty Name="fobPostCode" ColumnName="fobPostCode" />
+          <ScalarProperty Name="coLisence" ColumnName="coLisence" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="addr2" ColumnName="addr2" />
+          <ScalarProperty Name="addr1" ColumnName="addr1" />
+          <ScalarProperty Name="coName" ColumnName="coName" />
+          <ScalarProperty Name="homepage" ColumnName="homepage" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="countryName" ColumnName="countryName" />
+          <ScalarProperty Name="cNote" ColumnName="cNote" />
+          <ScalarProperty Name="faxNo" ColumnName="faxNo" />
+          <ScalarProperty Name="telNo" ColumnName="telNo" />
+          <ScalarProperty Name="postcode" ColumnName="postcode" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="countryCode" ColumnName="countryCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dummysoes">
+      <EntityTypeMapping TypeName="sdeModel.dummyso">
+        <MappingFragment StoreEntitySet="dummyso">
+          <ScalarProperty Name="dso_businessChannel" ColumnName="dso_businessChannel" />
+          <ScalarProperty Name="dso_subsidiary" ColumnName="dso_subsidiary" />
+          <ScalarProperty Name="dso_rangeTo" ColumnName="dso_rangeTo" />
+          <ScalarProperty Name="dso_createdDate" ColumnName="dso_createdDate" />
+          <ScalarProperty Name="dso_amount" ColumnName="dso_amount" />
+          <ScalarProperty Name="dso_newQuantity" ColumnName="dso_newQuantity" />
+          <ScalarProperty Name="dso_oriQuantity" ColumnName="dso_oriQuantity" />
+          <ScalarProperty Name="dso_itemInternalId" ColumnName="dso_itemInternalId" />
+          <ScalarProperty Name="dso_soInternalId" ColumnName="dso_soInternalId" />
+          <ScalarProperty Name="dso_recID" ColumnName="dso_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="errorlog_cpas_stockposting">
+      <EntityTypeMapping TypeName="sdeModel.errorlog_cpas_stockposting">
+        <MappingFragment StoreEntitySet="errorlog_cpas_stockposting">
+          <ScalarProperty Name="so_readyPushDate" ColumnName="so_readyPushDate" />
+          <ScalarProperty Name="so_createdDate" ColumnName="so_createdDate" />
+          <ScalarProperty Name="so_postInd" ColumnName="so_postInd" />
+          <ScalarProperty Name="so_postingPeriod" ColumnName="so_postingPeriod" />
+          <ScalarProperty Name="so_syncDate" ColumnName="so_syncDate" />
+          <ScalarProperty Name="so_transactionDate" ColumnName="so_transactionDate" />
+          <ScalarProperty Name="so_transactionType" ColumnName="so_transactionType" />
+          <ScalarProperty Name="so_country" ColumnName="so_country" />
+          <ScalarProperty Name="so_businessChannel" ColumnName="so_businessChannel" />
+          <ScalarProperty Name="so_name" ColumnName="so_name" />
+          <ScalarProperty Name="so_sDesc2" ColumnName="so_sDesc2" />
+          <ScalarProperty Name="so_sLoc" ColumnName="so_sLoc" />
+          <ScalarProperty Name="so_dQty3" ColumnName="so_dQty3" />
+          <ScalarProperty Name="so_dQty" ColumnName="so_dQty" />
+          <ScalarProperty Name="so_sBatch" ColumnName="so_sBatch" />
+          <ScalarProperty Name="so_sCon" ColumnName="so_sCon" />
+          <ScalarProperty Name="so_sDesc" ColumnName="so_sDesc" />
+          <ScalarProperty Name="so_sProduct" ColumnName="so_sProduct" />
+          <ScalarProperty Name="so_sPID" ColumnName="so_sPID" />
+          <ScalarProperty Name="recID" ColumnName="recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="excesspoes">
+      <EntityTypeMapping TypeName="sdeModel.excesspo">
+        <MappingFragment StoreEntitySet="excesspo">
+          <ScalarProperty Name="ep_rangeTo" ColumnName="ep_rangeTo" />
+          <ScalarProperty Name="ep_createdDate" ColumnName="ep_createdDate" />
+          <ScalarProperty Name="ep_excessQty" ColumnName="ep_excessQty" />
+          <ScalarProperty Name="ep_itemInternalID" ColumnName="ep_itemInternalID" />
+          <ScalarProperty Name="ep_poreceiveItemID" ColumnName="ep_poreceiveItemID" />
+          <ScalarProperty Name="ep_poreceiveID" ColumnName="ep_poreceiveID" />
+          <ScalarProperty Name="ep_prID" ColumnName="ep_prID" />
+          <ScalarProperty Name="ep_recID" ColumnName="ep_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="forwarderadds">
+      <EntityTypeMapping TypeName="sdeModel.forwarderadd">
+        <MappingFragment StoreEntitySet="forwarderadd">
+          <ScalarProperty Name="CustomerInternalID" ColumnName="CustomerInternalID" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="isDefault" ColumnName="isDefault" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Postcode" ColumnName="Postcode" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Address3" ColumnName="Address3" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Addressee" ColumnName="Addressee" />
+          <ScalarProperty Name="Attention" ColumnName="Attention" />
+          <ScalarProperty Name="Label" ColumnName="Label" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="InternalID" ColumnName="InternalID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="item_tem">
+      <EntityTypeMapping TypeName="sdeModel.item_tem">
+        <MappingFragment StoreEntitySet="item_tem">
+          <ScalarProperty Name="isbn" ColumnName="isbn" />
+          <ScalarProperty Name="legacy_code" ColumnName="legacy_code" />
+          <ScalarProperty Name="product_category" ColumnName="product_category" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="locationavailable" ColumnName="locationavailable" />
+          <ScalarProperty Name="location" ColumnName="location" />
+          <ScalarProperty Name="internal_id" ColumnName="internal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="item_id" ColumnName="item_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="map_bin">
+      <EntityTypeMapping TypeName="sdeModel.map_bin">
+        <MappingFragment StoreEntitySet="map_bin">
+          <ScalarProperty Name="mb_bin_isInactive" ColumnName="mb_bin_isInactive" />
+          <ScalarProperty Name="mb_returnbin_location_internalID" ColumnName="mb_returnbin_location_internalID" />
+          <ScalarProperty Name="mb_returnbin_name" ColumnName="mb_returnbin_name" />
+          <ScalarProperty Name="mb_bin_branch_internalID" ColumnName="mb_bin_branch_internalID" />
+          <ScalarProperty Name="mb_bin_location_internalID" ColumnName="mb_bin_location_internalID" />
+          <ScalarProperty Name="mb_bin_name" ColumnName="mb_bin_name" />
+          <ScalarProperty Name="mb_bin_internalID" ColumnName="mb_bin_internalID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="map_businesschannel">
+      <EntityTypeMapping TypeName="sdeModel.map_businesschannel">
+        <MappingFragment StoreEntitySet="map_businesschannel">
+          <ScalarProperty Name="mb_imas_businessChannel_code" ColumnName="mb_imas_businessChannel_code" />
+          <ScalarProperty Name="mb_imas_businessChannel_ID" ColumnName="mb_imas_businessChannel_ID" />
+          <ScalarProperty Name="mb_businessChannel_isInActive" ColumnName="mb_businessChannel_isInActive" />
+          <ScalarProperty Name="mb_businessChannel_includeChild" ColumnName="mb_businessChannel_includeChild" />
+          <ScalarProperty Name="mb_businessChannel_parent" ColumnName="mb_businessChannel_parent" />
+          <ScalarProperty Name="mb_businessChannel_name" ColumnName="mb_businessChannel_name" />
+          <ScalarProperty Name="mb_businessChannel_internalID" ColumnName="mb_businessChannel_internalID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="map_chartofaccount">
+      <EntityTypeMapping TypeName="sdeModel.map_chartofaccount">
+        <MappingFragment StoreEntitySet="map_chartofaccount">
+          <ScalarProperty Name="coa_subsidiary" ColumnName="coa_subsidiary" />
+          <ScalarProperty Name="coa_glType" ColumnName="coa_glType" />
+          <ScalarProperty Name="coa_account_internalID" ColumnName="coa_account_internalID" />
+          <ScalarProperty Name="coa_accountNo" ColumnName="coa_accountNo" />
+          <ScalarProperty Name="coa_tranType" ColumnName="coa_tranType" />
+          <ScalarProperty Name="coa_recID" ColumnName="coa_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="map_country">
+      <EntityTypeMapping TypeName="sdeModel.map_country">
+        <MappingFragment StoreEntitySet="map_country">
+          <ScalarProperty Name="mc_country_internalID" ColumnName="mc_country_internalID" />
+          <ScalarProperty Name="mc_countryName" ColumnName="mc_countryName" />
+          <ScalarProperty Name="mc_countryCode" ColumnName="mc_countryCode" />
+          <ScalarProperty Name="mc_recID" ColumnName="mc_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="map_currency">
+      <EntityTypeMapping TypeName="sdeModel.map_currency">
+        <MappingFragment StoreEntitySet="map_currency">
+          <ScalarProperty Name="mc_country" ColumnName="mc_country" />
+          <ScalarProperty Name="mc_currency_ISO_code" ColumnName="mc_currency_ISO_code" />
+          <ScalarProperty Name="mc_currency_name" ColumnName="mc_currency_name" />
+          <ScalarProperty Name="mc_currency_internalID" ColumnName="mc_currency_internalID" />
+          <ScalarProperty Name="mc_currency_recID" ColumnName="mc_currency_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="map_customer">
+      <EntityTypeMapping TypeName="sdeModel.map_customer">
+        <MappingFragment StoreEntitySet="map_customer">
+          <ScalarProperty Name="mc_customer_name" ColumnName="mc_customer_name" />
+          <ScalarProperty Name="mc_customer_internalID" ColumnName="mc_customer_internalID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="map_item">
+      <EntityTypeMapping TypeName="sdeModel.map_item">
+        <MappingFragment StoreEntitySet="map_item">
+          <ScalarProperty Name="mi_pmd_sync" ColumnName="mi_pmd_sync" />
+          <ScalarProperty Name="mi_pmd_id" ColumnName="mi_pmd_id" />
+          <ScalarProperty Name="mi_ns_itemID" ColumnName="mi_ns_itemID" />
+          <ScalarProperty Name="mi_tax_code" ColumnName="mi_tax_code" />
+          <ScalarProperty Name="mi_tax_schedule" ColumnName="mi_tax_schedule" />
+          <ScalarProperty Name="mi_prodfamily" ColumnName="mi_prodfamily" />
+          <ScalarProperty Name="mi_businesschannel_InternalID" ColumnName="mi_businesschannel_InternalID" />
+          <ScalarProperty Name="mi_businesschannel_name" ColumnName="mi_businesschannel_name" />
+          <ScalarProperty Name="mi_rangeTo" ColumnName="mi_rangeTo" />
+          <ScalarProperty Name="mi_item_internalID" ColumnName="mi_item_internalID" />
+          <ScalarProperty Name="mi_accountClassID" ColumnName="mi_accountClassID" />
+          <ScalarProperty Name="mi_item_weight" ColumnName="mi_item_weight" />
+          <ScalarProperty Name="mi_createdBy" ColumnName="mi_createdBy" />
+          <ScalarProperty Name="mi_reorder_date" ColumnName="mi_reorder_date" />
+          <ScalarProperty Name="mi_reorder_qty" ColumnName="mi_reorder_qty" />
+          <ScalarProperty Name="mi_item_reorder_level" ColumnName="mi_item_reorder_level" />
+          <ScalarProperty Name="mi_createdDate" ColumnName="mi_createdDate" />
+          <ScalarProperty Name="mi_modifiedBy" ColumnName="mi_modifiedBy" />
+          <ScalarProperty Name="mi_lastModifiedDate" ColumnName="mi_lastModifiedDate" />
+          <ScalarProperty Name="mi_isbn_secondary" ColumnName="mi_isbn_secondary" />
+          <ScalarProperty Name="mi_item_isbn" ColumnName="mi_item_isbn" />
+          <ScalarProperty Name="mi_item_uom" ColumnName="mi_item_uom" />
+          <ScalarProperty Name="mi_item_title" ColumnName="mi_item_title" />
+          <ScalarProperty Name="mi_item_description" ColumnName="mi_item_description" />
+          <ScalarProperty Name="mi_item_ID" ColumnName="mi_item_ID" />
+          <ScalarProperty Name="mi_recID" ColumnName="mi_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="map_itemprice">
+      <EntityTypeMapping TypeName="sdeModel.map_itemprice">
+        <MappingFragment StoreEntitySet="map_itemprice">
+          <ScalarProperty Name="mip_item_internalID" ColumnName="mip_item_internalID" />
+          <ScalarProperty Name="mip_item_currency" ColumnName="mip_item_currency" />
+          <ScalarProperty Name="mip_item_price" ColumnName="mip_item_price" />
+          <ScalarProperty Name="mip_item_pricelevel" ColumnName="mip_item_pricelevel" />
+          <ScalarProperty Name="mip_item_isbn" ColumnName="mip_item_isbn" />
+          <ScalarProperty Name="mip_recID" ColumnName="mip_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="map_location">
+      <EntityTypeMapping TypeName="sdeModel.map_location">
+        <MappingFragment StoreEntitySet="map_location">
+          <ScalarProperty Name="ml_location_isInactive" ColumnName="ml_location_isInactive" />
+          <ScalarProperty Name="ml_location_country" ColumnName="ml_location_country" />
+          <ScalarProperty Name="ml_location_parent" ColumnName="ml_location_parent" />
+          <ScalarProperty Name="ml_location_name" ColumnName="ml_location_name" />
+          <ScalarProperty Name="ml_location_internalID" ColumnName="ml_location_internalID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="map_subsidiary">
+      <EntityTypeMapping TypeName="sdeModel.map_subsidiary">
+        <MappingFragment StoreEntitySet="map_subsidiary">
+          <ScalarProperty Name="ms_currencyCode" ColumnName="ms_currencyCode" />
+          <ScalarProperty Name="ms_currency" ColumnName="ms_currency" />
+          <ScalarProperty Name="ms_countryName" ColumnName="ms_countryName" />
+          <ScalarProperty Name="ms_subsidiary_isInactive" ColumnName="ms_subsidiary_isInactive" />
+          <ScalarProperty Name="ms_subsidiary_country" ColumnName="ms_subsidiary_country" />
+          <ScalarProperty Name="ms_subsidiary_parent" ColumnName="ms_subsidiary_parent" />
+          <ScalarProperty Name="ms_subsidiary_name" ColumnName="ms_subsidiary_name" />
+          <ScalarProperty Name="ms_subsidiary_internalID" ColumnName="ms_subsidiary_internalID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdm_item">
+      <EntityTypeMapping TypeName="sdeModel.mdm_item">
+        <MappingFragment StoreEntitySet="mdm_item">
+          <ScalarProperty Name="item_isbn" ColumnName="item_isbn" />
+          <ScalarProperty Name="item_name" ColumnName="item_name" />
+          <ScalarProperty Name="item_internalid" ColumnName="item_internalid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_adjustment">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_adjustment">
+        <MappingFragment StoreEntitySet="netsuite_adjustment">
+          <ScalarProperty Name="nsda_recID" ColumnName="nsda_recID" />
+          <ScalarProperty Name="nsda_rangeTo" ColumnName="nsda_rangeTo" />
+          <ScalarProperty Name="nsda_modifiedDate" ColumnName="nsda_modifiedDate" />
+          <ScalarProperty Name="nsda_modifiedBy" ColumnName="nsda_modifiedBy" />
+          <ScalarProperty Name="nsda_createdDate" ColumnName="nsda_createdDate" />
+          <ScalarProperty Name="nsda_createdBy" ColumnName="nsda_createdBy" />
+          <ScalarProperty Name="nsda_adjustment_type" ColumnName="nsda_adjustment_type" />
+          <ScalarProperty Name="nsda_adjustment_description" ColumnName="nsda_adjustment_description" />
+          <ScalarProperty Name="nsda_adjustment_warehouse_ID" ColumnName="nsda_adjustment_warehouse_ID" />
+          <ScalarProperty Name="nsda_adjustment_remarks" ColumnName="nsda_adjustment_remarks" />
+          <ScalarProperty Name="nsda_adjustment_posted" ColumnName="nsda_adjustment_posted" />
+          <ScalarProperty Name="nsda_adjustment_active" ColumnName="nsda_adjustment_active" />
+          <ScalarProperty Name="nsda_adjustment_code" ColumnName="nsda_adjustment_code" />
+          <ScalarProperty Name="nsda_adjustment_ID" ColumnName="nsda_adjustment_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_adjustment2">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_adjustment2">
+        <MappingFragment StoreEntitySet="netsuite_adjustment2">
+          <ScalarProperty Name="nas_locationID" ColumnName="nas_locationID" />
+          <ScalarProperty Name="nas_postingPeriodID" ColumnName="nas_postingPeriodID" />
+          <ScalarProperty Name="nas_postingPeriod" ColumnName="nas_postingPeriod" />
+          <ScalarProperty Name="nas_shipmentDate" ColumnName="nas_shipmentDate" />
+          <ScalarProperty Name="nas_accountNo" ColumnName="nas_accountNo" />
+          <ScalarProperty Name="nas_businessChannel" ColumnName="nas_businessChannel" />
+          <ScalarProperty Name="nas_businessChannelID" ColumnName="nas_businessChannelID" />
+          <ScalarProperty Name="nas_subsidiaryID" ColumnName="nas_subsidiaryID" />
+          <ScalarProperty Name="nas_Subsidiary" ColumnName="nas_Subsidiary" />
+          <ScalarProperty Name="nas_Type" ColumnName="nas_Type" />
+          <ScalarProperty Name="nas_firstShipmentDate" ColumnName="nas_firstShipmentDate" />
+          <ScalarProperty Name="nas_shipmentNo" ColumnName="nas_shipmentNo" />
+          <ScalarProperty Name="nas_analysisCode" ColumnName="nas_analysisCode" />
+          <ScalarProperty Name="nas_ID" ColumnName="nas_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_adjustmentdetail2">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_adjustmentdetail2">
+        <MappingFragment StoreEntitySet="netsuite_adjustmentdetail2">
+          <ScalarProperty Name="nad_postingPeriodID" ColumnName="nad_postingPeriodID" />
+          <ScalarProperty Name="nad_businessChannel" ColumnName="nad_businessChannel" />
+          <ScalarProperty Name="nad_type" ColumnName="nad_type" />
+          <ScalarProperty Name="nad_firstShipmentDate" ColumnName="nad_firstShipmentDate" />
+          <ScalarProperty Name="nad_nsItemID" ColumnName="nad_nsItemID" />
+          <ScalarProperty Name="nad_nsLocationID" ColumnName="nad_nsLocationID" />
+          <ScalarProperty Name="nad_nsLocation" ColumnName="nad_nsLocation" />
+          <ScalarProperty Name="nad_imasLocation" ColumnName="nad_imasLocation" />
+          <ScalarProperty Name="nad_imasItemID" ColumnName="nad_imasItemID" />
+          <ScalarProperty Name="nad_totalAmt" ColumnName="nad_totalAmt" />
+          <ScalarProperty Name="nad_localCost" ColumnName="nad_localCost" />
+          <ScalarProperty Name="nad_usdCost" ColumnName="nad_usdCost" />
+          <ScalarProperty Name="nad_receivedQty" ColumnName="nad_receivedQty" />
+          <ScalarProperty Name="nad_ISBN10" ColumnName="nad_ISBN10" />
+          <ScalarProperty Name="nad_ISBN13" ColumnName="nad_ISBN13" />
+          <ScalarProperty Name="nad_shipmentNo" ColumnName="nad_shipmentNo" />
+          <ScalarProperty Name="nad_id" ColumnName="nad_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_adjustmentitem">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_adjustmentitem">
+        <MappingFragment StoreEntitySet="netsuite_adjustmentitem">
+          <ScalarProperty Name="nsdai_rangeTo" ColumnName="nsdai_rangeTo" />
+          <ScalarProperty Name="nsdai_createdDate" ColumnName="nsdai_createdDate" />
+          <ScalarProperty Name="nsdai_adjustmentItem_remarks" ColumnName="nsdai_adjustmentItem_remarks" />
+          <ScalarProperty Name="nsdai_adjustmentItem_status" ColumnName="nsdai_adjustmentItem_status" />
+          <ScalarProperty Name="nsdai_nsda_adjustment_ID" ColumnName="nsdai_nsda_adjustment_ID" />
+          <ScalarProperty Name="nsdai_adjustmentItem_qty" ColumnName="nsdai_adjustmentItem_qty" />
+          <ScalarProperty Name="nsdai_itemBusiness_ID" ColumnName="nsdai_itemBusiness_ID" />
+          <ScalarProperty Name="nsdai_adjustmentItem_ID" ColumnName="nsdai_adjustmentItem_ID" />
+          <ScalarProperty Name="nsdai_recID" ColumnName="nsdai_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_dropshipfulfillment">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_dropshipfulfillment">
+        <MappingFragment StoreEntitySet="netsuite_dropshipfulfillment">
+          <ScalarProperty Name="dsf_class_name" ColumnName="dsf_class_name" />
+          <ScalarProperty Name="dsf_is_fas" ColumnName="dsf_is_fas" />
+          <ScalarProperty Name="dsf_invInternalID" ColumnName="dsf_invInternalID" />
+          <ScalarProperty Name="dsf_invUpdatedDate" ColumnName="dsf_invUpdatedDate" />
+          <ScalarProperty Name="dsf_invSeqNo" ColumnName="dsf_invSeqNo" />
+          <ScalarProperty Name="dsf_invProgress" ColumnName="dsf_invProgress" />
+          <ScalarProperty Name="dsf_iffInternalID" ColumnName="dsf_iffInternalID" />
+          <ScalarProperty Name="dsf_iffUpdatedDate" ColumnName="dsf_iffUpdatedDate" />
+          <ScalarProperty Name="dsf_iffSeqNo" ColumnName="dsf_iffSeqNo" />
+          <ScalarProperty Name="dsf_iffProgress" ColumnName="dsf_iffProgress" />
+          <ScalarProperty Name="dsf_basedprice" ColumnName="dsf_basedprice" />
+          <ScalarProperty Name="dsf_lastinvoicedate" ColumnName="dsf_lastinvoicedate" />
+          <ScalarProperty Name="dsf_lastfulfilleddate" ColumnName="dsf_lastfulfilleddate" />
+          <ScalarProperty Name="dsf_customer_InternalID" ColumnName="dsf_customer_InternalID" />
+          <ScalarProperty Name="dsf_ponumber" ColumnName="dsf_ponumber" />
+          <ScalarProperty Name="dsf_discountItem_internalID" ColumnName="dsf_discountItem_internalID" />
+          <ScalarProperty Name="dsf_discount" ColumnName="dsf_discount" />
+          <ScalarProperty Name="dsf_createdinvoiceqty" ColumnName="dsf_createdinvoiceqty" />
+          <ScalarProperty Name="dsf_wmsfulfilledqty" ColumnName="dsf_wmsfulfilledqty" />
+          <ScalarProperty Name="dsf_ordQty" ColumnName="dsf_ordQty" />
+          <ScalarProperty Name="dsf_rate" ColumnName="dsf_rate" />
+          <ScalarProperty Name="dsf_pricelevel_InternalID" ColumnName="dsf_pricelevel_InternalID" />
+          <ScalarProperty Name="dsf_pricelevel" ColumnName="dsf_pricelevel" />
+          <ScalarProperty Name="dsf_item_internalID" ColumnName="dsf_item_internalID" />
+          <ScalarProperty Name="dsf_itemID" ColumnName="dsf_itemID" />
+          <ScalarProperty Name="dsf_status" ColumnName="dsf_status" />
+          <ScalarProperty Name="dsf_subsidiary" ColumnName="dsf_subsidiary" />
+          <ScalarProperty Name="dsf_dropshipmono_internalID" ColumnName="dsf_dropshipmono_internalID" />
+          <ScalarProperty Name="dsf_dropshipmono" ColumnName="dsf_dropshipmono" />
+          <ScalarProperty Name="dsf_GMYmono_internalID" ColumnName="dsf_GMYmono_internalID" />
+          <ScalarProperty Name="dsf_GMYmono" ColumnName="dsf_GMYmono" />
+          <ScalarProperty Name="dsf_recID" ColumnName="dsf_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_dropshipso">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_dropshipso">
+        <MappingFragment StoreEntitySet="netsuite_dropshipso">
+          <ScalarProperty Name="ds_netsuiteClosedSOProgress" ColumnName="ds_netsuiteClosedSOProgress" />
+          <ScalarProperty Name="ds_netsuiteGMYSOProgress" ColumnName="ds_netsuiteGMYSOProgress" />
+          <ScalarProperty Name="ds_rangeTo" ColumnName="ds_rangeTo" />
+          <ScalarProperty Name="ds_createdDate" ColumnName="ds_createdDate" />
+          <ScalarProperty Name="ds_mono_InternalID" ColumnName="ds_mono_InternalID" />
+          <ScalarProperty Name="ds_mono" ColumnName="ds_mono" />
+          <ScalarProperty Name="ds_recID" ColumnName="ds_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_invoice">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_invoice">
+        <MappingFragment StoreEntitySet="netsuite_invoice">
+          <ScalarProperty Name="nsinv_location_internalID" ColumnName="nsinv_location_internalID" />
+          <ScalarProperty Name="nsinv_location" ColumnName="nsinv_location" />
+          <ScalarProperty Name="nsinv_rangeTo" ColumnName="nsinv_rangeTo" />
+          <ScalarProperty Name="nsinv_createdDate" ColumnName="nsinv_createdDate" />
+          <ScalarProperty Name="nsinv_entity_internalID" ColumnName="nsinv_entity_internalID" />
+          <ScalarProperty Name="nsinv_entity" ColumnName="nsinv_entity" />
+          <ScalarProperty Name="nsinv_moNo_internalID" ColumnName="nsinv_moNo_internalID" />
+          <ScalarProperty Name="nsinv_moNo" ColumnName="nsinv_moNo" />
+          <ScalarProperty Name="nsinv_recID" ColumnName="nsinv_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_job">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_job">
+        <MappingFragment StoreEntitySet="netsuite_job">
+          <ScalarProperty Name="nsj_recID" ColumnName="nsj_recID" />
+          <ScalarProperty Name="nsj_rangeTo" ColumnName="nsj_rangeTo" />
+          <ScalarProperty Name="nsj_createdDate" ColumnName="nsj_createdDate" />
+          <ScalarProperty Name="nsj_modifiedDate" ColumnName="nsj_modifiedDate" />
+          <ScalarProperty Name="nsj_modifiedBy" ColumnName="nsj_modifiedBy" />
+          <ScalarProperty Name="nsj_job_status" ColumnName="nsj_job_status" />
+          <ScalarProperty Name="nsj_job_no" ColumnName="nsj_job_no" />
+          <ScalarProperty Name="nsj_job_mo_count" ColumnName="nsj_job_mo_count" />
+          <ScalarProperty Name="nsj_job_description" ColumnName="nsj_job_description" />
+          <ScalarProperty Name="nsj_job_active" ColumnName="nsj_job_active" />
+          <ScalarProperty Name="nsj_createdBy" ColumnName="nsj_createdBy" />
+          <ScalarProperty Name="nsj_mc_countryCode" ColumnName="nsj_mc_countryCode" />
+          <ScalarProperty Name="nsj_country_tag" ColumnName="nsj_country_tag" />
+          <ScalarProperty Name="nsj_businessChannel_ID" ColumnName="nsj_businessChannel_ID" />
+          <ScalarProperty Name="nsj_jobID" ColumnName="nsj_jobID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_jobitem">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_jobitem">
+        <MappingFragment StoreEntitySet="netsuite_jobitem">
+          <ScalarProperty Name="nsji_recID" ColumnName="nsji_recID" />
+          <ScalarProperty Name="nsji_rangeTo" ColumnName="nsji_rangeTo" />
+          <ScalarProperty Name="nsji_moNo_internalID" ColumnName="nsji_moNo_internalID" />
+          <ScalarProperty Name="nsji_moNo" ColumnName="nsji_moNo" />
+          <ScalarProperty Name="nsji_posting_type" ColumnName="nsji_posting_type" />
+          <ScalarProperty Name="nsji_item_qty" ColumnName="nsji_item_qty" />
+          <ScalarProperty Name="nsji_item_internalID" ColumnName="nsji_item_internalID" />
+          <ScalarProperty Name="nsji_item_ID" ColumnName="nsji_item_ID" />
+          <ScalarProperty Name="nsji_createdDate" ColumnName="nsji_createdDate" />
+          <ScalarProperty Name="nsji_createdBy" ColumnName="nsji_createdBy" />
+          <ScalarProperty Name="nsji_nsj_jobID" ColumnName="nsji_nsj_jobID" />
+          <ScalarProperty Name="nsji_jobItem_ID" ColumnName="nsji_jobItem_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_jobitem_history">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_jobitem_history">
+        <MappingFragment StoreEntitySet="netsuite_jobitem_history">
+          <ScalarProperty Name="nsji_recID" ColumnName="nsji_recID" />
+          <ScalarProperty Name="nsji_rangeTo" ColumnName="nsji_rangeTo" />
+          <ScalarProperty Name="nsji_moNo_internalID" ColumnName="nsji_moNo_internalID" />
+          <ScalarProperty Name="nsji_moNo" ColumnName="nsji_moNo" />
+          <ScalarProperty Name="nsji_posting_type" ColumnName="nsji_posting_type" />
+          <ScalarProperty Name="nsji_item_qty" ColumnName="nsji_item_qty" />
+          <ScalarProperty Name="nsji_item_internalID" ColumnName="nsji_item_internalID" />
+          <ScalarProperty Name="nsji_item_ID" ColumnName="nsji_item_ID" />
+          <ScalarProperty Name="nsji_createdDate" ColumnName="nsji_createdDate" />
+          <ScalarProperty Name="nsji_createdBy" ColumnName="nsji_createdBy" />
+          <ScalarProperty Name="nsji_nsj_jobID" ColumnName="nsji_nsj_jobID" />
+          <ScalarProperty Name="nsji_jobItem_ID" ColumnName="nsji_jobItem_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_jobmo">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_jobmo">
+        <MappingFragment StoreEntitySet="netsuite_jobmo">
+          <ScalarProperty Name="is_fas" ColumnName="is_fas" />
+          <ScalarProperty Name="nsjm_shipDate" ColumnName="nsjm_shipDate" />
+          <ScalarProperty Name="nsjm_rangeTo" ColumnName="nsjm_rangeTo" />
+          <ScalarProperty Name="nsjm_createdDate" ColumnName="nsjm_createdDate" />
+          <ScalarProperty Name="nsjm_ns_status" ColumnName="nsjm_ns_status" />
+          <ScalarProperty Name="nsjm_tranDate" ColumnName="nsjm_tranDate" />
+          <ScalarProperty Name="nsjm_moTransMode" ColumnName="nsjm_moTransMode" />
+          <ScalarProperty Name="nsjm_moLisence" ColumnName="nsjm_moLisence" />
+          <ScalarProperty Name="nsjm_deliveryType" ColumnName="nsjm_deliveryType" />
+          <ScalarProperty Name="nsjm_moCurrency" ColumnName="nsjm_moCurrency" />
+          <ScalarProperty Name="nsjm_creditTerm" ColumnName="nsjm_creditTerm" />
+          <ScalarProperty Name="nsjm_jobNo" ColumnName="nsjm_jobNo" />
+          <ScalarProperty Name="nsjm_schName_2" ColumnName="nsjm_schName_2" />
+          <ScalarProperty Name="nsjm_ordWeight" ColumnName="nsjm_ordWeight" />
+          <ScalarProperty Name="nsjm_telNo" ColumnName="nsjm_telNo" />
+          <ScalarProperty Name="nsjm_status" ColumnName="nsjm_status" />
+          <ScalarProperty Name="nsjm_schName" ColumnName="nsjm_schName" />
+          <ScalarProperty Name="nsjm_schID" ColumnName="nsjm_schID" />
+          <ScalarProperty Name="nsjm_processPeriod" ColumnName="nsjm_processPeriod" />
+          <ScalarProperty Name="nsjm_postCode" ColumnName="nsjm_postCode" />
+          <ScalarProperty Name="nsjm_ordRecNoCnt" ColumnName="nsjm_ordRecNoCnt" />
+          <ScalarProperty Name="nsjm_deliveryAdd_3" ColumnName="nsjm_deliveryAdd_3" />
+          <ScalarProperty Name="nsjm_deliveryAdd_2" ColumnName="nsjm_deliveryAdd_2" />
+          <ScalarProperty Name="nsjm_deliveryAdd" ColumnName="nsjm_deliveryAdd" />
+          <ScalarProperty Name="nsjm_country" ColumnName="nsjm_country" />
+          <ScalarProperty Name="nsjm_contactPerson" ColumnName="nsjm_contactPerson" />
+          <ScalarProperty Name="nsjm_clsCnt" ColumnName="nsjm_clsCnt" />
+          <ScalarProperty Name="nsjm_consignmentNote" ColumnName="nsjm_consignmentNote" />
+          <ScalarProperty Name="nsjm_jobMo_ID" ColumnName="nsjm_jobMo_ID" />
+          <ScalarProperty Name="nsjm_moNo_internalID" ColumnName="nsjm_moNo_internalID" />
+          <ScalarProperty Name="nsjm_moNo" ColumnName="nsjm_moNo" />
+          <ScalarProperty Name="nsjm_nsj_job_ID" ColumnName="nsjm_nsj_job_ID" />
+          <ScalarProperty Name="nsjm_recID" ColumnName="nsjm_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_jobmo_address">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_jobmo_address">
+        <MappingFragment StoreEntitySet="netsuite_jobmo_address">
+          <ScalarProperty Name="nsjma_jobMoAddress_4" ColumnName="nsjma_jobMoAddress_4" />
+          <ScalarProperty Name="nsjma_recID" ColumnName="nsjma_recID" />
+          <ScalarProperty Name="nsjma_rangeTo" ColumnName="nsjma_rangeTo" />
+          <ScalarProperty Name="nsjma_createdDate" ColumnName="nsjma_createdDate" />
+          <ScalarProperty Name="nsjma_moNo_internalID" ColumnName="nsjma_moNo_internalID" />
+          <ScalarProperty Name="nsjma_jobMoAddress_fax" ColumnName="nsjma_jobMoAddress_fax" />
+          <ScalarProperty Name="nsjma_jobMoAddress_tel2" ColumnName="nsjma_jobMoAddress_tel2" />
+          <ScalarProperty Name="nsjma_jobMoAddress_tel" ColumnName="nsjma_jobMoAddress_tel" />
+          <ScalarProperty Name="nsjma_jobMoAddress_tag" ColumnName="nsjma_jobMoAddress_tag" />
+          <ScalarProperty Name="nsjma_nsj_jobID" ColumnName="nsjma_nsj_jobID" />
+          <ScalarProperty Name="nsjma_jobMoAddress_deliveryType" ColumnName="nsjma_jobMoAddress_deliveryType" />
+          <ScalarProperty Name="nsjma_jobMoAddress_contact" ColumnName="nsjma_jobMoAddress_contact" />
+          <ScalarProperty Name="nsjma_moNo" ColumnName="nsjma_moNo" />
+          <ScalarProperty Name="nsjma_jobMoAddress_ref" ColumnName="nsjma_jobMoAddress_ref" />
+          <ScalarProperty Name="nsjma_jobMoAddress_3" ColumnName="nsjma_jobMoAddress_3" />
+          <ScalarProperty Name="nsjma_jobMoAddress_2" ColumnName="nsjma_jobMoAddress_2" />
+          <ScalarProperty Name="nsjma_jobMoAddress_1" ColumnName="nsjma_jobMoAddress_1" />
+          <ScalarProperty Name="nsjma_jobMoAddress_name" ColumnName="nsjma_jobMoAddress_name" />
+          <ScalarProperty Name="nsjma_nsjm_jobMoID" ColumnName="nsjma_nsjm_jobMoID" />
+          <ScalarProperty Name="nsjma_jobMoAddress_ID" ColumnName="nsjma_jobMoAddress_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_jobmo_address_temp">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_jobmo_address_temp">
+        <MappingFragment StoreEntitySet="netsuite_jobmo_address_temp">
+          <ScalarProperty Name="nsjma_jobMoAddress_4" ColumnName="nsjma_jobMoAddress_4" />
+          <ScalarProperty Name="nsjma_flag" ColumnName="nsjma_flag" />
+          <ScalarProperty Name="nsjma_recID" ColumnName="nsjma_recID" />
+          <ScalarProperty Name="nsjma_rangeTo" ColumnName="nsjma_rangeTo" />
+          <ScalarProperty Name="nsjma_createdDate" ColumnName="nsjma_createdDate" />
+          <ScalarProperty Name="nsjma_moNo_internalID" ColumnName="nsjma_moNo_internalID" />
+          <ScalarProperty Name="nsjma_jobMoAddress_fax" ColumnName="nsjma_jobMoAddress_fax" />
+          <ScalarProperty Name="nsjma_jobMoAddress_tel2" ColumnName="nsjma_jobMoAddress_tel2" />
+          <ScalarProperty Name="nsjma_jobMoAddress_tel" ColumnName="nsjma_jobMoAddress_tel" />
+          <ScalarProperty Name="nsjma_jobMoAddress_tag" ColumnName="nsjma_jobMoAddress_tag" />
+          <ScalarProperty Name="nsjma_nsj_jobID" ColumnName="nsjma_nsj_jobID" />
+          <ScalarProperty Name="nsjma_jobMoAddress_deliveryType" ColumnName="nsjma_jobMoAddress_deliveryType" />
+          <ScalarProperty Name="nsjma_jobMoAddress_contact" ColumnName="nsjma_jobMoAddress_contact" />
+          <ScalarProperty Name="nsjma_moNo" ColumnName="nsjma_moNo" />
+          <ScalarProperty Name="nsjma_jobMoAddress_ref" ColumnName="nsjma_jobMoAddress_ref" />
+          <ScalarProperty Name="nsjma_jobMoAddress_3" ColumnName="nsjma_jobMoAddress_3" />
+          <ScalarProperty Name="nsjma_jobMoAddress_2" ColumnName="nsjma_jobMoAddress_2" />
+          <ScalarProperty Name="nsjma_jobMoAddress_1" ColumnName="nsjma_jobMoAddress_1" />
+          <ScalarProperty Name="nsjma_jobMoAddress_name" ColumnName="nsjma_jobMoAddress_name" />
+          <ScalarProperty Name="nsjma_nsjm_jobMoID" ColumnName="nsjma_nsjm_jobMoID" />
+          <ScalarProperty Name="nsjma_jobMoAddress_ID" ColumnName="nsjma_jobMoAddress_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_jobmo_pack">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_jobmo_pack">
+        <MappingFragment StoreEntitySet="netsuite_jobmo_pack">
+          <ScalarProperty Name="nsjmp_rangeTo" ColumnName="nsjmp_rangeTo" />
+          <ScalarProperty Name="nsjmp_createdDate" ColumnName="nsjmp_createdDate" />
+          <ScalarProperty Name="nsjmp_moNo_internalID" ColumnName="nsjmp_moNo_internalID" />
+          <ScalarProperty Name="nsjmp_packISBN" ColumnName="nsjmp_packISBN" />
+          <ScalarProperty Name="nsjmp_amt" ColumnName="nsjmp_amt" />
+          <ScalarProperty Name="nsjmp_qty" ColumnName="nsjmp_qty" />
+          <ScalarProperty Name="nsjmp_packPrice" ColumnName="nsjmp_packPrice" />
+          <ScalarProperty Name="nsjmp_item_internalID" ColumnName="nsjmp_item_internalID" />
+          <ScalarProperty Name="nsjmp_packTitles" ColumnName="nsjmp_packTitles" />
+          <ScalarProperty Name="nsjmp_packID" ColumnName="nsjmp_packID" />
+          <ScalarProperty Name="nsjmp_schName" ColumnName="nsjmp_schName" />
+          <ScalarProperty Name="nsjmp_schID" ColumnName="nsjmp_schID" />
+          <ScalarProperty Name="nsjmp_moNo" ColumnName="nsjmp_moNo" />
+          <ScalarProperty Name="nsjmp_period" ColumnName="nsjmp_period" />
+          <ScalarProperty Name="nsjmp_nsj_jobID" ColumnName="nsjmp_nsj_jobID" />
+          <ScalarProperty Name="nsjmp_jobmoPack_ID" ColumnName="nsjmp_jobmoPack_ID" />
+          <ScalarProperty Name="nsjmp_recID" ColumnName="nsjmp_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_jobmo_pack_history">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_jobmo_pack_history">
+        <MappingFragment StoreEntitySet="netsuite_jobmo_pack_history">
+          <ScalarProperty Name="nsjmp_rangeTo" ColumnName="nsjmp_rangeTo" />
+          <ScalarProperty Name="nsjmp_createdDate" ColumnName="nsjmp_createdDate" />
+          <ScalarProperty Name="nsjmp_moNo_internalID" ColumnName="nsjmp_moNo_internalID" />
+          <ScalarProperty Name="nsjmp_packISBN" ColumnName="nsjmp_packISBN" />
+          <ScalarProperty Name="nsjmp_amt" ColumnName="nsjmp_amt" />
+          <ScalarProperty Name="nsjmp_qty" ColumnName="nsjmp_qty" />
+          <ScalarProperty Name="nsjmp_packPrice" ColumnName="nsjmp_packPrice" />
+          <ScalarProperty Name="nsjmp_item_internalID" ColumnName="nsjmp_item_internalID" />
+          <ScalarProperty Name="nsjmp_packTitles" ColumnName="nsjmp_packTitles" />
+          <ScalarProperty Name="nsjmp_packID" ColumnName="nsjmp_packID" />
+          <ScalarProperty Name="nsjmp_schName" ColumnName="nsjmp_schName" />
+          <ScalarProperty Name="nsjmp_schID" ColumnName="nsjmp_schID" />
+          <ScalarProperty Name="nsjmp_moNo" ColumnName="nsjmp_moNo" />
+          <ScalarProperty Name="nsjmp_period" ColumnName="nsjmp_period" />
+          <ScalarProperty Name="nsjmp_nsj_jobID" ColumnName="nsjmp_nsj_jobID" />
+          <ScalarProperty Name="nsjmp_jobmoPack_ID" ColumnName="nsjmp_jobmoPack_ID" />
+          <ScalarProperty Name="nsjmp_recID" ColumnName="nsjmp_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_jobmocls">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_jobmocls">
+        <MappingFragment StoreEntitySet="netsuite_jobmocls">
+          <ScalarProperty Name="nsjmc_rangeTo" ColumnName="nsjmc_rangeTo" />
+          <ScalarProperty Name="nsjmc_createdDate" ColumnName="nsjmc_createdDate" />
+          <ScalarProperty Name="nsjmc_teacherName" ColumnName="nsjmc_teacherName" />
+          <ScalarProperty Name="nsjmc_clsNo" ColumnName="nsjmc_clsNo" />
+          <ScalarProperty Name="nsjmc_jobMo_ID" ColumnName="nsjmc_jobMo_ID" />
+          <ScalarProperty Name="nsjmc_jobID" ColumnName="nsjmc_jobID" />
+          <ScalarProperty Name="nsjmc_jobMoCls_ID" ColumnName="nsjmc_jobMoCls_ID" />
+          <ScalarProperty Name="nsjmc_recID" ColumnName="nsjmc_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_jobordmaster">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_jobordmaster">
+        <MappingFragment StoreEntitySet="netsuite_jobordmaster">
+          <ScalarProperty Name="nsjom_jobCls_id" ColumnName="nsjom_jobCls_id" />
+          <ScalarProperty Name="nsjom_memo" ColumnName="nsjom_memo" />
+          <ScalarProperty Name="nsjom_rangeTo" ColumnName="nsjom_rangeTo" />
+          <ScalarProperty Name="nsjom_createdDate" ColumnName="nsjom_createdDate" />
+          <ScalarProperty Name="nsjom_moNo_internalID" ColumnName="nsjom_moNo_internalID" />
+          <ScalarProperty Name="nsjom_country" ColumnName="nsjom_country" />
+          <ScalarProperty Name="nsjom_processPeriod" ColumnName="nsjom_processPeriod" />
+          <ScalarProperty Name="nsjom_scanDate" ColumnName="nsjom_scanDate" />
+          <ScalarProperty Name="nsjom_consignmentNote" ColumnName="nsjom_consignmentNote" />
+          <ScalarProperty Name="nsjom_moNo" ColumnName="nsjom_moNo" />
+          <ScalarProperty Name="nsjom_clsID" ColumnName="nsjom_clsID" />
+          <ScalarProperty Name="nsjom_ordStudent" ColumnName="nsjom_ordStudent" />
+          <ScalarProperty Name="nsjom_ordRecNo" ColumnName="nsjom_ordRecNo" />
+          <ScalarProperty Name="nsjom_jobmo_id" ColumnName="nsjom_jobmo_id" />
+          <ScalarProperty Name="nsjom_nsj_job_ID" ColumnName="nsjom_nsj_job_ID" />
+          <ScalarProperty Name="nsjom_jobOrdMaster_ID" ColumnName="nsjom_jobOrdMaster_ID" />
+          <ScalarProperty Name="nsjom_recID" ColumnName="nsjom_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_jobordmaster_pack">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_jobordmaster_pack">
+        <MappingFragment StoreEntitySet="netsuite_jobordmaster_pack">
+          <ScalarProperty Name="nsjomp_gstamount" ColumnName="nsjomp_gstamount" />
+          <ScalarProperty Name="nsjomp_tax_code" ColumnName="nsjomp_tax_code" />
+          <ScalarProperty Name="nsjomp_pricelevel" ColumnName="nsjomp_pricelevel" />
+          <ScalarProperty Name="nsjomp_basedprice" ColumnName="nsjomp_basedprice" />
+          <ScalarProperty Name="nsjomp_ordRate" ColumnName="nsjomp_ordRate" />
+          <ScalarProperty Name="nsjomp_moNo" ColumnName="nsjomp_moNo" />
+          <ScalarProperty Name="nsjomp_rangeTo" ColumnName="nsjomp_rangeTo" />
+          <ScalarProperty Name="nsjomp_createdDate" ColumnName="nsjomp_createdDate" />
+          <ScalarProperty Name="nsjomp_recID" ColumnName="nsjomp_recID" />
+          <ScalarProperty Name="nsjomp_orderLine" ColumnName="nsjomp_orderLine" />
+          <ScalarProperty Name="nsjomp_discount" ColumnName="nsjomp_discount" />
+          <ScalarProperty Name="nsjomp_tax" ColumnName="nsjomp_tax" />
+          <ScalarProperty Name="nsjomp_location_internalID" ColumnName="nsjomp_location_internalID" />
+          <ScalarProperty Name="nsjomp_ofrDesc" ColumnName="nsjomp_ofrDesc" />
+          <ScalarProperty Name="nsjomp_packTitle" ColumnName="nsjomp_packTitle" />
+          <ScalarProperty Name="nsjomp_skuCode" ColumnName="nsjomp_skuCode" />
+          <ScalarProperty Name="nsjomp_ordPoint" ColumnName="nsjomp_ordPoint" />
+          <ScalarProperty Name="nsjomp_ordDetDate" ColumnName="nsjomp_ordDetDate" />
+          <ScalarProperty Name="nsjomp_ordFulfill" ColumnName="nsjomp_ordFulfill" />
+          <ScalarProperty Name="nsjomp_ordPackStatus" ColumnName="nsjomp_ordPackStatus" />
+          <ScalarProperty Name="nsjomp_status" ColumnName="nsjomp_status" />
+          <ScalarProperty Name="nsjomp_ofrCode" ColumnName="nsjomp_ofrCode" />
+          <ScalarProperty Name="nsjomp_ordReplace" ColumnName="nsjomp_ordReplace" />
+          <ScalarProperty Name="nsjomp_ordPrice" ColumnName="nsjomp_ordPrice" />
+          <ScalarProperty Name="nsjomp_ordQty" ColumnName="nsjomp_ordQty" />
+          <ScalarProperty Name="nsjomp_qty" ColumnName="nsjomp_qty" />
+          <ScalarProperty Name="nsjomp_item_internalID" ColumnName="nsjomp_item_internalID" />
+          <ScalarProperty Name="nsjomp_ordPack" ColumnName="nsjomp_ordPack" />
+          <ScalarProperty Name="nsjomp_ordNo" ColumnName="nsjomp_ordNo" />
+          <ScalarProperty Name="nsjomp_job_ID" ColumnName="nsjomp_job_ID" />
+          <ScalarProperty Name="nsjomp_jobOrdMaster_ID" ColumnName="nsjomp_jobOrdMaster_ID" />
+          <ScalarProperty Name="nsjomp_jobOrdMaster_pack_ID" ColumnName="nsjomp_jobOrdMaster_pack_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_jobordmaster_pack_history">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_jobordmaster_pack_history">
+        <MappingFragment StoreEntitySet="netsuite_jobordmaster_pack_history">
+          <ScalarProperty Name="nsjomp_gstamount" ColumnName="nsjomp_gstamount" />
+          <ScalarProperty Name="nsjomp_tax_code" ColumnName="nsjomp_tax_code" />
+          <ScalarProperty Name="nsjomp_pricelevel" ColumnName="nsjomp_pricelevel" />
+          <ScalarProperty Name="nsjomp_basedprice" ColumnName="nsjomp_basedprice" />
+          <ScalarProperty Name="nsjomp_ordRate" ColumnName="nsjomp_ordRate" />
+          <ScalarProperty Name="nsjomp_moNo" ColumnName="nsjomp_moNo" />
+          <ScalarProperty Name="nsjomp_rangeTo" ColumnName="nsjomp_rangeTo" />
+          <ScalarProperty Name="nsjomp_createdDate" ColumnName="nsjomp_createdDate" />
+          <ScalarProperty Name="nsjomp_recID" ColumnName="nsjomp_recID" />
+          <ScalarProperty Name="nsjomp_orderLine" ColumnName="nsjomp_orderLine" />
+          <ScalarProperty Name="nsjomp_discount" ColumnName="nsjomp_discount" />
+          <ScalarProperty Name="nsjomp_tax" ColumnName="nsjomp_tax" />
+          <ScalarProperty Name="nsjomp_location_internalID" ColumnName="nsjomp_location_internalID" />
+          <ScalarProperty Name="nsjomp_ofrDesc" ColumnName="nsjomp_ofrDesc" />
+          <ScalarProperty Name="nsjomp_packTitle" ColumnName="nsjomp_packTitle" />
+          <ScalarProperty Name="nsjomp_skuCode" ColumnName="nsjomp_skuCode" />
+          <ScalarProperty Name="nsjomp_ordPoint" ColumnName="nsjomp_ordPoint" />
+          <ScalarProperty Name="nsjomp_ordDetDate" ColumnName="nsjomp_ordDetDate" />
+          <ScalarProperty Name="nsjomp_ordFulfill" ColumnName="nsjomp_ordFulfill" />
+          <ScalarProperty Name="nsjomp_ordPackStatus" ColumnName="nsjomp_ordPackStatus" />
+          <ScalarProperty Name="nsjomp_status" ColumnName="nsjomp_status" />
+          <ScalarProperty Name="nsjomp_ofrCode" ColumnName="nsjomp_ofrCode" />
+          <ScalarProperty Name="nsjomp_ordReplace" ColumnName="nsjomp_ordReplace" />
+          <ScalarProperty Name="nsjomp_ordPrice" ColumnName="nsjomp_ordPrice" />
+          <ScalarProperty Name="nsjomp_ordQty" ColumnName="nsjomp_ordQty" />
+          <ScalarProperty Name="nsjomp_qty" ColumnName="nsjomp_qty" />
+          <ScalarProperty Name="nsjomp_item_internalID" ColumnName="nsjomp_item_internalID" />
+          <ScalarProperty Name="nsjomp_ordPack" ColumnName="nsjomp_ordPack" />
+          <ScalarProperty Name="nsjomp_ordNo" ColumnName="nsjomp_ordNo" />
+          <ScalarProperty Name="nsjomp_job_ID" ColumnName="nsjomp_job_ID" />
+          <ScalarProperty Name="nsjomp_jobOrdMaster_ID" ColumnName="nsjomp_jobOrdMaster_ID" />
+          <ScalarProperty Name="nsjomp_jobOrdMaster_pack_ID" ColumnName="nsjomp_jobOrdMaster_pack_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_jobordmaster_packdetail">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_jobordmaster_packdetail">
+        <MappingFragment StoreEntitySet="netsuite_jobordmaster_packdetail">
+          <ScalarProperty Name="nsjompd_deliveryChargeGst" ColumnName="nsjompd_deliveryChargeGst" />
+          <ScalarProperty Name="nsjompd_deliveryCharge" ColumnName="nsjompd_deliveryCharge" />
+          <ScalarProperty Name="nsjompd_gstamount" ColumnName="nsjompd_gstamount" />
+          <ScalarProperty Name="nsjompd_item_price" ColumnName="nsjompd_item_price" />
+          <ScalarProperty Name="nsjompd_tax_code" ColumnName="nsjompd_tax_code" />
+          <ScalarProperty Name="nsjompd_rangeTo" ColumnName="nsjompd_rangeTo" />
+          <ScalarProperty Name="nsjompd_createdDate" ColumnName="nsjompd_createdDate" />
+          <ScalarProperty Name="nsjompd_recID" ColumnName="nsjompd_recID" />
+          <ScalarProperty Name="nsjompd_scanned_qty" ColumnName="nsjompd_scanned_qty" />
+          <ScalarProperty Name="nsjompd_total_qty" ColumnName="nsjompd_total_qty" />
+          <ScalarProperty Name="nsjompd_item_ID" ColumnName="nsjompd_item_ID" />
+          <ScalarProperty Name="nsjompd_sku_qty" ColumnName="nsjompd_sku_qty" />
+          <ScalarProperty Name="nsjompd_item_internalID" ColumnName="nsjompd_item_internalID" />
+          <ScalarProperty Name="nsjompd_isbn_secondary" ColumnName="nsjompd_isbn_secondary" />
+          <ScalarProperty Name="nsjompd_isbn" ColumnName="nsjompd_isbn" />
+          <ScalarProperty Name="nsjompd_skuNo" ColumnName="nsjompd_skuNo" />
+          <ScalarProperty Name="nsjompd_ordPack" ColumnName="nsjompd_ordPack" />
+          <ScalarProperty Name="nsjompd_job_ID" ColumnName="nsjompd_job_ID" />
+          <ScalarProperty Name="nsjompd_jobOrdMaster_pack_ID" ColumnName="nsjompd_jobOrdMaster_pack_ID" />
+          <ScalarProperty Name="nsjompd_jobOrdMaster_packDetail_ID" ColumnName="nsjompd_jobOrdMaster_packDetail_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_jobordmaster_packdetail_history">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_jobordmaster_packdetail_history">
+        <MappingFragment StoreEntitySet="netsuite_jobordmaster_packdetail_history">
+          <ScalarProperty Name="nsjompd_deliveryChargeGst" ColumnName="nsjompd_deliveryChargeGst" />
+          <ScalarProperty Name="nsjompd_deliveryCharge" ColumnName="nsjompd_deliveryCharge" />
+          <ScalarProperty Name="nsjompd_gstamount" ColumnName="nsjompd_gstamount" />
+          <ScalarProperty Name="nsjompd_item_price" ColumnName="nsjompd_item_price" />
+          <ScalarProperty Name="nsjompd_tax_code" ColumnName="nsjompd_tax_code" />
+          <ScalarProperty Name="nsjompd_rangeTo" ColumnName="nsjompd_rangeTo" />
+          <ScalarProperty Name="nsjompd_createdDate" ColumnName="nsjompd_createdDate" />
+          <ScalarProperty Name="nsjompd_recID" ColumnName="nsjompd_recID" />
+          <ScalarProperty Name="nsjompd_scanned_qty" ColumnName="nsjompd_scanned_qty" />
+          <ScalarProperty Name="nsjompd_total_qty" ColumnName="nsjompd_total_qty" />
+          <ScalarProperty Name="nsjompd_item_ID" ColumnName="nsjompd_item_ID" />
+          <ScalarProperty Name="nsjompd_sku_qty" ColumnName="nsjompd_sku_qty" />
+          <ScalarProperty Name="nsjompd_item_internalID" ColumnName="nsjompd_item_internalID" />
+          <ScalarProperty Name="nsjompd_isbn_secondary" ColumnName="nsjompd_isbn_secondary" />
+          <ScalarProperty Name="nsjompd_isbn" ColumnName="nsjompd_isbn" />
+          <ScalarProperty Name="nsjompd_skuNo" ColumnName="nsjompd_skuNo" />
+          <ScalarProperty Name="nsjompd_ordPack" ColumnName="nsjompd_ordPack" />
+          <ScalarProperty Name="nsjompd_job_ID" ColumnName="nsjompd_job_ID" />
+          <ScalarProperty Name="nsjompd_jobOrdMaster_pack_ID" ColumnName="nsjompd_jobOrdMaster_pack_ID" />
+          <ScalarProperty Name="nsjompd_jobOrdMaster_packDetail_ID" ColumnName="nsjompd_jobOrdMaster_packDetail_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_newso">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_newso">
+        <MappingFragment StoreEntitySet="netsuite_newso">
+          <ScalarProperty Name="nt1_credit_hold" ColumnName="nt1_credit_hold" />
+          <ScalarProperty Name="nt1_class_name" ColumnName="nt1_class_name" />
+          <ScalarProperty Name="nt1_teacher_name" ColumnName="nt1_teacher_name" />
+          <ScalarProperty Name="nt1_is_fas" ColumnName="nt1_is_fas" />
+          <ScalarProperty Name="nt1_customer_booked" ColumnName="nt1_customer_booked" />
+          <ScalarProperty Name="nt1_businessChannel_internalID" ColumnName="nt1_businessChannel_internalID" />
+          <ScalarProperty Name="nt1_closed" ColumnName="nt1_closed" />
+          <ScalarProperty Name="nt1_sodate" ColumnName="nt1_sodate" />
+          <ScalarProperty Name="nt1_pricelevel_InternalID" ColumnName="nt1_pricelevel_InternalID" />
+          <ScalarProperty Name="nt1_forwarderInternalID" ColumnName="nt1_forwarderInternalID" />
+          <ScalarProperty Name="nt1_forwarderPhone" ColumnName="nt1_forwarderPhone" />
+          <ScalarProperty Name="nt1_forwarderCountry" ColumnName="nt1_forwarderCountry" />
+          <ScalarProperty Name="nt1_forwarderCity" ColumnName="nt1_forwarderCity" />
+          <ScalarProperty Name="nt1_forwarderPostcode" ColumnName="nt1_forwarderPostcode" />
+          <ScalarProperty Name="nt1_forwarderState" ColumnName="nt1_forwarderState" />
+          <ScalarProperty Name="nt1_forwarderAttention" ColumnName="nt1_forwarderAttention" />
+          <ScalarProperty Name="nt1_forwarderAdd3" ColumnName="nt1_forwarderAdd3" />
+          <ScalarProperty Name="nt1_forwarderAdd2" ColumnName="nt1_forwarderAdd2" />
+          <ScalarProperty Name="nt1_forwarderAdd1" ColumnName="nt1_forwarderAdd1" />
+          <ScalarProperty Name="nt1_forwarderAddressee" ColumnName="nt1_forwarderAddressee" />
+          <ScalarProperty Name="nt1_forwarderLabel" ColumnName="nt1_forwarderLabel" />
+          <ScalarProperty Name="nt1_forwarderTo" ColumnName="nt1_forwarderTo" />
+          <ScalarProperty Name="nt1_podate" ColumnName="nt1_podate" />
+          <ScalarProperty Name="nt1_discountItem_internalID" ColumnName="nt1_discountItem_internalID" />
+          <ScalarProperty Name="nt1_itemLine" ColumnName="nt1_itemLine" />
+          <ScalarProperty Name="nt1_ponumber" ColumnName="nt1_ponumber" />
+          <ScalarProperty Name="nt1_memo" ColumnName="nt1_memo" />
+          <ScalarProperty Name="nt1_pricelevel" ColumnName="nt1_pricelevel" />
+          <ScalarProperty Name="nt1_basedprice" ColumnName="nt1_basedprice" />
+          <ScalarProperty Name="nt1_creditTerm" ColumnName="nt1_creditTerm" />
+          <ScalarProperty Name="nt1_shipMethod" ColumnName="nt1_shipMethod" />
+          <ScalarProperty Name="nt1_billingPhone" ColumnName="nt1_billingPhone" />
+          <ScalarProperty Name="nt1_billingContactPerson" ColumnName="nt1_billingContactPerson" />
+          <ScalarProperty Name="nt1_billingPostcode" ColumnName="nt1_billingPostcode" />
+          <ScalarProperty Name="nt1_billingAdd3" ColumnName="nt1_billingAdd3" />
+          <ScalarProperty Name="nt1_billingAdd2" ColumnName="nt1_billingAdd2" />
+          <ScalarProperty Name="nt1_billingAdd" ColumnName="nt1_billingAdd" />
+          <ScalarProperty Name="nt1_billingAddressee" ColumnName="nt1_billingAddressee" />
+          <ScalarProperty Name="nt1_country" ColumnName="nt1_country" />
+          <ScalarProperty Name="nt1_phone" ColumnName="nt1_phone" />
+          <ScalarProperty Name="nt1_contactPerson" ColumnName="nt1_contactPerson" />
+          <ScalarProperty Name="nt1_postCode" ColumnName="nt1_postCode" />
+          <ScalarProperty Name="nt1_deliveryAdd3" ColumnName="nt1_deliveryAdd3" />
+          <ScalarProperty Name="nt1_deliveryAdd2" ColumnName="nt1_deliveryAdd2" />
+          <ScalarProperty Name="nt1_deliveryAdd" ColumnName="nt1_deliveryAdd" />
+          <ScalarProperty Name="nt1_addressee" ColumnName="nt1_addressee" />
+          <ScalarProperty Name="nt1_custID" ColumnName="nt1_custID" />
+          <ScalarProperty Name="nt1_synctowms" ColumnName="nt1_synctowms" />
+          <ScalarProperty Name="nt1_rangeTo" ColumnName="nt1_rangeTo" />
+          <ScalarProperty Name="nt1_createdDate" ColumnName="nt1_createdDate" />
+          <ScalarProperty Name="nt1_subsidiary" ColumnName="nt1_subsidiary" />
+          <ScalarProperty Name="nt1_SEIS_moNo_internalID" ColumnName="nt1_SEIS_moNo_internalID" />
+          <ScalarProperty Name="nt1_SEIS_moNo" ColumnName="nt1_SEIS_moNo" />
+          <ScalarProperty Name="nt1_customer_internalID" ColumnName="nt1_customer_internalID" />
+          <ScalarProperty Name="nt1_customer" ColumnName="nt1_customer" />
+          <ScalarProperty Name="nt1_amount" ColumnName="nt1_amount" />
+          <ScalarProperty Name="nt1_rate" ColumnName="nt1_rate" />
+          <ScalarProperty Name="nt1_discount" ColumnName="nt1_discount" />
+          <ScalarProperty Name="nt1_tax" ColumnName="nt1_tax" />
+          <ScalarProperty Name="nt1_fulfilledQty" ColumnName="nt1_fulfilledQty" />
+          <ScalarProperty Name="nt1_committedQty" ColumnName="nt1_committedQty" />
+          <ScalarProperty Name="nt1_ordQty" ColumnName="nt1_ordQty" />
+          <ScalarProperty Name="nt1_item_internalID" ColumnName="nt1_item_internalID" />
+          <ScalarProperty Name="nt1_itemID" ColumnName="nt1_itemID" />
+          <ScalarProperty Name="nt1_status" ColumnName="nt1_status" />
+          <ScalarProperty Name="nt1_moNo_internalID" ColumnName="nt1_moNo_internalID" />
+          <ScalarProperty Name="nt1_moNo" ColumnName="nt1_moNo" />
+          <ScalarProperty Name="nt1_seqID" ColumnName="nt1_seqID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_newso_history">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_newso_history">
+        <MappingFragment StoreEntitySet="netsuite_newso_history">
+          <ScalarProperty Name="nt1_forwarderInternalID" ColumnName="nt1_forwarderInternalID" />
+          <ScalarProperty Name="nt1_forwarderPhone" ColumnName="nt1_forwarderPhone" />
+          <ScalarProperty Name="nt1_forwarderCountry" ColumnName="nt1_forwarderCountry" />
+          <ScalarProperty Name="nt1_forwarderCity" ColumnName="nt1_forwarderCity" />
+          <ScalarProperty Name="nt1_forwarderPostcode" ColumnName="nt1_forwarderPostcode" />
+          <ScalarProperty Name="nt1_forwarderState" ColumnName="nt1_forwarderState" />
+          <ScalarProperty Name="nt1_forwarderAttention" ColumnName="nt1_forwarderAttention" />
+          <ScalarProperty Name="nt1_forwarderAdd3" ColumnName="nt1_forwarderAdd3" />
+          <ScalarProperty Name="nt1_forwarderAdd2" ColumnName="nt1_forwarderAdd2" />
+          <ScalarProperty Name="nt1_forwarderAdd1" ColumnName="nt1_forwarderAdd1" />
+          <ScalarProperty Name="nt1_forwarderAddressee" ColumnName="nt1_forwarderAddressee" />
+          <ScalarProperty Name="nt1_forwarderLabel" ColumnName="nt1_forwarderLabel" />
+          <ScalarProperty Name="nt1_forwarderTo" ColumnName="nt1_forwarderTo" />
+          <ScalarProperty Name="nt1_podate" ColumnName="nt1_podate" />
+          <ScalarProperty Name="nt1_discountItem_internalID" ColumnName="nt1_discountItem_internalID" />
+          <ScalarProperty Name="nt1_itemLine" ColumnName="nt1_itemLine" />
+          <ScalarProperty Name="nt1_ponumber" ColumnName="nt1_ponumber" />
+          <ScalarProperty Name="nt1_memo" ColumnName="nt1_memo" />
+          <ScalarProperty Name="nt1_pricelevel" ColumnName="nt1_pricelevel" />
+          <ScalarProperty Name="nt1_basedprice" ColumnName="nt1_basedprice" />
+          <ScalarProperty Name="nt1_creditTerm" ColumnName="nt1_creditTerm" />
+          <ScalarProperty Name="nt1_shipMethod" ColumnName="nt1_shipMethod" />
+          <ScalarProperty Name="nt1_billingPhone" ColumnName="nt1_billingPhone" />
+          <ScalarProperty Name="nt1_billingContactPerson" ColumnName="nt1_billingContactPerson" />
+          <ScalarProperty Name="nt1_billingPostcode" ColumnName="nt1_billingPostcode" />
+          <ScalarProperty Name="nt1_billingAdd3" ColumnName="nt1_billingAdd3" />
+          <ScalarProperty Name="nt1_billingAdd2" ColumnName="nt1_billingAdd2" />
+          <ScalarProperty Name="nt1_billingAdd" ColumnName="nt1_billingAdd" />
+          <ScalarProperty Name="nt1_billingAddressee" ColumnName="nt1_billingAddressee" />
+          <ScalarProperty Name="nt1_country" ColumnName="nt1_country" />
+          <ScalarProperty Name="nt1_phone" ColumnName="nt1_phone" />
+          <ScalarProperty Name="nt1_contactPerson" ColumnName="nt1_contactPerson" />
+          <ScalarProperty Name="nt1_postCode" ColumnName="nt1_postCode" />
+          <ScalarProperty Name="nt1_deliveryAdd3" ColumnName="nt1_deliveryAdd3" />
+          <ScalarProperty Name="nt1_deliveryAdd2" ColumnName="nt1_deliveryAdd2" />
+          <ScalarProperty Name="nt1_deliveryAdd" ColumnName="nt1_deliveryAdd" />
+          <ScalarProperty Name="nt1_addressee" ColumnName="nt1_addressee" />
+          <ScalarProperty Name="nt1_custID" ColumnName="nt1_custID" />
+          <ScalarProperty Name="nt1_synctowms" ColumnName="nt1_synctowms" />
+          <ScalarProperty Name="nt1_rangeTo" ColumnName="nt1_rangeTo" />
+          <ScalarProperty Name="nt1_createdDate" ColumnName="nt1_createdDate" />
+          <ScalarProperty Name="nt1_subsidiary" ColumnName="nt1_subsidiary" />
+          <ScalarProperty Name="nt1_SEIS_moNo_internalID" ColumnName="nt1_SEIS_moNo_internalID" />
+          <ScalarProperty Name="nt1_SEIS_moNo" ColumnName="nt1_SEIS_moNo" />
+          <ScalarProperty Name="nt1_customer_internalID" ColumnName="nt1_customer_internalID" />
+          <ScalarProperty Name="nt1_customer" ColumnName="nt1_customer" />
+          <ScalarProperty Name="nt1_amount" ColumnName="nt1_amount" />
+          <ScalarProperty Name="nt1_rate" ColumnName="nt1_rate" />
+          <ScalarProperty Name="nt1_discount" ColumnName="nt1_discount" />
+          <ScalarProperty Name="nt1_tax" ColumnName="nt1_tax" />
+          <ScalarProperty Name="nt1_fulfilledQty" ColumnName="nt1_fulfilledQty" />
+          <ScalarProperty Name="nt1_committedQty" ColumnName="nt1_committedQty" />
+          <ScalarProperty Name="nt1_ordQty" ColumnName="nt1_ordQty" />
+          <ScalarProperty Name="nt1_item_internalID" ColumnName="nt1_item_internalID" />
+          <ScalarProperty Name="nt1_itemID" ColumnName="nt1_itemID" />
+          <ScalarProperty Name="nt1_status" ColumnName="nt1_status" />
+          <ScalarProperty Name="nt1_moNo_internalID" ColumnName="nt1_moNo_internalID" />
+          <ScalarProperty Name="nt1_moNo" ColumnName="nt1_moNo" />
+          <ScalarProperty Name="nt1_seqID" ColumnName="nt1_seqID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_newso_test">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_newso_test">
+        <MappingFragment StoreEntitySet="netsuite_newso_test">
+          <ScalarProperty Name="nt1_invoiceQty" ColumnName="nt1_invoiceQty" />
+          <ScalarProperty Name="nt1_pricelevel_InternalID" ColumnName="nt1_pricelevel_InternalID" />
+          <ScalarProperty Name="nt1_forwarderInternalID" ColumnName="nt1_forwarderInternalID" />
+          <ScalarProperty Name="nt1_forwarderPhone" ColumnName="nt1_forwarderPhone" />
+          <ScalarProperty Name="nt1_forwarderCountry" ColumnName="nt1_forwarderCountry" />
+          <ScalarProperty Name="nt1_forwarderCity" ColumnName="nt1_forwarderCity" />
+          <ScalarProperty Name="nt1_forwarderPostcode" ColumnName="nt1_forwarderPostcode" />
+          <ScalarProperty Name="nt1_forwarderState" ColumnName="nt1_forwarderState" />
+          <ScalarProperty Name="nt1_forwarderAttention" ColumnName="nt1_forwarderAttention" />
+          <ScalarProperty Name="nt1_forwarderAdd3" ColumnName="nt1_forwarderAdd3" />
+          <ScalarProperty Name="nt1_forwarderAdd2" ColumnName="nt1_forwarderAdd2" />
+          <ScalarProperty Name="nt1_forwarderAdd1" ColumnName="nt1_forwarderAdd1" />
+          <ScalarProperty Name="nt1_forwarderAddressee" ColumnName="nt1_forwarderAddressee" />
+          <ScalarProperty Name="nt1_forwarderLabel" ColumnName="nt1_forwarderLabel" />
+          <ScalarProperty Name="nt1_forwarderTo" ColumnName="nt1_forwarderTo" />
+          <ScalarProperty Name="nt1_podate" ColumnName="nt1_podate" />
+          <ScalarProperty Name="nt1_discountItem_internalID" ColumnName="nt1_discountItem_internalID" />
+          <ScalarProperty Name="nt1_itemLine" ColumnName="nt1_itemLine" />
+          <ScalarProperty Name="nt1_ponumber" ColumnName="nt1_ponumber" />
+          <ScalarProperty Name="nt1_memo" ColumnName="nt1_memo" />
+          <ScalarProperty Name="nt1_pricelevel" ColumnName="nt1_pricelevel" />
+          <ScalarProperty Name="nt1_basedprice" ColumnName="nt1_basedprice" />
+          <ScalarProperty Name="nt1_creditTerm" ColumnName="nt1_creditTerm" />
+          <ScalarProperty Name="nt1_shipMethod" ColumnName="nt1_shipMethod" />
+          <ScalarProperty Name="nt1_billingPhone" ColumnName="nt1_billingPhone" />
+          <ScalarProperty Name="nt1_billingContactPerson" ColumnName="nt1_billingContactPerson" />
+          <ScalarProperty Name="nt1_billingPostcode" ColumnName="nt1_billingPostcode" />
+          <ScalarProperty Name="nt1_billingAdd3" ColumnName="nt1_billingAdd3" />
+          <ScalarProperty Name="nt1_billingAdd2" ColumnName="nt1_billingAdd2" />
+          <ScalarProperty Name="nt1_billingAdd" ColumnName="nt1_billingAdd" />
+          <ScalarProperty Name="nt1_billingAddressee" ColumnName="nt1_billingAddressee" />
+          <ScalarProperty Name="nt1_country" ColumnName="nt1_country" />
+          <ScalarProperty Name="nt1_phone" ColumnName="nt1_phone" />
+          <ScalarProperty Name="nt1_contactPerson" ColumnName="nt1_contactPerson" />
+          <ScalarProperty Name="nt1_postCode" ColumnName="nt1_postCode" />
+          <ScalarProperty Name="nt1_deliveryAdd3" ColumnName="nt1_deliveryAdd3" />
+          <ScalarProperty Name="nt1_deliveryAdd2" ColumnName="nt1_deliveryAdd2" />
+          <ScalarProperty Name="nt1_deliveryAdd" ColumnName="nt1_deliveryAdd" />
+          <ScalarProperty Name="nt1_addressee" ColumnName="nt1_addressee" />
+          <ScalarProperty Name="nt1_custID" ColumnName="nt1_custID" />
+          <ScalarProperty Name="nt1_synctowms" ColumnName="nt1_synctowms" />
+          <ScalarProperty Name="nt1_rangeTo" ColumnName="nt1_rangeTo" />
+          <ScalarProperty Name="nt1_createdDate" ColumnName="nt1_createdDate" />
+          <ScalarProperty Name="nt1_subsidiary" ColumnName="nt1_subsidiary" />
+          <ScalarProperty Name="nt1_SEIS_moNo_internalID" ColumnName="nt1_SEIS_moNo_internalID" />
+          <ScalarProperty Name="nt1_SEIS_moNo" ColumnName="nt1_SEIS_moNo" />
+          <ScalarProperty Name="nt1_customer_internalID" ColumnName="nt1_customer_internalID" />
+          <ScalarProperty Name="nt1_customer" ColumnName="nt1_customer" />
+          <ScalarProperty Name="nt1_amount" ColumnName="nt1_amount" />
+          <ScalarProperty Name="nt1_rate" ColumnName="nt1_rate" />
+          <ScalarProperty Name="nt1_discount" ColumnName="nt1_discount" />
+          <ScalarProperty Name="nt1_tax" ColumnName="nt1_tax" />
+          <ScalarProperty Name="nt1_fulfilledQty" ColumnName="nt1_fulfilledQty" />
+          <ScalarProperty Name="nt1_committedQty" ColumnName="nt1_committedQty" />
+          <ScalarProperty Name="nt1_ordQty" ColumnName="nt1_ordQty" />
+          <ScalarProperty Name="nt1_item_internalID" ColumnName="nt1_item_internalID" />
+          <ScalarProperty Name="nt1_itemID" ColumnName="nt1_itemID" />
+          <ScalarProperty Name="nt1_status" ColumnName="nt1_status" />
+          <ScalarProperty Name="nt1_moNo_internalID" ColumnName="nt1_moNo_internalID" />
+          <ScalarProperty Name="nt1_moNo" ColumnName="nt1_moNo" />
+          <ScalarProperty Name="nt1_seqID" ColumnName="nt1_seqID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_pr">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_pr">
+        <MappingFragment StoreEntitySet="netsuite_pr">
+          <ScalarProperty Name="nspr_pushStatus" ColumnName="nspr_pushStatus" />
+          <ScalarProperty Name="nspr_recID" ColumnName="nspr_recID" />
+          <ScalarProperty Name="nspr_rangeTo" ColumnName="nspr_rangeTo" />
+          <ScalarProperty Name="nspr_createdDate" ColumnName="nspr_createdDate" />
+          <ScalarProperty Name="nspr_ns_status" ColumnName="nspr_ns_status" />
+          <ScalarProperty Name="nspr_pr_location_internalID" ColumnName="nspr_pr_location_internalID" />
+          <ScalarProperty Name="nspr_pr_location" ColumnName="nspr_pr_location" />
+          <ScalarProperty Name="nspr_pr_internalID" ColumnName="nspr_pr_internalID" />
+          <ScalarProperty Name="nspr_pr_year" ColumnName="nspr_pr_year" />
+          <ScalarProperty Name="nspr_pr_supplier_internalID" ColumnName="nspr_pr_supplier_internalID" />
+          <ScalarProperty Name="nspr_pr_supplier" ColumnName="nspr_pr_supplier" />
+          <ScalarProperty Name="nspr_pr_status" ColumnName="nspr_pr_status" />
+          <ScalarProperty Name="nspr_pr_site" ColumnName="nspr_pr_site" />
+          <ScalarProperty Name="nspr_pr_requestor" ColumnName="nspr_pr_requestor" />
+          <ScalarProperty Name="nspr_pr_number" ColumnName="nspr_pr_number" />
+          <ScalarProperty Name="nspr_pr_neededDate" ColumnName="nspr_pr_neededDate" />
+          <ScalarProperty Name="nspr_pr_month" ColumnName="nspr_pr_month" />
+          <ScalarProperty Name="nspr_pr_exported" ColumnName="nspr_pr_exported" />
+          <ScalarProperty Name="nspr_pr_email" ColumnName="nspr_pr_email" />
+          <ScalarProperty Name="nspr_pr_desc" ColumnName="nspr_pr_desc" />
+          <ScalarProperty Name="nspr_pr_deliveryMethod" ColumnName="nspr_pr_deliveryMethod" />
+          <ScalarProperty Name="nspr_pr_deleteReason" ColumnName="nspr_pr_deleteReason" />
+          <ScalarProperty Name="nspr_pr_day" ColumnName="nspr_pr_day" />
+          <ScalarProperty Name="nspr_pr_date" ColumnName="nspr_pr_date" />
+          <ScalarProperty Name="nspr_pr_comments" ColumnName="nspr_pr_comments" />
+          <ScalarProperty Name="nspr_pr_approvalType" ColumnName="nspr_pr_approvalType" />
+          <ScalarProperty Name="nspr_pr_active" ColumnName="nspr_pr_active" />
+          <ScalarProperty Name="nspr_pr_accountClass" ColumnName="nspr_pr_accountClass" />
+          <ScalarProperty Name="nspr_businessChannel_internalID" ColumnName="nspr_businessChannel_internalID" />
+          <ScalarProperty Name="nspr_businessChannel_ID" ColumnName="nspr_businessChannel_ID" />
+          <ScalarProperty Name="nspr_pr_ID" ColumnName="nspr_pr_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_pritem">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_pritem">
+        <MappingFragment StoreEntitySet="netsuite_pritem">
+          <ScalarProperty Name="nspi_salesTerritorySCH" ColumnName="nspi_salesTerritorySCH" />
+          <ScalarProperty Name="nspi_pushStatus" ColumnName="nspi_pushStatus" />
+          <ScalarProperty Name="nspi_createdDate" ColumnName="nspi_createdDate" />
+          <ScalarProperty Name="nspi_item_internalID" ColumnName="nspi_item_internalID" />
+          <ScalarProperty Name="nspi_sort" ColumnName="nspi_sort" />
+          <ScalarProperty Name="nspi_pritem_price" ColumnName="nspi_pritem_price" />
+          <ScalarProperty Name="nspi_pritem_qty" ColumnName="nspi_pritem_qty" />
+          <ScalarProperty Name="nspi_pritem_converted" ColumnName="nspi_pritem_converted" />
+          <ScalarProperty Name="nspi_pritem_comments" ColumnName="nspi_pritem_comments" />
+          <ScalarProperty Name="nspi_pritem_approvedDate" ColumnName="nspi_pritem_approvedDate" />
+          <ScalarProperty Name="nspi_pritem_approvedBy" ColumnName="nspi_pritem_approvedBy" />
+          <ScalarProperty Name="nspi_pritem_approved" ColumnName="nspi_pritem_approved" />
+          <ScalarProperty Name="nspi_nspr_pr_ID" ColumnName="nspi_nspr_pr_ID" />
+          <ScalarProperty Name="nspi_itemBusiness_ID" ColumnName="nspi_itemBusiness_ID" />
+          <ScalarProperty Name="nspi_item_ID" ColumnName="nspi_item_ID" />
+          <ScalarProperty Name="nspi_pritem_ID" ColumnName="nspi_pritem_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_return">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_return">
+        <MappingFragment StoreEntitySet="netsuite_return">
+          <ScalarProperty Name="nsr_recID" ColumnName="nsr_recID" />
+          <ScalarProperty Name="nsr_rangeTo" ColumnName="nsr_rangeTo" />
+          <ScalarProperty Name="nsr_createdDate" ColumnName="nsr_createdDate" />
+          <ScalarProperty Name="nsr_ns_status" ColumnName="nsr_ns_status" />
+          <ScalarProperty Name="nsr_period" ColumnName="nsr_period" />
+          <ScalarProperty Name="nsr_rr_status" ColumnName="nsr_rr_status" />
+          <ScalarProperty Name="nsr_rr_returnBy" ColumnName="nsr_rr_returnBy" />
+          <ScalarProperty Name="nsr_rr_returnDate" ColumnName="nsr_rr_returnDate" />
+          <ScalarProperty Name="nsr_rr_active" ColumnName="nsr_rr_active" />
+          <ScalarProperty Name="nsr_rr_reference" ColumnName="nsr_rr_reference" />
+          <ScalarProperty Name="nsr_rr_createdBy" ColumnName="nsr_rr_createdBy" />
+          <ScalarProperty Name="nsr_rr_description" ColumnName="nsr_rr_description" />
+          <ScalarProperty Name="nsr_rr_date" ColumnName="nsr_rr_date" />
+          <ScalarProperty Name="nsr_rr_internalID" ColumnName="nsr_rr_internalID" />
+          <ScalarProperty Name="nsr_rr_number" ColumnName="nsr_rr_number" />
+          <ScalarProperty Name="nsr_rr_schID" ColumnName="nsr_rr_schID" />
+          <ScalarProperty Name="nsr_rr_ID" ColumnName="nsr_rr_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_returnitem">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_returnitem">
+        <MappingFragment StoreEntitySet="netsuite_returnitem">
+          <ScalarProperty Name="nsri_recID" ColumnName="nsri_recID" />
+          <ScalarProperty Name="nsri_rangeTo" ColumnName="nsri_rangeTo" />
+          <ScalarProperty Name="nsri_createdDate" ColumnName="nsri_createdDate" />
+          <ScalarProperty Name="nsri_pack_ID" ColumnName="nsri_pack_ID" />
+          <ScalarProperty Name="nsri_rritem_posting_qty" ColumnName="nsri_rritem_posting_qty" />
+          <ScalarProperty Name="nsri_cn_id" ColumnName="nsri_cn_id" />
+          <ScalarProperty Name="nsri_rritem_receive_qty" ColumnName="nsri_rritem_receive_qty" />
+          <ScalarProperty Name="nsri_item_internalID" ColumnName="nsri_item_internalID" />
+          <ScalarProperty Name="nsri_rritem_max_return" ColumnName="nsri_rritem_max_return" />
+          <ScalarProperty Name="nsri_remarks" ColumnName="nsri_remarks" />
+          <ScalarProperty Name="nsri_rritem_status" ColumnName="nsri_rritem_status" />
+          <ScalarProperty Name="nsri_createdBy" ColumnName="nsri_createdBy" />
+          <ScalarProperty Name="nsri_tranDate" ColumnName="nsri_tranDate" />
+          <ScalarProperty Name="nsri_rritem_return_qty" ColumnName="nsri_rritem_return_qty" />
+          <ScalarProperty Name="nsri_rritem_isbn2" ColumnName="nsri_rritem_isbn2" />
+          <ScalarProperty Name="nsri_rritem_isbn" ColumnName="nsri_rritem_isbn" />
+          <ScalarProperty Name="nsri_rritem_invoice" ColumnName="nsri_rritem_invoice" />
+          <ScalarProperty Name="nsri_nsr_rr_ID" ColumnName="nsri_nsr_rr_ID" />
+          <ScalarProperty Name="nsri_rritem_ID" ColumnName="nsri_rritem_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_returnrefund">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_returnrefund">
+        <MappingFragment StoreEntitySet="netsuite_returnrefund">
+          <ScalarProperty Name="nsrr_rangeTo" ColumnName="nsrr_rangeTo" />
+          <ScalarProperty Name="nsrr_createdDate" ColumnName="nsrr_createdDate" />
+          <ScalarProperty Name="nsrr_tranDate" ColumnName="nsrr_tranDate" />
+          <ScalarProperty Name="nsrr_internalID" ColumnName="nsrr_internalID" />
+          <ScalarProperty Name="nsrr_number" ColumnName="nsrr_number" />
+          <ScalarProperty Name="nsrr_recID" ColumnName="nsrr_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_setting">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_setting">
+        <MappingFragment StoreEntitySet="netsuite_setting">
+          <ScalarProperty Name="sandbox_password" ColumnName="sandbox_password" />
+          <ScalarProperty Name="nss_expired" ColumnName="nss_expired" />
+          <ScalarProperty Name="nss_password" ColumnName="nss_password" />
+          <ScalarProperty Name="nss_account" ColumnName="nss_account" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_syncso">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_syncso">
+        <MappingFragment StoreEntitySet="netsuite_syncso">
+          <ScalarProperty Name="nt2_class_name" ColumnName="nt2_class_name" />
+          <ScalarProperty Name="nt2_teacher_name" ColumnName="nt2_teacher_name" />
+          <ScalarProperty Name="nt2_is_fas" ColumnName="nt2_is_fas" />
+          <ScalarProperty Name="nt2_customer_booked" ColumnName="nt2_customer_booked" />
+          <ScalarProperty Name="nt2_businessChannel_internalID" ColumnName="nt2_businessChannel_internalID" />
+          <ScalarProperty Name="nt2_unfulfilledQty" ColumnName="nt2_unfulfilledQty" />
+          <ScalarProperty Name="nt2_lastfulfilledDate" ColumnName="nt2_lastfulfilledDate" />
+          <ScalarProperty Name="nt2_wmsfulfilledqty" ColumnName="nt2_wmsfulfilledqty" />
+          <ScalarProperty Name="nt2_lastModifiedDate" ColumnName="nt2_lastModifiedDate" />
+          <ScalarProperty Name="nt2_pricelevel" ColumnName="nt2_pricelevel" />
+          <ScalarProperty Name="nt2_basedprice" ColumnName="nt2_basedprice" />
+          <ScalarProperty Name="nt2_creditTerm" ColumnName="nt2_creditTerm" />
+          <ScalarProperty Name="nt2_shipMethod" ColumnName="nt2_shipMethod" />
+          <ScalarProperty Name="nt2_billingPhone" ColumnName="nt2_billingPhone" />
+          <ScalarProperty Name="nt2_billingContactPerson" ColumnName="nt2_billingContactPerson" />
+          <ScalarProperty Name="nt2_billingPostcode" ColumnName="nt2_billingPostcode" />
+          <ScalarProperty Name="nt2_billingAdd3" ColumnName="nt2_billingAdd3" />
+          <ScalarProperty Name="nt2_billingAdd2" ColumnName="nt2_billingAdd2" />
+          <ScalarProperty Name="nt2_billingAdd" ColumnName="nt2_billingAdd" />
+          <ScalarProperty Name="nt2_billingAddressee" ColumnName="nt2_billingAddressee" />
+          <ScalarProperty Name="nt2_country" ColumnName="nt2_country" />
+          <ScalarProperty Name="nt2_phone" ColumnName="nt2_phone" />
+          <ScalarProperty Name="nt2_contactPerson" ColumnName="nt2_contactPerson" />
+          <ScalarProperty Name="nt2_postCode" ColumnName="nt2_postCode" />
+          <ScalarProperty Name="nt2_deliveryAdd3" ColumnName="nt2_deliveryAdd3" />
+          <ScalarProperty Name="nt2_deliveryAdd2" ColumnName="nt2_deliveryAdd2" />
+          <ScalarProperty Name="nt2_deliveryAdd" ColumnName="nt2_deliveryAdd" />
+          <ScalarProperty Name="nt2_addressee" ColumnName="nt2_addressee" />
+          <ScalarProperty Name="nt2_custID" ColumnName="nt2_custID" />
+          <ScalarProperty Name="nt2_progressStatus" ColumnName="nt2_progressStatus" />
+          <ScalarProperty Name="nt2_rangeTo" ColumnName="nt2_rangeTo" />
+          <ScalarProperty Name="nt2_createdDate" ColumnName="nt2_createdDate" />
+          <ScalarProperty Name="nt2_subsidiary" ColumnName="nt2_subsidiary" />
+          <ScalarProperty Name="nt2_SEIS_moNo_internalID" ColumnName="nt2_SEIS_moNo_internalID" />
+          <ScalarProperty Name="nt2_SEIS_moNo" ColumnName="nt2_SEIS_moNo" />
+          <ScalarProperty Name="nt2_customer_internalID" ColumnName="nt2_customer_internalID" />
+          <ScalarProperty Name="nt2_customer" ColumnName="nt2_customer" />
+          <ScalarProperty Name="nt2_amount" ColumnName="nt2_amount" />
+          <ScalarProperty Name="nt2_rate" ColumnName="nt2_rate" />
+          <ScalarProperty Name="nt2_discount" ColumnName="nt2_discount" />
+          <ScalarProperty Name="nt2_tax" ColumnName="nt2_tax" />
+          <ScalarProperty Name="nt2_fulfilledQty" ColumnName="nt2_fulfilledQty" />
+          <ScalarProperty Name="nt2_qtyForWMS" ColumnName="nt2_qtyForWMS" />
+          <ScalarProperty Name="nt2_ordQty" ColumnName="nt2_ordQty" />
+          <ScalarProperty Name="nt2_item_internalID" ColumnName="nt2_item_internalID" />
+          <ScalarProperty Name="nt2_itemID" ColumnName="nt2_itemID" />
+          <ScalarProperty Name="nt2_status" ColumnName="nt2_status" />
+          <ScalarProperty Name="nt2_moNo_internalID" ColumnName="nt2_moNo_internalID" />
+          <ScalarProperty Name="nt2_moNo" ColumnName="nt2_moNo" />
+          <ScalarProperty Name="nt2_seqID" ColumnName="nt2_seqID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_syncso_tem">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_syncso_tem">
+        <MappingFragment StoreEntitySet="netsuite_syncso_tem">
+          <ScalarProperty Name="nt2_progressStatus" ColumnName="nt2_progressStatus" />
+          <ScalarProperty Name="nt2_rangeTo" ColumnName="nt2_rangeTo" />
+          <ScalarProperty Name="nt2_createdDate" ColumnName="nt2_createdDate" />
+          <ScalarProperty Name="nt2_subsidiary" ColumnName="nt2_subsidiary" />
+          <ScalarProperty Name="nt2_SEIS_moNo_internalID" ColumnName="nt2_SEIS_moNo_internalID" />
+          <ScalarProperty Name="nt2_SEIS_moNo" ColumnName="nt2_SEIS_moNo" />
+          <ScalarProperty Name="nt2_customer_internalID" ColumnName="nt2_customer_internalID" />
+          <ScalarProperty Name="nt2_customer" ColumnName="nt2_customer" />
+          <ScalarProperty Name="nt2_amount" ColumnName="nt2_amount" />
+          <ScalarProperty Name="nt2_rate" ColumnName="nt2_rate" />
+          <ScalarProperty Name="nt2_discount" ColumnName="nt2_discount" />
+          <ScalarProperty Name="nt2_tax" ColumnName="nt2_tax" />
+          <ScalarProperty Name="nt2_fulfilledQty" ColumnName="nt2_fulfilledQty" />
+          <ScalarProperty Name="nt2_qtyForWMS" ColumnName="nt2_qtyForWMS" />
+          <ScalarProperty Name="nt2_ordQty" ColumnName="nt2_ordQty" />
+          <ScalarProperty Name="nt2_item_internalID" ColumnName="nt2_item_internalID" />
+          <ScalarProperty Name="nt2_itemID" ColumnName="nt2_itemID" />
+          <ScalarProperty Name="nt2_status" ColumnName="nt2_status" />
+          <ScalarProperty Name="nt2_moNo_internalID" ColumnName="nt2_moNo_internalID" />
+          <ScalarProperty Name="nt2_moNo" ColumnName="nt2_moNo" />
+          <ScalarProperty Name="nt2_seqID" ColumnName="nt2_seqID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_syncupdateso">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_syncupdateso">
+        <MappingFragment StoreEntitySet="netsuite_syncupdateso">
+          <ScalarProperty Name="nt3_progressStatus" ColumnName="nt3_progressStatus" />
+          <ScalarProperty Name="nt3_rangeTo" ColumnName="nt3_rangeTo" />
+          <ScalarProperty Name="nt3_createdDate" ColumnName="nt3_createdDate" />
+          <ScalarProperty Name="nt3_itemLine" ColumnName="nt3_itemLine" />
+          <ScalarProperty Name="nt3_syncedtoNS" ColumnName="nt3_syncedtoNS" />
+          <ScalarProperty Name="nt3_syncedfromNS" ColumnName="nt3_syncedfromNS" />
+          <ScalarProperty Name="nt3_disctolvalue" ColumnName="nt3_disctolvalue" />
+          <ScalarProperty Name="nt3_basedPrice" ColumnName="nt3_basedPrice" />
+          <ScalarProperty Name="nt3_amount" ColumnName="nt3_amount" />
+          <ScalarProperty Name="nt3_rate" ColumnName="nt3_rate" />
+          <ScalarProperty Name="nt3_discount" ColumnName="nt3_discount" />
+          <ScalarProperty Name="nt3_tax" ColumnName="nt3_tax" />
+          <ScalarProperty Name="nt3_fulfilledQty" ColumnName="nt3_fulfilledQty" />
+          <ScalarProperty Name="nt3_committedQty" ColumnName="nt3_committedQty" />
+          <ScalarProperty Name="nt3_ordQty" ColumnName="nt3_ordQty" />
+          <ScalarProperty Name="nt3_item_internalID" ColumnName="nt3_item_internalID" />
+          <ScalarProperty Name="nt3_itemISBN" ColumnName="nt3_itemISBN" />
+          <ScalarProperty Name="nt3_moNo_internalID" ColumnName="nt3_moNo_internalID" />
+          <ScalarProperty Name="nt3_moNo" ColumnName="nt3_moNo" />
+          <ScalarProperty Name="nt3_seqID" ColumnName="nt3_seqID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_transfer">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_transfer">
+        <MappingFragment StoreEntitySet="netsuite_transfer">
+          <ScalarProperty Name="nat_postingPeriodID" ColumnName="nat_postingPeriodID" />
+          <ScalarProperty Name="nat_postingPeriod" ColumnName="nat_postingPeriod" />
+          <ScalarProperty Name="nat_Date" ColumnName="nat_Date" />
+          <ScalarProperty Name="nat_Memo" ColumnName="nat_Memo" />
+          <ScalarProperty Name="nat_businessChannelID" ColumnName="nat_businessChannelID" />
+          <ScalarProperty Name="nat_businessChannel" ColumnName="nat_businessChannel" />
+          <ScalarProperty Name="nat_toLocID" ColumnName="nat_toLocID" />
+          <ScalarProperty Name="nat_toLoc" ColumnName="nat_toLoc" />
+          <ScalarProperty Name="nat_fromLocID" ColumnName="nat_fromLocID" />
+          <ScalarProperty Name="nat_fromLoc" ColumnName="nat_fromLoc" />
+          <ScalarProperty Name="nat_subsidiaryID" ColumnName="nat_subsidiaryID" />
+          <ScalarProperty Name="nat_subsidiary" ColumnName="nat_subsidiary" />
+          <ScalarProperty Name="nat_id" ColumnName="nat_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuite_transferdetail">
+      <EntityTypeMapping TypeName="sdeModel.netsuite_transferdetail">
+        <MappingFragment StoreEntitySet="netsuite_transferdetail">
+          <ScalarProperty Name="nat_postingPeriodID" ColumnName="nat_postingPeriodID" />
+          <ScalarProperty Name="natd_date" ColumnName="natd_date" />
+          <ScalarProperty Name="natd_businessChannelID" ColumnName="natd_businessChannelID" />
+          <ScalarProperty Name="natd_subsidiaryID" ColumnName="natd_subsidiaryID" />
+          <ScalarProperty Name="natd_fromLocID" ColumnName="natd_fromLocID" />
+          <ScalarProperty Name="natd_toLocID" ColumnName="natd_toLocID" />
+          <ScalarProperty Name="natd_imasID" ColumnName="natd_imasID" />
+          <ScalarProperty Name="natd_qty" ColumnName="natd_qty" />
+          <ScalarProperty Name="natd_itemInternalID" ColumnName="natd_itemInternalID" />
+          <ScalarProperty Name="natd_itemID" ColumnName="natd_itemID" />
+          <ScalarProperty Name="natd_id" ColumnName="natd_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="netsuitedataformqs">
+      <EntityTypeMapping TypeName="sdeModel.netsuitedataformq">
+        <MappingFragment StoreEntitySet="netsuitedataformq">
+          <ScalarProperty Name="mq_tranID" ColumnName="mq_tranID" />
+          <ScalarProperty Name="mq_updatedDate" ColumnName="mq_updatedDate" />
+          <ScalarProperty Name="mq_pullDate" ColumnName="mq_pullDate" />
+          <ScalarProperty Name="mq_pushDate" ColumnName="mq_pushDate" />
+          <ScalarProperty Name="mq_status" ColumnName="mq_status" />
+          <ScalarProperty Name="mq_consolidateTable" ColumnName="mq_consolidateTable" />
+          <ScalarProperty Name="mq_internalID" ColumnName="mq_internalID" />
+          <ScalarProperty Name="mq_nsj_jobID" ColumnName="mq_nsj_jobID" />
+          <ScalarProperty Name="mq_transactionType" ColumnName="mq_transactionType" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="patchdatas">
+      <EntityTypeMapping TypeName="sdeModel.patchdata">
+        <MappingFragment StoreEntitySet="patchdata">
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="isRun" ColumnName="isRun" />
+          <ScalarProperty Name="recid" ColumnName="recid" />
+          <ScalarProperty Name="item_isbn" ColumnName="item_isbn" />
+          <ScalarProperty Name="pricelevel" ColumnName="pricelevel" />
+          <ScalarProperty Name="basedprice" ColumnName="basedprice" />
+          <ScalarProperty Name="rate" ColumnName="rate" />
+          <ScalarProperty Name="discount" ColumnName="discount" />
+          <ScalarProperty Name="tax" ColumnName="tax" />
+          <ScalarProperty Name="moNo_InternalID" ColumnName="moNo_InternalID" />
+          <ScalarProperty Name="moNo" ColumnName="moNo" />
+          <ScalarProperty Name="jobordmaster_pack_id" ColumnName="jobordmaster_pack_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="patchmoes">
+      <EntityTypeMapping TypeName="sdeModel.patchmo">
+        <MappingFragment StoreEntitySet="patchmo">
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="isRun" ColumnName="isRun" />
+          <ScalarProperty Name="moNo_InternalID" ColumnName="moNo_InternalID" />
+          <ScalarProperty Name="moNo" ColumnName="moNo" />
+          <ScalarProperty Name="recid" ColumnName="recid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="requestmqs">
+      <EntityTypeMapping TypeName="sdeModel.requestmq">
+        <MappingFragment StoreEntitySet="requestmq">
+          <ScalarProperty Name="rmq_id" ColumnName="rmq_id" />
+          <ScalarProperty Name="rmq_sequence" ColumnName="rmq_sequence" />
+          <ScalarProperty Name="rmq_updatedDate" ColumnName="rmq_updatedDate" />
+          <ScalarProperty Name="rmq_completedAt" ColumnName="rmq_completedAt" />
+          <ScalarProperty Name="rmq_rangeTo" ColumnName="rmq_rangeTo" />
+          <ScalarProperty Name="rmq_rangeFrom" ColumnName="rmq_rangeFrom" />
+          <ScalarProperty Name="rmq_jobID" ColumnName="rmq_jobID" />
+          <ScalarProperty Name="rmq_seqNo" ColumnName="rmq_seqNo" />
+          <ScalarProperty Name="rmq_status" ColumnName="rmq_status" />
+          <ScalarProperty Name="rmq_createdDate" ColumnName="rmq_createdDate" />
+          <ScalarProperty Name="rmq_sche_transactionType" ColumnName="rmq_sche_transactionType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="requestnetsuites">
+      <EntityTypeMapping TypeName="sdeModel.requestnetsuite">
+        <MappingFragment StoreEntitySet="requestnetsuite">
+          <ScalarProperty Name="rn_id" ColumnName="rn_id" />
+          <ScalarProperty Name="rn_sequence" ColumnName="rn_sequence" />
+          <ScalarProperty Name="rn_updatedDate" ColumnName="rn_updatedDate" />
+          <ScalarProperty Name="rn_completedAt" ColumnName="rn_completedAt" />
+          <ScalarProperty Name="rn_rangeTo" ColumnName="rn_rangeTo" />
+          <ScalarProperty Name="rn_rangeFrom" ColumnName="rn_rangeFrom" />
+          <ScalarProperty Name="rn_parentJobID" ColumnName="rn_parentJobID" />
+          <ScalarProperty Name="rn_jobID" ColumnName="rn_jobID" />
+          <ScalarProperty Name="rn_seqNo" ColumnName="rn_seqNo" />
+          <ScalarProperty Name="rn_status" ColumnName="rn_status" />
+          <ScalarProperty Name="rn_createdDate" ColumnName="rn_createdDate" />
+          <ScalarProperty Name="rn_sche_transactionType" ColumnName="rn_sche_transactionType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="requestnetsuite_alarm">
+      <EntityTypeMapping TypeName="sdeModel.requestnetsuite_alarm">
+        <MappingFragment StoreEntitySet="requestnetsuite_alarm">
+          <ScalarProperty Name="sourceFile" ColumnName="sourceFile" />
+          <ScalarProperty Name="errorDate" ColumnName="errorDate" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="recipientList" ColumnName="recipientList" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="sendDate" ColumnName="sendDate" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="requestnetsuite_history">
+      <EntityTypeMapping TypeName="sdeModel.requestnetsuite_history">
+        <MappingFragment StoreEntitySet="requestnetsuite_history">
+          <ScalarProperty Name="rn_id" ColumnName="rn_id" />
+          <ScalarProperty Name="rn_sequence" ColumnName="rn_sequence" />
+          <ScalarProperty Name="rn_updatedDate" ColumnName="rn_updatedDate" />
+          <ScalarProperty Name="rn_completedAt" ColumnName="rn_completedAt" />
+          <ScalarProperty Name="rn_rangeTo" ColumnName="rn_rangeTo" />
+          <ScalarProperty Name="rn_rangeFrom" ColumnName="rn_rangeFrom" />
+          <ScalarProperty Name="rn_parentJobID" ColumnName="rn_parentJobID" />
+          <ScalarProperty Name="rn_jobID" ColumnName="rn_jobID" />
+          <ScalarProperty Name="rn_seqNo" ColumnName="rn_seqNo" />
+          <ScalarProperty Name="rn_status" ColumnName="rn_status" />
+          <ScalarProperty Name="rn_createdDate" ColumnName="rn_createdDate" />
+          <ScalarProperty Name="rn_sche_transactionType" ColumnName="rn_sche_transactionType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="requestnetsuite_task">
+      <EntityTypeMapping TypeName="sdeModel.requestnetsuite_task">
+        <MappingFragment StoreEntitySet="requestnetsuite_task">
+          <ScalarProperty Name="rnt_updatedDate" ColumnName="rnt_updatedDate" />
+          <ScalarProperty Name="rnt_errorDesc" ColumnName="rnt_errorDesc" />
+          <ScalarProperty Name="rnt_createdFromInternalId" ColumnName="rnt_createdFromInternalId" />
+          <ScalarProperty Name="rnt_nsInternalId" ColumnName="rnt_nsInternalId" />
+          <ScalarProperty Name="rnt_seqNO" ColumnName="rnt_seqNO" />
+          <ScalarProperty Name="rnt_createdDate" ColumnName="rnt_createdDate" />
+          <ScalarProperty Name="rnt_status" ColumnName="rnt_status" />
+          <ScalarProperty Name="rnt_jobID" ColumnName="rnt_jobID" />
+          <ScalarProperty Name="rnt_refNO" ColumnName="rnt_refNO" />
+          <ScalarProperty Name="rnt_description" ColumnName="rnt_description" />
+          <ScalarProperty Name="rnt_task" ColumnName="rnt_task" />
+          <ScalarProperty Name="rnt_id" ColumnName="rnt_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="requestnetsuite_task_history">
+      <EntityTypeMapping TypeName="sdeModel.requestnetsuite_task_history">
+        <MappingFragment StoreEntitySet="requestnetsuite_task_history">
+          <ScalarProperty Name="rnt_updatedDate" ColumnName="rnt_updatedDate" />
+          <ScalarProperty Name="rnt_errorDesc" ColumnName="rnt_errorDesc" />
+          <ScalarProperty Name="rnt_createdFromInternalId" ColumnName="rnt_createdFromInternalId" />
+          <ScalarProperty Name="rnt_nsInternalId" ColumnName="rnt_nsInternalId" />
+          <ScalarProperty Name="rnt_seqNO" ColumnName="rnt_seqNO" />
+          <ScalarProperty Name="rnt_createdDate" ColumnName="rnt_createdDate" />
+          <ScalarProperty Name="rnt_status" ColumnName="rnt_status" />
+          <ScalarProperty Name="rnt_jobID" ColumnName="rnt_jobID" />
+          <ScalarProperty Name="rnt_refNO" ColumnName="rnt_refNO" />
+          <ScalarProperty Name="rnt_description" ColumnName="rnt_description" />
+          <ScalarProperty Name="rnt_task" ColumnName="rnt_task" />
+          <ScalarProperty Name="rnt_id" ColumnName="rnt_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="schedulers">
+      <EntityTypeMapping TypeName="sdeModel.scheduler">
+        <MappingFragment StoreEntitySet="scheduler">
+          <ScalarProperty Name="sche_desc" ColumnName="sche_desc" />
+          <ScalarProperty Name="sche_id" ColumnName="sche_id" />
+          <ScalarProperty Name="sche_sequence" ColumnName="sche_sequence" />
+          <ScalarProperty Name="sche_date" ColumnName="sche_date" />
+          <ScalarProperty Name="sche_lastRunSeqNo" ColumnName="sche_lastRunSeqNo" />
+          <ScalarProperty Name="sche_lastRun" ColumnName="sche_lastRun" />
+          <ScalarProperty Name="sche_nextRunSeqNo" ColumnName="sche_nextRunSeqNo" />
+          <ScalarProperty Name="sche_nextRun" ColumnName="sche_nextRun" />
+          <ScalarProperty Name="sche_minuteGap" ColumnName="sche_minuteGap" />
+          <ScalarProperty Name="sche_status" ColumnName="sche_status" />
+          <ScalarProperty Name="sche_transactionType" ColumnName="sche_transactionType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="unfulfillsoes">
+      <EntityTypeMapping TypeName="sdeModel.unfulfillso">
+        <MappingFragment StoreEntitySet="unfulfillso">
+          <ScalarProperty Name="uf_remarks" ColumnName="uf_remarks" />
+          <ScalarProperty Name="uf_createdDate" ColumnName="uf_createdDate" />
+          <ScalarProperty Name="uf_rangeTo" ColumnName="uf_rangeTo" />
+          <ScalarProperty Name="uf_rangeFrom" ColumnName="uf_rangeFrom" />
+          <ScalarProperty Name="uf_fulfillQty" ColumnName="uf_fulfillQty" />
+          <ScalarProperty Name="uf_itemInternalID" ColumnName="uf_itemInternalID" />
+          <ScalarProperty Name="uf_mono" ColumnName="uf_mono" />
+          <ScalarProperty Name="uf_transactiontype" ColumnName="uf_transactiontype" />
+          <ScalarProperty Name="uf_recID" ColumnName="uf_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="unscans">
+      <EntityTypeMapping TypeName="sdeModel.unscan">
+        <MappingFragment StoreEntitySet="unscan">
+          <ScalarProperty Name="ef_rangeTo" ColumnName="ef_rangeTo" />
+          <ScalarProperty Name="ef_createdDate" ColumnName="ef_createdDate" />
+          <ScalarProperty Name="ef_refNo" ColumnName="ef_refNo" />
+          <ScalarProperty Name="ef_excessQty" ColumnName="ef_excessQty" />
+          <ScalarProperty Name="ef_item_InternalID" ColumnName="ef_item_InternalID" />
+          <ScalarProperty Name="ef_josp_packID" ColumnName="ef_josp_packID" />
+          <ScalarProperty Name="ef_nsjom_jobOrdMasterID" ColumnName="ef_nsjom_jobOrdMasterID" />
+          <ScalarProperty Name="ef_moNo" ColumnName="ef_moNo" />
+          <ScalarProperty Name="ef_recID" ColumnName="ef_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="userprofiles">
+      <EntityTypeMapping TypeName="sdeModel.userprofile">
+        <MappingFragment StoreEntitySet="userprofile">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="sdeModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="u_role" ColumnName="u_role" />
+          <ScalarProperty Name="u_modifiedDate" ColumnName="u_modifiedDate" />
+          <ScalarProperty Name="u_createdDate" ColumnName="u_createdDate" />
+          <ScalarProperty Name="u_createdBy" ColumnName="u_createdBy" />
+          <ScalarProperty Name="u_password" ColumnName="u_password" />
+          <ScalarProperty Name="u_userName" ColumnName="u_userName" />
+          <ScalarProperty Name="u_email" ColumnName="u_email" />
+          <ScalarProperty Name="u_lastName" ColumnName="u_lastName" />
+          <ScalarProperty Name="u_firstName" ColumnName="u_firstName" />
+          <ScalarProperty Name="u_id" ColumnName="u_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wms_cashsale">
+      <EntityTypeMapping TypeName="sdeModel.wms_cashsale">
+        <MappingFragment StoreEntitySet="wms_cashsale">
+          <ScalarProperty Name="cs_rangeTo" ColumnName="cs_rangeTo" />
+          <ScalarProperty Name="cs_createdDate" ColumnName="cs_createdDate" />
+          <ScalarProperty Name="cs_location_internalID" ColumnName="cs_location_internalID" />
+          <ScalarProperty Name="cs_location" ColumnName="cs_location" />
+          <ScalarProperty Name="cs_businessChannel_internalID" ColumnName="cs_businessChannel_internalID" />
+          <ScalarProperty Name="cs_businessChannel" ColumnName="cs_businessChannel" />
+          <ScalarProperty Name="cs_subsidiary_internalID" ColumnName="cs_subsidiary_internalID" />
+          <ScalarProperty Name="cs_subsidiary" ColumnName="cs_subsidiary" />
+          <ScalarProperty Name="cs_tranDate" ColumnName="cs_tranDate" />
+          <ScalarProperty Name="cs_entity_internalID" ColumnName="cs_entity_internalID" />
+          <ScalarProperty Name="cs_entity" ColumnName="cs_entity" />
+          <ScalarProperty Name="cs_cashsaleID" ColumnName="cs_cashsaleID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wms_cashsaleitem">
+      <EntityTypeMapping TypeName="sdeModel.wms_cashsaleitem">
+        <MappingFragment StoreEntitySet="wms_cashsaleitem">
+          <ScalarProperty Name="csi_qty" ColumnName="csi_qty" />
+          <ScalarProperty Name="csi_item_internalID" ColumnName="csi_item_internalID" />
+          <ScalarProperty Name="csi_itemID" ColumnName="csi_itemID" />
+          <ScalarProperty Name="csi_cs_cashsaleID" ColumnName="csi_cs_cashsaleID" />
+          <ScalarProperty Name="csi_recID" ColumnName="csi_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wms_directadjustment">
+      <EntityTypeMapping TypeName="sdeModel.wms_directadjustment">
+        <MappingFragment StoreEntitySet="wms_directadjustment">
+          <ScalarProperty Name="da_recID" ColumnName="da_recID" />
+          <ScalarProperty Name="da_rangeTo" ColumnName="da_rangeTo" />
+          <ScalarProperty Name="da_createdDate" ColumnName="da_createdDate" />
+          <ScalarProperty Name="da_tranDate" ColumnName="da_tranDate" />
+          <ScalarProperty Name="da_businessChannel_internalID" ColumnName="da_businessChannel_internalID" />
+          <ScalarProperty Name="da_subsidiary_internalID" ColumnName="da_subsidiary_internalID" />
+          <ScalarProperty Name="da_account_internalID" ColumnName="da_account_internalID" />
+          <ScalarProperty Name="da_directAdjID" ColumnName="da_directAdjID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wms_directadjustmentitem">
+      <EntityTypeMapping TypeName="sdeModel.wms_directadjustmentitem">
+        <MappingFragment StoreEntitySet="wms_directadjustmentitem">
+          <ScalarProperty Name="dai_location_internalID" ColumnName="dai_location_internalID" />
+          <ScalarProperty Name="dai_qty" ColumnName="dai_qty" />
+          <ScalarProperty Name="dai_item_internalID" ColumnName="dai_item_internalID" />
+          <ScalarProperty Name="dai_itemID" ColumnName="dai_itemID" />
+          <ScalarProperty Name="dai_da_directAdjID" ColumnName="dai_da_directAdjID" />
+          <ScalarProperty Name="dai_recID" ColumnName="dai_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wms_directtransfer">
+      <EntityTypeMapping TypeName="sdeModel.wms_directtransfer">
+        <MappingFragment StoreEntitySet="wms_directtransfer">
+          <ScalarProperty Name="dt_recID" ColumnName="dt_recID" />
+          <ScalarProperty Name="dt_rangeTo" ColumnName="dt_rangeTo" />
+          <ScalarProperty Name="dt_createdDate" ColumnName="dt_createdDate" />
+          <ScalarProperty Name="dt_businessChannel" ColumnName="dt_businessChannel" />
+          <ScalarProperty Name="dt_locationTo" ColumnName="dt_locationTo" />
+          <ScalarProperty Name="dt_locationFrom" ColumnName="dt_locationFrom" />
+          <ScalarProperty Name="dt_userID" ColumnName="dt_userID" />
+          <ScalarProperty Name="dt_sessionDate" ColumnName="dt_sessionDate" />
+          <ScalarProperty Name="dt_reference" ColumnName="dt_reference" />
+          <ScalarProperty Name="dt_directTransfer_ID" ColumnName="dt_directTransfer_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wms_directtransferitem">
+      <EntityTypeMapping TypeName="sdeModel.wms_directtransferitem">
+        <MappingFragment StoreEntitySet="wms_directtransferitem">
+          <ScalarProperty Name="dti_recID" ColumnName="dti_recID" />
+          <ScalarProperty Name="dti_quantity" ColumnName="dti_quantity" />
+          <ScalarProperty Name="dti_productCode" ColumnName="dti_productCode" />
+          <ScalarProperty Name="dti_dt_directTransfer_ID" ColumnName="dti_dt_directTransfer_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wms_excessporeceive">
+      <EntityTypeMapping TypeName="sdeModel.wms_excessporeceive">
+        <MappingFragment StoreEntitySet="wms_excessporeceive">
+          <ScalarProperty Name="epor_createdDate" ColumnName="epor_createdDate" />
+          <ScalarProperty Name="epor_qty" ColumnName="epor_qty" />
+          <ScalarProperty Name="epor_item_internalID" ColumnName="epor_item_internalID" />
+          <ScalarProperty Name="epor_item_ID" ColumnName="epor_item_ID" />
+          <ScalarProperty Name="epor_poreceive_ID" ColumnName="epor_poreceive_ID" />
+          <ScalarProperty Name="epor_prID" ColumnName="epor_prID" />
+          <ScalarProperty Name="epor_recID" ColumnName="epor_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wms_jobitem_unscan">
+      <EntityTypeMapping TypeName="sdeModel.wms_jobitem_unscan">
+        <MappingFragment StoreEntitySet="wms_jobitem_unscan">
+          <ScalarProperty Name="jiu_recID" ColumnName="jiu_recID" />
+          <ScalarProperty Name="jiu_posted_ind" ColumnName="jiu_posted_ind" />
+          <ScalarProperty Name="jiu_createdDate" ColumnName="jiu_createdDate" />
+          <ScalarProperty Name="jiu_batchNo" ColumnName="jiu_batchNo" />
+          <ScalarProperty Name="jiu_writeOff_tag" ColumnName="jiu_writeOff_tag" />
+          <ScalarProperty Name="jiu_unscan_qty" ColumnName="jiu_unscan_qty" />
+          <ScalarProperty Name="jiu_unscan_ID" ColumnName="jiu_unscan_ID" />
+          <ScalarProperty Name="jiu_itemID" ColumnName="jiu_itemID" />
+          <ScalarProperty Name="jiu_businessChannel_code" ColumnName="jiu_businessChannel_code" />
+          <ScalarProperty Name="jiu_country" ColumnName="jiu_country" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wms_jobordscan">
+      <EntityTypeMapping TypeName="sdeModel.wms_jobordscan">
+        <MappingFragment StoreEntitySet="wms_jobordscan">
+          <ScalarProperty Name="jos_dropshipFulfillmentProgress" ColumnName="jos_dropshipFulfillmentProgress" />
+          <ScalarProperty Name="jos_GMYInvoiceProgress" ColumnName="jos_GMYInvoiceProgress" />
+          <ScalarProperty Name="jos_syncupdate" ColumnName="jos_syncupdate" />
+          <ScalarProperty Name="jos_netsuiteProgressDummy" ColumnName="jos_netsuiteProgressDummy" />
+          <ScalarProperty Name="jos_netsuiteProgress" ColumnName="jos_netsuiteProgress" />
+          <ScalarProperty Name="jos_recID" ColumnName="jos_recID" />
+          <ScalarProperty Name="jos_rangeTo" ColumnName="jos_rangeTo" />
+          <ScalarProperty Name="jos_createdDate" ColumnName="jos_createdDate" />
+          <ScalarProperty Name="jos_jobOrdMaster_ID" ColumnName="jos_jobOrdMaster_ID" />
+          <ScalarProperty Name="jos_doNo" ColumnName="jos_doNo" />
+          <ScalarProperty Name="jos_load_ind" ColumnName="jos_load_ind" />
+          <ScalarProperty Name="jos_exportDate" ColumnName="jos_exportDate" />
+          <ScalarProperty Name="jos_businessChannel_code" ColumnName="jos_businessChannel_code" />
+          <ScalarProperty Name="jos_businessChannel_ID" ColumnName="jos_businessChannel_ID" />
+          <ScalarProperty Name="jos_moNo" ColumnName="jos_moNo" />
+          <ScalarProperty Name="jos_scanDate" ColumnName="jos_scanDate" />
+          <ScalarProperty Name="jos_ordRecNo" ColumnName="jos_ordRecNo" />
+          <ScalarProperty Name="jos_jobmo_ID" ColumnName="jos_jobmo_ID" />
+          <ScalarProperty Name="jos_job_ID" ColumnName="jos_job_ID" />
+          <ScalarProperty Name="jos_deliveryRef" ColumnName="jos_deliveryRef" />
+          <ScalarProperty Name="jos_country_tag" ColumnName="jos_country_tag" />
+          <ScalarProperty Name="jos_consignmentNote" ColumnName="jos_consignmentNote" />
+          <ScalarProperty Name="jos_jobordscan_ID" ColumnName="jos_jobordscan_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wms_jobordscan_history">
+      <EntityTypeMapping TypeName="sdeModel.wms_jobordscan_history">
+        <MappingFragment StoreEntitySet="wms_jobordscan_history">
+          <ScalarProperty Name="jos_dropshipFulfillmentProgress" ColumnName="jos_dropshipFulfillmentProgress" />
+          <ScalarProperty Name="jos_GMYInvoiceProgress" ColumnName="jos_GMYInvoiceProgress" />
+          <ScalarProperty Name="jos_syncupdate" ColumnName="jos_syncupdate" />
+          <ScalarProperty Name="jos_netsuiteProgressDummy" ColumnName="jos_netsuiteProgressDummy" />
+          <ScalarProperty Name="jos_netsuiteProgress" ColumnName="jos_netsuiteProgress" />
+          <ScalarProperty Name="jos_recID" ColumnName="jos_recID" />
+          <ScalarProperty Name="jos_rangeTo" ColumnName="jos_rangeTo" />
+          <ScalarProperty Name="jos_createdDate" ColumnName="jos_createdDate" />
+          <ScalarProperty Name="jos_jobOrdMaster_ID" ColumnName="jos_jobOrdMaster_ID" />
+          <ScalarProperty Name="jos_doNo" ColumnName="jos_doNo" />
+          <ScalarProperty Name="jos_load_ind" ColumnName="jos_load_ind" />
+          <ScalarProperty Name="jos_exportDate" ColumnName="jos_exportDate" />
+          <ScalarProperty Name="jos_businessChannel_code" ColumnName="jos_businessChannel_code" />
+          <ScalarProperty Name="jos_businessChannel_ID" ColumnName="jos_businessChannel_ID" />
+          <ScalarProperty Name="jos_moNo" ColumnName="jos_moNo" />
+          <ScalarProperty Name="jos_scanDate" ColumnName="jos_scanDate" />
+          <ScalarProperty Name="jos_ordRecNo" ColumnName="jos_ordRecNo" />
+          <ScalarProperty Name="jos_jobmo_ID" ColumnName="jos_jobmo_ID" />
+          <ScalarProperty Name="jos_job_ID" ColumnName="jos_job_ID" />
+          <ScalarProperty Name="jos_deliveryRef" ColumnName="jos_deliveryRef" />
+          <ScalarProperty Name="jos_country_tag" ColumnName="jos_country_tag" />
+          <ScalarProperty Name="jos_consignmentNote" ColumnName="jos_consignmentNote" />
+          <ScalarProperty Name="jos_jobordscan_ID" ColumnName="jos_jobordscan_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wms_jobordscan_pack">
+      <EntityTypeMapping TypeName="sdeModel.wms_jobordscan_pack">
+        <MappingFragment StoreEntitySet="wms_jobordscan_pack">
+          <ScalarProperty Name="josp_ordUnFulFill" ColumnName="josp_ordUnFulFill" />
+          <ScalarProperty Name="josp_exportDate" ColumnName="josp_exportDate" />
+          <ScalarProperty Name="josp_ordRecNo" ColumnName="josp_ordRecNo" />
+          <ScalarProperty Name="josp_jobID" ColumnName="josp_jobID" />
+          <ScalarProperty Name="josp_moNo" ColumnName="josp_moNo" />
+          <ScalarProperty Name="josp_excessQty" ColumnName="josp_excessQty" />
+          <ScalarProperty Name="josp_recID" ColumnName="josp_recID" />
+          <ScalarProperty Name="josp_rangeTo" ColumnName="josp_rangeTo" />
+          <ScalarProperty Name="josp_createdDate" ColumnName="josp_createdDate" />
+          <ScalarProperty Name="josp_jobOrdMaster_ID" ColumnName="josp_jobOrdMaster_ID" />
+          <ScalarProperty Name="josp_posted_ind" ColumnName="josp_posted_ind" />
+          <ScalarProperty Name="josp_ordPoint" ColumnName="josp_ordPoint" />
+          <ScalarProperty Name="josp_ordFulFill" ColumnName="josp_ordFulFill" />
+          <ScalarProperty Name="josp_status" ColumnName="josp_status" />
+          <ScalarProperty Name="josp_pack_ID" ColumnName="josp_pack_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wms_jobordscan_pack_history">
+      <EntityTypeMapping TypeName="sdeModel.wms_jobordscan_pack_history">
+        <MappingFragment StoreEntitySet="wms_jobordscan_pack_history">
+          <ScalarProperty Name="josp_exportDate" ColumnName="josp_exportDate" />
+          <ScalarProperty Name="josp_ordRecNo" ColumnName="josp_ordRecNo" />
+          <ScalarProperty Name="josp_jobID" ColumnName="josp_jobID" />
+          <ScalarProperty Name="josp_moNo" ColumnName="josp_moNo" />
+          <ScalarProperty Name="josp_excessQty" ColumnName="josp_excessQty" />
+          <ScalarProperty Name="josp_recID" ColumnName="josp_recID" />
+          <ScalarProperty Name="josp_rangeTo" ColumnName="josp_rangeTo" />
+          <ScalarProperty Name="josp_createdDate" ColumnName="josp_createdDate" />
+          <ScalarProperty Name="josp_jobOrdMaster_ID" ColumnName="josp_jobOrdMaster_ID" />
+          <ScalarProperty Name="josp_posted_ind" ColumnName="josp_posted_ind" />
+          <ScalarProperty Name="josp_ordPoint" ColumnName="josp_ordPoint" />
+          <ScalarProperty Name="josp_ordFulFill" ColumnName="josp_ordFulFill" />
+          <ScalarProperty Name="josp_status" ColumnName="josp_status" />
+          <ScalarProperty Name="josp_pack_ID" ColumnName="josp_pack_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wms_poreceive">
+      <EntityTypeMapping TypeName="sdeModel.wms_poreceive">
+        <MappingFragment StoreEntitySet="wms_poreceive">
+          <ScalarProperty Name="po_netsuitePO" ColumnName="po_netsuitePO" />
+          <ScalarProperty Name="po_recID" ColumnName="po_recID" />
+          <ScalarProperty Name="po_rangeTo" ColumnName="po_rangeTo" />
+          <ScalarProperty Name="po_createdDate" ColumnName="po_createdDate" />
+          <ScalarProperty Name="po_pr_ID" ColumnName="po_pr_ID" />
+          <ScalarProperty Name="po_poreference_ID" ColumnName="po_poreference_ID" />
+          <ScalarProperty Name="po_poreceive_invoice" ColumnName="po_poreceive_invoice" />
+          <ScalarProperty Name="po_poreceive_number" ColumnName="po_poreceive_number" />
+          <ScalarProperty Name="po_poreceive_desc" ColumnName="po_poreceive_desc" />
+          <ScalarProperty Name="po_poreceive_active" ColumnName="po_poreceive_active" />
+          <ScalarProperty Name="po_modifiedDate" ColumnName="po_modifiedDate" />
+          <ScalarProperty Name="po_modifiedBy" ColumnName="po_modifiedBy" />
+          <ScalarProperty Name="po_createdBy" ColumnName="po_createdBy" />
+          <ScalarProperty Name="po_poreceive_ID" ColumnName="po_poreceive_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wms_poreceiveitem">
+      <EntityTypeMapping TypeName="sdeModel.wms_poreceiveitem">
+        <MappingFragment StoreEntitySet="wms_poreceiveitem">
+          <ScalarProperty Name="poi_netsuitePO" ColumnName="poi_netsuitePO" />
+          <ScalarProperty Name="poi_item_internalID" ColumnName="poi_item_internalID" />
+          <ScalarProperty Name="poi_excessQty" ColumnName="poi_excessQty" />
+          <ScalarProperty Name="poi_damage_qty" ColumnName="poi_damage_qty" />
+          <ScalarProperty Name="poi_sort" ColumnName="poi_sort" />
+          <ScalarProperty Name="poi_priItem_ID" ColumnName="poi_priItem_ID" />
+          <ScalarProperty Name="poi_poreceiveItem_qty" ColumnName="poi_poreceiveItem_qty" />
+          <ScalarProperty Name="poi_poreceive_ID" ColumnName="poi_poreceive_ID" />
+          <ScalarProperty Name="poi_location_code" ColumnName="poi_location_code" />
+          <ScalarProperty Name="poi_item_ID" ColumnName="poi_item_ID" />
+          <ScalarProperty Name="poi_invoiceItem_qty" ColumnName="poi_invoiceItem_qty" />
+          <ScalarProperty Name="poi_createdDate" ColumnName="poi_createdDate" />
+          <ScalarProperty Name="poi_poreceiveitem_ID" ColumnName="poi_poreceiveitem_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wms_rareceive">
+      <EntityTypeMapping TypeName="sdeModel.wms_rareceive">
+        <MappingFragment StoreEntitySet="wms_rareceive">
+          <ScalarProperty Name="nsr_netsuiteRA" ColumnName="nsr_netsuiteRA" />
+          <ScalarProperty Name="nsr_recID" ColumnName="nsr_recID" />
+          <ScalarProperty Name="nsr_rangeTo" ColumnName="nsr_rangeTo" />
+          <ScalarProperty Name="nsr_createdDate" ColumnName="nsr_createdDate" />
+          <ScalarProperty Name="nsr_ns_status" ColumnName="nsr_ns_status" />
+          <ScalarProperty Name="nsr_period" ColumnName="nsr_period" />
+          <ScalarProperty Name="nsr_rr_status" ColumnName="nsr_rr_status" />
+          <ScalarProperty Name="nsr_rr_returnBy" ColumnName="nsr_rr_returnBy" />
+          <ScalarProperty Name="nsr_rr_returnDate" ColumnName="nsr_rr_returnDate" />
+          <ScalarProperty Name="nsr_rr_active" ColumnName="nsr_rr_active" />
+          <ScalarProperty Name="nsr_rr_reference" ColumnName="nsr_rr_reference" />
+          <ScalarProperty Name="nsr_rr_createdBy" ColumnName="nsr_rr_createdBy" />
+          <ScalarProperty Name="nsr_rr_description" ColumnName="nsr_rr_description" />
+          <ScalarProperty Name="nsr_rr_date" ColumnName="nsr_rr_date" />
+          <ScalarProperty Name="nsr_rr_internalID" ColumnName="nsr_rr_internalID" />
+          <ScalarProperty Name="nsr_rr_number" ColumnName="nsr_rr_number" />
+          <ScalarProperty Name="nsr_rr_schID" ColumnName="nsr_rr_schID" />
+          <ScalarProperty Name="nsr_rr_ID" ColumnName="nsr_rr_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wms_rareceiveitem">
+      <EntityTypeMapping TypeName="sdeModel.wms_rareceiveitem">
+        <MappingFragment StoreEntitySet="wms_rareceiveitem">
+          <ScalarProperty Name="nsri_netsuiteRA" ColumnName="nsri_netsuiteRA" />
+          <ScalarProperty Name="nsri_recID" ColumnName="nsri_recID" />
+          <ScalarProperty Name="nsri_createdDate" ColumnName="nsri_createdDate" />
+          <ScalarProperty Name="nsri_pack_ID" ColumnName="nsri_pack_ID" />
+          <ScalarProperty Name="nsri_rritem_posting_qty" ColumnName="nsri_rritem_posting_qty" />
+          <ScalarProperty Name="nsri_cn_id" ColumnName="nsri_cn_id" />
+          <ScalarProperty Name="nsri_rritem_receive_qty" ColumnName="nsri_rritem_receive_qty" />
+          <ScalarProperty Name="nsri_item_internalID" ColumnName="nsri_item_internalID" />
+          <ScalarProperty Name="nsri_rritem_max_return" ColumnName="nsri_rritem_max_return" />
+          <ScalarProperty Name="nsri_remarks" ColumnName="nsri_remarks" />
+          <ScalarProperty Name="nsri_rritem_status" ColumnName="nsri_rritem_status" />
+          <ScalarProperty Name="nsri_createdBy" ColumnName="nsri_createdBy" />
+          <ScalarProperty Name="nsri_tranDate" ColumnName="nsri_tranDate" />
+          <ScalarProperty Name="nsri_rritem_return_qty" ColumnName="nsri_rritem_return_qty" />
+          <ScalarProperty Name="nsri_rritem_isbn2" ColumnName="nsri_rritem_isbn2" />
+          <ScalarProperty Name="nsri_rritem_isbn" ColumnName="nsri_rritem_isbn" />
+          <ScalarProperty Name="nsri_rritem_invoice" ColumnName="nsri_rritem_invoice" />
+          <ScalarProperty Name="nsri_nsr_rr_ID" ColumnName="nsri_nsr_rr_ID" />
+          <ScalarProperty Name="nsri_rritem_ID" ColumnName="nsri_rritem_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cpas_dataposting_history">
+      <EntityTypeMapping TypeName="sdeModel.cpas_dataposting_history">
+        <MappingFragment StoreEntitySet="cpas_dataposting_history">
+          <ScalarProperty Name="spl_netsuiteProgress" ColumnName="spl_netsuiteProgress" />
+          <ScalarProperty Name="spl_tolRevenueFinCharges" ColumnName="spl_tolRevenueFinCharges" />
+          <ScalarProperty Name="spl_tolUnearnedInt" ColumnName="spl_tolUnearnedInt" />
+          <ScalarProperty Name="spl_suspendDate" ColumnName="spl_suspendDate" />
+          <ScalarProperty Name="spl_cancelType" ColumnName="spl_cancelType" />
+          <ScalarProperty Name="spl_salesType" ColumnName="spl_salesType" />
+          <ScalarProperty Name="spl_tolDeliveryCharges" ColumnName="spl_tolDeliveryCharges" />
+          <ScalarProperty Name="spl_tolUFC" ColumnName="spl_tolUFC" />
+          <ScalarProperty Name="spl_tolGstAmount" ColumnName="spl_tolGstAmount" />
+          <ScalarProperty Name="spl_tolNettPrice" ColumnName="spl_tolNettPrice" />
+          <ScalarProperty Name="spl_taxCode" ColumnName="spl_taxCode" />
+          <ScalarProperty Name="spl_noOfInstallments" ColumnName="spl_noOfInstallments" />
+          <ScalarProperty Name="spl_salespostingcategory" ColumnName="spl_salespostingcategory" />
+          <ScalarProperty Name="spl_sp_id" ColumnName="spl_sp_id" />
+          <ScalarProperty Name="spl_readyPushDate" ColumnName="spl_readyPushDate" />
+          <ScalarProperty Name="spl_createdDate" ColumnName="spl_createdDate" />
+          <ScalarProperty Name="spl_syncDate" ColumnName="spl_syncDate" />
+          <ScalarProperty Name="spl_postingDate" ColumnName="spl_postingDate" />
+          <ScalarProperty Name="spl_subsidiary_internalID" ColumnName="spl_subsidiary_internalID" />
+          <ScalarProperty Name="spl_subsidiary" ColumnName="spl_subsidiary" />
+          <ScalarProperty Name="spl_mb_businessChannel_internalID" ColumnName="spl_mb_businessChannel_internalID" />
+          <ScalarProperty Name="spl_businessChannel" ColumnName="spl_businessChannel" />
+          <ScalarProperty Name="spl_ml_location_internalID" ColumnName="spl_ml_location_internalID" />
+          <ScalarProperty Name="spl_sLoc" ColumnName="spl_sLoc" />
+          <ScalarProperty Name="spl_dQty" ColumnName="spl_dQty" />
+          <ScalarProperty Name="spl_inout" ColumnName="spl_inout" />
+          <ScalarProperty Name="spl_sDesc" ColumnName="spl_sDesc" />
+          <ScalarProperty Name="spl_mi_item_internalID" ColumnName="spl_mi_item_internalID" />
+          <ScalarProperty Name="spl_sPID" ColumnName="spl_sPID" />
+          <ScalarProperty Name="spl_transactionType" ColumnName="spl_transactionType" />
+          <ScalarProperty Name="spl_recID" ColumnName="spl_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cpas_dataposting_wrong">
+      <EntityTypeMapping TypeName="sdeModel.cpas_dataposting_wrong">
+        <MappingFragment StoreEntitySet="cpas_dataposting_wrong">
+          <ScalarProperty Name="spl_netsuiteProgress" ColumnName="spl_netsuiteProgress" />
+          <ScalarProperty Name="spl_tolRevenueFinCharges" ColumnName="spl_tolRevenueFinCharges" />
+          <ScalarProperty Name="spl_tolUnearnedInt" ColumnName="spl_tolUnearnedInt" />
+          <ScalarProperty Name="spl_suspendDate" ColumnName="spl_suspendDate" />
+          <ScalarProperty Name="spl_cancelType" ColumnName="spl_cancelType" />
+          <ScalarProperty Name="spl_salesType" ColumnName="spl_salesType" />
+          <ScalarProperty Name="spl_tolDeliveryCharges" ColumnName="spl_tolDeliveryCharges" />
+          <ScalarProperty Name="spl_tolUFC" ColumnName="spl_tolUFC" />
+          <ScalarProperty Name="spl_tolGstAmount" ColumnName="spl_tolGstAmount" />
+          <ScalarProperty Name="spl_tolNettPrice" ColumnName="spl_tolNettPrice" />
+          <ScalarProperty Name="spl_taxCode" ColumnName="spl_taxCode" />
+          <ScalarProperty Name="spl_noOfInstallments" ColumnName="spl_noOfInstallments" />
+          <ScalarProperty Name="spl_salespostingcategory" ColumnName="spl_salespostingcategory" />
+          <ScalarProperty Name="spl_sp_id" ColumnName="spl_sp_id" />
+          <ScalarProperty Name="spl_readyPushDate" ColumnName="spl_readyPushDate" />
+          <ScalarProperty Name="spl_createdDate" ColumnName="spl_createdDate" />
+          <ScalarProperty Name="spl_syncDate" ColumnName="spl_syncDate" />
+          <ScalarProperty Name="spl_postingDate" ColumnName="spl_postingDate" />
+          <ScalarProperty Name="spl_subsidiary_internalID" ColumnName="spl_subsidiary_internalID" />
+          <ScalarProperty Name="spl_subsidiary" ColumnName="spl_subsidiary" />
+          <ScalarProperty Name="spl_mb_businessChannel_internalID" ColumnName="spl_mb_businessChannel_internalID" />
+          <ScalarProperty Name="spl_businessChannel" ColumnName="spl_businessChannel" />
+          <ScalarProperty Name="spl_ml_location_internalID" ColumnName="spl_ml_location_internalID" />
+          <ScalarProperty Name="spl_sLoc" ColumnName="spl_sLoc" />
+          <ScalarProperty Name="spl_dQty" ColumnName="spl_dQty" />
+          <ScalarProperty Name="spl_inout" ColumnName="spl_inout" />
+          <ScalarProperty Name="spl_sDesc" ColumnName="spl_sDesc" />
+          <ScalarProperty Name="spl_mi_item_internalID" ColumnName="spl_mi_item_internalID" />
+          <ScalarProperty Name="spl_sPID" ColumnName="spl_sPID" />
+          <ScalarProperty Name="spl_transactionType" ColumnName="spl_transactionType" />
+          <ScalarProperty Name="spl_recID" ColumnName="spl_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cpas_otherstransaction_history">
+      <EntityTypeMapping TypeName="sdeModel.cpas_otherstransaction_history">
+        <MappingFragment StoreEntitySet="cpas_otherstransaction_history">
+          <ScalarProperty Name="cot_postingDate" ColumnName="cot_postingDate" />
+          <ScalarProperty Name="cot_crSeqNo" ColumnName="cot_crSeqNo" />
+          <ScalarProperty Name="cot_crProgressStatus" ColumnName="cot_crProgressStatus" />
+          <ScalarProperty Name="cot_crUpdatedDate" ColumnName="cot_crUpdatedDate" />
+          <ScalarProperty Name="cot_crInternalID" ColumnName="cot_crInternalID" />
+          <ScalarProperty Name="cot_cnSeqNo" ColumnName="cot_cnSeqNo" />
+          <ScalarProperty Name="cot_cnProgressStatus" ColumnName="cot_cnProgressStatus" />
+          <ScalarProperty Name="cot_cnUpdatedDate" ColumnName="cot_cnUpdatedDate" />
+          <ScalarProperty Name="cot_cnInternalID" ColumnName="cot_cnInternalID" />
+          <ScalarProperty Name="cot_irSeqNo" ColumnName="cot_irSeqNo" />
+          <ScalarProperty Name="cot_irProgressStatus" ColumnName="cot_irProgressStatus" />
+          <ScalarProperty Name="cot_irUpdateDate" ColumnName="cot_irUpdateDate" />
+          <ScalarProperty Name="cot_irInternalID" ColumnName="cot_irInternalID" />
+          <ScalarProperty Name="cot_trxProgressStatus" ColumnName="cot_trxProgressStatus" />
+          <ScalarProperty Name="cot_trxUpdatedDate" ColumnName="cot_trxUpdatedDate" />
+          <ScalarProperty Name="cot_trxInternalID" ColumnName="cot_trxInternalID" />
+          <ScalarProperty Name="cot_seqNo" ColumnName="cot_seqNo" />
+          <ScalarProperty Name="cot_trxType" ColumnName="cot_trxType" />
+          <ScalarProperty Name="cot_salesType" ColumnName="cot_salesType" />
+          <ScalarProperty Name="cot_invDate" ColumnName="cot_invDate" />
+          <ScalarProperty Name="cot_invInternalID" ColumnName="cot_invInternalID" />
+          <ScalarProperty Name="cot_refNo" ColumnName="cot_refNo" />
+          <ScalarProperty Name="cot_subsidiaryInternalID" ColumnName="cot_subsidiaryInternalID" />
+          <ScalarProperty Name="cot_subsidiary" ColumnName="cot_subsidiary" />
+          <ScalarProperty Name="cot_recID" ColumnName="cot_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cpas_payment_history">
+      <EntityTypeMapping TypeName="sdeModel.cpas_payment_history">
+        <MappingFragment StoreEntitySet="cpas_payment_history">
+          <ScalarProperty Name="cpm_ProgressStatusSeqNo" ColumnName="cpm_ProgressStatusSeqNo" />
+          <ScalarProperty Name="cpm_ProgressStatus" ColumnName="cpm_ProgressStatus" />
+          <ScalarProperty Name="cpm_createdDate" ColumnName="cpm_createdDate" />
+          <ScalarProperty Name="cpm_sp_id" ColumnName="cpm_sp_id" />
+          <ScalarProperty Name="cpm_mb_businessChannel_internalID" ColumnName="cpm_mb_businessChannel_internalID" />
+          <ScalarProperty Name="cpm_businessChannel" ColumnName="cpm_businessChannel" />
+          <ScalarProperty Name="cpm_totalcontracts" ColumnName="cpm_totalcontracts" />
+          <ScalarProperty Name="cpm_applyPayment" ColumnName="cpm_applyPayment" />
+          <ScalarProperty Name="cpm_payment" ColumnName="cpm_payment" />
+          <ScalarProperty Name="cpm_ml_location_internalID" ColumnName="cpm_ml_location_internalID" />
+          <ScalarProperty Name="cpm_location" ColumnName="cpm_location" />
+          <ScalarProperty Name="cpm_salesPostingCat" ColumnName="cpm_salesPostingCat" />
+          <ScalarProperty Name="cpm_syncDate" ColumnName="cpm_syncDate" />
+          <ScalarProperty Name="cpm_subsidiary_internalID" ColumnName="cpm_subsidiary_internalID" />
+          <ScalarProperty Name="cpm_subsidiary" ColumnName="cpm_subsidiary" />
+          <ScalarProperty Name="cpm_contractWeek" ColumnName="cpm_contractWeek" />
+          <ScalarProperty Name="cpm_contractMonth" ColumnName="cpm_contractMonth" />
+          <ScalarProperty Name="cpm_contractYear" ColumnName="cpm_contractYear" />
+          <ScalarProperty Name="cpm_priceCode" ColumnName="cpm_priceCode" />
+          <ScalarProperty Name="cpm_postingDate" ColumnName="cpm_postingDate" />
+          <ScalarProperty Name="cpm_postingType" ColumnName="cpm_postingType" />
+          <ScalarProperty Name="cpm_recId" ColumnName="cpm_recId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cpas_salestransaction_history">
+      <EntityTypeMapping TypeName="sdeModel.cpas_salestransaction_history">
+        <MappingFragment StoreEntitySet="cpas_salestransaction_history">
+          <ScalarProperty Name="cst_salesType" ColumnName="cst_salesType" />
+          <ScalarProperty Name="cst_postingDate" ColumnName="cst_postingDate" />
+          <ScalarProperty Name="cst_subsidiary_internalID" ColumnName="cst_subsidiary_internalID" />
+          <ScalarProperty Name="cst_subsidiary" ColumnName="cst_subsidiary" />
+          <ScalarProperty Name="cst_ml_location_internalID" ColumnName="cst_ml_location_internalID" />
+          <ScalarProperty Name="cst_sLoc" ColumnName="cst_sLoc" />
+          <ScalarProperty Name="cst_sDesc" ColumnName="cst_sDesc" />
+          <ScalarProperty Name="cst_sp_id" ColumnName="cst_sp_id" />
+          <ScalarProperty Name="cst_invProgressStatus" ColumnName="cst_invProgressStatus" />
+          <ScalarProperty Name="cst_invUpdatedDate" ColumnName="cst_invUpdatedDate" />
+          <ScalarProperty Name="cst_invInternalID" ColumnName="cst_invInternalID" />
+          <ScalarProperty Name="cst_invJobID" ColumnName="cst_invJobID" />
+          <ScalarProperty Name="cst_invSeqNo" ColumnName="cst_invSeqNo" />
+          <ScalarProperty Name="cst_ifUpdatedDate" ColumnName="cst_ifUpdatedDate" />
+          <ScalarProperty Name="cst_ifInternalID" ColumnName="cst_ifInternalID" />
+          <ScalarProperty Name="cst_ifJobID" ColumnName="cst_ifJobID" />
+          <ScalarProperty Name="cst_ifSeqNo" ColumnName="cst_ifSeqNo" />
+          <ScalarProperty Name="cst_soUpdatedDate" ColumnName="cst_soUpdatedDate" />
+          <ScalarProperty Name="cst_soInternalID" ColumnName="cst_soInternalID" />
+          <ScalarProperty Name="cst_soJobID" ColumnName="cst_soJobID" />
+          <ScalarProperty Name="cst_soSeqNo" ColumnName="cst_soSeqNo" />
+          <ScalarProperty Name="cst_createdDate" ColumnName="cst_createdDate" />
+          <ScalarProperty Name="cst_refNo" ColumnName="cst_refNo" />
+          <ScalarProperty Name="cst_recID" ColumnName="cst_recID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dashboard_salesorder">
+      <EntityTypeMapping TypeName="sdeModel.dashboard_salesorder">
+        <MappingFragment StoreEntitySet="dashboard_salesorder">
+          <ScalarProperty Name="nsj_rangeTo" ColumnName="nsj_rangeTo" />
+          <ScalarProperty Name="nsjm_moNo_internalID" ColumnName="nsjm_moNo_internalID" />
+          <ScalarProperty Name="nsjm_moNo" ColumnName="nsjm_moNo" />
+          <ScalarProperty Name="nsj_job_mo_count" ColumnName="nsj_job_mo_count" />
+          <ScalarProperty Name="nsj_country_tag" ColumnName="nsj_country_tag" />
+          <ScalarProperty Name="nsj_businessChannel_ID" ColumnName="nsj_businessChannel_ID" />
+          <ScalarProperty Name="nsjm_jobMo_ID" ColumnName="nsjm_jobMo_ID" />
+          <ScalarProperty Name="nsj_jobID" ColumnName="nsj_jobID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="temp_resync">
+      <EntityTypeMapping TypeName="sdeModel.temp_resync">
+        <MappingFragment StoreEntitySet="temp_resync">
+          <ScalarProperty Name="updateqty" ColumnName="updateqty" />
+          <ScalarProperty Name="wmsfulfilledqty" ColumnName="wmsfulfilledqty" />
+          <ScalarProperty Name="qtyforwms" ColumnName="qtyforwms" />
+          <ScalarProperty Name="ordqty" ColumnName="ordqty" />
+          <ScalarProperty Name="itemISBN" ColumnName="itemISBN" />
+          <ScalarProperty Name="mono_internalID" ColumnName="mono_internalID" />
+          <ScalarProperty Name="mono" ColumnName="mono" />
+          <ScalarProperty Name="recid" ColumnName="recid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="temp_unfulfillso">
+      <EntityTypeMapping TypeName="sdeModel.temp_unfulfillso">
+        <MappingFragment StoreEntitySet="temp_unfulfillso">
+          <ScalarProperty Name="uf_fulfillQty" ColumnName="uf_fulfillQty" />
+          <ScalarProperty Name="uf_itemInternalID" ColumnName="uf_itemInternalID" />
+          <ScalarProperty Name="uf_mono" ColumnName="uf_mono" />
+          <ScalarProperty Name="rec_id" ColumnName="rec_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tempmoes">
+      <EntityTypeMapping TypeName="sdeModel.tempmo">
+        <MappingFragment StoreEntitySet="tempmo">
+          <ScalarProperty Name="flag" ColumnName="flag" />
+          <ScalarProperty Name="moNo" ColumnName="moNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tosyncitems">
+      <EntityTypeMapping TypeName="sdeModel.tosyncitem">
+        <MappingFragment StoreEntitySet="tosyncitems">
+          <ScalarProperty Name="isDone" ColumnName="isDone" />
+          <ScalarProperty Name="recID" ColumnName="recID" />
+          <ScalarProperty Name="item_internalID" ColumnName="item_internalID" />
+          <ScalarProperty Name="item_isbn" ColumnName="item_isbn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="view_wms_jobordscan">
+      <EntityTypeMapping TypeName="sdeModel.view_wms_jobordscan">
+        <MappingFragment StoreEntitySet="view_wms_jobordscan">
+          <ScalarProperty Name="numOfRec" ColumnName="numOfRec" />
+          <ScalarProperty Name="jos_rangeTo" ColumnName="jos_rangeTo" />
+          <ScalarProperty Name="jos_exportDate" ColumnName="jos_exportDate" />
+          <ScalarProperty Name="jos_businessChannel_code" ColumnName="jos_businessChannel_code" />
+          <ScalarProperty Name="jos_businessChannel_ID" ColumnName="jos_businessChannel_ID" />
+          <ScalarProperty Name="jos_moNo" ColumnName="jos_moNo" />
+          <ScalarProperty Name="jos_scanDate" ColumnName="jos_scanDate" />
+          <ScalarProperty Name="jos_jobmo_ID" ColumnName="jos_jobmo_ID" />
+          <ScalarProperty Name="jos_job_ID" ColumnName="jos_job_ID" />
+          <ScalarProperty Name="jos_country_tag" ColumnName="jos_country_tag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

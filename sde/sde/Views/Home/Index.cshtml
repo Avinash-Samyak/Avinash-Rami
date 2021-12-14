@@ -1,0 +1,102 @@
+﻿@model sde.Models.cls_listbox
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<hgroup class="title" style="font-size:160%">
+    <h1>@ViewBag.Title.</h1>
+</hgroup>
+<br />
+
+<section id="loginForm" style="font-size:160%">
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+   <div class="container">
+        <fieldset>
+        <legend>ListBox</legend>                      
+            <table style="width:100%" border="0">
+            <tr>
+                <td style="width:31%">
+                    @Html.LabelFor(m => m.NewText)
+                    <p></p>
+                    @Html.TextBoxFor(m => m.NewText, new { id="TextBox1", Value=""})
+                    <p></p>
+                    @Html.ValidationMessageFor(m => m.NewText) 
+                    @Html.ValidationMessage("CustomError")                
+                </td>             
+                <td style="width:40%">
+                    <input type="submit" name="submitButton" id="submitBtn"  value="Add" class="btn btn-primary" style="width:30%"/>
+                </td> 
+            </tr>
+
+            <tr>
+                <td style="width:40%">
+                    @Html.Label("ListBox")
+                    <p></p>
+                    @Html.ListBoxFor(m => m.SelectedListText, Model.ListText, new { id="ListBox1", size = 8, style="width:80%;" })
+                </td> 
+                <td style="width:60%">
+                    <p><input type="submit" name="submitButton" id="sortByNameBtn"  value="Name"    class="btn btn-primary" style="width:30%"/></p> 
+                    <p><input type="submit" name="submitButton" id="sortByValueBtn" value="Value"   class="btn btn-primary" style="width:30%"/></p> 
+                    <p><input type="submit" name="submitButton" id="deleteBtn"      value="Delete"  class="btn btn-primary" style="width:30%"/></p> 
+                    <p><button id ="ajaxDeleteBtn" value="delete" class="btn btn-primary" style="width:30%">Delete</button></p> 
+                </td> 
+            </tr>
+            </table>     
+        </fieldset>   
+   </div>          
+}
+</section>
+
+<script type="text/javascript">
+    $(function () {
+            $('#submitBtn').click(function () {
+                $("#ListBox1 option").attr("selected", "selected");
+            });
+
+            $('#sortByNameBtn').click(function () {
+                $("#ListBox1 option").attr("selected", "selected");
+            });
+
+            $('#sortByValueBtn').click(function () {
+                $("#ListBox1 option").attr("selected", "selected");
+            });
+
+            $('#ajaxDeleteBtn').click(function () {
+                alert($('#ListBox1').val());
+                var name = $('#TextBox1').val();
+                alert(name);
+                if (name == "") {
+                    $('#TextBox1').focus();
+                    return false;
+                }
+                $.ajax({
+                    url: '@Url.Action("DeleteListBox", "Home")',
+                    type: 'POST',
+                    cache: false,
+                    data: { _list: $('#ListBox1').val() },
+                    mimeType: "multipart/form-data",
+                    contentType: false,
+                    success: function (result) {
+                        if (result == 'EMPTY') {
+                            alert('Empty');
+                        }
+                        else if (result == 'STARTED') {
+                            alert('Started');
+                        }
+                        else if (result == 'SUCCESS') {
+                            location.href = '@Url.Action("Index", "Home")';
+                        }
+                    }
+                });
+            });
+    });
+</script>
+
+<script src="~/Scripts/bootstrap.min.css"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/jquery-1.9.0.min.js"></script>
+<script src="~/Scripts/jQuery.tmpl.js" type="text/javascript"></script>

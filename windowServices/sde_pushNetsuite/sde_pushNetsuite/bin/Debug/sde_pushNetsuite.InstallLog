@@ -1,0 +1,68 @@
+﻿Installing assembly 'C:\Dev\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Dev\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.exe
+   logfile = C:\Dev\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.InstallLog
+Installing service sde_pushNetsuite...
+Service sde_pushNetsuite has been successfully installed.
+Creating EventLog source sde_pushNetsuite in log Application...
+Committing assembly 'C:\Dev\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Dev\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.exe
+   logfile = C:\Dev\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.InstallLog
+Installing assembly 'C:\inetpub\wwwroot\sde_publish\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\inetpub\wwwroot\sde_publish\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.exe
+   logfile = C:\inetpub\wwwroot\sde_publish\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.InstallLog
+Installing service sde_pushNetsuite...
+Service sde_pushNetsuite has been successfully installed.
+Creating EventLog source sde_pushNetsuite in log Application...
+Committing assembly 'C:\inetpub\wwwroot\sde_publish\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\inetpub\wwwroot\sde_publish\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.exe
+   logfile = C:\inetpub\wwwroot\sde_publish\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.InstallLog
+Uninstalling assembly 'C:\Users\Administrator\Desktop\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Administrator\Desktop\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.exe
+   logfile = C:\Users\Administrator\Desktop\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.InstallLog
+Removing EventLog source sde_pushNetsuite.
+Service sde_pushNetsuite is being removed from the system...
+Service sde_pushNetsuite was successfully removed from the system.
+Installing assembly 'C:\Users\Administrator\Desktop\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Administrator\Desktop\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.exe
+   logfile = C:\Users\Administrator\Desktop\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.InstallLog
+Installing service sde_pushNetsuite...
+Service sde_pushNetsuite has been successfully installed.
+Creating EventLog source sde_pushNetsuite in log Application...
+Committing assembly 'C:\Users\Administrator\Desktop\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Administrator\Desktop\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.exe
+   logfile = C:\Users\Administrator\Desktop\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.InstallLog
+Uninstalling assembly 'C:\Users\Administrator\Desktop\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Desktop\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.InstallLog
+   assemblypath = C:\Users\Administrator\Desktop\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.exe
+Removing EventLog source sde_pushNetsuite.
+Service sde_pushNetsuite is being removed from the system...
+Service sde_pushNetsuite was successfully removed from the system.
+Installing assembly 'C:\Users\Administrator\Desktop\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Desktop\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.InstallLog
+   assemblypath = C:\Users\Administrator\Desktop\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.exe
+Installing service sde_pushNetsuite...
+Service sde_pushNetsuite has been successfully installed.
+Creating EventLog source sde_pushNetsuite in log Application...
+Committing assembly 'C:\Users\Administrator\Desktop\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Desktop\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.InstallLog
+   assemblypath = C:\Users\Administrator\Desktop\sde\windowServices\sde_pushNetsuite\sde_pushNetsuite\bin\Debug\sde_pushNetsuite.exe

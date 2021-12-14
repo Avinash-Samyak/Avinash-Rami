@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/activities.scheduling.xsd" filename="activities.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/lists.relationships.xsd" filename="lists.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/lists.employees.xsd" filename="lists0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/transactions.purchases.xsd" filename="transactions.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/lists.accounting.xsd" filename="lists1.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/transactions.financial.xsd" filename="transactions0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/transactions.bankTypes.xsd" filename="transactions1.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/platform.faultTypes.xsd" filename="platform.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/setup.customization.xsd" filename="setup.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/lists.marketingTypes.xsd" filename="lists2.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/transactions.bank.xsd" filename="transactions2.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/lists.website.xsd" filename="lists3.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/documents.fileCabinet.xsd" filename="documents.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/platform.commonTypes.xsd" filename="platform0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/platform.faults.xsd" filename="platform1.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/transactions.financialTypes.xsd" filename="transactions3.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/transactions.demandPlanningTypes.xsd" filename="transactions4.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/transactions.inventory.xsd" filename="transactions5.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/activities.schedulingTypes.xsd" filename="activities0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/lists.support.xsd" filename="lists4.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/transactions.purchaseTypes.xsd" filename="transactions6.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/transactions.customers.xsd" filename="transactions7.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/general.communication.xsd" filename="general.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/platform.coreTypes.xsd" filename="platform2.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/transactions.saleTypes.xsd" filename="transactions8.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/transactions.sales.xsd" filename="transactions9.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/setup.customizationTypes.xsd" filename="setup0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/lists.marketing.xsd" filename="lists5.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/lists.accountingTypes.xsd" filename="lists6.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/transactions.general.xsd" filename="transactions10.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/lists.employeeTypes.xsd" filename="lists7.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/platform.core.xsd" filename="platform3.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/transactions.inventoryTypes.xsd" filename="transactions11.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/platform.messages.xsd" filename="platform4.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/lists.websiteTypes.xsd" filename="lists8.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/documents.fileCabinetTypes.xsd" filename="documents0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/lists.supplyChainTypes.xsd" filename="lists9.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="file:///C:/WORK/WSDL_v2017_2_0/netsuite.wsdl" filename="netsuite.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/lists.relationshipTypes.xsd" filename="lists10.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/lists.supportTypes.xsd" filename="lists11.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/transactions.employeeTypes.xsd" filename="transactions12.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/transactions.demandPlanning.xsd" filename="transactions13.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/general.communicationTypes.xsd" filename="general0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/transactions.employees.xsd" filename="transactions14.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/transactions.customerTypes.xsd" filename="transactions15.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/platform.common.xsd" filename="platform5.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/WORK/WSDL_v2017_2_0/lists.supplyChain.xsd" filename="lists12.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>

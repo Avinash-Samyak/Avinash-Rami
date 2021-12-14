@@ -1,0 +1,224 @@
+﻿@model Tuple<sde.Models.RequestMQList>
+@{
+    ViewBag.Title = "MSMQ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="span11">
+    <div class="leaderboard" style="padding-left: 10px; padding-right: 10px;">
+        <h1>RIT</h1>
+        <div class="content">
+            <ul id="tabs1" class="nav nav-tabs" data-tabs="tabs1">
+                <li><a href="../DashboardRIT/TasksStatus">NetSuite Tasks</a></li>
+                <li class="active"><a href="../DashboardRIT/MQStatus">MSMQ</a></li>
+                <li><a href="../DashboardRIT/SDEStatus">NetSuite</a></li>
+                <li><a href="../DashboardRIT/Logger">Logger</a></li>
+                <li><a href="../DashboardRIT/Index">Scheduler</a></li>
+                <li><a href="../DashboardRIT/DataSyncBack">Data Sync Back</a></li>
+                <li><a href="../DashboardRIT/DummySO">Dummy SO</a></li>
+            </ul>
+
+            <div id="my-tab-content1" class="tab-content">
+                <div class="tab-pane active table-responsive" id="tabMsgQueue">
+                    @using (Html.BeginForm("MQStatus", "DashboardRIT", FormMethod.Post))
+                    {
+                        <label>From</label>
+                        <input class="datepicker" id="datepicker1" name="fromDate1" type="date" value="@Convert.ToDateTime(Session["FromDate"]).ToString("yyyy-MM-dd")" style="width:150px;" />
+                        <label>To</label>
+                        <input class="datepicker" id="datepicker2" name="toDate1" type="date" value="@Convert.ToDateTime(Session["ToDate"]).ToString("yyyy-MM-dd")" style="width:150px;"/>
+                        <button type="submit" class="btn btn-primary">Filter</button>
+                    }
+                    <ul id="tabs3" class="nav nav-pills" data-tabs="tabs2">
+                        <li class="active"><a href="#tabStart2" data-toggle="tab">Stand By/Start</a></li>
+                        <li><a href="#tabUploaded2" data-toggle="tab">Uploaded/NO-DATA</a></li>
+                        <li><a href="#tabError2" data-toggle="tab">Error</a></li>
+                    </ul>                    
+                    <div id="my-tab-content3" class="tab-content">
+                        <div class="tab-pane active table-responsive" id="tabStart2">
+                            <table class="table table-bordered table-condensed">
+                                <tr style="background-color: #FF8336;">
+                                    <th>Rerun</th>
+                                    <th>Type</th>
+                                    <th>Job ID</th>
+                                    <th>Range From</th>
+                                    <th>Range To</th>
+                                    <th>Status</th>
+                                    <th>Completed</th>
+                                </tr>
+                                @for (int i = 0; i < Model.Item1.requestmq.Count(); i++)
+                                {
+                                    var tmpID = Model.Item1.requestmq[i].transactionType + ";" + Model.Item1.requestmq[i].jobID + ";" + Model.Item1.requestmq[i].rangeFrom + "-" + Model.Item1.requestmq[i].rangeTo;
+                                    if (Model.Item1.requestmq[i].status.Equals("STAND BY") || Model.Item1.requestmq[i].status.Equals("START"))
+                                    {
+                                        if (Model.Item1.requestmq[i].transactionType.StartsWith("MQPUSH-"))
+                                        {
+                                            <tr style="background-color: #FCDAB6;">
+                                                <td><input type="checkbox" value="@tmpID" disabled></td>
+                                                <td>@Model.Item1.requestmq[i].transactionType</td>
+                                                <td style="word-break:break-all;">@Model.Item1.requestmq[i].jobID</td>
+                                                <td>@Model.Item1.requestmq[i].rangeFrom</td>
+                                                <td>@Model.Item1.requestmq[i].rangeTo</td>
+                                                <td>@Model.Item1.requestmq[i].status</td>
+                                                <td>@Model.Item1.requestmq[i].completedAt</td>
+                                            </tr>
+                                        }
+                                        else
+                                        {
+                                            <tr style="background-color: #FCDAB6;">
+                                                <td><input type="checkbox" value="@tmpID" disabled></td>
+                                                <td>@Model.Item1.requestmq[i].transactionType</td>
+                                                <td style="word-break:break-all;">@Model.Item1.requestmq[i].jobID</td>
+                                                <td>@Model.Item1.requestmq[i].rangeFrom</td>
+                                                <td>@Model.Item1.requestmq[i].rangeTo</td>
+                                                <td>@Model.Item1.requestmq[i].status</td>
+                                                <td>@Model.Item1.requestmq[i].completedAt</td>
+                                            </tr>
+                                        }
+                                    }
+                                }
+                            </table>
+                        </div>
+                        <div class="tab-pane table-responsive" id="tabUploaded2">
+                            <table class="table table-bordered table-condensed">
+                                <tr style="background-color: #FF8336;">
+                                    <th>Rerun</th>
+                                    <th>Type</th>
+                                    <th>Job ID</th>
+                                    <th>Range From</th>
+                                    <th>Range To</th>
+                                    <th>Status</th>
+                                    <th>Completed</th>
+                                </tr>
+                                @for (int i = 0; i < Model.Item1.requestmq.Count(); i++)
+                                {
+                                    var tmpID = Model.Item1.requestmq[i].transactionType + ";" + Model.Item1.requestmq[i].jobID + ";" + Model.Item1.requestmq[i].rangeFrom + "-" + Model.Item1.requestmq[i].rangeTo;
+                                    if (Model.Item1.requestmq[i].status.Equals("UPLOADED") || Model.Item1.requestmq[i].status.Equals("NO-DATA"))
+                                    {
+                                        if (Model.Item1.requestmq[i].transactionType.StartsWith("MQPUSH-"))
+                                        {
+                                            <tr style="background-color: #FCDAB6;">
+                                                <td><input type="checkbox" value="@tmpID" disabled></td>
+                                                <td>@Model.Item1.requestmq[i].transactionType</td>
+                                                <td style="word-break:break-all;">@Model.Item1.requestmq[i].jobID</td>
+                                                <td>@Model.Item1.requestmq[i].rangeFrom</td>
+                                                <td>@Model.Item1.requestmq[i].rangeTo</td>
+                                                <td>@Model.Item1.requestmq[i].status</td>
+                                                <td>@Model.Item1.requestmq[i].completedAt</td>
+                                            </tr>
+                                        }
+                                        else
+                                        {
+                                            <tr style="background-color: #FCDAB6;">
+                                                <td><input type="checkbox" value="@tmpID" disabled></td>
+                                                <td>@Model.Item1.requestmq[i].transactionType</td>
+                                                <td style="word-break:break-all;">@Model.Item1.requestmq[i].jobID</td>
+                                                <td>@Model.Item1.requestmq[i].rangeFrom</td>
+                                                <td>@Model.Item1.requestmq[i].rangeTo</td>
+                                                <td>@Model.Item1.requestmq[i].status</td>
+                                                <td>@Model.Item1.requestmq[i].completedAt</td>
+                                            </tr>
+                                        }
+                                    }
+                                }
+                            </table>
+                        </div>
+                        <div class="tab-pane table-responsive" id="tabError2">
+                            <table class="table table-bordered table-condensed">
+                                <tr style="background-color: #FF8336;">
+                                    <th>Rerun</th>
+                                    <th>Type</th>
+                                    <th>Job ID</th>
+                                    <th>Range From</th>
+                                    <th>Range To</th>
+                                    <th>Status</th>
+                                    <th>Completed</th>
+                                </tr>
+                                @for (int i = 0; i < Model.Item1.requestmq.Count(); i++)
+                                {
+                                    var tmpID = Model.Item1.requestmq[i].transactionType + ";" + Model.Item1.requestmq[i].jobID + ";" + Model.Item1.requestmq[i].rangeFrom + "-" + Model.Item1.requestmq[i].rangeTo;
+                                    if (Model.Item1.requestmq[i].status.Equals("ERROR"))
+                                    {
+                                        if (Model.Item1.requestmq[i].transactionType.StartsWith("MQPUSH-"))
+                                        {
+                                            <tr style="background-color: #FCDAB6;">
+                                                <td><input type="checkbox" value="@tmpID" disabled></td>
+                                                <td>@Model.Item1.requestmq[i].transactionType</td>
+                                                <td style="word-break:break-all;">@Model.Item1.requestmq[i].jobID</td>
+                                                <td>@Model.Item1.requestmq[i].rangeFrom</td>
+                                                <td>@Model.Item1.requestmq[i].rangeTo</td>
+                                                <td>@Model.Item1.requestmq[i].status</td>
+                                                <td>@Model.Item1.requestmq[i].completedAt</td>
+                                            </tr>
+                                        }
+                                        else
+                                        {
+                                            <tr style="background-color: #FCDAB6;">
+                                                <td><input type="checkbox" value="@tmpID" disabled></td>
+                                                <td>@Model.Item1.requestmq[i].transactionType</td>
+                                                <td style="word-break:break-all;">@Model.Item1.requestmq[i].jobID</td>
+                                                <td>@Model.Item1.requestmq[i].rangeFrom</td>
+                                                <td>@Model.Item1.requestmq[i].rangeTo</td>
+                                                <td>@Model.Item1.requestmq[i].status</td>
+                                                <td>@Model.Item1.requestmq[i].completedAt</td>
+                                            </tr>
+                                        }
+                                    }
+                                }
+                            </table>
+                        </div>
+
+                        <div style="text-align:left;">
+                             <input type="button" id="rerunBtn" style="position:relative;"  class="btn btn-primary" value="Rerun"/>
+                        </div>
+                        <div id="loaderDiv" style="position: absolute; top: 0%; left: 0%; width: 100%; height: 100%; visibility: hidden; filter: alpha(opacity=70); background-color: gray; z-index: 10000; opacity: 0.8;">
+                            <div style="position:absolute; text-align:center;vertical-align:middle;top:50%;width:100%; height:100%;"><img src="../../Content/images/ajax-loader.gif" /></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#rerunBtn').on('click', function () {
+            var task = [];
+
+            $('input:checked').each(function () {
+                task.push($(this).attr("value"));
+            });
+
+            if (task.length == 0) {
+                alert("No task has been chosen");
+            }
+            else {
+                loaderDiv();
+                $.ajax({
+                    url: "/DashboardRIT/ErrorRerun",
+                    type: "POST",
+                    data: { rerunList: task },
+                    dataType: "json",
+                    traditional: true,
+                    success: function () {
+                        alert("Rerun completed");
+                        window.location = 'TasksStatus';
+                    }
+                });
+            }
+        });
+    });
+
+    function loaderDiv() {
+        document.getElementById('loaderDiv').style.visibility = 'visible';
+        return true;
+    }
+</script>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs1').tab();
+        $('#tabs2').tab();
+        $('#tabs3').tab();
+    });
+</script>
+<script type="text/javascript" src="../../Scripts/bootstrap.min.js"></script>

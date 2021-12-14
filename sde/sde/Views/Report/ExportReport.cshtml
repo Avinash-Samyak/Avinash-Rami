@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="span12">
+<div class="leaderboard">
+<h1>Report</h1>
+    <table>
+        <tr>
+            <th style="width:150px;">Period Sales From</th>
+            <td><input type="text" class="input-small" id="txtFromYear"></td>
+            <th style="width:30px;">to</th>
+            <td><input type="text" class="input-small" id="txtToYear"></td>
+        </tr>
+
+    </table>
+    @using (Html.BeginForm("Preview", "Report", FormMethod.Post))
+    {
+        <button class="btn btn-primary" id="btnPreview" type="submit" value="Preview" class="btn btn-large btn-inverse">Preview</button>
+    }
+    @using (Html.BeginForm("Export", "Report", FormMethod.Post))
+    {
+        <button class="btn btn-primary" id="btnExport" type="submit" value="Export" onclick="return confirm('Confirm export to Excel?');" class="btn btn-large btn-inverse">Export</button>
+    }
+    
+</div>
+
+</div>

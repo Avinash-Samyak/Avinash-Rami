@@ -1,0 +1,37 @@
+﻿@model sde.Models.LocalPasswordModel
+@{
+    ViewBag.Title = "Manage Account";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<hgroup class="title" style="font-size:160%">
+    <h1>@ViewBag.Title.</h1>
+</hgroup>
+
+<button type="button" onclick="location.href='@Url.Action("Index", "Home")'" style="font-size:160%">
+   Go Back 
+</button>
+
+<p class="message-success" >@ViewBag.StatusMessage</p>
+
+<p style="font-size:160%">You're logged in as <strong>@User.Identity.Name</strong>.</p>
+
+@if (ViewBag.HasLocalPassword)
+{
+    @Html.Partial("_ChangePasswordPartial")
+}
+else
+{ 
+    @Html.Partial("_SetPasswordPartial")
+}
+
+<section id="externalLogins" style="font-size:160%">
+    @Html.Action("RemoveExternalLogins")
+
+    <h3>Add an external login</h3>
+    @Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl })
+</section>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

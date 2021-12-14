@@ -1,0 +1,34 @@
+﻿Installing assembly 'C:\inetpub\wwwroot\sde_publish\windowServices\sde_schedule\sde_schedule\bin\Debug\sde_schedule.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\inetpub\wwwroot\sde_publish\windowServices\sde_schedule\sde_schedule\bin\Debug\sde_schedule.exe
+   logfile = C:\inetpub\wwwroot\sde_publish\windowServices\sde_schedule\sde_schedule\bin\Debug\sde_schedule.InstallLog
+Installing service sde_schedule...
+Service sde_schedule has been successfully installed.
+Creating EventLog source sde_schedule in log Application...
+Committing assembly 'C:\inetpub\wwwroot\sde_publish\windowServices\sde_schedule\sde_schedule\bin\Debug\sde_schedule.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\inetpub\wwwroot\sde_publish\windowServices\sde_schedule\sde_schedule\bin\Debug\sde_schedule.exe
+   logfile = C:\inetpub\wwwroot\sde_publish\windowServices\sde_schedule\sde_schedule\bin\Debug\sde_schedule.InstallLog
+Uninstalling assembly 'C:\Users\Administrator\Desktop\sde\windowServices\sde_schedule\sde_schedule\bin\Debug\sde_schedule.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Administrator\Desktop\sde\windowServices\sde_schedule\sde_schedule\bin\Debug\sde_schedule.exe
+   logfile = C:\Users\Administrator\Desktop\sde\windowServices\sde_schedule\sde_schedule\bin\Debug\sde_schedule.InstallLog
+Removing EventLog source sde_schedule.
+Service sde_schedule is being removed from the system...
+Service sde_schedule was successfully removed from the system.
+Installing assembly 'C:\Users\Administrator\Desktop\sde\windowServices\sde_schedule\sde_schedule\bin\Debug\sde_schedule.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Administrator\Desktop\sde\windowServices\sde_schedule\sde_schedule\bin\Debug\sde_schedule.exe
+   logfile = C:\Users\Administrator\Desktop\sde\windowServices\sde_schedule\sde_schedule\bin\Debug\sde_schedule.InstallLog
+Installing service sde_schedule...
+Service sde_schedule has been successfully installed.
+Creating EventLog source sde_schedule in log Application...
+Committing assembly 'C:\Users\Administrator\Desktop\sde\windowServices\sde_schedule\sde_schedule\bin\Debug\sde_schedule.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Administrator\Desktop\sde\windowServices\sde_schedule\sde_schedule\bin\Debug\sde_schedule.exe
+   logfile = C:\Users\Administrator\Desktop\sde\windowServices\sde_schedule\sde_schedule\bin\Debug\sde_schedule.InstallLog

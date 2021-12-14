@@ -1,0 +1,71 @@
+﻿@{
+    ViewBag.Title = "";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Logger</h2>
+<div class="content">
+            <ul id="tabs1" class="nav nav-tabs" data-tabs="tabs1">
+                <li><a href="../Dashboard/Index">Scheduler</a></li>
+                <li><a href="../Dashboard/SDEStatus">NetSuite</a></li>
+                <li><a href="../Dashboard/MQStatus">MSMQ</a></li>
+                <li><a href="../Dashboard/TasksStatus">NetSuite Tasks</a></li>
+                <li class ="active"><a href="../Dashboard/Logger">Logger</a></li>
+                <li><a href="../Dashboard/Adjustment">Adjustment</a></li>
+                <li><a href="../DashboardTrade/newTab1">NewTab1</a> </li> 
+                <li><a href="../DashboardTrade/newTab2">NewTab2</a> </li>   
+                <li><a href="../DashboardTrade/newTab3">NewTab3</a> </li>   
+                <li><a href="../DashboardTrade/newTab4">NewTab4</a> </li>   
+                <li><a href="../DashboardTrade/newTab5">NewTab5</a> </li>   
+                <li><a href="../DashboardTrade/newTab6">NewTab6</a> </li>   
+                <li><a href="../DashboardTrade/newTab7">NewTab7</a> </li> 
+            </ul>
+</div>
+
+
+            <div id="my-tab-content1" class="tab-content">
+                <div class="tab-pane active table-responsive" id="tabExecuteWS">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <td>
+                                <button id="1" style="position:relative; text-align:center;" class="btn btn-primary" onclick="window.location.href='../Logger/SummaryLog.log'">Summary Logs</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="2" style="position:relative; text-align:center;" class="btn btn-primary" onclick="window.location.href='../Logger/DataFromNetsuite.log'">DataFromNetsuite</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="3" style="position:relative; text-align:center;" class="btn btn-primary" onclick="window.location.href='../Logger/DataReqInMQ.log'">DataReqInMQ</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="4" style="position:relative; text-align:center;" class="btn btn-primary" onclick="window.location.href='../Logger/SDEPullMQ.log'">SDEPullMQ</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="5" style="position:relative; text-align:center;" class="btn btn-primary" onclick="window.location.href='../Logger/SSAPullPushMQ.log'">SSAPullPushMQ</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="6" style="position:relative; text-align:center;" class="btn btn-primary" onclick="window.location.href='../Logger/BCASPullPushMQ.log'">BCASPullPushMQ</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="7" style="position:relative; text-align:center;" class="btn btn-primary" onclick="window.location.href='../Logger/CPASPullPushMQ.log'">CPASPullPushMQ</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="8" style="position:relative; text-align:center;" class="btn btn-primary" onclick="window.location.href='../Logger/WMSPullPushMQ.log'">WMSPullPushMQ</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>

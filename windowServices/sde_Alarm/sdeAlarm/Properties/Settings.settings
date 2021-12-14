@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="sdeAlarm.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Server" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sde3.c4btv393jwt2.ap-southeast-1.rds.amazonaws.com</Value>
+    </Setting>
+    <Setting Name="Database" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sde</Value>
+    </Setting>
+    <Setting Name="mailServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">smtp.gmail.com</Value>
+    </Setting>
+    <Setting Name="emailPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sch4096my</Value>
+    </Setting>
+    <Setting Name="mailPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">587</Value>
+    </Setting>
+    <Setting Name="reportStartTime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">6:31 PM</Value>
+    </Setting>
+    <Setting Name="senderAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">noreply@scholastic.com.my</Value>
+    </Setting>
+    <Setting Name="Timer" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">2400000</Value>
+    </Setting>
+    <Setting Name="reportInterval" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">14400</Value>
+    </Setting>
+    <Setting Name="snapshotPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\inetpub\wwwroot\sde_publish\Snapshot\SnapShotLog.log</Value>
+    </Setting>
+    <Setting Name="LogFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\inetpub\wwwroot\sde_publish\Logger\SummaryLog.log</Value>
+    </Setting>
+    <Setting Name="UserID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sdeAlarm</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">$$de8088</Value>
+    </Setting>
+    <Setting Name="errorSummayEmailList" Type="System.String" Scope="User">
+      <Value Profile="(Default)">kkkang@scholastic.asia,kwlam@scholastic.com</Value>
+    </Setting>
+    <Setting Name="FatalemailList2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">kkkang@scholastic.asia,kwlam@scholastic.com</Value>
+    </Setting>
+    <Setting Name="WarningemailList3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">kkkang@scholastic.asia,kwlam@scholastic.com</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

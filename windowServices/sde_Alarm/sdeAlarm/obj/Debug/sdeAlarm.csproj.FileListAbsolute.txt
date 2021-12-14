@@ -1,0 +1,96 @@
+c:\users\xypang\documents\visual studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe.config
+c:\users\xypang\documents\visual studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+c:\users\xypang\documents\visual studio 2012\Projects\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.pdb
+c:\users\xypang\documents\visual studio 2012\Projects\sdeAlarm\sdeAlarm\obj\Debug\sdeAlarm.csprojResolveAssemblyReference.cache
+c:\users\xypang\documents\visual studio 2012\Projects\sdeAlarm\sdeAlarm\obj\Debug\sdeAlarm.exe
+c:\users\xypang\documents\visual studio 2012\Projects\sdeAlarm\sdeAlarm\obj\Debug\sdeAlarm.pdb
+c:\users\xypang\documents\visual studio 2012\Projects\sdeAlarm\sdeAlarm\obj\Debug\sdeAlarm.ProjectInstaller.resources
+c:\users\xypang\documents\visual studio 2012\Projects\sdeAlarm\sdeAlarm\obj\Debug\sdeAlarm.Service1.resources
+c:\users\xypang\documents\visual studio 2012\Projects\sdeAlarm\sdeAlarm\obj\Debug\sdeAlarm.csproj.GenerateResource.Cache
+C:\dev\sdeAlarm2\sdeAlarm\bin\Debug\sdeAlarm.exe.config
+C:\dev\sdeAlarm2\sdeAlarm\obj\Debug\sdeAlarm.exe
+C:\dev\sdeAlarm2\sdeAlarm\obj\Debug\sdeAlarm.pdb
+C:\dev\trunk\windowServices\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe.config
+C:\dev\trunk\windowServices\sdeAlarm\sdeAlarm\obj\Debug\sdeAlarm.exe
+C:\dev\trunk\windowServices\sdeAlarm\sdeAlarm\obj\Debug\sdeAlarm.pdb
+C:\dev\trunk\windowServices\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+C:\dev\trunk\windowServices\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.pdb
+C:\dev\trunk\windowServices\sdeAlarm\sdeAlarm\obj\Debug\sdeAlarm.csprojResolveAssemblyReference.cache
+C:\dev\trunk\windowServices\sdeAlarm\sdeAlarm\obj\Debug\sdeAlarm.ProjectInstaller.resources
+C:\dev\trunk\windowServices\sdeAlarm\sdeAlarm\obj\Debug\sdeAlarm.Service1.resources
+C:\dev\trunk\windowServices\sdeAlarm\sdeAlarm\obj\Debug\sdeAlarm.csproj.GenerateResource.Cache
+C:\dev\sde-ver1.0-xypang02\windowServices\sdeAlarm\sdeAlarm\bin\Debug\sdeAlarm.exe.config
+C:\dev\sde-ver1.0-xypang02\windowServices\sdeAlarm\sdeAlarm\obj\Debug\sdeAlarm.exe
+C:\dev\sde-ver1.0-xypang02\windowServices\sdeAlarm\sdeAlarm\obj\Debug\sdeAlarm.pdb
+C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe.config
+C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.pdb
+C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.ProjectInstaller.resources
+C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.sde_Alarm.resources
+C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.csproj.GenerateResource.Cache
+C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.exe
+C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.pdb
+C:\dev\sde-ver1.0-xypang02\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.csprojResolveAssemblyReference.cache
+C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe.config
+C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.exe
+C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.pdb
+C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.csprojResolveAssemblyReference.cache
+C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.ProjectInstaller.resources
+C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.sde_Alarm.resources
+C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.csproj.GenerateResource.Cache
+C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+C:\dev\sde-ver1.0-xypang07\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.pdb
+C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe.config
+C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.exe
+C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.pdb
+C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.pdb
+C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.csprojResolveAssemblyReference.cache
+C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.ProjectInstaller.resources
+C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.sde_Alarm.resources
+C:\dev\sde-ver1.0-xypang08\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.csproj.GenerateResource.Cache
+C:\dev\sde-ver1.0-xypang09\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe.config
+C:\dev\sde-ver1.0-xypang09\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.exe
+C:\dev\sde-ver1.0-xypang09\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.pdb
+C:\dev\sde-ver1.0-xypang09\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+C:\dev\sde-ver1.0-xypang09\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.pdb
+C:\dev\sde-ver1.0-xypang09\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.csprojResolveAssemblyReference.cache
+C:\dev\sde-ver1.0-xypang09\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.ProjectInstaller.resources
+C:\dev\sde-ver1.0-xypang09\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.sde_Alarm.resources
+C:\dev\sde-ver1.0-xypang09\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.csproj.GenerateResource.Cache
+C:\Development\sde-ver1.0-LiShan43\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe.config
+C:\Development\sde-ver1.0-LiShan43\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.exe
+C:\Development\sde-ver1.0-LiShan43\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.pdb
+C:\Development\sde-ver1.0-LiShan44\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe.config
+C:\Development\sde-ver1.0-LiShan44\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.exe
+C:\Development\sde-ver1.0-LiShan44\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.pdb
+C:\dev\sde-ver1.0-xypang12\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe.config
+C:\dev\sde-ver1.0-xypang12\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.exe
+C:\dev\sde-ver1.0-xypang12\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.pdb
+C:\dev\sde-ver1.0-xypang12\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+C:\dev\sde-ver1.0-xypang12\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.pdb
+C:\dev\sde-ver1.0-xypang12\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.csprojResolveAssemblyReference.cache
+C:\dev\sde-ver1.0-xypang12\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.ProjectInstaller.resources
+C:\dev\sde-ver1.0-xypang12\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.sde_Alarm.resources
+C:\dev\sde-ver1.0-xypang12\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.csproj.GenerateResource.Cache
+C:\Dev\sde\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe.config
+C:\Dev\sde\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+C:\Dev\sde\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.pdb
+C:\Dev\sde\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.ProjectInstaller.resources
+C:\Dev\sde\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.sde_Alarm.resources
+C:\Dev\sde\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.csproj.GenerateResource.Cache
+C:\Dev\sde\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.exe
+C:\Dev\sde\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.pdb
+C:\Dev\sde\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.csprojResolveAssemblyReference.cache
+C:\Dev\sde\trunk\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe.config
+C:\Dev\sde\trunk\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.exe
+C:\Dev\sde\trunk\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.pdb
+C:\Dev\sde\trunk\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe
+C:\Dev\sde\trunk\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.pdb
+C:\Dev\sde\trunk\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.ProjectInstaller.resources
+C:\Dev\sde\trunk\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.sde_Alarm.resources
+C:\Dev\sde\trunk\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.csproj.GenerateResource.Cache
+C:\Dev\sde\trunk\windowServices\sde_Alarm\sdeAlarm\bin\Debug\MySql.Data.dll
+C:\Dev\sde\branches\sde_ver1.0-kang01\windowServices\sde_Alarm\sdeAlarm\bin\Debug\sdeAlarm.exe.config
+C:\Dev\sde\branches\sde_ver1.0-kang01\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.exe
+C:\Dev\sde\branches\sde_ver1.0-kang01\windowServices\sde_Alarm\sdeAlarm\obj\Debug\sdeAlarm.pdb

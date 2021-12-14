@@ -1,0 +1,74 @@
+﻿@model Tuple<sde.Models.stockPostingList>
+@{
+    ViewBag.Title = "Stock Posting";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="span11">
+    <div class="leaderboard" style="padding-left: 10px; padding-right: 10px;">
+        <h1>Cpas Dashboard</h1>
+        <div class="content">
+            <ul id="tabs1" class="nav nav-tabs" data-tabs="tabs1">
+                <li class="active"><a href="../DashboardCpas/NewTab1">Stock Posting</a> </li>   
+                
+            </ul>
+            <div id="my-tab-content1" class="tab-content">
+                <div class="tab-pane active table-responsive" id="tabScheduler">
+                    
+                    @using (Html.BeginForm("StockPosting", "DashboardCPAS", FormMethod.Post))
+                    {
+                        <label>Date</label>
+                        <input class="datepicker" id="datepicker2" name="toDate1" type="date" value="@Convert.ToDateTime(Session["ToDate"]).ToString("yyyy-MM-dd")" style="width:150px;"/>
+                        <button type="submit" class="btn btn-primary">Filter</button>
+                    }
+                    <br />
+                    <table id="myTable" class="table table-bordered table-condensed">
+                        <thead>
+                            <tr style="background-color: #FF8336;">
+                                <th>Created Date</th>
+                                <th>Posting Date</th>
+                                <th>Transaction ID</th>
+                                <th>Description</th>
+                                <th>Transaction Type</th>
+                                <th>Location</th>
+                                <th>Subsidiary</th>
+                                <th>Quantity</th>   
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.Item1.stockPosting.Count(); i++)
+                            {
+                                <tr style="background-color: #FCDAB6;">
+                                    <td>@Model.Item1.stockPosting[i].createdDate</td>
+                                    <td>@Model.Item1.stockPosting[i].postingDate</td>
+                                    <td>@Model.Item1.stockPosting[i].sPID</td>
+                                    <td>@Model.Item1.stockPosting[i].sDesc</td>
+                                    <td>@Model.Item1.stockPosting[i].transactionType</td>
+                                    <td>@Model.Item1.stockPosting[i].sLoc</td>
+                                    <td>@Model.Item1.stockPosting[i].subsidiary</td>
+                                    <td>@Model.Item1.stockPosting[i].dQty</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs1').tab();
+        $('#tabs2').tab();
+    });
+</script>
+<script type="text/javascript" src="../../Scripts/bootstrap/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#myTable').dataTable();
+    });
+</script>
+<link rel="stylesheet" href="../../Scripts/bootstrap/jquery.dataTables.min.css">
+<script type="text/javascript" src="../../Scripts/bootstrap/jquery.dataTables.min.js"></script>

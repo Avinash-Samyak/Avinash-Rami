@@ -1,0 +1,130 @@
+﻿@model Tuple<sde.Models.DSCustomerList,sde.Models.gstDSListPeriodTo,sde.Models.gstDSListPeriodTo>
+@{
+    ViewBag.Title = "GST History";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+  
+<div class="span11">
+    <div class="leaderboard" style="padding-left:10px;padding-right:10px;">
+        <h1>GST History</h1>
+        <br />
+       
+        <div class="content">
+           <ul id="tabs1" class="nav nav-tabs" data-tabs="tabs1">
+                <li><a href="../GSTExtraction/GSTDataExtract">New Submission</a></li> 
+                <li class="active"><a href="../GSTExtraction/DSCustomerHistory">Historical Data</a></li>                   
+            </ul>
+          
+            <div id="my-tab-content1" class="tab-content">
+                <div class="tab-pane active table-responsive" id="tabScheduler"> 
+                      
+                    <label>From Period</label>
+                    <select id="ddDSFromPeriod"> 
+                            @for (int i = 0; i < Model.Item2.gstDSEntityPeriodTo.Count(); i++)
+                            {
+                            <option value="@Model.Item2.gstDSEntityPeriodTo[i].periodFrom" id="@Model.Item2.gstDSEntityPeriodTo[i].periodFrom">
+                                @Model.Item2.gstDSEntityPeriodTo[i].periodFrom
+                            </option>
+                            } 
+                    </select>
+                    <label>To Period</label>
+                    <select id="ddDSToPeriod"> 
+                            @for (int i = 0; i < Model.Item3.gstDSEntityPeriodTo.Count(); i++)
+                            {
+                                <option value="@Model.Item3.gstDSEntityPeriodTo[i].periodFrom" id="@Model.Item3.gstDSEntityPeriodTo[i].periodFrom">
+                                    @Model.Item3.gstDSEntityPeriodTo[i].periodFrom
+                                </option>
+                            } 
+                    </select>
+                    <button id="btnFilter" type="submit" class="btn btn-primary">Filter</button>
+                     
+                    <br />
+                    <table id="myTable" class="table table-bordered table-condensed">
+                        <thead>
+                            <tr style="background-color: #FF8336;">
+                                <th>Account Code</th>
+                                <th>Customer Name</th>
+                                <th>Address 1</th>
+                                <th>Address 2</th>
+                                <th>City</th>
+                                <th>Postcode</th>
+                                <th>State</th>
+                                <th>Telephone</th>
+                                <th>Contract Period</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.Item1.DSCustomerEntity.Count(); i++)
+                            {
+                                <tr style="background-color: #FCDAB6;">
+                                    <td>@Model.Item1.DSCustomerEntity[i].accCode</td>
+                                    <td>@Model.Item1.DSCustomerEntity[i].custName</td>
+                                    <td>@Model.Item1.DSCustomerEntity[i].billAddress1</td>
+                                    <td>@Model.Item1.DSCustomerEntity[i].billAddress2</td>
+                                    <td>@Model.Item1.DSCustomerEntity[i].billCity</td>
+                                    <td>@Model.Item1.DSCustomerEntity[i].billPostcode</td>
+                                    <td>@Model.Item1.DSCustomerEntity[i].billState</td>
+                                    <td>@Model.Item1.DSCustomerEntity[i].telephone</td>
+                                    <td>@Model.Item1.DSCustomerEntity[i].contractPeriod</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div> 
+   </div>
+</div>
+    
+<script type="text/javascript" src="../../Scripts/bootstrap/bootstrap.min.js"></script> 
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs1').tab();
+    });
+</script> 
+<script>
+    $(document).ready(function () {
+        $('#myTable').dataTable();
+    }); 
+
+    var selectedPeriodFrom = sessionStorage.getItem("sItemFrom");
+    var selectedPeriodTo = sessionStorage.getItem("sItemTo");
+
+    if (selectedPeriodFrom != null) {
+        ddDSFromPeriod.value = selectedPeriodFrom;
+    }
+    else {
+        document.getElementById('ddDSFromPeriod').selectedIndex = -1;
+    }
+    if (selectedPeriodTo != null) {
+       ddDSToPeriod.value = selectedPeriodTo;
+    }
+    else {
+        document.getElementById('ddDSToPeriod').selectedIndex = -1;
+    }
+
+    $('#ddDSFromPeriod').change(function () {
+        var dropVal = $(this).val();
+        sessionStorage.setItem("sItemFrom", dropVal); 
+    });
+
+    $('#ddDSToPeriod').change(function () {
+        var dropVal = $(this).val();
+        sessionStorage.setItem("sItemTo", dropVal); 
+    });
+
+    $('#btnFilter').click(function () {
+        $.ajax({
+            url: '@Url.Action("DSCustomerHistory", "GSTExtraction")',
+            type: 'GET',
+            cache: false,
+            data: { dsPeriodFrom: selectedPeriodFrom, dsPeriodTo: selectedPeriodTo },
+            success: function (result) {
+                
+             }
+        });
+    });
+</script>
+<link rel="stylesheet" href="../../Scripts/bootstrap/jquery.dataTables.min.css">
+<script type="text/javascript" src="../../Scripts/bootstrap/jquery.dataTables.min.js"></script>

@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Logger</h2>
+<div class="content">
+            <ul id="tabs1" class="nav nav-tabs" data-tabs="tabs1">
+                <li><a href="../DashboardCPAS/Index">Scheduler</a></li>
+                <li><a href="../DashboardCPAS/SDEStatus">NetSuite</a></li>
+                <li><a href="../DashboardCPAS/MQStatus">MSMQ</a></li>
+                <li><a href="../DashboardCPAS/TasksStatus">NetSuite Tasks</a></li>
+                <li class ="active"><a href="../DashboardCPAS/Logger">Logger</a></li>
+                <li><a href="../DashboardCPAS/Adjustment">Adjustment</a></li>
+            </ul>
+</div>
+
+
+            <div id="my-tab-content1" class="tab-content">
+                <div class="tab-pane active table-responsive" id="tabExecuteWS">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <td>
+                                <button id="1" style="position:relative; text-align:center;" class="btn btn-primary" onclick="window.location.href='../Logger/SummaryLog.log'">Summary Logs</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="2" style="position:relative; text-align:center;" class="btn btn-primary" onclick="window.location.href='../Logger/DataFromNetsuite.log'">DataFromNetsuite</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="3" style="position:relative; text-align:center;" class="btn btn-primary" onclick="window.location.href='../Logger/DataReqInMQ.log'">DataReqInMQ</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="4" style="position:relative; text-align:center;" class="btn btn-primary" onclick="window.location.href='../Logger/SDEPullMQ.log'">SDEPullMQ</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="5" style="position:relative; text-align:center;" class="btn btn-primary" onclick="window.location.href='../Logger/SSAPullPushMQ.log'">SSAPullPushMQ</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="6" style="position:relative; text-align:center;" class="btn btn-primary" onclick="window.location.href='../Logger/BCASPullPushMQ.log'">BCASPullPushMQ</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="7" style="position:relative; text-align:center;" class="btn btn-primary" onclick="window.location.href='../Logger/CPASPullPushMQ.log'">CPASPullPushMQ</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="8" style="position:relative; text-align:center;" class="btn btn-primary" onclick="window.location.href='../Logger/WMSPullPushMQ.log'">WMSPullPushMQ</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>

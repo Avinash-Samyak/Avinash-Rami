@@ -1,0 +1,47 @@
+﻿Installing assembly 'C:\Dev\sde\windowServices\sde_pullNetsuite\sde_pullNetsuite\bin\Debug\sde_pullNetsuite.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Dev\sde\windowServices\sde_pullNetsuite\sde_pullNetsuite\bin\Debug\sde_pullNetsuite.exe
+   logfile = C:\Dev\sde\windowServices\sde_pullNetsuite\sde_pullNetsuite\bin\Debug\sde_pullNetsuite.InstallLog
+Installing service sde_pullNetsuite...
+Service sde_pullNetsuite has been successfully installed.
+Creating EventLog source sde_pullNetsuite in log Application...
+Committing assembly 'C:\Dev\sde\windowServices\sde_pullNetsuite\sde_pullNetsuite\bin\Debug\sde_pullNetsuite.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Dev\sde\windowServices\sde_pullNetsuite\sde_pullNetsuite\bin\Debug\sde_pullNetsuite.exe
+   logfile = C:\Dev\sde\windowServices\sde_pullNetsuite\sde_pullNetsuite\bin\Debug\sde_pullNetsuite.InstallLog
+Installing assembly 'C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullNetsuite\sde_pullNetsuite\bin\Debug\sde_pullNetsuite.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullNetsuite\sde_pullNetsuite\bin\Debug\sde_pullNetsuite.exe
+   logfile = C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullNetsuite\sde_pullNetsuite\bin\Debug\sde_pullNetsuite.InstallLog
+Installing service sde_pullNetsuite...
+Service sde_pullNetsuite has been successfully installed.
+Creating EventLog source sde_pullNetsuite in log Application...
+Committing assembly 'C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullNetsuite\sde_pullNetsuite\bin\Debug\sde_pullNetsuite.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullNetsuite\sde_pullNetsuite\bin\Debug\sde_pullNetsuite.exe
+   logfile = C:\inetpub\wwwroot\sde_publish\windowServices\sde_pullNetsuite\sde_pullNetsuite\bin\Debug\sde_pullNetsuite.InstallLog
+Uninstalling assembly 'C:\Users\Administrator\Desktop\sde\windowServices\sde_pullNetsuite\sde_pullNetsuite\bin\Debug\sde_pullNetsuite.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Administrator\Desktop\sde\windowServices\sde_pullNetsuite\sde_pullNetsuite\bin\Debug\sde_pullNetsuite.exe
+   logfile = C:\Users\Administrator\Desktop\sde\windowServices\sde_pullNetsuite\sde_pullNetsuite\bin\Debug\sde_pullNetsuite.InstallLog
+Removing EventLog source sde_pullNetsuite.
+Service sde_pullNetsuite is being removed from the system...
+Service sde_pullNetsuite was successfully removed from the system.
+Installing assembly 'C:\Users\Administrator\Desktop\sde\windowServices\sde_pullNetsuite\sde_pullNetsuite\bin\Debug\sde_pullNetsuite.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Administrator\Desktop\sde\windowServices\sde_pullNetsuite\sde_pullNetsuite\bin\Debug\sde_pullNetsuite.exe
+   logfile = C:\Users\Administrator\Desktop\sde\windowServices\sde_pullNetsuite\sde_pullNetsuite\bin\Debug\sde_pullNetsuite.InstallLog
+Installing service sde_pullNetsuite...
+Service sde_pullNetsuite has been successfully installed.
+Creating EventLog source sde_pullNetsuite in log Application...
+Committing assembly 'C:\Users\Administrator\Desktop\sde\windowServices\sde_pullNetsuite\sde_pullNetsuite\bin\Debug\sde_pullNetsuite.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Administrator\Desktop\sde\windowServices\sde_pullNetsuite\sde_pullNetsuite\bin\Debug\sde_pullNetsuite.exe
+   logfile = C:\Users\Administrator\Desktop\sde\windowServices\sde_pullNetsuite\sde_pullNetsuite\bin\Debug\sde_pullNetsuite.InstallLog

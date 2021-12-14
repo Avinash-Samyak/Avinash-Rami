@@ -1,0 +1,106 @@
+﻿@model Tuple<sde.Models.SchedulerList>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="span11">
+    <div class="leaderboard" style="padding-left: 10px; padding-right: 10px;">
+        <h1>Dashboard</h1>
+        <div class="content">
+            <ul id="tabs1" class="nav nav-tabs" data-tabs="tabs1">
+                <li><a href="../DashboardTrade/newTab1">SO Sync TO WMS</a> </li>   
+                <li><a href="../DashboardTrade/newTab5a">PR Items Sync To WMS</a> </li> 
+                <li><a href="../DashboardTrade/newTab6">SO Fulfillment</a> </li>   
+                <li><a href="../DashboardTrade/newTab2a">SO Sync To WMS by MO Number</a> </li>   
+                <li><a href="../DashboardTrade/newTab2">PO Sync To WMS by PO Number</a> </li>         
+            </ul>
+            <div id="my-tab-content1" class="tab-content">
+                <div class="tab-pane active table-responsive" id="tabScheduler">
+                    <table class="table table-bordered table-condensed">
+                        <tr style="background-color: #FF8336;">
+                            <th>Type</th>
+                            <th>Minute Gap</th>
+                            <th>Next Run Time</th>
+                            <th>Next Run No.</th>
+                            <th>Last Run Time</th>
+                            <th>Last Run No.</th>
+                            <th>Execute Sequence</th>
+                        </tr>
+                        @for (int i = 0; i < Model.Item1.scheduler.Count(); i++)
+                        {
+                            if (@Model.Item1.scheduler[i].transactionType.StartsWith("NS-"))
+                            {
+                            <tr style="background-color: #FCDAB6;">
+                                <td>@Model.Item1.scheduler[i].transactionType</td>
+                                <td>@Model.Item1.scheduler[i].minuteGap</td>
+                                <td>@Model.Item1.scheduler[i].nextRun</td>
+                                <td>@Model.Item1.scheduler[i].nextRunSeqNo</td>
+                                <td>@Model.Item1.scheduler[i].lastRun</td>
+                                <td>@Model.Item1.scheduler[i].lastRunSeqNo</td>
+                                <td>@Model.Item1.scheduler[i].sequence</td>
+                            </tr>
+                            }
+                            else if (@Model.Item1.scheduler[i].transactionType.StartsWith("SSA-"))
+                            {
+                            <tr style="background-color: #FCDAB6;">@*FAE7D2*@
+                                <td>@Model.Item1.scheduler[i].transactionType</td>
+                                <td>@Model.Item1.scheduler[i].minuteGap</td>
+                                <td>@Model.Item1.scheduler[i].nextRun</td>
+                                <td>@Model.Item1.scheduler[i].nextRunSeqNo</td>
+                                <td>@Model.Item1.scheduler[i].lastRun</td>
+                                <td>@Model.Item1.scheduler[i].lastRunSeqNo</td>
+                                <td>@Model.Item1.scheduler[i].sequence</td>
+                            </tr>
+                            }
+                            else if (@Model.Item1.scheduler[i].transactionType.StartsWith("CPAS-"))
+                            {
+                            <tr style="background-color: #FCDAB6;">
+                                <td>@Model.Item1.scheduler[i].transactionType</td>
+                                <td>@Model.Item1.scheduler[i].minuteGap</td>
+                                <td>@Model.Item1.scheduler[i].nextRun</td>
+                                <td>@Model.Item1.scheduler[i].nextRunSeqNo</td>
+                                <td>@Model.Item1.scheduler[i].lastRun</td>
+                                <td>@Model.Item1.scheduler[i].lastRunSeqNo</td>
+                                <td>@Model.Item1.scheduler[i].sequence</td>
+                            </tr>
+                            }
+                            else if (@Model.Item1.scheduler[i].transactionType.StartsWith("BCAS-"))
+                            {
+                            <tr style="background-color: #FCDAB6;">
+                                <td>@Model.Item1.scheduler[i].transactionType</td>
+                                <td>@Model.Item1.scheduler[i].minuteGap</td>
+                                <td>@Model.Item1.scheduler[i].nextRun</td>
+                                <td>@Model.Item1.scheduler[i].nextRunSeqNo</td>
+                                <td>@Model.Item1.scheduler[i].lastRun</td>
+                                <td>@Model.Item1.scheduler[i].lastRunSeqNo</td>
+                                <td>@Model.Item1.scheduler[i].sequence</td>
+                            </tr>
+                            }
+                            else if (@Model.Item1.scheduler[i].transactionType.StartsWith("MQPUSH-"))
+                            {
+                            <tr style="background-color: #FCDAB6;">
+                                <td>@Model.Item1.scheduler[i].transactionType</td>
+                                <td>@Model.Item1.scheduler[i].minuteGap</td>
+                                <td>@Model.Item1.scheduler[i].nextRun</td>
+                                <td>@Model.Item1.scheduler[i].nextRunSeqNo</td>
+                                <td>@Model.Item1.scheduler[i].lastRun</td>
+                                <td>@Model.Item1.scheduler[i].lastRunSeqNo</td>
+                                <td>@Model.Item1.scheduler[i].sequence</td>
+                            </tr>
+                            }
+                        }
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs1').tab();
+        $('#tabs2').tab();
+    });
+</script>
+<script type="text/javascript" src="../../Scripts/bootstrap/bootstrap.min.js"></script>

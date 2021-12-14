@@ -1,0 +1,53 @@
+﻿@model sde.Models.RegisterExternalLoginModel
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>Associate your @ViewBag.ProviderDisplayName account.</h2>
+</hgroup>
+
+@using (Html.BeginForm("ExternalLoginConfirmation", "Account", new { ReturnUrl = ViewBag.ReturnUrl })) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset style="font-size:160%">
+        <legend>Association Form</legend>
+        <p>
+            You've successfully authenticated with <strong>@ViewBag.ProviderDisplayName</strong>.
+            Please enter a user name for this site below and click the Confirm button to finish
+            logging in.
+        </p>
+        <ol>
+            <li class="name">
+                @Html.LabelFor(m => m.UserName)
+                @Html.TextBoxFor(m => m.UserName)
+                @Html.ValidationMessageFor(m => m.UserName)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.FullName)
+                @Html.TextBoxFor(m => m.FullName)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Link)
+                @Html.TextBoxFor(m => m.Link)
+            </li> 
+            <li>
+                @Html.LabelFor(m => m.Country)
+                @Html.TextBoxFor(m => m.Country)
+            </li> 
+            <li>
+                @Html.LabelFor(m => m.Gender)
+                @Html.TextBoxFor(m => m.Gender)
+            </li> 
+        </ol>
+        @Html.HiddenFor(m => m.ExternalLoginData)
+        <input type="submit" value="Register" />
+    </fieldset>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

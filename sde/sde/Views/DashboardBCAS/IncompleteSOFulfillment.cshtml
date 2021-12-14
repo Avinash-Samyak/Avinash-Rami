@@ -1,0 +1,75 @@
+﻿@model Tuple<sde.Models.BcIncompleteOrderFulfillmentList>
+@{
+    ViewBag.Title = " Incomplete SO Fulfillment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="span11">
+    <div class="leaderboard" style="padding-left: 10px; padding-right: 10px;">
+        <h1>BCAS Dashboard</h1>
+        <div class="content">
+            <ul id="tabs1" class="nav nav-tabs" data-tabs="tabs1">
+                <li><a href="../DashboardBCAS/SOFulfillmentMY">Sales Orders</a></li>
+                <li class="active"><a href="../DashboardBCAS/IncompleteSOFulfillment">Unfulfill ISBN</a></li>
+            </ul>
+
+            <div id="my-tab-content1" class="tab-content">
+                <div class="tab-pane active table-responsive" id="tabScheduler">
+                    <ul id="tabs2" class="nav nav-pills" data-tabs="tabs2">
+                        <li class="active"><a href="../DashboardBCAS/IncompleteSOFulfillment">Filter by Date</a></li>
+                    </ul>
+                    <ul>
+                    </ul>
+                    @using (Html.BeginForm("IncompleteSOFulfillment", "DashboardBCAS", FormMethod.Post))
+                    {
+                        <label>From</label>
+                        <input class="datepicker" id="datepicker1" name="fromDate1" type="date" value="@Convert.ToDateTime(Session["fromDate"]).ToString("yyyy-MM-dd")" style="width:150px;"/>
+                        <label>Date</label>
+                        <input class="datepicker" id="datepicker2" name="toDate1" type="date" value="@Convert.ToDateTime(Session["ToDate"]).ToString("yyyy-MM-dd")" style="width:150px;"/>
+                        <button type="submit" class="btn btn-primary">Filter</button>
+                    }
+                    <br />
+                    <table id="myTable" class="table table-bordered table-condensed">
+                        <thead>
+                            <tr style="background-color: #FF8336;">
+                                <th>Pack</th>
+                                <th>ISBN</th>
+                                <th>Quantity Ordered</th>
+                                <th>Fulfillments</th>
+                                <th>Fulfillments * SkuQty</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.Item1.BcIncompleteOrderFulfillment.Count(); i++)
+                            {
+                                <tr style="background-color: #FCDAB6;">
+                                    <td>@Model.Item1.BcIncompleteOrderFulfillment[i].ordPack</td>
+                                    <td>@Model.Item1.BcIncompleteOrderFulfillment[i].ordISBN</td>
+                                    <td>@Model.Item1.BcIncompleteOrderFulfillment[i].ordQty</td>
+                                    <td>@Model.Item1.BcIncompleteOrderFulfillment[i].ordFulfill</td>
+                                    <td>@Model.Item1.BcIncompleteOrderFulfillment[i].ordFulfillnSku</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs1').tab();
+        $('#tabs2').tab();
+    });
+</script>
+<script type="text/javascript" src="../../Scripts/bootstrap/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#myTable').dataTable();
+    });
+</script>
+<link rel="stylesheet" href="../../Scripts/bootstrap/jquery.dataTables.min.css">
+<script type="text/javascript" src="../../Scripts/bootstrap/jquery.dataTables.min.js"></script>

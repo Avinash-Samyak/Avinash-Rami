@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>SDE</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-main-theme.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+
+</head>
+<body>
+    <div class="navbar navbar-inverse">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="@Url.Content("~/Content/images/schasia_logo.jpg")" width="222" height="30" alt="scholastic logo"/>
+            </a>
+        </div>
+        <div class="navbar-collapse collapse navbar-inverse-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="~/DashboardMain/Main">DAILY SUMMARY</a></li>
+                @if (Roles.IsUserInRole("TRADE"))
+                { 
+@*ANET-26 - Exception Report: Inbound & outbound Reports  *@
+                    <li><a href="~/DashboardTrade/SOSync1">TRADE/EDU/OS</a></li>
+                }
+                @if (Roles.IsUserInRole("CPAS"))
+                { 
+                    <li><a href="~/DashboardCpas/StockPosting">CPAS</a></li>
+                }
+                @if (Roles.IsUserInRole("GSTEXTRACTION"))
+                { 
+                    <li><a href="~/GSTExtraction/GSTDataExtract">GST EXTRACTION</a></li>
+                }
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">OTHERS MENU <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        @if (Roles.IsUserInRole("RIT"))
+                        { 
+                            <li><a href="~/DashboardRit/Index">RIT</a></li>
+                        }
+                        @if (Roles.IsUserInRole("BCAS"))
+                        { 
+                            <li><a href="~/DashboardBcas/SOFulfillmentMY">BCAS</a></li>
+                        }
+
+                        <li class="divider"></li>
+                        <li class="dropdown-header">**** OTHERS ****</li>
+
+                        @if (Roles.IsUserInRole("SETUP"))
+                        { 
+                            <li><a href="~/AdHoc/AdhocScheduler">SETUP</a></li>
+                        }
+                        @if (Roles.IsUserInRole("MIGRATION"))
+                        { 
+                            <li><a href="~/Migration/Adjustment">MIGRATION</a></li>
+                        }
+                        @if (Roles.IsUserInRole("BACKORDER"))
+                        { 
+                            <li><a href="~/BackOrder/BackOrder">BACK ORDER CANCELLATION</a></li>
+                        }
+                    </ul>
+                </li>
+
+            </ul>
+            <!--
+        <form class="navbar-form navbar-left">
+          <input type="text" class="form-control col-lg-8" placeholder="Search">
+        </form>
+        -->
+            @if (Request.IsAuthenticated)
+            {
+                using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+                {
+                @Html.AntiForgeryToken()
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        @Html.ActionLink(User.Identity.Name, "Manage", "Account", routeValues: null, htmlAttributes: new { @class = "username", title = "Manage" })
+                    </li>
+                    <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+                </ul>
+                }
+            }
+            else
+            {
+                <ul class="nav navbar-nav navbar-right">
+                    <li>@Html.ActionLink("Log in", "Index", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+                </ul>
+            }
+        </div>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

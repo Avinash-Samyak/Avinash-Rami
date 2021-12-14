@@ -1,0 +1,197 @@
+﻿@model Tuple<sde.Models.cpasSummaryCountList>
+@{
+    ViewBag.Title = "DAILY SUMMARY";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="span11">
+    <div class="leaderboard" style="padding-left: 10px; padding-right: 10px;">
+        <h1>Daily Summary Dashboard</h1>
+        <h3><script type="text/javascript">
+            var d = new Date();
+            var curr_date = d.getDate();
+            var curr_month = d.getMonth() + 1;
+            var curr_year = d.getFullYear();
+            document.write(curr_date + "-" + curr_month + "-" + curr_year);
+        </script></h3><br />
+
+        <div class="content">
+
+            <h4>CPAS</h4>
+            <table class="table table-bordered table-condensed" style="width: auto;">
+                <tr style="background-color: #FF8336;">
+                    <th style="width: auto;">Transaction</th>
+                    <th style="width: auto;">Transaction Type</th>
+                    <th style="width: auto;">Description</th>
+                    <th style="width: auto;">Subsidiary</th>
+                    <th style="width: auto;">Number of Transactions</th>
+                </tr>
+                @if (Model.Item1.cpasSummaryCount.Count() != 0)
+                {
+                    for (int i = 0; i < Model.Item1.cpasSummaryCount.Count(); i++)
+                    {
+                        <tr style="background-color: #FCDAB6;">
+                            <td>Stock Posting</td>
+                            <td>@Model.Item1.cpasSummaryCount[i].transactionType</td>
+                            <td>@Model.Item1.cpasSummaryCount[i].description</td>
+                            <td style="text-align: center">@Model.Item1.cpasSummaryCount[i].subsidiary</td>
+                            <td style="text-align: center">@Model.Item1.cpasSummaryCount[i].numOfTransaction</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr style="background-color: #FCDAB6;">
+                        <td style="text-align: center">Stock Posting</td>
+                        <td style="text-align: center">-</td>
+                        <td style="text-align: center">-</td>
+                        <td style="text-align: center">-</td>
+                        <td style="text-align: center">0</td>
+                    </tr>
+                }
+            </table>
+
+            <h4>TRADE</h4>
+            <table class="table table-bordered table-condensed" style="width: auto;">
+                <tr style="background-color: #FF8336;">
+                    <th style="width: auto;" colspan="2">Transaction</th>
+                    <th style="width: auto;">Number of Transactions</th>
+                    <th style="width: auto;" colspan="3">Export</th>
+                </tr>
+
+                <tr style="background-color: #FCDAB6;">
+                    @using (Html.BeginForm("SOSyncExportProcessAM", "DashboardTrade", FormMethod.Post))
+                    {
+                       <td style="width: auto;">SO Sync (AM)</td>
+                       <td><img src="\Content\images\go.png" alt="" height='14' width='14' /></td>
+                       <td style="width: auto; text-align: center">@ViewBag.soSyncCount</td>
+                       <td style="width: auto;">
+                            <button type="submit" name="button" value="SOSync" class="btn btn-primary" style="width: 90px" onclick="return confirm('Confirm export to Excel?');">SO</button>
+                       </td>
+                       <td style="width: auto;">
+                            <button type="submit" name="button" value="SOSyncForwarder" class="btn btn-primary" style="width: 90px" onclick="return confirm('Confirm export to Excel?');">Forwarder</button>
+                       </td>
+                       <td style="width: auto;">
+                            <button type="submit" name="button" value="SOSyncPrice" class="btn btn-primary" style="width: 90px" onclick="return confirm('Confirm export to Excel?');">Price</button>
+                       </td>
+                    }
+                </tr>
+
+                <tr style="background-color: #FCDAB6;">
+                    @using (Html.BeginForm("SOSyncExportProcessPM", "DashboardTrade", FormMethod.Post))
+                    {
+                       <td style="width: auto;">SO Sync (PM)</td>
+                       <td><img src="\Content\images\go.png" alt="" height='14' width='14' /></td>
+                       <td style="width: auto; text-align: center">@ViewBag.soSyncCountPM</td>
+                       <td style="width: auto;">
+                            <button type="submit" name="button" value="SOSync" class="btn btn-primary" style="width: 90px" onclick="return confirm('Confirm export to Excel?');">SO</button>
+                       </td>
+                       <td style="width: auto;">
+                            <button type="submit" name="button" value="SOSyncForwarder" class="btn btn-primary" style="width: 90px" onclick="return confirm('Confirm export to Excel?');">Forwarder</button>
+                       </td>
+                       <td style="width: auto;">
+                            <button type="submit" name="button" value="SOSyncPrice" class="btn btn-primary" style="width: 90px" onclick="return confirm('Confirm export to Excel?');">Price</button>
+                       </td>
+                    }
+                </tr>
+                @*ANET-26 - Exception Report: Inbound & outbound Reports*@
+                <tr style="background-color: #FCDAB6;">
+                    <td>SO Not Sync</td>
+                    <td>
+                        <img src="\Content\images\go.png" alt="" height='14' width='14' /></td>
+                    <td style="text-align: center">@ViewBag.soNotSyncCount</td>
+                    <td colspan="3"></td>
+                </tr>
+                @*ANET-26 - Exception Report: Inbound & outbound Reports*@
+
+                <tr style="background-color: #FCDAB6;">
+                    @using (Html.BeginForm("POSyncExportProcess", "DashboardTrade", FormMethod.Post))
+                    {
+                        <td>PO Sync</td>
+                        <td style="text-align: center"><img src="\Content\images\go.png" alt="" height='14' width='14' /></td>
+                        <td style="text-align: center">@ViewBag.poSyncCount</td>
+                        <td style="width: auto;" colspan ="3">
+                                <button type="submit" name="button" value="POSync" class="btn btn-primary" style="width: 90px" onclick="return confirm('Confirm export to Excel?');">PO</button>
+                        </td>
+                    }
+                </tr>
+
+                <tr style="background-color: #FCDAB6;">
+                    @using (Html.BeginForm("SORSyncExportProcess", "DashboardTrade", FormMethod.Post))
+                    {
+                        <td>SOR Sync</td>
+                        <td><img src="\Content\images\go.png" alt="" height='14' width='14' /></td>
+                        <td style="text-align: center">@ViewBag.sorSyncCount</td>
+                        <td colspan="3"><button type="submit" name="button" value="SORSync" class="btn btn-primary" style="width: 90px" onclick="return confirm('Confirm export to Excel?');">SOR</button></td>
+                    }
+                </tr>
+
+                <tr style="background-color: #FCDAB6;">
+                    <td>SO Fufillment (AM)</td>
+                    <td><img src="\Content\images\back.png" alt="" height='14' width='14' /></td>
+                    <td style="text-align: center">@ViewBag.soFulfillmentAMCount</td>
+                    <td colspan="3"></td>
+                </tr>
+
+                <tr style="background-color: #FCDAB6;">
+                    <td>SO Fufillment (PM)</td>
+                    <td><img src="\Content\images\back.png" alt="" height='14' width='14' /></td>
+                    <td style="text-align: center">@ViewBag.soFulfillmentPMCount</td>
+                    <td colspan="3"></td>
+                </tr>
+
+                <tr style="background-color: #FCDAB6;">
+                    @using (Html.BeginForm("IncSOFulfillmentExportProcess", "DashboardTrade", FormMethod.Post))
+                    {
+                        <td>Incomplete SO Fufillment</td>
+                        <td><img src="\Content\images\back.png" alt="" height='14' width='14' /></td>
+                        <td style="text-align: center">@ViewBag.incompleteSoFulfillmentCount</td>
+                        <td style="width: auto;" colspan="3">
+                            <button type="submit" name="button" value="incSOFulfillment" class="btn btn-primary" style="width: 190px" onclick="return confirm('Confirm export to Excel?');">Incomplete SO Fulfillment</button>
+                        </td>
+                    }
+                </tr>
+
+                @*ANET-26 - Exception Report: Inbound & outbound Reports*@
+                <tr style="background-color: #FCDAB6;">
+                    <td>SO Invoice Generate</td>
+                    <td>
+                        <img src="\Content\images\back.png" alt="" height='14' width='14' /></td>
+                    <td style="text-align: center">@ViewBag.soInvoiceGenerate</td>
+                    <td colspan="3"></td>
+                </tr>
+                <tr style="background-color: #FCDAB6;">
+                    <td>SO Invoice Not Generate</td>
+                    <td>
+                        <img src="\Content\images\back.png" alt="" height='14' width='14' /></td>
+                    <td style="text-align: center">@ViewBag.soInvoiceNotGenerate</td>
+                    <td colspan="3"></td>
+                </tr>
+                @*ANET-26 - Exception Report: Inbound & outbound Reports*@
+
+                <tr style="background-color: #FCDAB6;">
+                    <td>PO Receive (AM)</td>
+                    <td><img src="\Content\images\back.png" alt="" height='14' width='14' /></td>
+                    <td style="text-align: center">@ViewBag.poReceiveAMCount</td>
+                    <td colspan="3"></td>
+                </tr>
+
+                 <tr style="background-color: #FCDAB6;">
+                    <td>PO Receive (PM)</td>
+                    <td><img src="\Content\images\back.png" alt="" height='14' width='14' /></td>
+                    <td style="text-align: center">@ViewBag.poReceivePMCount</td>
+                    <td colspan="3"></td>
+                </tr>
+
+                <tr style="background-color: #FCDAB6;">
+                    <td>SOR Receive</td>
+                    <td><img src="\Content\images\back.png" alt="" height='14' width='14' /></td>
+                    <td style="text-align: center">@ViewBag.sorReceiveCount</td>
+                    <td colspan="3"></td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+</div>
+

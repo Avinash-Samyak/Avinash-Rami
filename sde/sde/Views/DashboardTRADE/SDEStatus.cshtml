@@ -1,0 +1,195 @@
+﻿@model Tuple<sde.Models.RequestNetsuiteList>
+@{
+    ViewBag.Title = "SDE Status";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="span11">
+    <div class="leaderboard" style="padding-left: 10px; padding-right: 10px;">
+        <h1>Dashboard</h1>
+        <div class="content">
+            <ul id="tabs1" class="nav nav-tabs" data-tabs="tabs1">
+                <li><a href="../Dashboard/Index">Scheduler</a></li>
+                <li class="active "><a href="../Dashboard/SDEStatus">NetSuite</a></li>
+                <li><a href="../Dashboard/MQStatus">MSMQ</a></li>
+                 <li><a href="../Dashboard/TasksStatus">NetSuite Tasks</a></li>
+                <li><a href="../Dashboard/Logger">Logger</a></li>
+                <li><a href="../Dashboard/Adjustment">Adjustment</a> </li>
+                <li><a href="../DashboardTrade/newTab1">NewTab1</a> </li> 
+                <li><a href="../DashboardTrade/newTab2">NewTab2</a> </li>   
+                <li><a href="../DashboardTrade/newTab3">NewTab3</a> </li>   
+                <li><a href="../DashboardTrade/newTab4">NewTab4</a> </li>   
+                <li><a href="../DashboardTrade/newTab5">NewTab5</a> </li>   
+                <li><a href="../DashboardTrade/newTab6">NewTab6</a> </li>   
+                <li><a href="../DashboardTrade/newTab7">NewTab7</a> </li> 
+            </ul>
+            <div id="my-tab-content1" class="tab-content">
+                <div class="tab-pane active table-responsive" id="tabSDE">
+                    @using (Html.BeginForm("SDEStatus", "Dashboard", FormMethod.Post))
+                    {
+                        <label>From</label>
+                        <input class="datepicker" id="datepicker1" name="fromDate1" type="date" value="@Convert.ToDateTime(Session["FromDate"]).ToString("yyyy-MM-dd")" style="width:150px;" />
+                        <label>To</label>
+                        <input class="datepicker" id="datepicker2" name="toDate1" type="date" value="@Convert.ToDateTime(Session["ToDate"]).ToString("yyyy-MM-dd")" style="width:150px;"/>
+                        <button type="submit" class="btn btn-primary">Filter</button>
+                    }
+
+                    <ul id="tabs2" class="nav nav-pills" data-tabs="tabs2">
+                        <li class="active"><a href="#tabStart1" data-toggle="tab">Stand By/Start</a></li>
+                        <li><a href="#tabFinished1" data-toggle="tab">Finished</a></li>
+                        <li><a href="#tabUploaded1" data-toggle="tab">Uploaded</a></li>
+                    </ul>
+
+                    <div id="my-tab-content2" class="tab-content">
+                        <div class="tab-pane active table-responsive" id="tabStart1">
+                            <table class="table table-bordered  table-condensed">
+                                <tr style="background-color: #FF8336;">
+                                    <th>Type</th>
+                                    <th>Job ID</th>
+                                    <th>Range From</th>
+                                    <th>Range To</th>
+                                    <th>Status</th>
+                                </tr>
+
+                                @for (int i = 0; i < Model.Item1.requestnetsuite.Count(); i++)
+                                {
+                                    if (Model.Item1.requestnetsuite[i].status.Equals("STAND BY") || Model.Item1.requestnetsuite[i].status.Equals("START"))
+                                    {
+                                        if (Model.Item1.requestnetsuite[i].transactionType.StartsWith("NS-"))
+                                        {
+                                            <tr style="background-color: #FCDAB6;">
+                                                <td>@Model.Item1.requestnetsuite[i].transactionType</td>
+                                                <td>@Model.Item1.requestnetsuite[i].jobID</td>
+                                                <td>@Model.Item1.requestnetsuite[i].rangeFrom</td>
+                                                <td>@Model.Item1.requestnetsuite[i].rangeTo</td>
+                                                <td>@Model.Item1.requestnetsuite[i].status</td>
+                                                
+                                            </tr>
+                                        }
+                                        else if (Model.Item1.requestnetsuite[i].transactionType.StartsWith("BCAS-"))
+                                        {
+                                            <tr style="background-color: #FCDAB6;">
+                                                <td>@Model.Item1.requestnetsuite[i].transactionType</td>
+                                                <td>@Model.Item1.requestnetsuite[i].jobID</td>
+                                                <td>@Model.Item1.requestnetsuite[i].rangeFrom</td>
+                                                <td>@Model.Item1.requestnetsuite[i].rangeTo</td>
+                                                <td>@Model.Item1.requestnetsuite[i].status</td>
+                                            </tr>
+                                        }
+                                        else if (Model.Item1.requestnetsuite[i].transactionType.StartsWith("CPAS-"))
+                                        {
+                                            <tr style="background-color: #FCDAB6;">
+                                                <td>@Model.Item1.requestnetsuite[i].transactionType</td>
+                                                <td>@Model.Item1.requestnetsuite[i].jobID</td>
+                                                <td>@Model.Item1.requestnetsuite[i].rangeFrom</td>
+                                                <td>@Model.Item1.requestnetsuite[i].rangeTo</td>
+                                                <td>@Model.Item1.requestnetsuite[i].status</td>
+                                            </tr>
+                                        }
+                                        else if (Model.Item1.requestnetsuite[i].transactionType.StartsWith("SSA-"))
+                                        {
+                                            <tr style="background-color: #FCDAB6;">
+                                                <td>@Model.Item1.requestnetsuite[i].transactionType</td>
+                                                <td>@Model.Item1.requestnetsuite[i].jobID</td>
+                                                <td>@Model.Item1.requestnetsuite[i].rangeFrom</td>
+                                                <td>@Model.Item1.requestnetsuite[i].rangeTo</td>
+                                                <td>@Model.Item1.requestnetsuite[i].status</td>
+                                            </tr>
+                                        }
+                                    }
+                                }
+                            </table>
+                        </div>
+
+                        <div class="tab-pane table-responsive" id="tabFinished1">
+                            <table class="table table-bordered table-condensed">
+                                <tr style="background-color: #FF8336;">
+                                    <th>Type</th>
+                                    <th>Job ID</th>
+                                    <th>Range From</th>
+                                    <th>Range To</th>
+                                    <th>Status</th>
+                                </tr>
+                                @for (int i = 0; i < Model.Item1.requestnetsuite.Count(); i++)
+                                {
+                                    if (Model.Item1.requestnetsuite[i].status.Equals("FINISHED"))
+                                    {
+                                        if (Model.Item1.requestnetsuite[i].transactionType.StartsWith("NS-"))
+                                        {
+                                    <tr style="background-color: #FCDAB6;">
+                                        <td>@Model.Item1.requestnetsuite[i].transactionType</td>
+                                        <td>@Model.Item1.requestnetsuite[i].jobID</td>
+                                        <td>@Model.Item1.requestnetsuite[i].rangeFrom</td>
+                                        <td>@Model.Item1.requestnetsuite[i].rangeTo</td>
+                                        <td>@Model.Item1.requestnetsuite[i].status</td>
+                                    </tr>
+                                        }
+                                        else
+                                        {
+                                    <tr style="background-color: #FCDAB6;">
+                                        <td>@Model.Item1.requestnetsuite[i].transactionType</td>
+                                        <td>@Model.Item1.requestnetsuite[i].jobID</td>
+                                        <td>@Model.Item1.requestnetsuite[i].rangeFrom</td>
+                                        <td>@Model.Item1.requestnetsuite[i].rangeTo</td>
+                                        <td>@Model.Item1.requestnetsuite[i].status</td>
+                                    </tr>
+                                        }
+                                    }
+                                }
+                            </table>
+                        </div>
+
+                        <div class="tab-pane" id="tabUploaded1">
+                            <table class="table table-bordered table-condensed">
+                                <tr style="background-color: #FF8336;">
+                                    <th>Type</th>
+                                    <th>Job ID</th>
+                                    <th>Range From</th>
+                                    <th>Range To</th>
+                                    <th>Status</th>
+                                    @*<th>Details</th>*@
+                                </tr>
+                                @for (int i = 0; i < Model.Item1.requestnetsuite.Count(); i++)
+                                {
+                                    if (Model.Item1.requestnetsuite[i].status.Equals("UPLOADED"))
+                                    {
+                                        if (Model.Item1.requestnetsuite[i].transactionType.StartsWith("NS-"))
+                                        {
+                                    <tr style="background-color: #FCDAB6;">
+                                        <td>@Model.Item1.requestnetsuite[i].transactionType</td>
+                                        <td>@Model.Item1.requestnetsuite[i].jobID</td>
+                                        <td>@Model.Item1.requestnetsuite[i].rangeFrom</td>
+                                        <td>@Model.Item1.requestnetsuite[i].rangeTo</td>
+                                        <td>@Model.Item1.requestnetsuite[i].status</td>
+                                        @*<td>@Html.ActionLink("View", "SDEStatistic", new { tranType=Model.Item1.requestnetsuite[i].transactionType,jobID=Model.Item1.requestnetsuite[i].jobID,rangeTo=Model.Item1.requestnetsuite[i].rangeTo,tranPage="SDEStatus" })</td>*@
+                                    </tr>
+                                        }
+                                        else
+                                        {
+                                    <tr style="background-color: #FCDAB6;">
+                                        <td>@Model.Item1.requestnetsuite[i].transactionType</td>
+                                        <td>@Model.Item1.requestnetsuite[i].jobID</td>
+                                        <td>@Model.Item1.requestnetsuite[i].rangeFrom</td>
+                                        <td>@Model.Item1.requestnetsuite[i].rangeTo</td>
+                                        <td>@Model.Item1.requestnetsuite[i].status</td>
+                                        @*<td>@Html.ActionLink("View", "SDEStatistic", new { tranType=Model.Item1.requestnetsuite[i].transactionType,jobID=Model.Item1.requestnetsuite[i].jobID,rangeTo=Model.Item1.requestnetsuite[i].rangeTo,tranPage="SDEStatus" })</td>*@
+                                    </tr>
+                                        }
+                                    }
+                                }
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs1').tab();
+        $('#tabs2').tab();
+    });
+</script>
+<script type="text/javascript" src="../../Scripts/bootstrap/bootstrap.min.js"></script>

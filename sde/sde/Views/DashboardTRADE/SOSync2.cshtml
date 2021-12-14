@@ -1,0 +1,104 @@
+﻿@model Tuple<sde.Models.soSyncItemList>
+@{
+    ViewBag.Title = "SO Sync";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="span11">
+    <div class="leaderboard" style="padding-left: 10px; padding-right: 10px;">
+        <h1>TRADE/EDU/OS Dashboard</h1>
+        <div class="content">
+            <ul id="tabs1" class="nav nav-tabs" data-tabs="tabs1">
+                <li class="active"><a href="../DashboardTrade/SOSync1">SO Sync <img src="\Content\images\go.png" alt="" height='14' width='14' /></a> </li> 
+                 @*ANET-26 - Exception Report: Inbound & outbound Reports  *@
+                <li ><a href="../DashboardTrade/SONotSync1">SO Not Sync <img src="\Content\images\go.png" alt="" height='14' width='14' /></a> </li>  
+                <li><a href="../DashboardTrade/POSync1">PO Sync <img src="\Content\images\go.png" alt="" height='14' width='14' /></a> </li> 
+                <li><a href="../DashboardTrade/SORSync1">SOR Sync <img src="\Content\images\go.png" alt="" height='14' width='14' /></a> </li> 
+                <li><a href="../DashboardTrade/SOFulfillment1">SO Fulfillment <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>    
+                <li><a href="../DashboardTrade/IncompleteSOFulfillment">Incomplete SO Fulfillment <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li> 
+                 @*ANET-26 - Exception Report: Inbound & outbound Reports  *@
+                <li><a href="../DashboardTrade/SOInvoiceGenerate">SO Invoice Generate <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>   
+                <li><a href="../DashboardTrade/SOInvoiceNotGenerate">SO Invoice Not Generate <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>    
+                <li><a href="../DashboardTrade/POReceive1">PO Receive <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>       
+                <li><a href="../DashboardTrade/SORReceive1">SOR Receive <img src="\Content\images\back.png" alt="" height='14' width='14' /></a>                                
+            </ul>
+            <div id="my-tab-content1" class="tab-content">
+                <div class="tab-pane active table-responsive" id="tabScheduler">
+                    <ul id="tabs2" class="nav nav-pills" data-tabs="tabs2">
+                        <li><a href="../DashboardTrade/SOSync1">Filter by Date</a></li>
+                        <li class="active"><a href="../DashboardTrade/SOSync2">Search by SO Number</a></li>
+                        <li><a href="../DashboardTrade/SOSyncExport">Export Data File</a></li>
+                    </ul>
+                    <ul>
+                    </ul>
+                    @using (Html.BeginForm("SOSync2", "DashboardTRADE", FormMethod.Post))
+                    {
+                        <label>SO Number</label>
+                        <input type="text" id="moNo" name="moNo" value="" />
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    }
+                    <table class="table table-bordered table-condensed">
+                        <tr style="background-color: #FF8336;">
+                            <th>No</th>
+                            <th>Extract Date</th>
+                            <th>SO Number</th>
+                            <th>Customer</th>
+                            <th>Addressee</th>
+                            <th>Country</th>
+                            <th>ISBN 13</th>
+                            <th>Item Description</th>
+                            <th>Quantity Ordered</th>
+                            <th>Quantity Synced</th>
+                        </tr>
+                        @{ String temp = ""; }
+                        @{ int totalQtySynced = 0; }
+                        @for (int i = 0, j = 1; i < Model.Item1.soSyncItem.Count(); i++, j++)
+                        {
+                            
+                            if (temp == "")
+                            {    
+                                temp = Model.Item1.soSyncItem[i].itemID;
+                            }
+                            
+                            if (temp != Model.Item1.soSyncItem[i].itemID)
+                            {
+                                <tr style="background-color: #FCDAB6;">
+                                    <th colspan="9" style="text-align:right">Total Synced: </th>
+                                    <th style="text-align:center">@totalQtySynced</th>
+                                </tr>
+                                totalQtySynced = 0;
+                                temp = Model.Item1.soSyncItem[i].itemID;
+                            }
+                            totalQtySynced += Model.Item1.soSyncItem[i].qtyForWMS.Value;
+                            <tr style="background-color: #FCDAB6;">
+                                <td>@j</td>
+                                <td>@Model.Item1.soSyncItem[i].rangeTo</td>
+                                <td>@Model.Item1.soSyncItem[i].moNo</td>
+                                <td>@Model.Item1.soSyncItem[i].customer</td>
+                                <td>@Model.Item1.soSyncItem[i].addressee</td>
+                                <td>@Model.Item1.soSyncItem[i].country</td>
+                                <td>@Model.Item1.soSyncItem[i].itemID</td>
+                                <td>@Model.Item1.soSyncItem[i].itemDescription</td>
+                                <td style="text-align:center">@Model.Item1.soSyncItem[i].ordQty</td>
+                                <td style="text-align:center">@Model.Item1.soSyncItem[i].qtyForWMS</td>
+                            </tr>
+                        }
+                      
+                            <tr style="background-color: #FCDAB6;">
+                                <th colspan="9" style="text-align:right">Total Synced: </th>
+                                <th style="text-align:center">@totalQtySynced</th>
+                            </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs1').tab();
+        $('#tabs2').tab();
+    });
+</script>
+<script type="text/javascript" src="../../Scripts/bootstrap/bootstrap.min.js"></script>

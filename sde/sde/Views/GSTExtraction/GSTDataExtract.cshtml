@@ -1,0 +1,304 @@
+﻿@model Tuple<sde.Models.gstDSList,sde.Models.gstBCList,sde.Models.gstDSListPeriodTo,sde.Models.gstBCListPeriodTo>
+@{
+    ViewBag.Title = "GST Extraction";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ <style>
+     .tblCell {
+         padding:10px 8px;
+     }
+     .lobHeader {
+         font-size:17px;
+         padding:15px 10px 0px 5px;
+     }
+ </style> 
+<div class="span11">
+    <div class="leaderboard" style="padding-left:10px;padding-right:10px;">
+        <h1>GST Extraction</h1>
+        <br />
+       
+        <div class="content">
+           <ul id="tabs1" class="nav nav-tabs" data-tabs="tabs1">
+                <li class="active"><a href="../GSTExtraction/GSTDataExtract">New Submission</a></li> 
+                <li><a href="../GSTExtraction/GSTDataExtractHistoryBC">BC Historical Data</a></li>   
+                <li><a href="../GSTExtraction/GSTDataExtractHistoryDS">DS Historical Data</a></li>                       
+            </ul> 
+          <div id="divDS">
+              <label class="lobHeader">DIRECT SALES (DS)</label>
+              <table style="width:100%" border="0">
+                  <tr>
+                      <td>
+                          <table style="width:100%;padding:10px 8px" border="0">
+                             <tr>
+                                 <td class="tblCell"  style="width:9%"> 
+                                    <label>From Period</label>
+                                 </td>
+                                 <td style="width:8%">   
+                                    @{ string periodFrom =string.Empty; }
+                                    @if (@Model.Item3.gstDSEntityPeriodTo.Count() > 0)
+                                    {
+                                        periodFrom = @Model.Item3.gstDSEntityPeriodTo[0].periodFiscal;
+                                    }  
+                                    <input style="width:65px" type="text" id="txtDSFromPeriod" readonly="true" value="@periodFrom" /> 
+                                 </td>
+                                 <td style="width:7%">
+                                    <label>To Period</label>
+                                 </td> 
+                                 <td style="width:10%">
+                                     <select id="ddDSToPeriod"> 
+                                        @for (int i = 0; i < Model.Item3.gstDSEntityPeriodTo.Count(); i++)
+                                        {
+                                            <option value="@Model.Item3.gstDSEntityPeriodTo[i].periodFiscal" id="@Model.Item3.gstDSEntityPeriodTo[i].periodMonth">
+                                                @Model.Item3.gstDSEntityPeriodTo[i].periodFiscal
+                                            </option>
+                                        } 
+                                     </select>
+                                 </td> 
+                                 <td  style="width:5%">
+                                    <label>Month</label> 
+                                 </td>
+                                 <td  style="width:8%">
+                                     <label id="lblDSMth" style="font-weight:normal"></label>
+                                 </td> 
+                                 <td>
+                                     <button id="btnDSSubmit" type="submit" class="btn btn-primary">Submit</button>
+                                 </td>
+                             </tr>
+                         </table>
+                      </td>
+                  </tr>
+                  <tr style="height:10px">
+                      <td>
+
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <table id="tblDSStatus" border="1" style="width:100%">
+                            <thead>
+                            <tr style="background-color: #FF8336;padding-left:2px">
+                                <th class="tblCell" style="width:14%">Date Submit</th>
+                                <th class="tblCell" style="width:15%">Entity</th>
+                                <th class="tblCell" style="width:5%">From</th>
+                                <th class="tblCell" style="width:5%">To</th>
+                                <th class="tblCell" style="width:7%">Status</th>
+                                <!--<th class="tblCell" style="width:11%">Total Rows Input</th>-->
+                                <th class="tblCell" style="width:12%">Total Rows Export</th>
+                                <th class="tblCell" style="width:15%">Total Amount Export</th>
+                                <th class="tblCell" style="width:17%">Total GST Amount Export</th>
+                                <!--<th style="width:11%">Export Folder Path</th>
+                                <th style="width:12%">Export File Name</th>-->
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.Item1.gstDSEntity.Count(); i++)
+                            {
+                                <tr style="background-color: #FCDAB6;">
+                                    <td class="tblCell">@Model.Item1.gstDSEntity[i].dateSubmit</td>
+                                    <td class="tblCell">@Model.Item1.gstDSEntity[i].entity</td>
+                                    <td class="tblCell">@Model.Item1.gstDSEntity[i].fromPeriod</td>
+                                    <td class="tblCell">@Model.Item1.gstDSEntity[i].toPeriod</td>
+                                    <td class="tblCell">@Model.Item1.gstDSEntity[i].status</td>
+                                    <!--<td> class="tblCell"@Model.Item1.gstDSEntity[i].totalRowsInput</td>-->
+                                    <td class="tblCell" style="text-align:right;">@Model.Item1.gstDSEntity[i].totalRowsExport.ToString("#,##0")</td>
+                                    @if (Model.Item1.gstDSEntity[i].entity.Contains("Customer"))
+                                    {  
+                                    <td class="tblCell" style="text-align:right;">-</td> 
+                                    <td class="tblCell" style="text-align:right;">-</td> 
+                                    }
+                                    else
+                                    {   
+                                    <td class="tblCell" style="text-align:right;">@Model.Item1.gstDSEntity[i].totalAmountExport.ToString("#,##0.00")</td>  
+                                    <td class="tblCell" style="text-align:right;">@Model.Item1.gstDSEntity[i].totalGstAmountExport.ToString("#,##0.00")</td>  
+                                    }
+                                    <!--<td class="tblCell">@Model.Item1.gstDSEntity[i].exportFolderPath</td>  
+                                    <td class="tblCell">@Model.Item1.gstDSEntity[i].exportFileName</td>-->
+                                </tr>
+                            }
+                        </tbody>
+                        </table> 
+                      </td>
+                  </tr>
+              </table>
+          </div> 
+            <br />
+          <div id="divBC">
+              <label class="lobHeader">BOOK CLUBS (BC)</label>
+              <table style="width:100%" border="0">
+                  <tr>
+                      <td>
+                          <table style="width:100%" border="0">
+                             <tr>
+                                 <td class="tblCell"  style="width:9%"> 
+                                    <label>From Period</label>
+                                 </td>
+                                 <td style="width:8%"> 
+                                    @{ periodFrom = string.Empty; }
+                                    @if (@Model.Item4.gstBCEntityPeriodTo.Count() > 0)
+                                    {
+                                        periodFrom = @Model.Item4.gstBCEntityPeriodTo[0].periodFiscal;
+                                    }   
+                                    <input style="width:65px" type="text" id="txtBCFromPeriod" readonly="true" value="@periodFrom" />
+                                 </td> 
+                                 <td style="width:7%">
+                                    <label>To Period</label>
+                                 </td>
+                                 <td style="width:10%">
+                                     <select id="ddBCToPeriod"> 
+                                        @for (int i = 0; i < Model.Item4.gstBCEntityPeriodTo.Count(); i++)
+                                        {
+                                            <option value="@Model.Item4.gstBCEntityPeriodTo[i].periodFiscal" id="@Model.Item4.gstBCEntityPeriodTo[i].periodMonth">
+                                                @Model.Item4.gstBCEntityPeriodTo[i].periodFiscal
+                                            </option>
+                                        } 
+                                     </select>
+                                 </td>
+                                 <td  style="width:5%">
+                                    <label>Month</label> 
+                                 </td>
+                                 <td  style="width:8%">
+                                     <label id="lblBCMth" style="font-weight:normal"></label>
+                                 </td>
+                                 <td>
+                                     <button id="btnBCSubmit" type="submit" class="btn btn-primary">Submit</button>
+                                 </td>
+                             </tr>
+                         </table>
+                      </td>
+                  </tr>
+                  <tr style="height:10px">
+                      <td>
+
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <table id="tblBCStatus" border="1" style="width:100%">
+                            <thead>
+                            <tr style="background-color: #FF8336;">
+                                <th class="tblCell" style="width:14%">Date Submit</th>
+                                <th class="tblCell" style="width:15%">Entity</th>
+                                <th class="tblCell" style="width:5%">From</th>
+                                <th class="tblCell" style="width:5%">To</th>
+                                <th class="tblCell" style="width:7%">Status</th>
+                               <!-- <th class="tblCell" style="width:11%">Total Rows Input</th>-->
+                                <th class="tblCell" style="width:12%">Total Rows Export</th>
+                                <th class="tblCell" style="width:15%">Total Amount Export</th>
+                                <th class="tblCell" style="width:17%">Total GST Amount Export</th>
+                                <!--<th style="width:11%">Export Folder Path</th>
+                                <th style="width:12%">Export File Name</th>-->
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.Item2.gstBCEntity.Count(); i++)
+                            {
+                                <tr style="background-color: #FCDAB6;">
+                                    <td class="tblCell">@Model.Item2.gstBCEntity[i].dateSubmit</td>
+                                    <td class="tblCell">@Model.Item2.gstBCEntity[i].entity</td>
+                                    <td class="tblCell">@Model.Item2.gstBCEntity[i].fromPeriod</td>
+                                    <td class="tblCell">@Model.Item2.gstBCEntity[i].toPeriod</td>
+                                    <td class="tblCell">@Model.Item2.gstBCEntity[i].status</td>
+                                    <!--<td class="tblCell">@Model.Item2.gstBCEntity[i].totalRowsInput</td>-->
+                                    <td class="tblCell" style="text-align:right;">@Model.Item2.gstBCEntity[i].totalRowsExport.ToString("#,##0")</td> 
+                                    @if (Model.Item2.gstBCEntity[i].entity.Contains("Customer"))
+                                    {
+                                    <td class="tblCell" style="text-align:right;">-</td> 
+                                    <td class="tblCell" style="text-align:right;">-</td>  
+                                    }
+                                    else
+                                    {
+                                    <td class="tblCell" style="text-align:right;">@Model.Item2.gstBCEntity[i].totalAmountExport.ToString("#,##0.00")</td>  
+                                    <td class="tblCell" style="text-align:right;">@Model.Item2.gstBCEntity[i].totalGstAmountExport.ToString("#,##0.00")</td> 
+                                    } 
+                                    <!--<td class="tblCell">@Model.Item2.gstBCEntity[i].exportFolderPath</td>  
+                                    <td class="tblCell">@Model.Item2.gstBCEntity[i].exportFileName</td> --> 
+                                </tr>
+                            }
+                        </tbody>
+                        </table> 
+                      </td>
+                  </tr>
+              </table>
+          </div>
+        </div> 
+   </div>
+</div>
+ 
+  
+<script>
+    var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    window.onload = function () {
+        document.getElementById('ddDSToPeriod').selectedIndex = -1;
+        document.getElementById('ddBCToPeriod').selectedIndex = -1;
+    }
+    $('#btnDSSubmit').click(function () { 
+        $.ajax({
+             url: '@Url.Action("DSSubmit", "GSTExtraction")',
+             type: 'GET',
+             cache: false,
+             data: { fromPeriod: $('#txtDSFromPeriod').val(), toPeriod: $('#ddDSToPeriod').val() },
+             success: function (result) {
+                 if (result == 'EMPTY') {
+                     alert('Please select To Period for Direct Sales Extraction');
+                 }
+                 else if (result == 'STARTED') {
+                     alert('The process is on going, please submit again after it is finished.');
+                 }
+                 else if (result == 'SUCCESS') {
+                     location.href = '@Url.Action("GSTDataExtract", "GSTExtraction")';
+                }
+             }
+         });
+    });
+    $('#btnBCSubmit').click(function (result) {
+        $.ajax({
+            url: '@Url.Action("BCSubmit", "GSTExtraction")',
+            type: 'GET',
+            cache: false,
+            data: { fromPeriod: $('#txtBCFromPeriod').val(), toPeriod: $('#ddBCToPeriod').val() },
+            success: function (result) {
+                if (result == 'EMPTY') {
+                    alert('Please select To Period for Book Clubs Extraction');
+                }
+                else if (result == 'STARTED') {
+                    alert('The process is on going, please submit again after it is finished.');
+                }
+                else if (result == 'SUCCESS') {
+                    location.href = '@Url.Action("GSTDataExtract", "GSTExtraction")';
+                }
+             }
+        });
+    });
+    $("#ddBCToPeriod").change(function () {
+        var selectedVal = $(this).find('option:selected').attr('id');
+        if (selectedVal > 0 && selectedVal < 13) {
+            document.getElementById("lblBCMth").innerText = monthNames[selectedVal - 1];
+        }
+        else {
+            document.getElementById("lblBCMth").innerText = "";
+        }
+    });
+    $("#ddDSToPeriod").change(function () {
+        var selectedVal = $(this).find('option:selected').attr('id');
+        if (selectedVal > 0 && selectedVal < 13) {
+            document.getElementById("lblDSMth").innerText = monthNames[selectedVal - 1];
+        }
+        else {
+            document.getElementById("lblDSMth").innerText = "";
+        }
+    });
+</script> 
+<script type="text/javascript" src="../../Scripts/bootstrap/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs1').tab(); 
+    });
+</script> 
+<script>
+    $(document).ready(function () {
+        $('#myTable').dataTable();
+    });
+</script>
+<link rel="stylesheet" href="../../Scripts/bootstrap/jquery.dataTables.min.css">
+<script type="text/javascript" src="../../Scripts/bootstrap/jquery.dataTables.min.js"></script>

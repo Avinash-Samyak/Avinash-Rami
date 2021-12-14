@@ -1,0 +1,258 @@
+﻿@{
+    ViewBag.Title = "";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="leaderboard" style="padding-left: 10px; padding-right: 10px;">
+    <h1>SETUP</h1>
+    <ul id="tabs1" class="nav nav-tabs" data-tabs="tabs1">
+        <li ><a href="../Migration/Adjustment"> Adjustment</a></li>
+        <li class="active"><a href="StockTransfer">Stock Transfer</a></li>
+    </ul>
+    <button  id="transferbtn" style="position:relative;text-align:center;" type="submit" class="btn btn-primary">Netsuite Stock Transfer</button>
+</div>
+
+<div id="loaderDiv" style="position: absolute; top: 0%; left: 0%; width: 100%; height: 100%; visibility: hidden; filter: alpha(opacity=70); background-color: gray; z-index: 10000; opacity: 0.8;">
+    <div style="position:absolute; text-align:center;vertical-align:middle;top:50%;width:100%; height:100%;"><img src="../../Content/images/ajax-loader.gif" /></div>
+</div>
+
+<form id="csvForm" action="stCsvFileUpload" method="post" enctype="multipart/form-data">
+  <input type="file" name="file" id="file" style="position:absolute;top:165px;left:250px"  />
+  <input id="loadbtn" type="submit" value="Load into db" style="position:absolute;top:195px;left:250px" />
+</form>
+
+<button id ="cancelbtn" value ="Cancel" style="position:absolute;top:165px;left:460px">Cancel</button>
+
+<div id="monitors"></div>
+@*<br />*@
+<div id="statusBorder" style="position:absolute;top:225px;height:15px;width:800px;border:solid 1px gray;display:none;">
+    <div id="statusFill" style="position:absolute;top:0;left:0;width:0px;background-color:Blue;height:14px;">
+    </div>
+</div>  
+<p style="position:relative;top:55px;" id="statusDesc"></p>
+<div id="statusBorderNet" style="position:absolute;top:265px;height:15px;width:800px;border:solid 1px gray;display:none;">
+    <div id="statusFillNet" style="position:absolute;top:0;left:0;width:0px;background-color:Blue;height:14px;">
+    </div>
+</div> 
+<p style="position:relative;top:65px;"id="statusDescNet"></p> 
+  
+<div id="statusBorderProcess" style="position:absolute;top:310px;height:15px;width:800px;border:solid 1px gray;display:none;">
+    <div id="statusFillProcess" style="position:absolute;top:0;left:0;width:0px;background-color:Blue;height:14px;">
+    </div>
+</div> 
+<p style="position:relative;top:80px;" id="statusDescProcess"></p>  
+
+
+<script>
+    function loaderDiv() {
+       // progress();
+        document.getElementById('loaderDiv').style.visibility = 'visible';
+    }
+
+    var uniqueId = '';
+    function getStatus() {
+        var url = 'GetSTCurrentProgress/' + uniqueId;
+        var statusDesc = '';
+        var widthData = 0;
+        var timeOutSec = 50;
+        $.get(url, function (data) {
+            if (data[0] == 'StockTransferListPrepare') {
+                statusDesc = data[2] + "/" + data[1] + " Memo : " + data[3];
+                widthData = parseInt(data[2]) / parseInt(data[1]) * 799; //799 = The border is 800 - 1
+                if (parseInt(data[2]) >= parseInt(data[1])) {
+                    widthData = 799;
+                    updateMonitor(data[0], 'Completed');
+                    updateMonitor("SyncNetsuite", "Running...");
+                    $('#statusBorderNet').show();
+                    $("#statusDescNet").show();
+                }
+                else {
+                    updateMonitor(data[0], statusDesc);
+                }
+                $('#statusFill').width(widthData);
+                window.setTimeout("getStatus()", timeOutSec);
+            }
+            else if (data[0] == 'SyncNetsuite') {
+                widthData = parseInt(data[2]) / parseInt(data[1]) * 799; //799 = The border is 800 - 1 
+                if (parseInt(data[2]) >= parseInt(data[1])) {
+                    widthData = 799;
+
+                    updateMonitor(data[0], 'Completed');
+                    updateMonitor("NetsuiteProcessing", "Running...");
+                    $('#statusBorderProcess').show();
+                    $("#statusDescProcess").show();
+                }
+                else {
+                    statusDesc = data[2] + "/" + data[1] + " Job Pushed";
+                    updateMonitor(data[0], statusDesc);
+                }
+                $('#statusFillNet').width(widthData);
+                window.setTimeout("getStatus()", timeOutSec);
+            }
+            else if (data[0] == 'StockTransferListPrepareError') {
+                $("#statusDesc").html("Stock Transfer List Preparation : " + data[3]);
+            }
+            else if (data[0] == 'SyncNetsuiteError') {
+                $("#statusDescNet").html("Sync to Netsuite : " + data[3]);
+            }
+            else if (data[0] == 'LoginError') {
+                $('#statusBorder').hide();
+                $('statusDesc').html(" ");
+                $("#statusDesc").html("Error : " + data[3]);
+            }
+            else if (data[0] == 'Canceled') {
+                alert("Stock Transfer canceled");
+                window.location = "StockTransfer";
+            }
+            else if (data[0] == 'NetsuiteResponseError') {
+                $("#statusDescProcess").html("Netsuite Processing: " + data[3]);
+            }
+            else if (data[0] == 'NetsuiteProcessing') {
+                widthData = parseInt(data[2]) / parseInt(data[1]) * 799; //799 = The border is 800 - 1 
+                if (parseInt(data[2]) >= parseInt(data[1])) {
+                    widthData = 799;
+                    updateMonitor(data[0], 'Completed');
+                    alert("Stock Transfer completed");
+                    window.location = "StockTransfer";
+                }
+                else {
+                    statusDesc = data[2] + "/" + data[1] + " Job processed in Netsuite";
+                    updateMonitor(data[0], statusDesc);
+                    window.setTimeout("getStatus()", timeOutSec);
+                }
+                $('#statusFillProcess').width(widthData);
+            }
+            else {
+                window.setTimeout("getStatus()", timeOutSec);
+            }
+
+        });
+    }
+
+    function S4() {
+        return (((1 + Math.random()) * 0x10000) | 0).toString(16).substring(1);
+    }
+
+    function updateMonitor(taskId, status) {
+
+        if (taskId == "StockTransferListPrepare") {
+            $("#statusDesc").html("Stock Transfer List Preparation : " + status);
+        }
+        else if (taskId == "SyncNetsuite") {
+            $('#transferbtn').hide();
+            $('#cancelbtn').hide();
+            $("#statusDescNet").html("Sync to Netsuite : " + status);
+        }
+        else if (taskId == "NetsuiteProcessing") {
+            $('#transferbtn').hide();
+            $('#cancelbtn').hide();
+            $("#statusDescProcess").html("Netsuite Processing : " + status);
+        }
+
+    }
+    $(function () {
+
+        //$('#csvForm').submit(function (e) {
+        //    alert("File was loaded into database succesfully");
+        //});
+
+        //$("#csvForm").submit(function (e) {
+        //    loaderDiv();
+        //    var formObj = $(this);
+        //    var formURL = formObj.attr("action");
+        //    var formData = new FormData(this);
+        //    $.ajax({
+        //        url: formURL,
+        //        type: 'POST',
+        //        data: formData,
+        //        mimeType: "multipart/form-data",
+        //        contentType: false,
+        //        cache: false,
+        //        processData: false,
+
+        //        success: function (data, textStatus, jqXHR) {
+        //            alert("succes~~~~");
+        //            document.getElementById('loaderDiv').style.visibility = 'hidden';
+        //        },
+        //        error: function (jqXHR, textStatus, errorThrown) {
+        //            var status = jqXHR.status;
+        //            alert(status);
+        //            document.getElementById('loaderDiv').style.visibility = 'hidden';
+        //        }
+        //    });
+        //    e.preventDefault(); //Prevent Default action. 
+        //    e.unbind();
+        //});
+       
+        $("#csvForm").submit(function (e) {
+            loaderDiv();
+            var formObj = $(this);
+            var formURL = formObj.attr("action");
+            var formData = new FormData(this);
+            $.ajax({
+                url: formURL,
+                type: 'POST',
+                data: formData,
+                mimeType: "multipart/form-data",
+                contentType: false,
+                cache: false,
+                processData: false,
+            })
+            .done(function (message) {
+                alert(message);
+                document.getElementById('loaderDiv').style.visibility = 'hidden';
+            })
+            .fail(function (serverResponse) {
+                alert(serverResponse.responseText);
+                document.getElementById('loaderDiv').style.visibility = 'hidden';
+            });
+            ;
+            e.preventDefault(); //Prevent Default action. 
+            e.unbind();
+        });
+
+        $('#transferbtn').click(function () {
+            uniqueId = (S4() + S4() + "-" + S4() + "-4" + S4().substr(0, 3) + "-" + S4() + "-" + S4() + S4() + S4()).toLowerCase();
+            $('#transferbtn').hide();
+            $('#file').hide();
+            $('#loadbtn').hide();
+            $.post("StartNetsuiteSTProcess", { id: uniqueId }, function () {
+                getStatus();
+                updateMonitor("StockTransferListPrepare", "Running...");
+                $('#statusBorder').show();
+                $('#statusFill').width(0);
+                $("#statusDescNet").hide();
+                $('#statusFillNet').width(0);
+                $('#statusBorderNet').hide();
+            })
+            event.preventDefault;
+        });
+
+        $('#cancelbtn').click(function () {
+            //uniqueId = (S4() + S4() + "-" + S4() + "-4" + S4().substr(0, 3) + "-" + S4() + "-" + S4() + S4() + S4()).toLowerCase();
+            $.post("StopSTCurrentProgress", { id: uniqueId }, function () {
+                window.setTimeout("getStatus()", timeOutSec);
+            })
+            .done(function () {
+                window.location = 'stocktransfer';
+            });
+
+            event.preventDefault;
+        });
+        //$("#transferbtn").click(function () {
+        //    loaderDiv();
+        //    $.ajax({
+        //        url: "/Migration/NetSuiteStockTransfer",
+        //        type: "POST",
+        //        success: function () {
+        //            alert("Stock transfer upload completed");
+        //            window.location = 'Adjustment';
+        //        },
+        //        error: function (xhr, status, error) {
+        //            alert("Stock Transfer failed. " + error);
+        //            window.location = 'Adjustment';
+        //        }
+        //    });
+        //});
+    });
+</script>

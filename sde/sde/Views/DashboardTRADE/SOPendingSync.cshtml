@@ -1,0 +1,76 @@
+﻿@model Tuple<sde.Models.soPendingSyncList>
+@{
+    ViewBag.Title = "SO Pending Sync";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="span11">
+    <div class="leaderboard" style="padding-left: 10px; padding-right: 10px;">
+        <h1>Trade Dashboard</h1>
+        <div class="content">
+            <ul id="tabs1" class="nav nav-tabs" data-tabs="tabs1">
+                <li><a href="../DashboardTrade/SOSync1">SO Sync <img src="\Content\images\go.png" alt="" height='14' width='14' /></a> </li>   
+                <li class="active"><a href="../DashboardTrade/SOPendingSync">SO Pending Sync<img src="\Content\images\go.png" alt="" height='14' width='14' /></a> </li>   
+                <li><a href="../DashboardTrade/POSync1">PO Sync <img src="\Content\images\go.png" alt="" height='14' width='14' /></a> </li>  
+                <li><a href="../DashboardTrade/SORSync1">SOR Sync <img src="\Content\images\go.png" alt="" height='14' width='14' /></a> </li>  
+                <li><a href="../DashboardTrade/SOFulfillment1">SO Fulfillment <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>     
+                <li><a href="../DashboardTrade/IncompleteSOFulfillment">Incomplete SO Fulfillment <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>              
+                <li><a href="../DashboardTrade/POReceive1">PO Receive <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>    
+                <li><a href="../DashboardTrade/SORReceive1">SOR Receive <img src="\Content\images\back.png" alt="" height='14' width='14' /></a> </li>    
+            </ul>
+            <div id="my-tab-content1" class="tab-content">
+                <div class="tab-pane active table-responsive" id="tabScheduler"> 
+                                       
+                  <br />
+                    <table id="myTable" class="table table-bordered table-condensed">
+                        <thead>
+                            <tr style="background-color: #FF8336;">
+                                <th>Extract Date</th>
+                                <th>SO Number</th>
+                                <th>Customer</th>
+                                <th>Addressee</th>
+                                <th>Country</th>
+                                <th>Quantity Ordered</th>
+                                <th>Quantity Synced</th>
+                                <th>Total Items</th>
+                                <th>Items View</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.Item1.soPendingSync.Count(); i++)
+                            {
+                                <tr style="background-color: #FCDAB6;">
+                                    <td>@Model.Item1.soPendingSync[i].rangeTo</td>
+                                    <td>@Model.Item1.soPendingSync[i].moNo</td>
+                                    <td>@Model.Item1.soPendingSync[i].customer</td>
+                                    <td>@Model.Item1.soPendingSync[i].addressee</td>
+                                    <td>@Model.Item1.soPendingSync[i].country</td>
+                                    <td>@Model.Item1.soPendingSync[i].ordQty</td>
+                                    <td>@Model.Item1.soPendingSync[i].qtyForWMS</td>
+                                    <td>@Model.Item1.soPendingSync[i].totalItems</td>
+                                    <td>@Html.ActionLink("View", "SOPendingSyncItemView", "DashboardTrade", new { @pass1 = Model.Item1.soPendingSync[i].progressStatus, @pass2 = Model.Item1.soPendingSync[i].moNo },null)</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs1').tab();
+        $('#tabs2').tab();
+    });
+</script>
+<script type="text/javascript" src="../../Scripts/bootstrap/bootstrap.min.js"></script> 
+
+<script>
+    $(document).ready(function () {
+        $('#myTable').dataTable();
+    });
+</script>
+<link rel="stylesheet" href="../../Scripts/bootstrap/jquery.dataTables.min.css">
+<script type="text/javascript" src="../../Scripts/bootstrap/jquery.dataTables.min.js"></script>

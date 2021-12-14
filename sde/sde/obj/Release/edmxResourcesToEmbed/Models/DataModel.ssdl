@@ -1,0 +1,2921 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="sdeModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="sdeModelStoreContainer">
+    <EntitySet Name="backorder_cancellation" EntityType="sdeModel.Store.backorder_cancellation" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="bcas_inventoryadjustment" EntityType="sdeModel.Store.bcas_inventoryadjustment" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="bcas_journalcalclist" EntityType="sdeModel.Store.bcas_journalcalclist" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="bcas_ordersfulfill" EntityType="sdeModel.Store.bcas_ordersfulfill" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="bcas_ordersfulfill_history" EntityType="sdeModel.Store.bcas_ordersfulfill_history" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="bcas_otherstransaction" EntityType="sdeModel.Store.bcas_otherstransaction" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="bcas_salestransaction" EntityType="sdeModel.Store.bcas_salestransaction" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="bcas_sep_loaded" EntityType="sdeModel.Store.bcas_sep_loaded" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="bcas_sep_sales" EntityType="sdeModel.Store.bcas_sep_sales" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="cpas_dataposting" EntityType="sdeModel.Store.cpas_dataposting" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="cpas_dataposting_adj_out" EntityType="sdeModel.Store.cpas_dataposting_adj_out" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="cpas_dataposting_check" EntityType="sdeModel.Store.cpas_dataposting_check" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="cpas_dataposting_history" EntityType="sdeModel.Store.cpas_dataposting_history" store:Type="Tables" store:Schema="sde" store:Name="cpas_dataposting_history">
+      <DefiningQuery>SELECT
+      `cpas_dataposting_history`.`spl_recID`, 
+      `cpas_dataposting_history`.`spl_transactionType`, 
+      `cpas_dataposting_history`.`spl_sPID`, 
+      `cpas_dataposting_history`.`spl_mi_item_internalID`, 
+      `cpas_dataposting_history`.`spl_sDesc`, 
+      `cpas_dataposting_history`.`spl_inout`, 
+      `cpas_dataposting_history`.`spl_dQty`, 
+      `cpas_dataposting_history`.`spl_sLoc`, 
+      `cpas_dataposting_history`.`spl_ml_location_internalID`, 
+      `cpas_dataposting_history`.`spl_businessChannel`, 
+      `cpas_dataposting_history`.`spl_mb_businessChannel_internalID`, 
+      `cpas_dataposting_history`.`spl_subsidiary`, 
+      `cpas_dataposting_history`.`spl_subsidiary_internalID`, 
+      `cpas_dataposting_history`.`spl_postingDate`, 
+      `cpas_dataposting_history`.`spl_syncDate`, 
+      `cpas_dataposting_history`.`spl_createdDate`, 
+      `cpas_dataposting_history`.`spl_readyPushDate`, 
+      `cpas_dataposting_history`.`spl_sp_id`, 
+      `cpas_dataposting_history`.`spl_salespostingcategory`, 
+      `cpas_dataposting_history`.`spl_noOfInstallments`, 
+      `cpas_dataposting_history`.`spl_taxCode`, 
+      `cpas_dataposting_history`.`spl_tolNettPrice`, 
+      `cpas_dataposting_history`.`spl_tolGstAmount`, 
+      `cpas_dataposting_history`.`spl_tolUFC`, 
+      `cpas_dataposting_history`.`spl_tolDeliveryCharges`, 
+      `cpas_dataposting_history`.`spl_salesType`, 
+      `cpas_dataposting_history`.`spl_cancelType`, 
+      `cpas_dataposting_history`.`spl_suspendDate`, 
+      `cpas_dataposting_history`.`spl_tolUnearnedInt`, 
+      `cpas_dataposting_history`.`spl_tolRevenueFinCharges`, 
+      `cpas_dataposting_history`.`spl_netsuiteProgress`
+      FROM `cpas_dataposting_history` AS `cpas_dataposting_history`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="cpas_dataposting_hs_in" EntityType="sdeModel.Store.cpas_dataposting_hs_in" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="cpas_dataposting_parent" EntityType="sdeModel.Store.cpas_dataposting_parent" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="cpas_dataposting_wrong" EntityType="sdeModel.Store.cpas_dataposting_wrong" store:Type="Tables" store:Schema="sde" store:Name="cpas_dataposting_wrong">
+      <DefiningQuery>SELECT
+      `cpas_dataposting_wrong`.`spl_recID`, 
+      `cpas_dataposting_wrong`.`spl_transactionType`, 
+      `cpas_dataposting_wrong`.`spl_sPID`, 
+      `cpas_dataposting_wrong`.`spl_mi_item_internalID`, 
+      `cpas_dataposting_wrong`.`spl_sDesc`, 
+      `cpas_dataposting_wrong`.`spl_inout`, 
+      `cpas_dataposting_wrong`.`spl_dQty`, 
+      `cpas_dataposting_wrong`.`spl_sLoc`, 
+      `cpas_dataposting_wrong`.`spl_ml_location_internalID`, 
+      `cpas_dataposting_wrong`.`spl_businessChannel`, 
+      `cpas_dataposting_wrong`.`spl_mb_businessChannel_internalID`, 
+      `cpas_dataposting_wrong`.`spl_subsidiary`, 
+      `cpas_dataposting_wrong`.`spl_subsidiary_internalID`, 
+      `cpas_dataposting_wrong`.`spl_postingDate`, 
+      `cpas_dataposting_wrong`.`spl_syncDate`, 
+      `cpas_dataposting_wrong`.`spl_createdDate`, 
+      `cpas_dataposting_wrong`.`spl_readyPushDate`, 
+      `cpas_dataposting_wrong`.`spl_sp_id`, 
+      `cpas_dataposting_wrong`.`spl_salespostingcategory`, 
+      `cpas_dataposting_wrong`.`spl_noOfInstallments`, 
+      `cpas_dataposting_wrong`.`spl_taxCode`, 
+      `cpas_dataposting_wrong`.`spl_tolNettPrice`, 
+      `cpas_dataposting_wrong`.`spl_tolGstAmount`, 
+      `cpas_dataposting_wrong`.`spl_tolUFC`, 
+      `cpas_dataposting_wrong`.`spl_tolDeliveryCharges`, 
+      `cpas_dataposting_wrong`.`spl_salesType`, 
+      `cpas_dataposting_wrong`.`spl_cancelType`, 
+      `cpas_dataposting_wrong`.`spl_suspendDate`, 
+      `cpas_dataposting_wrong`.`spl_tolUnearnedInt`, 
+      `cpas_dataposting_wrong`.`spl_tolRevenueFinCharges`, 
+      `cpas_dataposting_wrong`.`spl_netsuiteProgress`
+      FROM `cpas_dataposting_wrong` AS `cpas_dataposting_wrong`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="cpas_journal" EntityType="sdeModel.Store.cpas_journal" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="cpas_otherstransaction" EntityType="sdeModel.Store.cpas_otherstransaction" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="cpas_otherstransaction_error" EntityType="sdeModel.Store.cpas_otherstransaction_error" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="cpas_otherstransaction_history" EntityType="sdeModel.Store.cpas_otherstransaction_history" store:Type="Tables" store:Schema="sde" store:Name="cpas_otherstransaction_history">
+      <DefiningQuery>SELECT
+      `cpas_otherstransaction_history`.`cot_recID`, 
+      `cpas_otherstransaction_history`.`cot_subsidiary`, 
+      `cpas_otherstransaction_history`.`cot_subsidiaryInternalID`, 
+      `cpas_otherstransaction_history`.`cot_refNo`, 
+      `cpas_otherstransaction_history`.`cot_invInternalID`, 
+      `cpas_otherstransaction_history`.`cot_invDate`, 
+      `cpas_otherstransaction_history`.`cot_salesType`, 
+      `cpas_otherstransaction_history`.`cot_trxType`, 
+      `cpas_otherstransaction_history`.`cot_seqNo`, 
+      `cpas_otherstransaction_history`.`cot_trxInternalID`, 
+      `cpas_otherstransaction_history`.`cot_trxUpdatedDate`, 
+      `cpas_otherstransaction_history`.`cot_trxProgressStatus`, 
+      `cpas_otherstransaction_history`.`cot_irInternalID`, 
+      `cpas_otherstransaction_history`.`cot_irUpdateDate`, 
+      `cpas_otherstransaction_history`.`cot_irProgressStatus`, 
+      `cpas_otherstransaction_history`.`cot_irSeqNo`, 
+      `cpas_otherstransaction_history`.`cot_cnInternalID`, 
+      `cpas_otherstransaction_history`.`cot_cnUpdatedDate`, 
+      `cpas_otherstransaction_history`.`cot_cnProgressStatus`, 
+      `cpas_otherstransaction_history`.`cot_cnSeqNo`, 
+      `cpas_otherstransaction_history`.`cot_crInternalID`, 
+      `cpas_otherstransaction_history`.`cot_crUpdatedDate`, 
+      `cpas_otherstransaction_history`.`cot_crProgressStatus`, 
+      `cpas_otherstransaction_history`.`cot_crSeqNo`, 
+      `cpas_otherstransaction_history`.`cot_postingDate`
+      FROM `cpas_otherstransaction_history` AS `cpas_otherstransaction_history`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="cpas_payment" EntityType="sdeModel.Store.cpas_payment" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="cpas_payment_history" EntityType="sdeModel.Store.cpas_payment_history" store:Type="Tables" store:Schema="sde" store:Name="cpas_payment_history">
+      <DefiningQuery>SELECT
+      `cpas_payment_history`.`cpm_recId`, 
+      `cpas_payment_history`.`cpm_postingType`, 
+      `cpas_payment_history`.`cpm_postingDate`, 
+      `cpas_payment_history`.`cpm_priceCode`, 
+      `cpas_payment_history`.`cpm_contractYear`, 
+      `cpas_payment_history`.`cpm_contractMonth`, 
+      `cpas_payment_history`.`cpm_contractWeek`, 
+      `cpas_payment_history`.`cpm_subsidiary`, 
+      `cpas_payment_history`.`cpm_subsidiary_internalID`, 
+      `cpas_payment_history`.`cpm_syncDate`, 
+      `cpas_payment_history`.`cpm_salesPostingCat`, 
+      `cpas_payment_history`.`cpm_location`, 
+      `cpas_payment_history`.`cpm_ml_location_internalID`, 
+      `cpas_payment_history`.`cpm_payment`, 
+      `cpas_payment_history`.`cpm_applyPayment`, 
+      `cpas_payment_history`.`cpm_totalcontracts`, 
+      `cpas_payment_history`.`cpm_businessChannel`, 
+      `cpas_payment_history`.`cpm_mb_businessChannel_internalID`, 
+      `cpas_payment_history`.`cpm_sp_id`, 
+      `cpas_payment_history`.`cpm_createdDate`, 
+      `cpas_payment_history`.`cpm_ProgressStatus`, 
+      `cpas_payment_history`.`cpm_ProgressStatusSeqNo`
+      FROM `cpas_payment_history` AS `cpas_payment_history`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="cpas_presales" EntityType="sdeModel.Store.cpas_presales" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="cpas_salestransaction" EntityType="sdeModel.Store.cpas_salestransaction" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="cpas_salestransaction_history" EntityType="sdeModel.Store.cpas_salestransaction_history" store:Type="Tables" store:Schema="sde" store:Name="cpas_salestransaction_history">
+      <DefiningQuery>SELECT
+      `cpas_salestransaction_history`.`cst_recID`, 
+      `cpas_salestransaction_history`.`cst_refNo`, 
+      `cpas_salestransaction_history`.`cst_createdDate`, 
+      `cpas_salestransaction_history`.`cst_soSeqNo`, 
+      `cpas_salestransaction_history`.`cst_soJobID`, 
+      `cpas_salestransaction_history`.`cst_soInternalID`, 
+      `cpas_salestransaction_history`.`cst_soUpdatedDate`, 
+      `cpas_salestransaction_history`.`cst_ifSeqNo`, 
+      `cpas_salestransaction_history`.`cst_ifJobID`, 
+      `cpas_salestransaction_history`.`cst_ifInternalID`, 
+      `cpas_salestransaction_history`.`cst_ifUpdatedDate`, 
+      `cpas_salestransaction_history`.`cst_invSeqNo`, 
+      `cpas_salestransaction_history`.`cst_invJobID`, 
+      `cpas_salestransaction_history`.`cst_invInternalID`, 
+      `cpas_salestransaction_history`.`cst_invUpdatedDate`, 
+      `cpas_salestransaction_history`.`cst_invProgressStatus`, 
+      `cpas_salestransaction_history`.`cst_sp_id`, 
+      `cpas_salestransaction_history`.`cst_sDesc`, 
+      `cpas_salestransaction_history`.`cst_sLoc`, 
+      `cpas_salestransaction_history`.`cst_ml_location_internalID`, 
+      `cpas_salestransaction_history`.`cst_subsidiary`, 
+      `cpas_salestransaction_history`.`cst_subsidiary_internalID`, 
+      `cpas_salestransaction_history`.`cst_postingDate`, 
+      `cpas_salestransaction_history`.`cst_salesType`
+      FROM `cpas_salestransaction_history` AS `cpas_salestransaction_history`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="cpas_stockposting" EntityType="sdeModel.Store.cpas_stockposting" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="cpas_stockposting_history" EntityType="sdeModel.Store.cpas_stockposting_history" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="cpas_testposting" EntityType="sdeModel.Store.cpas_testposting" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="default_forwarder" EntityType="sdeModel.Store.default_forwarder" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="dummyso" EntityType="sdeModel.Store.dummyso" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="errorlog_cpas_stockposting" EntityType="sdeModel.Store.errorlog_cpas_stockposting" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="excesspo" EntityType="sdeModel.Store.excesspo" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="forwarderadd" EntityType="sdeModel.Store.forwarderadd" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="item_tem" EntityType="sdeModel.Store.item_tem" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="map_bin" EntityType="sdeModel.Store.map_bin" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="map_businesschannel" EntityType="sdeModel.Store.map_businesschannel" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="map_chartofaccount" EntityType="sdeModel.Store.map_chartofaccount" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="map_country" EntityType="sdeModel.Store.map_country" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="map_currency" EntityType="sdeModel.Store.map_currency" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="map_customer" EntityType="sdeModel.Store.map_customer" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="map_item" EntityType="sdeModel.Store.map_item" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="map_itemprice" EntityType="sdeModel.Store.map_itemprice" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="map_location" EntityType="sdeModel.Store.map_location" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="map_subsidiary" EntityType="sdeModel.Store.map_subsidiary" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="mdm_item" EntityType="sdeModel.Store.mdm_item" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_adjustment" EntityType="sdeModel.Store.netsuite_adjustment" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_adjustment2" EntityType="sdeModel.Store.netsuite_adjustment2" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_adjustmentdetail2" EntityType="sdeModel.Store.netsuite_adjustmentdetail2" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_adjustmentitem" EntityType="sdeModel.Store.netsuite_adjustmentitem" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_dropshipfulfillment" EntityType="sdeModel.Store.netsuite_dropshipfulfillment" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_dropshipso" EntityType="sdeModel.Store.netsuite_dropshipso" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_invoice" EntityType="sdeModel.Store.netsuite_invoice" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_job" EntityType="sdeModel.Store.netsuite_job" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_jobitem" EntityType="sdeModel.Store.netsuite_jobitem" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_jobitem_history" EntityType="sdeModel.Store.netsuite_jobitem_history" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_jobmo" EntityType="sdeModel.Store.netsuite_jobmo" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_jobmo_address" EntityType="sdeModel.Store.netsuite_jobmo_address" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_jobmo_address_temp" EntityType="sdeModel.Store.netsuite_jobmo_address_temp" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_jobmo_pack" EntityType="sdeModel.Store.netsuite_jobmo_pack" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_jobmo_pack_history" EntityType="sdeModel.Store.netsuite_jobmo_pack_history" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_jobmocls" EntityType="sdeModel.Store.netsuite_jobmocls" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_jobordmaster" EntityType="sdeModel.Store.netsuite_jobordmaster" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_jobordmaster_pack" EntityType="sdeModel.Store.netsuite_jobordmaster_pack" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_jobordmaster_pack_history" EntityType="sdeModel.Store.netsuite_jobordmaster_pack_history" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_jobordmaster_packdetail" EntityType="sdeModel.Store.netsuite_jobordmaster_packdetail" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_jobordmaster_packdetail_history" EntityType="sdeModel.Store.netsuite_jobordmaster_packdetail_history" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_newso" EntityType="sdeModel.Store.netsuite_newso" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_newso_history" EntityType="sdeModel.Store.netsuite_newso_history" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_newso_test" EntityType="sdeModel.Store.netsuite_newso_test" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_pr" EntityType="sdeModel.Store.netsuite_pr" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_pritem" EntityType="sdeModel.Store.netsuite_pritem" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_return" EntityType="sdeModel.Store.netsuite_return" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_returnitem" EntityType="sdeModel.Store.netsuite_returnitem" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_returnrefund" EntityType="sdeModel.Store.netsuite_returnrefund" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_setting" EntityType="sdeModel.Store.netsuite_setting" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_syncso" EntityType="sdeModel.Store.netsuite_syncso" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_syncso_tem" EntityType="sdeModel.Store.netsuite_syncso_tem" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_syncupdateso" EntityType="sdeModel.Store.netsuite_syncupdateso" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_transfer" EntityType="sdeModel.Store.netsuite_transfer" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuite_transferdetail" EntityType="sdeModel.Store.netsuite_transferdetail" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="netsuitedataformq" EntityType="sdeModel.Store.netsuitedataformq" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="patchdata" EntityType="sdeModel.Store.patchdata" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="patchmo" EntityType="sdeModel.Store.patchmo" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="requestmq" EntityType="sdeModel.Store.requestmq" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="requestnetsuite" EntityType="sdeModel.Store.requestnetsuite" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="requestnetsuite_alarm" EntityType="sdeModel.Store.requestnetsuite_alarm" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="requestnetsuite_history" EntityType="sdeModel.Store.requestnetsuite_history" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="requestnetsuite_task" EntityType="sdeModel.Store.requestnetsuite_task" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="requestnetsuite_task_history" EntityType="sdeModel.Store.requestnetsuite_task_history" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="scheduler" EntityType="sdeModel.Store.scheduler" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="temp_resync" EntityType="sdeModel.Store.temp_resync" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="temp_unfulfillso" EntityType="sdeModel.Store.temp_unfulfillso" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="tempmo" EntityType="sdeModel.Store.tempmo" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="tosyncitems" EntityType="sdeModel.Store.tosyncitems" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="unfulfillso" EntityType="sdeModel.Store.unfulfillso" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="unscan" EntityType="sdeModel.Store.unscan" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="userprofile" EntityType="sdeModel.Store.userprofile" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="users" EntityType="sdeModel.Store.users" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="wms_cashsale" EntityType="sdeModel.Store.wms_cashsale" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="wms_cashsaleitem" EntityType="sdeModel.Store.wms_cashsaleitem" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="wms_directadjustment" EntityType="sdeModel.Store.wms_directadjustment" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="wms_directadjustmentitem" EntityType="sdeModel.Store.wms_directadjustmentitem" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="wms_directtransfer" EntityType="sdeModel.Store.wms_directtransfer" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="wms_directtransferitem" EntityType="sdeModel.Store.wms_directtransferitem" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="wms_excessporeceive" EntityType="sdeModel.Store.wms_excessporeceive" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="wms_jobitem_unscan" EntityType="sdeModel.Store.wms_jobitem_unscan" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="wms_jobordscan" EntityType="sdeModel.Store.wms_jobordscan" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="wms_jobordscan_history" EntityType="sdeModel.Store.wms_jobordscan_history" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="wms_jobordscan_pack" EntityType="sdeModel.Store.wms_jobordscan_pack" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="wms_jobordscan_pack_history" EntityType="sdeModel.Store.wms_jobordscan_pack_history" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="wms_poreceive" EntityType="sdeModel.Store.wms_poreceive" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="wms_poreceiveitem" EntityType="sdeModel.Store.wms_poreceiveitem" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="wms_rareceive" EntityType="sdeModel.Store.wms_rareceive" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="wms_rareceiveitem" EntityType="sdeModel.Store.wms_rareceiveitem" store:Type="Tables" Schema="sde" />
+    <EntitySet Name="dashboard_salesorder" EntityType="sdeModel.Store.dashboard_salesorder" store:Type="Views" store:Schema="sde" store:Name="dashboard_salesorder">
+      <DefiningQuery>SELECT
+      `dashboard_salesorder`.`nsj_jobID`, 
+      `dashboard_salesorder`.`nsjm_jobMo_ID`, 
+      `dashboard_salesorder`.`nsj_businessChannel_ID`, 
+      `dashboard_salesorder`.`nsj_country_tag`, 
+      `dashboard_salesorder`.`nsj_job_mo_count`, 
+      `dashboard_salesorder`.`nsjm_moNo`, 
+      `dashboard_salesorder`.`nsjm_moNo_internalID`, 
+      `dashboard_salesorder`.`nsj_rangeTo`
+      FROM `dashboard_salesorder` AS `dashboard_salesorder`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="view_wms_jobordscan" EntityType="sdeModel.Store.view_wms_jobordscan" store:Type="Views" store:Schema="sde" store:Name="view_wms_jobordscan">
+      <DefiningQuery>SELECT
+      `view_wms_jobordscan`.`jos_country_tag`, 
+      `view_wms_jobordscan`.`jos_job_ID`, 
+      `view_wms_jobordscan`.`jos_jobmo_ID`, 
+      `view_wms_jobordscan`.`jos_scanDate`, 
+      `view_wms_jobordscan`.`jos_moNo`, 
+      `view_wms_jobordscan`.`jos_businessChannel_ID`, 
+      `view_wms_jobordscan`.`jos_businessChannel_code`, 
+      `view_wms_jobordscan`.`jos_exportDate`, 
+      `view_wms_jobordscan`.`jos_rangeTo`, 
+      `view_wms_jobordscan`.`numOfRec`
+      FROM `view_wms_jobordscan` AS `view_wms_jobordscan`</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <EntityType Name="backorder_cancellation">
+    <Key>
+      <PropertyRef Name="boc_recid" />
+    </Key>
+    <Property Name="boc_recid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="boc_isbn" Type="varchar" MaxLength="45" />
+    <Property Name="boc_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="boc_quantity" Type="varchar" MaxLength="12" />
+    <Property Name="boc_createdDate" Type="datetime" />
+    <Property Name="boc_sourceFile" Type="varchar" MaxLength="45" />
+    <Property Name="boc_insertSequence" Type="int" />
+    <Property Name="boc_netsuiteProcess" Type="varchar" MaxLength="15" />
+    <Property Name="boc_netsuiteJob" Type="varchar" MaxLength="150" />
+    <Property Name="boc_netsuiteJobStatus" Type="varchar" MaxLength="10" />
+    <Property Name="boc_netsuiteJobError" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="bcas_inventoryadjustment">
+    <Key>
+      <PropertyRef Name="ia_recID" />
+    </Key>
+    <Property Name="ia_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ia_jobID" Type="varchar" MaxLength="45" />
+    <Property Name="ia_businessChannel_code" Type="varchar" MaxLength="45" />
+    <Property Name="ia_countryTag" Type="varchar" MaxLength="45" />
+    <Property Name="ia_moNo_prefix" Type="varchar" MaxLength="45" />
+    <Property Name="ia_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="ia_adjQty" Type="int" />
+    <Property Name="ia_createdDate" Type="datetime" />
+    <Property Name="ia_rangeFrom" Type="datetime" />
+    <Property Name="ia_rangeTo" Type="datetime" />
+  </EntityType>
+  <EntityType Name="bcas_journalcalclist">
+    <Key>
+      <PropertyRef Name="jcl_recID" />
+    </Key>
+    <Property Name="jcl_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="jcl_amt" Type="float" />
+    <Property Name="jcl_job_ID" Type="varchar" MaxLength="45" />
+    <Property Name="jcl_businessChannel_code" Type="varchar" MaxLength="45" />
+    <Property Name="jcl_country_tag" Type="varchar" MaxLength="45" />
+    <Property Name="jcl_country_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="jcl_currency_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="jcl_jos_rangeTo" Type="datetime" />
+    <Property Name="jcl_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="jcl_createdDate" Type="datetime" />
+    <Property Name="jcl_rangeFrom" Type="datetime" />
+    <Property Name="jcl_rangeTo" Type="datetime" />
+  </EntityType>
+  <EntityType Name="bcas_ordersfulfill">
+    <Key>
+      <PropertyRef Name="of_jobID" />
+      <PropertyRef Name="of_moNo" />
+      <PropertyRef Name="of_rangeTo" />
+      <PropertyRef Name="of_country_tag" />
+      <PropertyRef Name="of_pack_ID" />
+      <PropertyRef Name="of_item_ID" />
+      <PropertyRef Name="of_ordSkuQty" />
+      <PropertyRef Name="of_createdDate" />
+    </Key>
+    <Property Name="of_jobID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="of_moNo" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="of_rangeTo" Type="datetime" Nullable="false" />
+    <Property Name="of_country_tag" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="of_pack_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="of_jobOrdMaster_ID" Type="varchar" MaxLength="45" />
+    <Property Name="of_item_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="of_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="of_ordQty" Type="int" />
+    <Property Name="of_ordFulfillQty" Type="int" />
+    <Property Name="of_ordSkuQty" Type="int" Nullable="false" />
+    <Property Name="of_createdDate" Type="datetime" Nullable="false" />
+    <Property Name="of_netsuiteDummySo" Type="varchar" MaxLength="70" />
+    <Property Name="of_netsuiteSalesorder" Type="varchar" MaxLength="70" />
+    <Property Name="of_netsuiteAdjustment" Type="varchar" MaxLength="70" />
+    <Property Name="of_item_ISBN" Type="varchar" MaxLength="45" />
+    <Property Name="of_ordPack" Type="varchar" MaxLength="45" />
+    <Property Name="of_ordPackQty" Type="int" />
+    <Property Name="of_ordPackPrice" Type="double" />
+    <Property Name="of_ordPackGst" Type="double" />
+  </EntityType>
+  <EntityType Name="bcas_ordersfulfill_history">
+    <Key>
+      <PropertyRef Name="of_jobID" />
+      <PropertyRef Name="of_moNo" />
+      <PropertyRef Name="of_rangeTo" />
+      <PropertyRef Name="of_country_tag" />
+      <PropertyRef Name="of_pack_ID" />
+      <PropertyRef Name="of_item_ID" />
+      <PropertyRef Name="of_ordSkuQty" />
+      <PropertyRef Name="of_createdDate" />
+    </Key>
+    <Property Name="of_jobID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="of_moNo" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="of_rangeTo" Type="datetime" Nullable="false" />
+    <Property Name="of_country_tag" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="of_pack_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="of_jobOrdMaster_ID" Type="varchar" MaxLength="45" />
+    <Property Name="of_item_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="of_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="of_ordQty" Type="int" />
+    <Property Name="of_ordFulfillQty" Type="int" />
+    <Property Name="of_ordSkuQty" Type="int" Nullable="false" />
+    <Property Name="of_createdDate" Type="datetime" Nullable="false" />
+    <Property Name="of_netsuiteDummySo" Type="varchar" MaxLength="70" />
+    <Property Name="of_netsuiteSalesorder" Type="varchar" MaxLength="70" />
+    <Property Name="of_netsuiteAdjustment" Type="varchar" MaxLength="70" />
+    <Property Name="of_item_ISBN" Type="varchar" MaxLength="45" />
+    <Property Name="of_ordPack" Type="varchar" MaxLength="45" />
+    <Property Name="of_ordPackQty" Type="int" />
+    <Property Name="of_ordPackPrice" Type="double" />
+    <Property Name="of_ordPackGst" Type="double" />
+  </EntityType>
+  <EntityType Name="bcas_otherstransaction">
+    <Key>
+      <PropertyRef Name="bot_recID" />
+    </Key>
+    <Property Name="bot_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="bot_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="bot_subsidiaryInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="bot_refNo" Type="varchar" MaxLength="200" />
+    <Property Name="bot_invInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="bot_invDate" Type="datetime" />
+    <Property Name="bot_salesType" Type="varchar" MaxLength="45" />
+    <Property Name="bot_trxType" Type="varchar" MaxLength="45" />
+    <Property Name="bot_seqNo" Type="varchar" MaxLength="3" />
+    <Property Name="bot_trxInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="bot_trxUpdatedDate" Type="datetime" />
+    <Property Name="bot_trxProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="bot_irInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="bot_irUpdateDate" Type="datetime" />
+    <Property Name="bot_irProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="bot_irSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="bot_cnInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="bot_cnUpdatedDate" Type="datetime" />
+    <Property Name="bot_cnProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="bot_cnSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="bot_crInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="bot_crUpdatedDate" Type="datetime" />
+    <Property Name="bot_crProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="bot_crSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="bot_postingDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="bcas_salestransaction">
+    <Key>
+      <PropertyRef Name="bst_recID" />
+    </Key>
+    <Property Name="bst_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="bst_createdDate" Type="datetime" />
+    <Property Name="bst_soInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="bst_ifSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="bst_ifJobID" Type="varchar" MaxLength="120" />
+    <Property Name="bst_ifInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="bst_ifUpdatedDate" Type="datetime" />
+    <Property Name="bst_invSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="bst_invJobID" Type="varchar" MaxLength="120" />
+    <Property Name="bst_invInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="bst_invUpdatedDate" Type="datetime" />
+    <Property Name="bst_invProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="bst_postingDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="bcas_sep_loaded">
+    <Key>
+      <PropertyRef Name="type" />
+      <PropertyRef Name="item_isbn" />
+    </Key>
+    <Property Name="type" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="item_isbn" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="my_qty" Type="int" />
+    <Property Name="sg_qty" Type="int" />
+    <Property Name="id_qty" Type="int" />
+  </EntityType>
+  <EntityType Name="bcas_sep_sales">
+    <Key>
+      <PropertyRef Name="country" />
+      <PropertyRef Name="mo_type" />
+      <PropertyRef Name="isbn" />
+    </Key>
+    <Property Name="country" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="mo_type" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="isbn" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="quantity" Type="int" />
+    <Property Name="sales_type" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="cpas_dataposting">
+    <Key>
+      <PropertyRef Name="spl_recID" />
+    </Key>
+    <Property Name="spl_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="spl_transactionType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_sPID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_mi_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_sDesc" Type="varchar" MaxLength="70" />
+    <Property Name="spl_inout" Type="varchar" MaxLength="45" />
+    <Property Name="spl_dQty" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="spl_sLoc" Type="varchar" MaxLength="45" />
+    <Property Name="spl_ml_location_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_businessChannel" Type="varchar" MaxLength="45" />
+    <Property Name="spl_mb_businessChannel_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="spl_subsidiary_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_postingDate" Type="datetime" />
+    <Property Name="spl_syncDate" Type="datetime" />
+    <Property Name="spl_createdDate" Type="datetime" />
+    <Property Name="spl_readyPushDate" Type="datetime" />
+    <Property Name="spl_sp_id" Type="varchar" MaxLength="45" />
+    <Property Name="spl_salespostingcategory" Type="varchar" MaxLength="70" />
+    <Property Name="spl_noOfInstallments" Type="varchar" MaxLength="10" />
+    <Property Name="spl_taxCode" Type="varchar" MaxLength="10" />
+    <Property Name="spl_tolNettPrice" Type="double" />
+    <Property Name="spl_tolGstAmount" Type="double" />
+    <Property Name="spl_tolUFC" Type="double" />
+    <Property Name="spl_tolDeliveryCharges" Type="double" />
+    <Property Name="spl_salesType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_cancelType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_suspendDate" Type="varchar" MaxLength="30" />
+    <Property Name="spl_tolUnearnedInt" Type="double" />
+    <Property Name="spl_tolRevenueFinCharges" Type="double" />
+    <Property Name="spl_netsuiteProgress" Type="varchar" MaxLength="70" />
+  </EntityType>
+  <EntityType Name="cpas_dataposting_adj_out">
+    <Key>
+      <PropertyRef Name="spl_recID" />
+    </Key>
+    <Property Name="spl_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="spl_transactionType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_sPID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_mi_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_sDesc" Type="varchar" MaxLength="70" />
+    <Property Name="spl_inout" Type="varchar" MaxLength="45" />
+    <Property Name="spl_dQty" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="spl_sLoc" Type="varchar" MaxLength="45" />
+    <Property Name="spl_ml_location_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_businessChannel" Type="varchar" MaxLength="45" />
+    <Property Name="spl_mb_businessChannel_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="spl_subsidiary_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_postingDate" Type="datetime" />
+    <Property Name="spl_syncDate" Type="datetime" />
+    <Property Name="spl_createdDate" Type="datetime" />
+    <Property Name="spl_readyPushDate" Type="datetime" />
+    <Property Name="spl_sp_id" Type="varchar" MaxLength="45" />
+    <Property Name="spl_salespostingcategory" Type="varchar" MaxLength="70" />
+    <Property Name="spl_noOfInstallments" Type="varchar" MaxLength="10" />
+    <Property Name="spl_taxCode" Type="varchar" MaxLength="10" />
+    <Property Name="spl_tolNettPrice" Type="double" />
+    <Property Name="spl_tolGstAmount" Type="double" />
+    <Property Name="spl_tolUFC" Type="double" />
+    <Property Name="spl_tolDeliveryCharges" Type="double" />
+    <Property Name="spl_salesType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_cancelType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_suspendDate" Type="varchar" MaxLength="30" />
+    <Property Name="spl_tolUnearnedInt" Type="double" />
+    <Property Name="spl_tolRevenueFinCharges" Type="double" />
+    <Property Name="spl_netsuiteProgress" Type="varchar" MaxLength="70" />
+  </EntityType>
+  <EntityType Name="cpas_dataposting_check">
+    <Key>
+      <PropertyRef Name="spl_recID" />
+    </Key>
+    <Property Name="spl_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="spl_transactionType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_sPID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_mi_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_sDesc" Type="varchar" MaxLength="70" />
+    <Property Name="spl_inout" Type="varchar" MaxLength="45" />
+    <Property Name="spl_dQty" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="spl_sLoc" Type="varchar" MaxLength="45" />
+    <Property Name="spl_ml_location_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_businessChannel" Type="varchar" MaxLength="45" />
+    <Property Name="spl_mb_businessChannel_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="spl_subsidiary_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_postingDate" Type="datetime" />
+    <Property Name="spl_syncDate" Type="datetime" />
+    <Property Name="spl_createdDate" Type="datetime" />
+    <Property Name="spl_readyPushDate" Type="datetime" />
+    <Property Name="spl_sp_id" Type="varchar" MaxLength="45" />
+    <Property Name="spl_salespostingcategory" Type="varchar" MaxLength="70" />
+    <Property Name="spl_noOfInstallments" Type="varchar" MaxLength="10" />
+    <Property Name="spl_taxCode" Type="varchar" MaxLength="10" />
+    <Property Name="spl_tolNettPrice" Type="double" />
+    <Property Name="spl_tolGstAmount" Type="double" />
+    <Property Name="spl_tolUFC" Type="double" />
+    <Property Name="spl_tolDeliveryCharges" Type="double" />
+    <Property Name="spl_salesType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_cancelType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_suspendDate" Type="varchar" MaxLength="30" />
+    <Property Name="spl_tolUnearnedInt" Type="double" />
+    <Property Name="spl_tolRevenueFinCharges" Type="double" />
+    <Property Name="spl_netsuiteProgress" Type="varchar" MaxLength="70" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.sde.cpas_dataposting_history' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="cpas_dataposting_history">
+    <Key>
+      <PropertyRef Name="spl_recID" />
+    </Key>
+    <Property Name="spl_recID" Type="int" Nullable="false" />
+    <Property Name="spl_transactionType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_sPID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_mi_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_sDesc" Type="varchar" MaxLength="70" />
+    <Property Name="spl_inout" Type="varchar" MaxLength="45" />
+    <Property Name="spl_dQty" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="spl_sLoc" Type="varchar" MaxLength="45" />
+    <Property Name="spl_ml_location_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_businessChannel" Type="varchar" MaxLength="45" />
+    <Property Name="spl_mb_businessChannel_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="spl_subsidiary_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_postingDate" Type="datetime" />
+    <Property Name="spl_syncDate" Type="datetime" />
+    <Property Name="spl_createdDate" Type="datetime" />
+    <Property Name="spl_readyPushDate" Type="datetime" />
+    <Property Name="spl_sp_id" Type="varchar" MaxLength="45" />
+    <Property Name="spl_salespostingcategory" Type="varchar" MaxLength="70" />
+    <Property Name="spl_noOfInstallments" Type="varchar" MaxLength="10" />
+    <Property Name="spl_taxCode" Type="varchar" MaxLength="10" />
+    <Property Name="spl_tolNettPrice" Type="double" />
+    <Property Name="spl_tolGstAmount" Type="double" />
+    <Property Name="spl_tolUFC" Type="double" />
+    <Property Name="spl_tolDeliveryCharges" Type="double" />
+    <Property Name="spl_salesType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_cancelType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_suspendDate" Type="varchar" MaxLength="30" />
+    <Property Name="spl_tolUnearnedInt" Type="double" />
+    <Property Name="spl_tolRevenueFinCharges" Type="double" />
+    <Property Name="spl_netsuiteProgress" Type="varchar" MaxLength="70" />
+  </EntityType>
+  <EntityType Name="cpas_dataposting_hs_in">
+    <Key>
+      <PropertyRef Name="spl_recID" />
+    </Key>
+    <Property Name="spl_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="spl_transactionType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_sPID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_mi_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_sDesc" Type="varchar" MaxLength="70" />
+    <Property Name="spl_inout" Type="varchar" MaxLength="45" />
+    <Property Name="spl_dQty" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="spl_sLoc" Type="varchar" MaxLength="45" />
+    <Property Name="spl_ml_location_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_businessChannel" Type="varchar" MaxLength="45" />
+    <Property Name="spl_mb_businessChannel_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="spl_subsidiary_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_postingDate" Type="datetime" />
+    <Property Name="spl_syncDate" Type="datetime" />
+    <Property Name="spl_createdDate" Type="datetime" />
+    <Property Name="spl_readyPushDate" Type="datetime" />
+    <Property Name="spl_sp_id" Type="varchar" MaxLength="45" />
+    <Property Name="spl_salespostingcategory" Type="varchar" MaxLength="70" />
+    <Property Name="spl_noOfInstallments" Type="varchar" MaxLength="10" />
+    <Property Name="spl_taxCode" Type="varchar" MaxLength="10" />
+    <Property Name="spl_tolNettPrice" Type="double" />
+    <Property Name="spl_tolGstAmount" Type="double" />
+    <Property Name="spl_tolUFC" Type="double" />
+    <Property Name="spl_tolDeliveryCharges" Type="double" />
+    <Property Name="spl_salesType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_cancelType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_suspendDate" Type="varchar" MaxLength="30" />
+    <Property Name="spl_tolUnearnedInt" Type="double" />
+    <Property Name="spl_tolRevenueFinCharges" Type="double" />
+    <Property Name="spl_netsuiteProgress" Type="varchar" MaxLength="70" />
+  </EntityType>
+  <EntityType Name="cpas_dataposting_parent">
+    <Key>
+      <PropertyRef Name="spl_recID" />
+    </Key>
+    <Property Name="spl_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="spl_transactionType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_sDesc" Type="varchar" MaxLength="70" />
+    <Property Name="spl_sLoc" Type="varchar" MaxLength="45" />
+    <Property Name="spl_ml_location_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_businessChannel" Type="varchar" MaxLength="45" />
+    <Property Name="spl_mb_businessChannel_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="spl_subsidiary_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_postingDate" Type="datetime" />
+    <Property Name="spl_syncDate" Type="datetime" />
+    <Property Name="spl_createdDate" Type="datetime" />
+    <Property Name="spl_readyPushDate" Type="datetime" />
+    <Property Name="spl_suspendDate" Type="varchar" MaxLength="30" />
+    <Property Name="spl_sp_id" Type="varchar" MaxLength="45" />
+    <Property Name="spl_salespostingcategory" Type="varchar" MaxLength="70" />
+    <Property Name="spl_noOfInstallments" Type="varchar" MaxLength="10" />
+    <Property Name="spl_taxCode" Type="varchar" MaxLength="10" />
+    <Property Name="spl_cancelType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_WP" Type="double" />
+    <Property Name="spl_DP" Type="double" />
+    <Property Name="spl_THC_DM" Type="double" />
+    <Property Name="spl_THC" Type="double" />
+    <Property Name="spl_FC" Type="double" />
+    <Property Name="spl_Tax_PCT" Type="double" />
+    <Property Name="spl_GPM" Type="double" />
+    <Property Name="spl_GPM_RS" Type="double" />
+    <Property Name="spl_DC" Type="double" />
+    <Property Name="spl_TSP" Type="double" />
+    <Property Name="spl_CP" Type="double" />
+    <Property Name="spl_OS_BAL" Type="double" />
+    <Property Name="spl_RFC" Type="double" />
+    <Property Name="spl_UFC" Type="double" />
+    <Property Name="spl_netsuiteProgress" Type="varchar" MaxLength="70" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.sde.cpas_dataposting_wrong' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="cpas_dataposting_wrong">
+    <Key>
+      <PropertyRef Name="spl_recID" />
+    </Key>
+    <Property Name="spl_recID" Type="int" Nullable="false" />
+    <Property Name="spl_transactionType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_sPID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_mi_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_sDesc" Type="varchar" MaxLength="70" />
+    <Property Name="spl_inout" Type="varchar" MaxLength="45" />
+    <Property Name="spl_dQty" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="spl_sLoc" Type="varchar" MaxLength="45" />
+    <Property Name="spl_ml_location_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_businessChannel" Type="varchar" MaxLength="45" />
+    <Property Name="spl_mb_businessChannel_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="spl_subsidiary_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_postingDate" Type="datetime" />
+    <Property Name="spl_syncDate" Type="datetime" />
+    <Property Name="spl_createdDate" Type="datetime" />
+    <Property Name="spl_readyPushDate" Type="datetime" />
+    <Property Name="spl_sp_id" Type="varchar" MaxLength="45" />
+    <Property Name="spl_salespostingcategory" Type="varchar" MaxLength="70" />
+    <Property Name="spl_noOfInstallments" Type="varchar" MaxLength="10" />
+    <Property Name="spl_taxCode" Type="varchar" MaxLength="10" />
+    <Property Name="spl_tolNettPrice" Type="double" />
+    <Property Name="spl_tolGstAmount" Type="double" />
+    <Property Name="spl_tolUFC" Type="double" />
+    <Property Name="spl_tolDeliveryCharges" Type="double" />
+    <Property Name="spl_salesType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_cancelType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_suspendDate" Type="varchar" MaxLength="30" />
+    <Property Name="spl_tolUnearnedInt" Type="double" />
+    <Property Name="spl_tolRevenueFinCharges" Type="double" />
+    <Property Name="spl_netsuiteProgress" Type="varchar" MaxLength="70" />
+  </EntityType>
+  <EntityType Name="cpas_journal">
+    <Key>
+      <PropertyRef Name="jn_recID" />
+    </Key>
+    <Property Name="jn_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="jn_account" Type="varchar" MaxLength="45" />
+    <Property Name="jn_account_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="jn_tranType" Type="varchar" MaxLength="45" />
+    <Property Name="jn_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="jn_subsidiary_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="jn_businessChannel" Type="varchar" MaxLength="45" />
+    <Property Name="jn_businessChannel_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="jn_desc" Type="varchar" MaxLength="45" />
+    <Property Name="jn_drAmount" Type="double" />
+    <Property Name="jn_crAmount" Type="double" />
+    <Property Name="jn_postingDate" Type="datetime" />
+    <Property Name="jn_postingWeek" Type="int" />
+    <Property Name="jn_postingMonth" Type="int" />
+    <Property Name="jn_postingYear" Type="int" />
+    <Property Name="jn_createdDate" Type="datetime" />
+    <Property Name="jn_rangeTo" Type="datetime" />
+    <Property Name="jn_isMonthlyUnship" Type="bit" />
+    <Property Name="jn_journalID" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="cpas_otherstransaction">
+    <Key>
+      <PropertyRef Name="cot_recID" />
+    </Key>
+    <Property Name="cot_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="cot_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="cot_subsidiaryInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_refNo" Type="varchar" MaxLength="200" />
+    <Property Name="cot_invInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_invDate" Type="datetime" />
+    <Property Name="cot_salesType" Type="varchar" MaxLength="45" />
+    <Property Name="cot_trxType" Type="varchar" MaxLength="45" />
+    <Property Name="cot_seqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cot_trxInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_trxUpdatedDate" Type="datetime" />
+    <Property Name="cot_trxProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cot_irInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_irUpdateDate" Type="datetime" />
+    <Property Name="cot_irProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cot_irSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cot_cnInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_cnUpdatedDate" Type="datetime" />
+    <Property Name="cot_cnProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cot_cnSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cot_crInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_crUpdatedDate" Type="datetime" />
+    <Property Name="cot_crProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cot_crSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cot_postingDate" Type="datetime" />
+    <Property Name="cot_ml_location_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_sp_id" Type="varchar" MaxLength="45" />
+    <Property Name="cot_cnGIFIInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_cnGIFIUpdatedDate" Type="datetime" />
+    <Property Name="cot_cnGIFIProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cot_cnGIFISeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cot_vcInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_vcUpdatedDate" Type="datetime" />
+    <Property Name="cot_vcProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cot_vcSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cot_vcGIFIInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_vcGIFIUpdatedDate" Type="datetime" />
+    <Property Name="cot_vcGIFIProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cot_vcGIFISeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cot_suspendDate" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="cpas_otherstransaction_error">
+    <Key>
+      <PropertyRef Name="cot_recID" />
+    </Key>
+    <Property Name="cot_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="cot_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="cot_subsidiaryInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_refNo" Type="varchar" MaxLength="200" />
+    <Property Name="cot_invInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_invDate" Type="datetime" />
+    <Property Name="cot_salesType" Type="varchar" MaxLength="45" />
+    <Property Name="cot_trxType" Type="varchar" MaxLength="45" />
+    <Property Name="cot_seqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cot_trxInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_trxUpdatedDate" Type="datetime" />
+    <Property Name="cot_trxProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cot_irInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_irUpdateDate" Type="datetime" />
+    <Property Name="cot_irProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cot_irSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cot_cnInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_cnUpdatedDate" Type="datetime" />
+    <Property Name="cot_cnProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cot_cnSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cot_crInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_crUpdatedDate" Type="datetime" />
+    <Property Name="cot_crProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cot_crSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cot_postingDate" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.sde.cpas_otherstransaction_history' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="cpas_otherstransaction_history">
+    <Key>
+      <PropertyRef Name="cot_recID" />
+    </Key>
+    <Property Name="cot_recID" Type="int" Nullable="false" />
+    <Property Name="cot_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="cot_subsidiaryInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_refNo" Type="longtext" />
+    <Property Name="cot_invInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_invDate" Type="datetime" />
+    <Property Name="cot_salesType" Type="varchar" MaxLength="45" />
+    <Property Name="cot_trxType" Type="varchar" MaxLength="45" />
+    <Property Name="cot_seqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cot_trxInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_trxUpdatedDate" Type="datetime" />
+    <Property Name="cot_trxProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cot_irInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_irUpdateDate" Type="datetime" />
+    <Property Name="cot_irProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cot_irSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cot_cnInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_cnUpdatedDate" Type="datetime" />
+    <Property Name="cot_cnProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cot_cnSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cot_crInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cot_crUpdatedDate" Type="datetime" />
+    <Property Name="cot_crProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cot_crSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cot_postingDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="cpas_payment">
+    <Key>
+      <PropertyRef Name="cpm_recId" />
+    </Key>
+    <Property Name="cpm_recId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="cpm_postingType" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_postingDate" Type="datetime" />
+    <Property Name="cpm_priceCode" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_contractYear" Type="varchar" MaxLength="10" />
+    <Property Name="cpm_contractMonth" Type="varchar" MaxLength="10" />
+    <Property Name="cpm_contractWeek" Type="varchar" MaxLength="10" />
+    <Property Name="cpm_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_subsidiary_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_syncDate" Type="datetime" />
+    <Property Name="cpm_salesPostingCat" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_location" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_ml_location_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_payment" Type="decimal" Precision="15" Scale="4" />
+    <Property Name="cpm_applyPayment" Type="decimal" Precision="15" Scale="4" />
+    <Property Name="cpm_totalcontracts" Type="int" />
+    <Property Name="cpm_businessChannel" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_mb_businessChannel_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_sp_id" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_createdDate" Type="datetime" />
+    <Property Name="cpm_ProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cpm_ProgressStatusSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cpm_salesPostingCatOld" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_pmInternalId" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_pmUpdatedDate" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.sde.cpas_payment_history' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="cpas_payment_history">
+    <Key>
+      <PropertyRef Name="cpm_recId" />
+    </Key>
+    <Property Name="cpm_recId" Type="int" Nullable="false" />
+    <Property Name="cpm_postingType" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_postingDate" Type="datetime" />
+    <Property Name="cpm_priceCode" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_contractYear" Type="varchar" MaxLength="10" />
+    <Property Name="cpm_contractMonth" Type="varchar" MaxLength="10" />
+    <Property Name="cpm_contractWeek" Type="varchar" MaxLength="10" />
+    <Property Name="cpm_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_subsidiary_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_syncDate" Type="datetime" />
+    <Property Name="cpm_salesPostingCat" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_location" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_ml_location_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_payment" Type="decimal" Precision="15" Scale="4" />
+    <Property Name="cpm_applyPayment" Type="decimal" Precision="15" Scale="4" />
+    <Property Name="cpm_totalcontracts" Type="int" />
+    <Property Name="cpm_businessChannel" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_mb_businessChannel_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_sp_id" Type="varchar" MaxLength="45" />
+    <Property Name="cpm_createdDate" Type="datetime" />
+    <Property Name="cpm_ProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cpm_ProgressStatusSeqNo" Type="varchar" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="cpas_presales">
+    <Key>
+      <PropertyRef Name="ps_id" />
+    </Key>
+    <Property Name="ps_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ps_tranType" Type="varchar" MaxLength="45" />
+    <Property Name="ps_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="ps_subsidiary_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="ps_businessChannel" Type="varchar" MaxLength="45" />
+    <Property Name="ps_businessChannel_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="ps_amount" Type="double" />
+    <Property Name="ps_month" Type="int" />
+    <Property Name="ps_year" Type="int" />
+    <Property Name="ps_tranDate" Type="datetime" />
+    <Property Name="ps_createdDate" Type="datetime" />
+    <Property Name="ps_jn_journalID" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="cpas_salestransaction">
+    <Key>
+      <PropertyRef Name="cst_recID" />
+    </Key>
+    <Property Name="cst_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="cst_refNo" Type="varchar" MaxLength="120" />
+    <Property Name="cst_createdDate" Type="datetime" />
+    <Property Name="cst_soSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cst_soJobID" Type="varchar" MaxLength="120" />
+    <Property Name="cst_soInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cst_soUpdatedDate" Type="datetime" />
+    <Property Name="cst_ifSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cst_ifJobID" Type="varchar" MaxLength="120" />
+    <Property Name="cst_ifInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cst_ifUpdatedDate" Type="datetime" />
+    <Property Name="cst_invSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cst_invJobID" Type="varchar" MaxLength="120" />
+    <Property Name="cst_invInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cst_invUpdatedDate" Type="datetime" />
+    <Property Name="cst_invProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cst_sp_id" Type="varchar" MaxLength="45" />
+    <Property Name="cst_sDesc" Type="varchar" MaxLength="120" />
+    <Property Name="cst_sLoc" Type="varchar" MaxLength="45" />
+    <Property Name="cst_ml_location_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="cst_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="cst_subsidiary_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="cst_postingDate" Type="datetime" />
+    <Property Name="cst_salesType" Type="varchar" MaxLength="45" />
+    <Property Name="cst_invGIFIInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cst_invGIFIUpdatedDate" Type="datetime" />
+    <Property Name="cst_invGIFIProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cst_invGIFISeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cst_vbInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cst_vbUpdatedDate" Type="datetime" />
+    <Property Name="cst_vbProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cst_vbSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cst_vbGIFIInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cst_vbGIFIUpdatedDate" Type="datetime" />
+    <Property Name="cst_vbGIFIProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cst_vbGIFISeqNo" Type="varchar" MaxLength="3" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.sde.cpas_salestransaction_history' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="cpas_salestransaction_history">
+    <Key>
+      <PropertyRef Name="cst_recID" />
+    </Key>
+    <Property Name="cst_recID" Type="int" Nullable="false" />
+    <Property Name="cst_refNo" Type="longtext" />
+    <Property Name="cst_createdDate" Type="datetime" />
+    <Property Name="cst_soSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cst_soJobID" Type="longtext" />
+    <Property Name="cst_soInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cst_soUpdatedDate" Type="datetime" />
+    <Property Name="cst_ifSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cst_ifJobID" Type="longtext" />
+    <Property Name="cst_ifInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cst_ifUpdatedDate" Type="datetime" />
+    <Property Name="cst_invSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="cst_invJobID" Type="longtext" />
+    <Property Name="cst_invInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="cst_invUpdatedDate" Type="datetime" />
+    <Property Name="cst_invProgressStatus" Type="varchar" MaxLength="66" />
+    <Property Name="cst_sp_id" Type="varchar" MaxLength="45" />
+    <Property Name="cst_sDesc" Type="longtext" />
+    <Property Name="cst_sLoc" Type="varchar" MaxLength="45" />
+    <Property Name="cst_ml_location_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="cst_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="cst_subsidiary_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="cst_postingDate" Type="datetime" />
+    <Property Name="cst_salesType" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="cpas_stockposting">
+    <Key>
+      <PropertyRef Name="spl_recID" />
+    </Key>
+    <Property Name="spl_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="spl_transactionType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_sPID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_mi_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_sDesc" Type="longtext" />
+    <Property Name="spl_inout" Type="varchar" MaxLength="45" />
+    <Property Name="spl_dQty" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="spl_sLoc" Type="varchar" MaxLength="45" />
+    <Property Name="spl_ml_location_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_businessChannel" Type="varchar" MaxLength="45" />
+    <Property Name="spl_mb_businessChannel_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="spl_subsidiary_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_postingDate" Type="datetime" />
+    <Property Name="spl_syncDate" Type="datetime" />
+    <Property Name="spl_createdDate" Type="datetime" />
+    <Property Name="spl_readyPushDate" Type="datetime" />
+    <Property Name="spl_sp_id" Type="varchar" MaxLength="45" />
+    <Property Name="spl_salespostingcategory" Type="longtext" />
+    <Property Name="spl_noOfInstallments" Type="varchar" MaxLength="10" />
+    <Property Name="spl_taxCode" Type="varchar" MaxLength="10" />
+    <Property Name="spl_tolNettPrice" Type="double" />
+    <Property Name="spl_tolGstAmount" Type="double" />
+    <Property Name="spl_tolUFC" Type="double" />
+    <Property Name="spl_tolDeliveryCharges" Type="double" />
+    <Property Name="spl_salesType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_cancelType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_suspendDate" Type="varchar" MaxLength="45" />
+    <Property Name="spl_tolUnearnedInt" Type="double" />
+    <Property Name="spl_tolRevenueFinCharges" Type="double" />
+  </EntityType>
+  <EntityType Name="cpas_stockposting_history">
+    <Key>
+      <PropertyRef Name="spl_recID" />
+    </Key>
+    <Property Name="spl_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="spl_transactionType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_sPID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_mi_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_sDesc" Type="longtext" />
+    <Property Name="spl_inout" Type="varchar" MaxLength="45" />
+    <Property Name="spl_dQty" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="spl_sLoc" Type="varchar" MaxLength="45" />
+    <Property Name="spl_ml_location_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_businessChannel" Type="varchar" MaxLength="45" />
+    <Property Name="spl_mb_businessChannel_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="spl_subsidiary_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_postingDate" Type="datetime" />
+    <Property Name="spl_syncDate" Type="datetime" />
+    <Property Name="spl_createdDate" Type="datetime" />
+    <Property Name="spl_readyPushDate" Type="datetime" />
+    <Property Name="spl_sp_id" Type="varchar" MaxLength="45" />
+    <Property Name="spl_salespostingcategory" Type="longtext" />
+    <Property Name="spl_noOfInstallments" Type="varchar" MaxLength="10" />
+    <Property Name="spl_taxCode" Type="varchar" MaxLength="10" />
+    <Property Name="spl_tolNettPrice" Type="double" />
+    <Property Name="spl_tolGstAmount" Type="double" />
+    <Property Name="spl_tolUFC" Type="double" />
+    <Property Name="spl_tolDeliveryCharges" Type="double" />
+  </EntityType>
+  <EntityType Name="cpas_testposting">
+    <Key>
+      <PropertyRef Name="spl_recID" />
+    </Key>
+    <Property Name="spl_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="spl_transactionType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_sPID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_mi_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_sDesc" Type="longtext" />
+    <Property Name="spl_inout" Type="varchar" MaxLength="45" />
+    <Property Name="spl_dQty" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="spl_sLoc" Type="varchar" MaxLength="45" />
+    <Property Name="spl_ml_location_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_businessChannel" Type="varchar" MaxLength="45" />
+    <Property Name="spl_mb_businessChannel_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="spl_subsidiary_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="spl_postingDate" Type="datetime" />
+    <Property Name="spl_syncDate" Type="datetime" />
+    <Property Name="spl_createdDate" Type="datetime" />
+    <Property Name="spl_readyPushDate" Type="datetime" />
+    <Property Name="spl_sp_id" Type="varchar" MaxLength="45" />
+    <Property Name="spl_salespostingcategory" Type="longtext" />
+    <Property Name="spl_noOfInstallments" Type="varchar" MaxLength="10" />
+    <Property Name="spl_taxCode" Type="varchar" MaxLength="10" />
+    <Property Name="spl_tolNettPrice" Type="double" />
+    <Property Name="spl_tolGstAmount" Type="double" />
+    <Property Name="spl_tolUFC" Type="double" />
+    <Property Name="spl_tolDeliveryCharges" Type="double" />
+    <Property Name="spl_salesType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_cancelType" Type="varchar" MaxLength="45" />
+    <Property Name="spl_suspendDate" Type="varchar" MaxLength="45" />
+    <Property Name="spl_tolUnearnedInt" Type="double" />
+    <Property Name="spl_tolRevenueFinCharges" Type="double" />
+    <Property Name="spl_netsuiteProgress" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="default_forwarder">
+    <Key>
+      <PropertyRef Name="countryCode" />
+    </Key>
+    <Property Name="countryCode" Type="char" Nullable="false" MaxLength="2" />
+    <Property Name="code" Type="char" MaxLength="2" />
+    <Property Name="postcode" Type="char" MaxLength="6" />
+    <Property Name="telNo" Type="char" MaxLength="20" />
+    <Property Name="faxNo" Type="char" MaxLength="20" />
+    <Property Name="cNote" Type="char" MaxLength="20" />
+    <Property Name="countryName" Type="char" MaxLength="30" />
+    <Property Name="state" Type="char" MaxLength="30" />
+    <Property Name="email" Type="char" MaxLength="30" />
+    <Property Name="homepage" Type="char" MaxLength="30" />
+    <Property Name="coName" Type="char" MaxLength="60" />
+    <Property Name="addr1" Type="char" />
+    <Property Name="addr2" Type="char" />
+    <Property Name="city" Type="char" />
+    <Property Name="coLisence" Type="varchar" MaxLength="1" />
+    <Property Name="fobPostCode" Type="varchar" MaxLength="6" />
+    <Property Name="fobTelNo" Type="varchar" MaxLength="20" />
+    <Property Name="fobFaxNo" Type="varchar" MaxLength="20" />
+    <Property Name="fobState" Type="varchar" MaxLength="30" />
+    <Property Name="fobCountry" Type="varchar" MaxLength="30" />
+    <Property Name="uen" Type="varchar" MaxLength="255" />
+    <Property Name="contact_name" Type="varchar" MaxLength="255" />
+    <Property Name="focCoName" Type="varchar" MaxLength="255" />
+    <Property Name="fobAddr1" Type="varchar" MaxLength="255" />
+    <Property Name="fobAddr2" Type="varchar" MaxLength="255" />
+    <Property Name="fobCity" Type="varchar" MaxLength="255" />
+    <Property Name="fobContactName" Type="varchar" MaxLength="255" />
+    <Property Name="fobUen" Type="varchar" MaxLength="255" />
+    <Property Name="gst" Type="decimal" Precision="4" Scale="2" />
+    <Property Name="countryRate" Type="decimal" Scale="4" />
+  </EntityType>
+  <EntityType Name="dummyso">
+    <Key>
+      <PropertyRef Name="dso_recID" />
+    </Key>
+    <Property Name="dso_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="dso_soInternalId" Type="varchar" MaxLength="15" />
+    <Property Name="dso_itemInternalId" Type="varchar" MaxLength="15" />
+    <Property Name="dso_oriQuantity" Type="varchar" MaxLength="10" />
+    <Property Name="dso_newQuantity" Type="varchar" MaxLength="10" />
+    <Property Name="dso_amount" Type="varchar" MaxLength="10" />
+    <Property Name="dso_createdDate" Type="datetime" />
+    <Property Name="dso_rangeTo" Type="datetime" />
+    <Property Name="dso_subsidiary" Type="varchar" MaxLength="100" />
+    <Property Name="dso_businessChannel" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="errorlog_cpas_stockposting">
+    <Key>
+      <PropertyRef Name="recID" />
+    </Key>
+    <Property Name="recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="so_sPID" Type="varchar" MaxLength="45" />
+    <Property Name="so_sProduct" Type="varchar" MaxLength="45" />
+    <Property Name="so_sDesc" Type="varchar" MaxLength="45" />
+    <Property Name="so_sCon" Type="varchar" MaxLength="45" />
+    <Property Name="so_sBatch" Type="varchar" MaxLength="45" />
+    <Property Name="so_dQty" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="so_dQty3" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="so_sLoc" Type="varchar" MaxLength="45" />
+    <Property Name="so_sDesc2" Type="varchar" MaxLength="45" />
+    <Property Name="so_name" Type="varchar" MaxLength="45" />
+    <Property Name="so_businessChannel" Type="varchar" MaxLength="45" />
+    <Property Name="so_country" Type="varchar" MaxLength="45" />
+    <Property Name="so_transactionType" Type="varchar" MaxLength="45" />
+    <Property Name="so_transactionDate" Type="datetime" />
+    <Property Name="so_syncDate" Type="datetime" />
+    <Property Name="so_postingPeriod" Type="varchar" MaxLength="45" />
+    <Property Name="so_postInd" Type="bit" />
+    <Property Name="so_createdDate" Type="datetime" />
+    <Property Name="so_readyPushDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="excesspo">
+    <Key>
+      <PropertyRef Name="ep_recID" />
+    </Key>
+    <Property Name="ep_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ep_prID" Type="varchar" MaxLength="45" />
+    <Property Name="ep_poreceiveID" Type="varchar" MaxLength="45" />
+    <Property Name="ep_poreceiveItemID" Type="varchar" MaxLength="45" />
+    <Property Name="ep_itemInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="ep_excessQty" Type="int" />
+    <Property Name="ep_createdDate" Type="datetime" />
+    <Property Name="ep_rangeTo" Type="datetime" />
+  </EntityType>
+  <EntityType Name="forwarderadd">
+    <Key>
+      <PropertyRef Name="InternalID" />
+    </Key>
+    <Property Name="InternalID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="Name" Type="varchar" MaxLength="255" />
+    <Property Name="Label" Type="varchar" MaxLength="45" />
+    <Property Name="Attention" Type="varchar" MaxLength="60" />
+    <Property Name="Addressee" Type="varchar" MaxLength="60" />
+    <Property Name="Phone" Type="varchar" MaxLength="40" />
+    <Property Name="Address1" Type="varchar" MaxLength="255" />
+    <Property Name="Address2" Type="varchar" MaxLength="255" />
+    <Property Name="Address3" Type="varchar" MaxLength="255" />
+    <Property Name="City" Type="varchar" MaxLength="45" />
+    <Property Name="State" Type="varchar" MaxLength="45" />
+    <Property Name="Postcode" Type="varchar" MaxLength="20" />
+    <Property Name="Country" Type="varchar" MaxLength="45" />
+    <Property Name="Address" Type="varchar" MaxLength="255" />
+    <Property Name="isDefault" Type="varchar" MaxLength="45" />
+    <Property Name="CreatedDate" Type="datetime" StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerName" Type="varchar" MaxLength="255" />
+    <Property Name="CustomerInternalID" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="item_tem">
+    <Key>
+      <PropertyRef Name="item_id" />
+    </Key>
+    <Property Name="item_id" Type="varchar" Nullable="false" MaxLength="150" />
+    <Property Name="name" Type="varchar" MaxLength="200" />
+    <Property Name="internal_id" Type="varchar" MaxLength="45" />
+    <Property Name="location" Type="varchar" MaxLength="150" />
+    <Property Name="locationavailable" Type="int" />
+    <Property Name="weight" Type="double" />
+    <Property Name="product_category" Type="varchar" MaxLength="100" />
+    <Property Name="legacy_code" Type="varchar" MaxLength="100" />
+    <Property Name="isbn" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="map_bin">
+    <Key>
+      <PropertyRef Name="mb_bin_internalID" />
+    </Key>
+    <Property Name="mb_bin_internalID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="mb_bin_name" Type="varchar" MaxLength="100" />
+    <Property Name="mb_bin_location_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="mb_bin_branch_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="mb_returnbin_name" Type="varchar" MaxLength="100" />
+    <Property Name="mb_returnbin_location_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="mb_bin_isInactive" Type="bit" />
+  </EntityType>
+  <EntityType Name="map_businesschannel">
+    <Key>
+      <PropertyRef Name="mb_businessChannel_internalID" />
+    </Key>
+    <Property Name="mb_businessChannel_internalID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="mb_businessChannel_name" Type="varchar" MaxLength="100" />
+    <Property Name="mb_businessChannel_parent" Type="varchar" MaxLength="100" />
+    <Property Name="mb_businessChannel_includeChild" Type="bit" />
+    <Property Name="mb_businessChannel_isInActive" Type="bit" />
+    <Property Name="mb_imas_businessChannel_ID" Type="varchar" MaxLength="45" />
+    <Property Name="mb_imas_businessChannel_code" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="map_chartofaccount">
+    <Key>
+      <PropertyRef Name="coa_recID" />
+    </Key>
+    <Property Name="coa_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="coa_tranType" Type="varchar" MaxLength="45" />
+    <Property Name="coa_accountNo" Type="varchar" MaxLength="45" />
+    <Property Name="coa_account_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="coa_glType" Type="varchar" MaxLength="45" />
+    <Property Name="coa_subsidiary" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="map_country">
+    <Key>
+      <PropertyRef Name="mc_recID" />
+    </Key>
+    <Property Name="mc_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="mc_countryCode" Type="varchar" MaxLength="2" />
+    <Property Name="mc_countryName" Type="varchar" MaxLength="45" />
+    <Property Name="mc_country_internalID" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="map_currency">
+    <Key>
+      <PropertyRef Name="mc_currency_recID" />
+    </Key>
+    <Property Name="mc_currency_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="mc_currency_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="mc_currency_name" Type="varchar" MaxLength="45" />
+    <Property Name="mc_currency_ISO_code" Type="varchar" MaxLength="45" />
+    <Property Name="mc_country" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="map_customer">
+    <Key>
+      <PropertyRef Name="mc_customer_internalID" />
+    </Key>
+    <Property Name="mc_customer_internalID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="mc_customer_name" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="map_item">
+    <Key>
+      <PropertyRef Name="mi_recID" />
+    </Key>
+    <Property Name="mi_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="mi_item_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="mi_item_description" Type="varchar" MaxLength="100" />
+    <Property Name="mi_item_title" Type="varchar" MaxLength="100" />
+    <Property Name="mi_item_uom" Type="varchar" MaxLength="50" />
+    <Property Name="mi_item_isbn" Type="varchar" MaxLength="50" />
+    <Property Name="mi_isbn_secondary" Type="varchar" MaxLength="50" />
+    <Property Name="mi_lastModifiedDate" Type="datetime" />
+    <Property Name="mi_modifiedBy" Type="varchar" MaxLength="45" />
+    <Property Name="mi_createdDate" Type="datetime" />
+    <Property Name="mi_item_reorder_level" Type="varchar" MaxLength="45" />
+    <Property Name="mi_reorder_qty" Type="varchar" MaxLength="45" />
+    <Property Name="mi_reorder_date" Type="datetime" />
+    <Property Name="mi_createdBy" Type="varchar" MaxLength="45" />
+    <Property Name="mi_item_weight" Type="decimal" Scale="4" />
+    <Property Name="mi_accountClassID" Type="varchar" MaxLength="45" />
+    <Property Name="mi_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="mi_rangeTo" Type="datetime" />
+    <Property Name="mi_businesschannel_name" Type="varchar" MaxLength="255" />
+    <Property Name="mi_businesschannel_InternalID" Type="varchar" MaxLength="255" />
+    <Property Name="mi_prodfamily" Type="varchar" MaxLength="120" />
+    <Property Name="mi_tax_schedule" Type="varchar" MaxLength="30" />
+    <Property Name="mi_tax_code" Type="varchar" MaxLength="20" />
+    <Property Name="mi_ns_itemID" Type="varchar" MaxLength="45" />
+    <Property Name="mi_pmd_id" Type="varchar" MaxLength="50" />
+    <Property Name="mi_pmd_sync" Type="int" />
+  </EntityType>
+  <EntityType Name="map_itemprice">
+    <Key>
+      <PropertyRef Name="mip_recID" />
+    </Key>
+    <Property Name="mip_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="mip_item_isbn" Type="varchar" MaxLength="50" />
+    <Property Name="mip_item_pricelevel" Type="varchar" MaxLength="45" />
+    <Property Name="mip_item_price" Type="double" />
+    <Property Name="mip_item_currency" Type="varchar" MaxLength="45" />
+    <Property Name="mip_item_internalID" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="map_location">
+    <Key>
+      <PropertyRef Name="ml_location_internalID" />
+    </Key>
+    <Property Name="ml_location_internalID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="ml_location_name" Type="varchar" MaxLength="100" />
+    <Property Name="ml_location_parent" Type="varchar" MaxLength="100" />
+    <Property Name="ml_location_country" Type="varchar" MaxLength="45" />
+    <Property Name="ml_location_isInactive" Type="bit" />
+  </EntityType>
+  <EntityType Name="map_subsidiary">
+    <Key>
+      <PropertyRef Name="ms_subsidiary_internalID" />
+    </Key>
+    <Property Name="ms_subsidiary_internalID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="ms_subsidiary_name" Type="varchar" MaxLength="100" />
+    <Property Name="ms_subsidiary_parent" Type="varchar" MaxLength="100" />
+    <Property Name="ms_subsidiary_country" Type="varchar" MaxLength="45" />
+    <Property Name="ms_subsidiary_isInactive" Type="bit" />
+    <Property Name="ms_countryName" Type="varchar" MaxLength="45" />
+    <Property Name="ms_currency" Type="varchar" MaxLength="45" />
+    <Property Name="ms_currencyCode" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="mdm_item">
+    <Key>
+      <PropertyRef Name="item_internalid" />
+    </Key>
+    <Property Name="item_internalid" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="item_name" Type="varchar" MaxLength="45" />
+    <Property Name="item_isbn" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="netsuite_adjustment">
+    <Key>
+      <PropertyRef Name="nsda_adjustment_ID" />
+      <PropertyRef Name="nsda_recID" />
+    </Key>
+    <Property Name="nsda_adjustment_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="nsda_adjustment_code" Type="varchar" MaxLength="45" />
+    <Property Name="nsda_adjustment_active" Type="bit" />
+    <Property Name="nsda_adjustment_posted" Type="bit" />
+    <Property Name="nsda_adjustment_remarks" Type="varchar" MaxLength="45" />
+    <Property Name="nsda_adjustment_warehouse_ID" Type="varchar" MaxLength="45" />
+    <Property Name="nsda_adjustment_description" Type="varchar" MaxLength="50" />
+    <Property Name="nsda_adjustment_type" Type="varchar" MaxLength="45" />
+    <Property Name="nsda_createdBy" Type="varchar" MaxLength="45" />
+    <Property Name="nsda_createdDate" Type="datetime" />
+    <Property Name="nsda_modifiedBy" Type="varchar" MaxLength="45" />
+    <Property Name="nsda_modifiedDate" Type="datetime" />
+    <Property Name="nsda_rangeTo" Type="datetime" />
+    <Property Name="nsda_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="netsuite_adjustment2">
+    <Key>
+      <PropertyRef Name="nas_ID" />
+    </Key>
+    <Property Name="nas_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nas_analysisCode" Type="varchar" MaxLength="30" />
+    <Property Name="nas_shipmentNo" Type="varchar" MaxLength="30" />
+    <Property Name="nas_firstShipmentDate" Type="datetime" />
+    <Property Name="nas_Type" Type="varchar" MaxLength="50" />
+    <Property Name="nas_Subsidiary" Type="varchar" MaxLength="100" />
+    <Property Name="nas_subsidiaryID" Type="int" />
+    <Property Name="nas_businessChannelID" Type="int" />
+    <Property Name="nas_businessChannel" Type="varchar" MaxLength="45" />
+    <Property Name="nas_accountNo" Type="int" />
+    <Property Name="nas_shipmentDate" Type="date" />
+    <Property Name="nas_postingPeriod" Type="varchar" MaxLength="45" />
+    <Property Name="nas_postingPeriodID" Type="int" />
+    <Property Name="nas_locationID" Type="int" />
+  </EntityType>
+  <EntityType Name="netsuite_adjustmentdetail2">
+    <Key>
+      <PropertyRef Name="nad_id" />
+    </Key>
+    <Property Name="nad_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nad_shipmentNo" Type="varchar" MaxLength="30" />
+    <Property Name="nad_ISBN13" Type="varchar" MaxLength="30" />
+    <Property Name="nad_ISBN10" Type="varchar" MaxLength="30" />
+    <Property Name="nad_receivedQty" Type="decimal" Scale="2" />
+    <Property Name="nad_usdCost" Type="decimal" Scale="2" />
+    <Property Name="nad_localCost" Type="decimal" Scale="2" />
+    <Property Name="nad_totalAmt" Type="decimal" Scale="2" />
+    <Property Name="nad_imasItemID" Type="varchar" MaxLength="45" />
+    <Property Name="nad_imasLocation" Type="varchar" MaxLength="45" />
+    <Property Name="nad_nsLocation" Type="varchar" MaxLength="45" />
+    <Property Name="nad_nsLocationID" Type="int" />
+    <Property Name="nad_nsItemID" Type="int" />
+    <Property Name="nad_firstShipmentDate" Type="datetime" />
+    <Property Name="nad_type" Type="varchar" MaxLength="45" />
+    <Property Name="nad_businessChannel" Type="varchar" MaxLength="10" />
+    <Property Name="nad_postingPeriodID" Type="int" />
+  </EntityType>
+  <EntityType Name="netsuite_adjustmentitem">
+    <Key>
+      <PropertyRef Name="nsdai_recID" />
+      <PropertyRef Name="nsdai_adjustmentItem_ID" />
+    </Key>
+    <Property Name="nsdai_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nsdai_adjustmentItem_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="nsdai_itemBusiness_ID" Type="varchar" MaxLength="45" />
+    <Property Name="nsdai_adjustmentItem_qty" Type="decimal" Precision="18" />
+    <Property Name="nsdai_nsda_adjustment_ID" Type="varchar" MaxLength="45" />
+    <Property Name="nsdai_adjustmentItem_status" Type="bit" />
+    <Property Name="nsdai_adjustmentItem_remarks" Type="varchar" MaxLength="45" />
+    <Property Name="nsdai_createdDate" Type="datetime" />
+    <Property Name="nsdai_rangeTo" Type="datetime" />
+  </EntityType>
+  <EntityType Name="netsuite_dropshipfulfillment">
+    <Key>
+      <PropertyRef Name="dsf_recID" />
+    </Key>
+    <Property Name="dsf_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="dsf_GMYmono" Type="varchar" MaxLength="45" />
+    <Property Name="dsf_GMYmono_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="dsf_dropshipmono" Type="varchar" MaxLength="45" />
+    <Property Name="dsf_dropshipmono_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="dsf_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="dsf_status" Type="varchar" MaxLength="45" />
+    <Property Name="dsf_itemID" Type="varchar" MaxLength="45" />
+    <Property Name="dsf_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="dsf_pricelevel" Type="varchar" MaxLength="45" />
+    <Property Name="dsf_pricelevel_InternalID" Type="varchar" MaxLength="45" />
+    <Property Name="dsf_rate" Type="double" />
+    <Property Name="dsf_ordQty" Type="int" />
+    <Property Name="dsf_wmsfulfilledqty" Type="int" />
+    <Property Name="dsf_createdinvoiceqty" Type="int" />
+    <Property Name="dsf_discount" Type="double" />
+    <Property Name="dsf_discountItem_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="dsf_ponumber" Type="varchar" MaxLength="45" />
+    <Property Name="dsf_customer_InternalID" Type="varchar" MaxLength="45" />
+    <Property Name="dsf_lastfulfilleddate" Type="datetime" />
+    <Property Name="dsf_lastinvoicedate" Type="datetime" />
+    <Property Name="dsf_basedprice" Type="double" />
+    <Property Name="dsf_iffProgress" Type="varchar" MaxLength="120" />
+    <Property Name="dsf_iffSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="dsf_iffUpdatedDate" Type="datetime" />
+    <Property Name="dsf_iffInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="dsf_invProgress" Type="varchar" MaxLength="120" />
+    <Property Name="dsf_invSeqNo" Type="varchar" MaxLength="3" />
+    <Property Name="dsf_invUpdatedDate" Type="datetime" />
+    <Property Name="dsf_invInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="dsf_is_fas" Type="varchar" MaxLength="1" />
+    <Property Name="dsf_class_name" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="netsuite_dropshipso">
+    <Key>
+      <PropertyRef Name="ds_recID" />
+    </Key>
+    <Property Name="ds_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ds_mono" Type="varchar" MaxLength="45" />
+    <Property Name="ds_mono_InternalID" Type="varchar" MaxLength="45" />
+    <Property Name="ds_createdDate" Type="datetime" />
+    <Property Name="ds_rangeTo" Type="datetime" />
+    <Property Name="ds_netsuiteGMYSOProgress" Type="varchar" MaxLength="60" />
+    <Property Name="ds_netsuiteClosedSOProgress" Type="varchar" MaxLength="60" />
+  </EntityType>
+  <EntityType Name="netsuite_invoice">
+    <Key>
+      <PropertyRef Name="nsinv_recID" />
+    </Key>
+    <Property Name="nsinv_recID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="nsinv_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nsinv_moNo_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsinv_entity" Type="varchar" MaxLength="45" />
+    <Property Name="nsinv_entity_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsinv_createdDate" Type="datetime" />
+    <Property Name="nsinv_rangeTo" Type="datetime" />
+    <Property Name="nsinv_location" Type="varchar" MaxLength="45" />
+    <Property Name="nsinv_location_internalID" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="netsuite_job">
+    <Key>
+      <PropertyRef Name="nsj_jobID" />
+      <PropertyRef Name="nsj_recID" />
+    </Key>
+    <Property Name="nsj_jobID" Type="varchar" Nullable="false" MaxLength="36" />
+    <Property Name="nsj_businessChannel_ID" Type="varchar" MaxLength="36" />
+    <Property Name="nsj_country_tag" Type="varchar" MaxLength="45" />
+    <Property Name="nsj_mc_countryCode" Type="varchar" MaxLength="2" />
+    <Property Name="nsj_createdBy" Type="varchar" MaxLength="36" />
+    <Property Name="nsj_job_active" Type="bit" Nullable="false" />
+    <Property Name="nsj_job_description" Type="varchar" MaxLength="200" />
+    <Property Name="nsj_job_mo_count" Type="int" />
+    <Property Name="nsj_job_no" Type="varchar" MaxLength="20" />
+    <Property Name="nsj_job_status" Type="smallint" />
+    <Property Name="nsj_modifiedBy" Type="varchar" MaxLength="36" />
+    <Property Name="nsj_modifiedDate" Type="datetime" />
+    <Property Name="nsj_createdDate" Type="datetime" />
+    <Property Name="nsj_rangeTo" Type="datetime" />
+    <Property Name="nsj_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="netsuite_jobitem">
+    <Key>
+      <PropertyRef Name="nsji_jobItem_ID" />
+      <PropertyRef Name="nsji_recID" />
+    </Key>
+    <Property Name="nsji_jobItem_ID" Type="varchar" Nullable="false" MaxLength="36" />
+    <Property Name="nsji_nsj_jobID" Type="varchar" MaxLength="36" />
+    <Property Name="nsji_createdBy" Type="varchar" MaxLength="36" />
+    <Property Name="nsji_createdDate" Type="datetime" />
+    <Property Name="nsji_item_ID" Type="varchar" MaxLength="45" />
+    <Property Name="nsji_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsji_item_qty" Type="decimal" Precision="18" Scale="1" />
+    <Property Name="nsji_posting_type" Type="varchar" MaxLength="10" />
+    <Property Name="nsji_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nsji_moNo_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsji_rangeTo" Type="datetime" />
+    <Property Name="nsji_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="netsuite_jobitem_history">
+    <Key>
+      <PropertyRef Name="nsji_jobItem_ID" />
+      <PropertyRef Name="nsji_recID" />
+    </Key>
+    <Property Name="nsji_jobItem_ID" Type="varchar" Nullable="false" MaxLength="36" />
+    <Property Name="nsji_nsj_jobID" Type="varchar" MaxLength="36" />
+    <Property Name="nsji_createdBy" Type="varchar" MaxLength="36" />
+    <Property Name="nsji_createdDate" Type="datetime" />
+    <Property Name="nsji_item_ID" Type="varchar" MaxLength="45" />
+    <Property Name="nsji_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsji_item_qty" Type="decimal" Precision="18" Scale="1" />
+    <Property Name="nsji_posting_type" Type="varchar" MaxLength="10" />
+    <Property Name="nsji_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nsji_moNo_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsji_rangeTo" Type="datetime" />
+    <Property Name="nsji_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="netsuite_jobmo">
+    <Key>
+      <PropertyRef Name="nsjm_recID" />
+    </Key>
+    <Property Name="nsjm_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nsjm_nsj_job_ID" Type="varchar" MaxLength="36" />
+    <Property Name="nsjm_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nsjm_moNo_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjm_jobMo_ID" Type="varchar" Nullable="false" MaxLength="36" />
+    <Property Name="nsjm_consignmentNote" Type="varchar" MaxLength="30" />
+    <Property Name="nsjm_clsCnt" Type="int" />
+    <Property Name="nsjm_contactPerson" Type="varchar" MaxLength="60" />
+    <Property Name="nsjm_country" Type="varchar" MaxLength="45" />
+    <Property Name="nsjm_deliveryAdd" Type="varchar" MaxLength="255" />
+    <Property Name="nsjm_deliveryAdd_2" Type="varchar" MaxLength="255" />
+    <Property Name="nsjm_deliveryAdd_3" Type="varchar" MaxLength="255" />
+    <Property Name="nsjm_ordRecNoCnt" Type="int" />
+    <Property Name="nsjm_postCode" Type="varchar" MaxLength="15" />
+    <Property Name="nsjm_processPeriod" Type="varchar" MaxLength="4" />
+    <Property Name="nsjm_schID" Type="varchar" MaxLength="100" />
+    <Property Name="nsjm_schName" Type="varchar" MaxLength="200" />
+    <Property Name="nsjm_status" Type="varchar" MaxLength="1" />
+    <Property Name="nsjm_telNo" Type="varchar" MaxLength="40" />
+    <Property Name="nsjm_ordWeight" Type="decimal" Scale="5" />
+    <Property Name="nsjm_schName_2" Type="varchar" MaxLength="200" />
+    <Property Name="nsjm_jobNo" Type="varchar" MaxLength="20" />
+    <Property Name="nsjm_creditTerm" Type="varchar" MaxLength="45" />
+    <Property Name="nsjm_moCurrency" Type="varchar" MaxLength="45" />
+    <Property Name="nsjm_deliveryType" Type="varchar" MaxLength="20" />
+    <Property Name="nsjm_moLisence" Type="varchar" MaxLength="1" />
+    <Property Name="nsjm_moTransMode" Type="varchar" MaxLength="10" />
+    <Property Name="nsjm_tranDate" Type="datetime" />
+    <Property Name="nsjm_ns_status" Type="varchar" MaxLength="45" />
+    <Property Name="nsjm_createdDate" Type="datetime" />
+    <Property Name="nsjm_rangeTo" Type="datetime" />
+    <Property Name="nsjm_shipDate" Type="date" />
+    <Property Name="is_fas" Type="varchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="netsuite_jobmo_address">
+    <Key>
+      <PropertyRef Name="nsjma_jobMoAddress_ID" />
+      <PropertyRef Name="nsjma_recID" />
+    </Key>
+    <Property Name="nsjma_jobMoAddress_ID" Type="varchar" Nullable="false" MaxLength="36" />
+    <Property Name="nsjma_nsjm_jobMoID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjma_jobMoAddress_name" Type="varchar" MaxLength="255" />
+    <Property Name="nsjma_jobMoAddress_1" Type="varchar" MaxLength="255" />
+    <Property Name="nsjma_jobMoAddress_2" Type="varchar" MaxLength="255" />
+    <Property Name="nsjma_jobMoAddress_3" Type="varchar" MaxLength="255" />
+    <Property Name="nsjma_jobMoAddress_ref" Type="varchar" MaxLength="255" />
+    <Property Name="nsjma_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nsjma_jobMoAddress_contact" Type="varchar" MaxLength="255" />
+    <Property Name="nsjma_jobMoAddress_deliveryType" Type="varchar" MaxLength="20" />
+    <Property Name="nsjma_nsj_jobID" Type="varchar" MaxLength="36" />
+    <Property Name="nsjma_jobMoAddress_tag" Type="varchar" MaxLength="1" />
+    <Property Name="nsjma_jobMoAddress_tel" Type="varchar" MaxLength="40" />
+    <Property Name="nsjma_jobMoAddress_tel2" Type="varchar" MaxLength="40" />
+    <Property Name="nsjma_jobMoAddress_fax" Type="varchar" MaxLength="40" />
+    <Property Name="nsjma_moNo_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjma_createdDate" Type="datetime" />
+    <Property Name="nsjma_rangeTo" Type="datetime" />
+    <Property Name="nsjma_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nsjma_jobMoAddress_4" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="netsuite_jobmo_address_temp">
+    <Key>
+      <PropertyRef Name="nsjma_jobMoAddress_ID" />
+      <PropertyRef Name="nsjma_recID" />
+    </Key>
+    <Property Name="nsjma_jobMoAddress_ID" Type="varchar" Nullable="false" MaxLength="36" />
+    <Property Name="nsjma_nsjm_jobMoID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjma_jobMoAddress_name" Type="varchar" MaxLength="255" />
+    <Property Name="nsjma_jobMoAddress_1" Type="varchar" MaxLength="255" />
+    <Property Name="nsjma_jobMoAddress_2" Type="varchar" MaxLength="255" />
+    <Property Name="nsjma_jobMoAddress_3" Type="varchar" MaxLength="255" />
+    <Property Name="nsjma_jobMoAddress_ref" Type="varchar" MaxLength="255" />
+    <Property Name="nsjma_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nsjma_jobMoAddress_contact" Type="varchar" MaxLength="255" />
+    <Property Name="nsjma_jobMoAddress_deliveryType" Type="varchar" MaxLength="20" />
+    <Property Name="nsjma_nsj_jobID" Type="varchar" MaxLength="36" />
+    <Property Name="nsjma_jobMoAddress_tag" Type="varchar" MaxLength="1" />
+    <Property Name="nsjma_jobMoAddress_tel" Type="varchar" MaxLength="40" />
+    <Property Name="nsjma_jobMoAddress_tel2" Type="varchar" MaxLength="40" />
+    <Property Name="nsjma_jobMoAddress_fax" Type="varchar" MaxLength="40" />
+    <Property Name="nsjma_moNo_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjma_createdDate" Type="datetime" />
+    <Property Name="nsjma_rangeTo" Type="datetime" />
+    <Property Name="nsjma_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nsjma_flag" Type="varchar" MaxLength="45" />
+    <Property Name="nsjma_jobMoAddress_4" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="netsuite_jobmo_pack">
+    <Key>
+      <PropertyRef Name="nsjmp_recID" />
+    </Key>
+    <Property Name="nsjmp_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nsjmp_jobmoPack_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="nsjmp_nsj_jobID" Type="varchar" MaxLength="36" />
+    <Property Name="nsjmp_period" Type="varchar" MaxLength="4" />
+    <Property Name="nsjmp_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nsjmp_schID" Type="varchar" MaxLength="100" />
+    <Property Name="nsjmp_schName" Type="varchar" MaxLength="200" />
+    <Property Name="nsjmp_packID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjmp_packTitles" Type="varchar" MaxLength="200" />
+    <Property Name="nsjmp_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjmp_packPrice" Type="float" />
+    <Property Name="nsjmp_qty" Type="int" />
+    <Property Name="nsjmp_amt" Type="float" />
+    <Property Name="nsjmp_packISBN" Type="varchar" MaxLength="45" />
+    <Property Name="nsjmp_moNo_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjmp_createdDate" Type="datetime" />
+    <Property Name="nsjmp_rangeTo" Type="datetime" />
+  </EntityType>
+  <EntityType Name="netsuite_jobmo_pack_history">
+    <Key>
+      <PropertyRef Name="nsjmp_recID" />
+    </Key>
+    <Property Name="nsjmp_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nsjmp_jobmoPack_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="nsjmp_nsj_jobID" Type="varchar" MaxLength="36" />
+    <Property Name="nsjmp_period" Type="varchar" MaxLength="4" />
+    <Property Name="nsjmp_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nsjmp_schID" Type="varchar" MaxLength="100" />
+    <Property Name="nsjmp_schName" Type="varchar" MaxLength="200" />
+    <Property Name="nsjmp_packID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjmp_packTitles" Type="varchar" MaxLength="200" />
+    <Property Name="nsjmp_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjmp_packPrice" Type="float" />
+    <Property Name="nsjmp_qty" Type="int" />
+    <Property Name="nsjmp_amt" Type="float" />
+    <Property Name="nsjmp_packISBN" Type="varchar" MaxLength="45" />
+    <Property Name="nsjmp_moNo_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjmp_createdDate" Type="datetime" />
+    <Property Name="nsjmp_rangeTo" Type="datetime" />
+  </EntityType>
+  <EntityType Name="netsuite_jobmocls">
+    <Key>
+      <PropertyRef Name="nsjmc_recID" />
+      <PropertyRef Name="nsjmc_jobMoCls_ID" />
+    </Key>
+    <Property Name="nsjmc_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nsjmc_jobMoCls_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="nsjmc_jobID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjmc_jobMo_ID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjmc_clsNo" Type="varchar" MaxLength="100" />
+    <Property Name="nsjmc_teacherName" Type="varchar" MaxLength="255" />
+    <Property Name="nsjmc_createdDate" Type="datetime" />
+    <Property Name="nsjmc_rangeTo" Type="datetime" />
+  </EntityType>
+  <EntityType Name="netsuite_jobordmaster">
+    <Key>
+      <PropertyRef Name="nsjom_recID" />
+    </Key>
+    <Property Name="nsjom_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nsjom_jobOrdMaster_ID" Type="varchar" MaxLength="36" />
+    <Property Name="nsjom_nsj_job_ID" Type="varchar" MaxLength="36" />
+    <Property Name="nsjom_jobmo_id" Type="varchar" MaxLength="45" />
+    <Property Name="nsjom_jobCls_id" Type="varchar" MaxLength="36" />
+    <Property Name="nsjom_ordRecNo" Type="varchar" MaxLength="45" />
+    <Property Name="nsjom_ordStudent" Type="varchar" MaxLength="60" />
+    <Property Name="nsjom_clsID" Type="varchar" MaxLength="60" />
+    <Property Name="nsjom_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nsjom_consignmentNote" Type="varchar" MaxLength="12" />
+    <Property Name="nsjom_scanDate" Type="datetime" />
+    <Property Name="nsjom_processPeriod" Type="varchar" MaxLength="4" />
+    <Property Name="nsjom_country" Type="varchar" MaxLength="45" />
+    <Property Name="nsjom_moNo_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjom_createdDate" Type="datetime" />
+    <Property Name="nsjom_rangeTo" Type="datetime" />
+    <Property Name="nsjom_memo" Type="varchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="netsuite_jobordmaster_pack">
+    <Key>
+      <PropertyRef Name="nsjomp_jobOrdMaster_pack_ID" />
+      <PropertyRef Name="nsjomp_recID" />
+    </Key>
+    <Property Name="nsjomp_jobOrdMaster_pack_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="nsjomp_jobOrdMaster_ID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_job_ID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_ordNo" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_ordPack" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_qty" Type="int" />
+    <Property Name="nsjomp_ordQty" Type="int" />
+    <Property Name="nsjomp_ordPrice" Type="double" />
+    <Property Name="nsjomp_ordReplace" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_ofrCode" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_status" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_ordPackStatus" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_ordFulfill" Type="int" />
+    <Property Name="nsjomp_ordDetDate" Type="datetime" />
+    <Property Name="nsjomp_ordPoint" Type="double" />
+    <Property Name="nsjomp_skuCode" Type="varchar" MaxLength="255" />
+    <Property Name="nsjomp_packTitle" Type="varchar" MaxLength="200" />
+    <Property Name="nsjomp_ofrDesc" Type="varchar" MaxLength="100" />
+    <Property Name="nsjomp_location_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_tax" Type="double" />
+    <Property Name="nsjomp_discount" Type="double" />
+    <Property Name="nsjomp_orderLine" Type="int" />
+    <Property Name="nsjomp_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nsjomp_createdDate" Type="datetime" />
+    <Property Name="nsjomp_rangeTo" Type="datetime" />
+    <Property Name="nsjomp_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_ordRate" Type="double" />
+    <Property Name="nsjomp_basedprice" Type="double" />
+    <Property Name="nsjomp_pricelevel" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_tax_code" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_gstamount" Type="double" />
+  </EntityType>
+  <EntityType Name="netsuite_jobordmaster_pack_history">
+    <Key>
+      <PropertyRef Name="nsjomp_jobOrdMaster_pack_ID" />
+      <PropertyRef Name="nsjomp_recID" />
+    </Key>
+    <Property Name="nsjomp_jobOrdMaster_pack_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="nsjomp_jobOrdMaster_ID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_job_ID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_ordNo" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_ordPack" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_qty" Type="int" />
+    <Property Name="nsjomp_ordQty" Type="int" />
+    <Property Name="nsjomp_ordPrice" Type="double" />
+    <Property Name="nsjomp_ordReplace" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_ofrCode" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_status" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_ordPackStatus" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_ordFulfill" Type="int" />
+    <Property Name="nsjomp_ordDetDate" Type="datetime" />
+    <Property Name="nsjomp_ordPoint" Type="double" />
+    <Property Name="nsjomp_skuCode" Type="varchar" MaxLength="255" />
+    <Property Name="nsjomp_packTitle" Type="varchar" MaxLength="200" />
+    <Property Name="nsjomp_ofrDesc" Type="varchar" MaxLength="100" />
+    <Property Name="nsjomp_location_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_tax" Type="double" />
+    <Property Name="nsjomp_discount" Type="double" />
+    <Property Name="nsjomp_orderLine" Type="int" />
+    <Property Name="nsjomp_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nsjomp_createdDate" Type="datetime" />
+    <Property Name="nsjomp_rangeTo" Type="datetime" />
+    <Property Name="nsjomp_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_ordRate" Type="double" />
+    <Property Name="nsjomp_basedprice" Type="double" />
+    <Property Name="nsjomp_pricelevel" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_tax_code" Type="varchar" MaxLength="45" />
+    <Property Name="nsjomp_gstamount" Type="double" />
+  </EntityType>
+  <EntityType Name="netsuite_jobordmaster_packdetail">
+    <Key>
+      <PropertyRef Name="nsjompd_jobOrdMaster_packDetail_ID" />
+      <PropertyRef Name="nsjompd_recID" />
+    </Key>
+    <Property Name="nsjompd_jobOrdMaster_packDetail_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="nsjompd_jobOrdMaster_pack_ID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjompd_job_ID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjompd_ordPack" Type="varchar" MaxLength="45" />
+    <Property Name="nsjompd_skuNo" Type="varchar" MaxLength="45" />
+    <Property Name="nsjompd_isbn" Type="varchar" MaxLength="45" />
+    <Property Name="nsjompd_isbn_secondary" Type="varchar" MaxLength="45" />
+    <Property Name="nsjompd_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjompd_sku_qty" Type="smallint" />
+    <Property Name="nsjompd_item_ID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjompd_total_qty" Type="smallint" />
+    <Property Name="nsjompd_scanned_qty" Type="smallint" />
+    <Property Name="nsjompd_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nsjompd_createdDate" Type="datetime" />
+    <Property Name="nsjompd_rangeTo" Type="datetime" />
+    <Property Name="nsjompd_tax_code" Type="varchar" MaxLength="45" />
+    <Property Name="nsjompd_item_price" Type="double" />
+    <Property Name="nsjompd_gstamount" Type="double" />
+    <Property Name="nsjompd_deliveryCharge" Type="double" />
+    <Property Name="nsjompd_deliveryChargeGst" Type="double" />
+  </EntityType>
+  <EntityType Name="netsuite_jobordmaster_packdetail_history">
+    <Key>
+      <PropertyRef Name="nsjompd_jobOrdMaster_packDetail_ID" />
+      <PropertyRef Name="nsjompd_recID" />
+    </Key>
+    <Property Name="nsjompd_jobOrdMaster_packDetail_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="nsjompd_jobOrdMaster_pack_ID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjompd_job_ID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjompd_ordPack" Type="varchar" MaxLength="45" />
+    <Property Name="nsjompd_skuNo" Type="varchar" MaxLength="45" />
+    <Property Name="nsjompd_isbn" Type="varchar" MaxLength="45" />
+    <Property Name="nsjompd_isbn_secondary" Type="varchar" MaxLength="45" />
+    <Property Name="nsjompd_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjompd_sku_qty" Type="smallint" />
+    <Property Name="nsjompd_item_ID" Type="varchar" MaxLength="45" />
+    <Property Name="nsjompd_total_qty" Type="smallint" />
+    <Property Name="nsjompd_scanned_qty" Type="smallint" />
+    <Property Name="nsjompd_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nsjompd_createdDate" Type="datetime" />
+    <Property Name="nsjompd_rangeTo" Type="datetime" />
+    <Property Name="nsjompd_tax_code" Type="varchar" MaxLength="45" />
+    <Property Name="nsjompd_item_price" Type="double" />
+    <Property Name="nsjompd_gstamount" Type="double" />
+    <Property Name="nsjompd_deliveryCharge" Type="double" />
+    <Property Name="nsjompd_deliveryChargeGst" Type="double" />
+  </EntityType>
+  <EntityType Name="netsuite_newso">
+    <Key>
+      <PropertyRef Name="nt1_seqID" />
+    </Key>
+    <Property Name="nt1_seqID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nt1_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_moNo_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_status" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_itemID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_ordQty" Type="int" />
+    <Property Name="nt1_committedQty" Type="int" />
+    <Property Name="nt1_fulfilledQty" Type="int" />
+    <Property Name="nt1_tax" Type="double" />
+    <Property Name="nt1_discount" Type="double" />
+    <Property Name="nt1_rate" Type="double" />
+    <Property Name="nt1_amount" Type="double" />
+    <Property Name="nt1_customer" Type="varchar" MaxLength="100" />
+    <Property Name="nt1_customer_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_SEIS_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_SEIS_moNo_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_createdDate" Type="datetime" />
+    <Property Name="nt1_rangeTo" Type="datetime" />
+    <Property Name="nt1_synctowms" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_custID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_addressee" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_deliveryAdd" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_deliveryAdd2" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_deliveryAdd3" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_postCode" Type="varchar" MaxLength="15" />
+    <Property Name="nt1_contactPerson" Type="varchar" MaxLength="60" />
+    <Property Name="nt1_phone" Type="varchar" MaxLength="40" />
+    <Property Name="nt1_country" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_billingAddressee" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_billingAdd" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_billingAdd2" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_billingAdd3" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_billingPostcode" Type="varchar" MaxLength="15" />
+    <Property Name="nt1_billingContactPerson" Type="varchar" MaxLength="60" />
+    <Property Name="nt1_billingPhone" Type="varchar" MaxLength="40" />
+    <Property Name="nt1_shipMethod" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_creditTerm" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_basedprice" Type="double" />
+    <Property Name="nt1_pricelevel" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_memo" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_ponumber" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_itemLine" Type="int" />
+    <Property Name="nt1_discountItem_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_podate" Type="datetime" />
+    <Property Name="nt1_forwarderTo" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_forwarderLabel" Type="varchar" MaxLength="60" />
+    <Property Name="nt1_forwarderAddressee" Type="varchar" MaxLength="60" />
+    <Property Name="nt1_forwarderAdd1" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_forwarderAdd2" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_forwarderAdd3" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_forwarderAttention" Type="varchar" MaxLength="60" />
+    <Property Name="nt1_forwarderState" Type="varchar" MaxLength="60" />
+    <Property Name="nt1_forwarderPostcode" Type="varchar" MaxLength="20" />
+    <Property Name="nt1_forwarderCity" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_forwarderCountry" Type="varchar" MaxLength="100" />
+    <Property Name="nt1_forwarderPhone" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_forwarderInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_pricelevel_InternalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_sodate" Type="datetime" />
+    <Property Name="nt1_closed" Type="varchar" MaxLength="1" />
+    <Property Name="nt1_businessChannel_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_customer_booked" Type="varchar" MaxLength="1" />
+    <Property Name="nt1_is_fas" Type="varchar" MaxLength="5" />
+    <Property Name="nt1_teacher_name" Type="varchar" MaxLength="250" />
+    <Property Name="nt1_class_name" Type="varchar" MaxLength="250" />
+    <Property Name="nt1_credit_hold" Type="int" />
+    <!--ANET-37 - Sales Order - Auto stop back order-->
+    <!--Added By Brash Developer on 30-Apr-2021-->
+    <Property Name="nt1_nobackorder" Type="varchar" MaxLength="5" />
+  </EntityType>
+  <EntityType Name="netsuite_newso_history">
+    <Key>
+      <PropertyRef Name="nt1_seqID" />
+    </Key>
+    <Property Name="nt1_seqID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nt1_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_moNo_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_status" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_itemID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_ordQty" Type="int" />
+    <Property Name="nt1_committedQty" Type="int" />
+    <Property Name="nt1_fulfilledQty" Type="int" />
+    <Property Name="nt1_tax" Type="double" />
+    <Property Name="nt1_discount" Type="double" />
+    <Property Name="nt1_rate" Type="double" />
+    <Property Name="nt1_amount" Type="double" />
+    <Property Name="nt1_customer" Type="varchar" MaxLength="100" />
+    <Property Name="nt1_customer_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_SEIS_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_SEIS_moNo_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_createdDate" Type="datetime" />
+    <Property Name="nt1_rangeTo" Type="datetime" />
+    <Property Name="nt1_synctowms" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_custID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_addressee" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_deliveryAdd" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_deliveryAdd2" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_deliveryAdd3" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_postCode" Type="varchar" MaxLength="15" />
+    <Property Name="nt1_contactPerson" Type="varchar" MaxLength="60" />
+    <Property Name="nt1_phone" Type="varchar" MaxLength="40" />
+    <Property Name="nt1_country" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_billingAddressee" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_billingAdd" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_billingAdd2" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_billingAdd3" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_billingPostcode" Type="varchar" MaxLength="15" />
+    <Property Name="nt1_billingContactPerson" Type="varchar" MaxLength="60" />
+    <Property Name="nt1_billingPhone" Type="varchar" MaxLength="40" />
+    <Property Name="nt1_shipMethod" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_creditTerm" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_basedprice" Type="double" />
+    <Property Name="nt1_pricelevel" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_memo" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_ponumber" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_itemLine" Type="int" />
+    <Property Name="nt1_discountItem_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_podate" Type="datetime" />
+    <Property Name="nt1_forwarderTo" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_forwarderLabel" Type="varchar" MaxLength="60" />
+    <Property Name="nt1_forwarderAddressee" Type="varchar" MaxLength="60" />
+    <Property Name="nt1_forwarderAdd1" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_forwarderAdd2" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_forwarderAdd3" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_forwarderAttention" Type="varchar" MaxLength="60" />
+    <Property Name="nt1_forwarderState" Type="varchar" MaxLength="60" />
+    <Property Name="nt1_forwarderPostcode" Type="varchar" MaxLength="20" />
+    <Property Name="nt1_forwarderCity" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_forwarderCountry" Type="varchar" MaxLength="100" />
+    <Property Name="nt1_forwarderPhone" Type="varchar" MaxLength="40" />
+    <Property Name="nt1_forwarderInternalID" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="netsuite_newso_test">
+    <Key>
+      <PropertyRef Name="nt1_seqID" />
+    </Key>
+    <Property Name="nt1_seqID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nt1_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_moNo_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_status" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_itemID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_ordQty" Type="int" />
+    <Property Name="nt1_committedQty" Type="int" />
+    <Property Name="nt1_fulfilledQty" Type="int" />
+    <Property Name="nt1_tax" Type="double" />
+    <Property Name="nt1_discount" Type="double" />
+    <Property Name="nt1_rate" Type="double" />
+    <Property Name="nt1_amount" Type="double" />
+    <Property Name="nt1_customer" Type="varchar" MaxLength="100" />
+    <Property Name="nt1_customer_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_SEIS_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_SEIS_moNo_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_createdDate" Type="datetime" />
+    <Property Name="nt1_rangeTo" Type="datetime" />
+    <Property Name="nt1_synctowms" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_custID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_addressee" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_deliveryAdd" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_deliveryAdd2" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_deliveryAdd3" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_postCode" Type="varchar" MaxLength="15" />
+    <Property Name="nt1_contactPerson" Type="varchar" MaxLength="60" />
+    <Property Name="nt1_phone" Type="varchar" MaxLength="40" />
+    <Property Name="nt1_country" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_billingAddressee" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_billingAdd" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_billingAdd2" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_billingAdd3" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_billingPostcode" Type="varchar" MaxLength="15" />
+    <Property Name="nt1_billingContactPerson" Type="varchar" MaxLength="60" />
+    <Property Name="nt1_billingPhone" Type="varchar" MaxLength="40" />
+    <Property Name="nt1_shipMethod" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_creditTerm" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_basedprice" Type="double" />
+    <Property Name="nt1_pricelevel" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_memo" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_ponumber" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_itemLine" Type="int" />
+    <Property Name="nt1_discountItem_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_podate" Type="datetime" />
+    <Property Name="nt1_forwarderTo" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_forwarderLabel" Type="varchar" MaxLength="60" />
+    <Property Name="nt1_forwarderAddressee" Type="varchar" MaxLength="60" />
+    <Property Name="nt1_forwarderAdd1" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_forwarderAdd2" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_forwarderAdd3" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_forwarderAttention" Type="varchar" MaxLength="60" />
+    <Property Name="nt1_forwarderState" Type="varchar" MaxLength="60" />
+    <Property Name="nt1_forwarderPostcode" Type="varchar" MaxLength="20" />
+    <Property Name="nt1_forwarderCity" Type="varchar" MaxLength="255" />
+    <Property Name="nt1_forwarderCountry" Type="varchar" MaxLength="100" />
+    <Property Name="nt1_forwarderPhone" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_forwarderInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_pricelevel_InternalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt1_invoiceQty" Type="int" />
+  </EntityType>
+  <EntityType Name="netsuite_pr">
+    <Key>
+      <PropertyRef Name="nspr_pr_ID" />
+      <PropertyRef Name="nspr_recID" />
+    </Key>
+    <Property Name="nspr_pr_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="nspr_businessChannel_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="nspr_businessChannel_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nspr_pr_accountClass" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="nspr_pr_active" Type="bit" Nullable="false" />
+    <Property Name="nspr_pr_approvalType" Type="varchar" MaxLength="1" />
+    <Property Name="nspr_pr_comments" Type="text" />
+    <Property Name="nspr_pr_date" Type="date" Nullable="false" />
+    <Property Name="nspr_pr_day" Type="tinyint" Nullable="false" />
+    <Property Name="nspr_pr_deleteReason" Type="text" />
+    <Property Name="nspr_pr_deliveryMethod" Type="varchar" MaxLength="45" />
+    <Property Name="nspr_pr_desc" Type="varchar" MaxLength="100" />
+    <Property Name="nspr_pr_email" Type="varchar" MaxLength="80" />
+    <Property Name="nspr_pr_exported" Type="bit" Nullable="false" />
+    <Property Name="nspr_pr_month" Type="tinyint" Nullable="false" />
+    <Property Name="nspr_pr_neededDate" Type="date" />
+    <Property Name="nspr_pr_number" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="nspr_pr_requestor" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="nspr_pr_site" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="nspr_pr_status" Type="smallint" Nullable="false" />
+    <Property Name="nspr_pr_supplier" Type="varchar" MaxLength="200" />
+    <Property Name="nspr_pr_supplier_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nspr_pr_year" Type="smallint" Nullable="false" />
+    <Property Name="nspr_pr_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nspr_pr_location" Type="varchar" MaxLength="45" />
+    <Property Name="nspr_pr_location_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nspr_ns_status" Type="varchar" MaxLength="45" />
+    <Property Name="nspr_createdDate" Type="datetime" />
+    <Property Name="nspr_rangeTo" Type="datetime" />
+    <Property Name="nspr_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nspr_pushStatus" Type="varchar" MaxLength="66" />
+  </EntityType>
+  <EntityType Name="netsuite_pritem">
+    <Key>
+      <PropertyRef Name="nspi_pritem_ID" />
+      <PropertyRef Name="nspi_sort" />
+    </Key>
+    <Property Name="nspi_pritem_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="nspi_item_ID" Type="varchar" MaxLength="45" />
+    <Property Name="nspi_itemBusiness_ID" Type="varchar" MaxLength="45" />
+    <Property Name="nspi_nspr_pr_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="nspi_pritem_approved" Type="bit" Nullable="false" />
+    <Property Name="nspi_pritem_approvedBy" Type="varchar" MaxLength="45" />
+    <Property Name="nspi_pritem_approvedDate" Type="datetime" />
+    <Property Name="nspi_pritem_comments" Type="text" />
+    <Property Name="nspi_pritem_converted" Type="bit" Nullable="false" />
+    <Property Name="nspi_pritem_qty" Type="int" Nullable="false" />
+    <Property Name="nspi_pritem_price" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="nspi_sort" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nspi_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nspi_createdDate" Type="datetime" />
+    <Property Name="nspi_pushStatus" Type="varchar" MaxLength="66" />
+    <Property Name="nspi_salesTerritorySCH" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="netsuite_return">
+    <Key>
+      <PropertyRef Name="nsr_rr_ID" />
+      <PropertyRef Name="nsr_recID" />
+    </Key>
+    <Property Name="nsr_rr_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="nsr_rr_schID" Type="varchar" MaxLength="45" />
+    <Property Name="nsr_rr_number" Type="varchar" MaxLength="45" />
+    <Property Name="nsr_rr_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsr_rr_date" Type="datetime" />
+    <Property Name="nsr_rr_description" Type="varchar" MaxLength="150" />
+    <Property Name="nsr_rr_createdBy" Type="varchar" MaxLength="45" />
+    <Property Name="nsr_rr_reference" Type="varchar" MaxLength="45" />
+    <Property Name="nsr_rr_active" Type="bit" />
+    <Property Name="nsr_rr_returnDate" Type="datetime" />
+    <Property Name="nsr_rr_returnBy" Type="varchar" MaxLength="45" />
+    <Property Name="nsr_rr_status" Type="int" />
+    <Property Name="nsr_period" Type="varchar" MaxLength="45" />
+    <Property Name="nsr_ns_status" Type="varchar" MaxLength="100" />
+    <Property Name="nsr_createdDate" Type="datetime" />
+    <Property Name="nsr_rangeTo" Type="datetime" />
+    <Property Name="nsr_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="netsuite_returnitem">
+    <Key>
+      <PropertyRef Name="nsri_rritem_ID" />
+      <PropertyRef Name="nsri_recID" />
+    </Key>
+    <Property Name="nsri_rritem_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="nsri_nsr_rr_ID" Type="varchar" MaxLength="45" />
+    <Property Name="nsri_rritem_invoice" Type="varchar" MaxLength="45" />
+    <Property Name="nsri_rritem_isbn" Type="varchar" MaxLength="45" />
+    <Property Name="nsri_rritem_isbn2" Type="varchar" MaxLength="80" />
+    <Property Name="nsri_rritem_return_qty" Type="int" />
+    <Property Name="nsri_tranDate" Type="datetime" />
+    <Property Name="nsri_createdBy" Type="varchar" MaxLength="45" />
+    <Property Name="nsri_rritem_status" Type="int" />
+    <Property Name="nsri_remarks" Type="varchar" MaxLength="50" />
+    <Property Name="nsri_rritem_max_return" Type="int" />
+    <Property Name="nsri_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsri_rritem_receive_qty" Type="int" />
+    <Property Name="nsri_cn_id" Type="varchar" MaxLength="45" />
+    <Property Name="nsri_rritem_posting_qty" Type="int" />
+    <Property Name="nsri_pack_ID" Type="varchar" MaxLength="45" />
+    <Property Name="nsri_createdDate" Type="datetime" />
+    <Property Name="nsri_rangeTo" Type="datetime" />
+    <Property Name="nsri_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="netsuite_returnrefund">
+    <Key>
+      <PropertyRef Name="nsrr_recID" />
+    </Key>
+    <Property Name="nsrr_recID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="nsrr_number" Type="varchar" MaxLength="45" />
+    <Property Name="nsrr_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsrr_tranDate" Type="datetime" />
+    <Property Name="nsrr_createdDate" Type="datetime" />
+    <Property Name="nsrr_rangeTo" Type="datetime" />
+  </EntityType>
+  <EntityType Name="netsuite_setting">
+    <Key>
+      <PropertyRef Name="nss_account" />
+    </Key>
+    <Property Name="nss_account" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="nss_password" Type="varchar" MaxLength="100" />
+    <Property Name="nss_expired" Type="date" />
+    <Property Name="sandbox_password" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="netsuite_syncso">
+    <Key>
+      <PropertyRef Name="nt2_seqID" />
+    </Key>
+    <Property Name="nt2_seqID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nt2_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_moNo_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_status" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_itemID" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_ordQty" Type="int" />
+    <Property Name="nt2_qtyForWMS" Type="int" />
+    <Property Name="nt2_fulfilledQty" Type="int" />
+    <Property Name="nt2_tax" Type="double" />
+    <Property Name="nt2_discount" Type="double" />
+    <Property Name="nt2_rate" Type="double" />
+    <Property Name="nt2_amount" Type="double" />
+    <Property Name="nt2_customer" Type="varchar" MaxLength="100" />
+    <Property Name="nt2_customer_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_SEIS_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_SEIS_moNo_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_createdDate" Type="datetime" />
+    <Property Name="nt2_rangeTo" Type="datetime" />
+    <Property Name="nt2_progressStatus" Type="varchar" MaxLength="150" />
+    <Property Name="nt2_custID" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_addressee" Type="varchar" MaxLength="255" />
+    <Property Name="nt2_deliveryAdd" Type="varchar" MaxLength="255" />
+    <Property Name="nt2_deliveryAdd2" Type="varchar" MaxLength="255" />
+    <Property Name="nt2_deliveryAdd3" Type="varchar" MaxLength="255" />
+    <Property Name="nt2_postCode" Type="varchar" MaxLength="15" />
+    <Property Name="nt2_contactPerson" Type="varchar" MaxLength="60" />
+    <Property Name="nt2_phone" Type="varchar" MaxLength="40" />
+    <Property Name="nt2_country" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_billingAddressee" Type="varchar" MaxLength="255" />
+    <Property Name="nt2_billingAdd" Type="varchar" MaxLength="255" />
+    <Property Name="nt2_billingAdd2" Type="varchar" MaxLength="255" />
+    <Property Name="nt2_billingAdd3" Type="varchar" MaxLength="255" />
+    <Property Name="nt2_billingPostcode" Type="varchar" MaxLength="15" />
+    <Property Name="nt2_billingContactPerson" Type="varchar" MaxLength="60" />
+    <Property Name="nt2_billingPhone" Type="varchar" MaxLength="40" />
+    <Property Name="nt2_shipMethod" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_creditTerm" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_basedprice" Type="double" />
+    <Property Name="nt2_pricelevel" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_lastModifiedDate" Type="datetime" />
+    <Property Name="nt2_wmsfulfilledqty" Type="int" />
+    <Property Name="nt2_lastfulfilledDate" Type="datetime" />
+    <Property Name="nt2_unfulfilledQty" Type="int" />
+    <Property Name="nt2_businessChannel_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_customer_booked" Type="varchar" MaxLength="1" />
+    <Property Name="nt2_is_fas" Type="varchar" MaxLength="1" />
+    <Property Name="nt2_teacher_name" Type="varchar" MaxLength="250" />
+    <Property Name="nt2_class_name" Type="varchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="netsuite_syncso_tem">
+    <Key>
+      <PropertyRef Name="nt2_seqID" />
+    </Key>
+    <Property Name="nt2_seqID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nt2_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_moNo_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_status" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_itemID" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_ordQty" Type="int" />
+    <Property Name="nt2_qtyForWMS" Type="int" />
+    <Property Name="nt2_fulfilledQty" Type="int" />
+    <Property Name="nt2_tax" Type="double" />
+    <Property Name="nt2_discount" Type="double" />
+    <Property Name="nt2_rate" Type="double" />
+    <Property Name="nt2_amount" Type="double" />
+    <Property Name="nt2_customer" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_customer_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_SEIS_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_SEIS_moNo_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="nt2_createdDate" Type="datetime" />
+    <Property Name="nt2_rangeTo" Type="datetime" />
+    <Property Name="nt2_progressStatus" Type="varchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="netsuite_syncupdateso">
+    <Key>
+      <PropertyRef Name="nt3_seqID" />
+    </Key>
+    <Property Name="nt3_seqID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nt3_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nt3_moNo_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt3_itemISBN" Type="varchar" MaxLength="45" />
+    <Property Name="nt3_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nt3_ordQty" Type="int" />
+    <Property Name="nt3_committedQty" Type="int" />
+    <Property Name="nt3_fulfilledQty" Type="int" />
+    <Property Name="nt3_tax" Type="double" />
+    <Property Name="nt3_discount" Type="double" />
+    <Property Name="nt3_rate" Type="double" />
+    <Property Name="nt3_amount" Type="double" />
+    <Property Name="nt3_basedPrice" Type="double" />
+    <Property Name="nt3_disctolvalue" Type="double" />
+    <Property Name="nt3_syncedfromNS" Type="int" />
+    <Property Name="nt3_syncedtoNS" Type="int" />
+    <Property Name="nt3_itemLine" Type="int" />
+    <Property Name="nt3_createdDate" Type="datetime" />
+    <Property Name="nt3_rangeTo" Type="datetime" />
+    <Property Name="nt3_progressStatus" Type="varchar" MaxLength="70" />
+  </EntityType>
+  <EntityType Name="netsuite_transfer">
+    <Key>
+      <PropertyRef Name="nat_id" />
+    </Key>
+    <Property Name="nat_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nat_subsidiary" Type="varchar" MaxLength="100" />
+    <Property Name="nat_subsidiaryID" Type="int" />
+    <Property Name="nat_fromLoc" Type="varchar" MaxLength="45" />
+    <Property Name="nat_fromLocID" Type="int" />
+    <Property Name="nat_toLoc" Type="varchar" MaxLength="45" />
+    <Property Name="nat_toLocID" Type="int" />
+    <Property Name="nat_businessChannel" Type="varchar" MaxLength="45" />
+    <Property Name="nat_businessChannelID" Type="int" />
+    <Property Name="nat_Memo" Type="varchar" MaxLength="45" />
+    <Property Name="nat_Date" Type="datetime" />
+    <Property Name="nat_postingPeriod" Type="varchar" MaxLength="45" />
+    <Property Name="nat_postingPeriodID" Type="int" />
+  </EntityType>
+  <EntityType Name="netsuite_transferdetail">
+    <Key>
+      <PropertyRef Name="natd_id" />
+    </Key>
+    <Property Name="natd_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="natd_itemID" Type="varchar" MaxLength="45" />
+    <Property Name="natd_itemInternalID" Type="int" />
+    <Property Name="natd_qty" Type="int" />
+    <Property Name="natd_imasID" Type="varchar" MaxLength="45" />
+    <Property Name="natd_toLocID" Type="int" />
+    <Property Name="natd_fromLocID" Type="int" />
+    <Property Name="natd_subsidiaryID" Type="int" />
+    <Property Name="natd_businessChannelID" Type="int" />
+    <Property Name="natd_date" Type="datetime" />
+    <Property Name="nat_postingPeriodID" Type="int" />
+  </EntityType>
+  <EntityType Name="netsuitedataformq">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="mq_transactionType" Type="varchar" MaxLength="45" />
+    <Property Name="mq_nsj_jobID" Type="varchar" MaxLength="45" />
+    <Property Name="mq_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="mq_consolidateTable" Type="varchar" MaxLength="45" />
+    <Property Name="mq_status" Type="varchar" MaxLength="45" />
+    <Property Name="mq_pushDate" Type="datetime" />
+    <Property Name="mq_pullDate" Type="datetime" />
+    <Property Name="mq_updatedDate" Type="datetime" />
+    <Property Name="mq_tranID" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="patchdata">
+    <Key>
+      <PropertyRef Name="recid" />
+    </Key>
+    <Property Name="jobordmaster_pack_id" Type="varchar" MaxLength="45" />
+    <Property Name="moNo" Type="varchar" MaxLength="45" />
+    <Property Name="moNo_InternalID" Type="varchar" MaxLength="45" />
+    <Property Name="tax" Type="double" />
+    <Property Name="discount" Type="double" />
+    <Property Name="rate" Type="double" />
+    <Property Name="basedprice" Type="double" />
+    <Property Name="pricelevel" Type="varchar" MaxLength="45" />
+    <Property Name="item_isbn" Type="varchar" MaxLength="45" />
+    <Property Name="recid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="isRun" Type="varchar" MaxLength="45" />
+    <Property Name="status" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="patchmo">
+    <Key>
+      <PropertyRef Name="recid" />
+    </Key>
+    <Property Name="recid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="moNo" Type="varchar" MaxLength="45" />
+    <Property Name="moNo_InternalID" Type="varchar" MaxLength="45" />
+    <Property Name="isRun" Type="varchar" MaxLength="45" />
+    <Property Name="status" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="requestmq">
+    <Key>
+      <PropertyRef Name="rmq_id" />
+    </Key>
+    <Property Name="rmq_sche_transactionType" Type="varchar" MaxLength="45" />
+    <Property Name="rmq_createdDate" Type="datetime" />
+    <Property Name="rmq_status" Type="varchar" MaxLength="45" />
+    <Property Name="rmq_seqNo" Type="bigint" />
+    <Property Name="rmq_jobID" Type="longtext" />
+    <Property Name="rmq_rangeFrom" Type="datetime" />
+    <Property Name="rmq_rangeTo" Type="datetime" />
+    <Property Name="rmq_completedAt" Type="datetime" />
+    <Property Name="rmq_updatedDate" Type="datetime" />
+    <Property Name="rmq_sequence" Type="int" />
+    <Property Name="rmq_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="requestnetsuite">
+    <Key>
+      <PropertyRef Name="rn_id" />
+    </Key>
+    <Property Name="rn_sche_transactionType" Type="varchar" MaxLength="45" />
+    <Property Name="rn_createdDate" Type="datetime" />
+    <Property Name="rn_status" Type="varchar" MaxLength="45" />
+    <Property Name="rn_seqNo" Type="bigint" />
+    <Property Name="rn_jobID" Type="longtext" />
+    <Property Name="rn_parentJobID" Type="longtext" />
+    <Property Name="rn_rangeFrom" Type="datetime" />
+    <Property Name="rn_rangeTo" Type="datetime" />
+    <Property Name="rn_completedAt" Type="datetime" />
+    <Property Name="rn_updatedDate" Type="datetime" />
+    <Property Name="rn_sequence" Type="int" />
+    <Property Name="rn_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="requestnetsuite_alarm">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="sendDate" Type="datetime" />
+    <Property Name="description" Type="longtext" />
+    <Property Name="recipientList" Type="varchar" MaxLength="200" />
+    <Property Name="type" Type="varchar" MaxLength="20" />
+    <Property Name="errorDate" Type="datetime" />
+    <Property Name="sourceFile" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="requestnetsuite_history">
+    <Key>
+      <PropertyRef Name="rn_id" />
+    </Key>
+    <Property Name="rn_sche_transactionType" Type="varchar" MaxLength="45" />
+    <Property Name="rn_createdDate" Type="datetime" />
+    <Property Name="rn_status" Type="varchar" MaxLength="45" />
+    <Property Name="rn_seqNo" Type="bigint" />
+    <Property Name="rn_jobID" Type="longtext" />
+    <Property Name="rn_parentJobID" Type="longtext" />
+    <Property Name="rn_rangeFrom" Type="datetime" />
+    <Property Name="rn_rangeTo" Type="datetime" />
+    <Property Name="rn_completedAt" Type="datetime" />
+    <Property Name="rn_updatedDate" Type="datetime" />
+    <Property Name="rn_sequence" Type="int" />
+    <Property Name="rn_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="requestnetsuite_task">
+    <Key>
+      <PropertyRef Name="rnt_id" />
+    </Key>
+    <Property Name="rnt_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="rnt_task" Type="varchar" MaxLength="30" />
+    <Property Name="rnt_description" Type="varchar" MaxLength="255" />
+    <Property Name="rnt_refNO" Type="longtext" />
+    <Property Name="rnt_jobID" Type="longtext" />
+    <Property Name="rnt_status" Type="varchar" MaxLength="10" />
+    <Property Name="rnt_createdDate" Type="datetime" />
+    <Property Name="rnt_seqNO" Type="varchar" MaxLength="3" />
+    <Property Name="rnt_nsInternalId" Type="varchar" MaxLength="45" />
+    <Property Name="rnt_createdFromInternalId" Type="varchar" MaxLength="45" />
+    <Property Name="rnt_errorDesc" Type="longtext" />
+    <Property Name="rnt_updatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="requestnetsuite_task_history">
+    <Key>
+      <PropertyRef Name="rnt_id" />
+    </Key>
+    <Property Name="rnt_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="rnt_task" Type="varchar" MaxLength="30" />
+    <Property Name="rnt_description" Type="varchar" MaxLength="255" />
+    <Property Name="rnt_refNO" Type="longtext" />
+    <Property Name="rnt_jobID" Type="longtext" />
+    <Property Name="rnt_status" Type="varchar" MaxLength="10" />
+    <Property Name="rnt_createdDate" Type="datetime" />
+    <Property Name="rnt_seqNO" Type="varchar" MaxLength="3" />
+    <Property Name="rnt_nsInternalId" Type="varchar" MaxLength="45" />
+    <Property Name="rnt_createdFromInternalId" Type="varchar" MaxLength="45" />
+    <Property Name="rnt_errorDesc" Type="longtext" />
+    <Property Name="rnt_updatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="scheduler">
+    <Key>
+      <PropertyRef Name="sche_id" />
+    </Key>
+    <Property Name="sche_transactionType" Type="varchar" MaxLength="45" />
+    <Property Name="sche_status" Type="varchar" MaxLength="45" />
+    <Property Name="sche_minuteGap" Type="varchar" MaxLength="45" />
+    <Property Name="sche_nextRun" Type="datetime" />
+    <Property Name="sche_nextRunSeqNo" Type="int" />
+    <Property Name="sche_lastRun" Type="datetime" />
+    <Property Name="sche_lastRunSeqNo" Type="int" />
+    <Property Name="sche_date" Type="datetime" />
+    <Property Name="sche_sequence" Type="int" />
+    <Property Name="sche_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="sche_desc" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="temp_resync">
+    <Key>
+      <PropertyRef Name="recid" />
+    </Key>
+    <Property Name="recid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="mono" Type="varchar" MaxLength="45" />
+    <Property Name="mono_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="itemISBN" Type="varchar" MaxLength="45" />
+    <Property Name="ordqty" Type="int" />
+    <Property Name="qtyforwms" Type="int" />
+    <Property Name="wmsfulfilledqty" Type="int" />
+    <Property Name="updateqty" Type="int" />
+  </EntityType>
+  <EntityType Name="temp_unfulfillso">
+    <Key>
+      <PropertyRef Name="rec_id" />
+    </Key>
+    <Property Name="rec_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="uf_mono" Type="varchar" MaxLength="45" />
+    <Property Name="uf_itemInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="uf_fulfillQty" Type="int" />
+  </EntityType>
+  <EntityType Name="tempmo">
+    <Key>
+      <PropertyRef Name="moNo" />
+    </Key>
+    <Property Name="moNo" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="flag" Type="int" />
+  </EntityType>
+  <EntityType Name="tosyncitems">
+    <Key>
+      <PropertyRef Name="recID" />
+    </Key>
+    <Property Name="item_isbn" Type="varchar" MaxLength="50" />
+    <Property Name="item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="isDone" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="unfulfillso">
+    <Key>
+      <PropertyRef Name="uf_recID" />
+    </Key>
+    <Property Name="uf_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="uf_transactiontype" Type="varchar" MaxLength="45" />
+    <Property Name="uf_mono" Type="varchar" MaxLength="45" />
+    <Property Name="uf_itemInternalID" Type="varchar" MaxLength="45" />
+    <Property Name="uf_fulfillQty" Type="int" />
+    <Property Name="uf_rangeFrom" Type="datetime" />
+    <Property Name="uf_rangeTo" Type="datetime" />
+    <Property Name="uf_createdDate" Type="datetime" />
+    <Property Name="uf_remarks" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="unscan">
+    <Key>
+      <PropertyRef Name="ef_recID" />
+    </Key>
+    <Property Name="ef_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ef_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="ef_nsjom_jobOrdMasterID" Type="varchar" MaxLength="45" />
+    <Property Name="ef_josp_packID" Type="varchar" MaxLength="45" />
+    <Property Name="ef_item_InternalID" Type="varchar" MaxLength="45" />
+    <Property Name="ef_excessQty" Type="int" />
+    <Property Name="ef_refNo" Type="varchar" MaxLength="150" />
+    <Property Name="ef_createdDate" Type="datetime" />
+    <Property Name="ef_rangeTo" Type="datetime" />
+  </EntityType>
+  <EntityType Name="userprofile">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="u_id" />
+    </Key>
+    <Property Name="u_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="u_firstName" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="u_lastName" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="u_email" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="u_userName" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="u_password" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="u_createdBy" Type="varchar" MaxLength="45" />
+    <Property Name="u_createdDate" Type="datetime" />
+    <Property Name="u_modifiedDate" Type="datetime" />
+    <Property Name="u_role" Type="varchar" MaxLength="80" />
+  </EntityType>
+  <EntityType Name="wms_cashsale">
+    <Key>
+      <PropertyRef Name="cs_cashsaleID" />
+    </Key>
+    <Property Name="cs_cashsaleID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="cs_entity" Type="varchar" MaxLength="45" />
+    <Property Name="cs_entity_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="cs_tranDate" Type="datetime" />
+    <Property Name="cs_subsidiary" Type="varchar" MaxLength="45" />
+    <Property Name="cs_subsidiary_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="cs_businessChannel" Type="varchar" MaxLength="45" />
+    <Property Name="cs_businessChannel_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="cs_location" Type="varchar" MaxLength="45" />
+    <Property Name="cs_location_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="cs_createdDate" Type="datetime" />
+    <Property Name="cs_rangeTo" Type="datetime" />
+  </EntityType>
+  <EntityType Name="wms_cashsaleitem">
+    <Key>
+      <PropertyRef Name="csi_recID" />
+    </Key>
+    <Property Name="csi_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="csi_cs_cashsaleID" Type="varchar" MaxLength="45" />
+    <Property Name="csi_itemID" Type="varchar" MaxLength="45" />
+    <Property Name="csi_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="csi_qty" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="wms_directadjustment">
+    <Key>
+      <PropertyRef Name="da_directAdjID" />
+      <PropertyRef Name="da_recID" />
+    </Key>
+    <Property Name="da_directAdjID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="da_account_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="da_subsidiary_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="da_businessChannel_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="da_tranDate" Type="datetime" />
+    <Property Name="da_createdDate" Type="datetime" />
+    <Property Name="da_rangeTo" Type="datetime" />
+    <Property Name="da_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="wms_directadjustmentitem">
+    <Key>
+      <PropertyRef Name="dai_recID" />
+    </Key>
+    <Property Name="dai_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="dai_da_directAdjID" Type="varchar" MaxLength="45" />
+    <Property Name="dai_itemID" Type="varchar" MaxLength="45" />
+    <Property Name="dai_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="dai_qty" Type="varchar" MaxLength="45" />
+    <Property Name="dai_location_internalID" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="wms_directtransfer">
+    <Key>
+      <PropertyRef Name="dt_directTransfer_ID" />
+      <PropertyRef Name="dt_recID" />
+    </Key>
+    <Property Name="dt_directTransfer_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="dt_reference" Type="varchar" MaxLength="45" />
+    <Property Name="dt_sessionDate" Type="datetime" />
+    <Property Name="dt_userID" Type="varchar" MaxLength="45" />
+    <Property Name="dt_locationFrom" Type="varchar" MaxLength="45" />
+    <Property Name="dt_locationTo" Type="varchar" MaxLength="45" />
+    <Property Name="dt_businessChannel" Type="varchar" MaxLength="45" />
+    <Property Name="dt_createdDate" Type="datetime" />
+    <Property Name="dt_rangeTo" Type="datetime" />
+    <Property Name="dt_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="wms_directtransferitem">
+    <Key>
+      <PropertyRef Name="dti_recID" />
+    </Key>
+    <Property Name="dti_dt_directTransfer_ID" Type="varchar" MaxLength="45" />
+    <Property Name="dti_productCode" Type="varchar" MaxLength="45" />
+    <Property Name="dti_quantity" Type="decimal" Precision="18" />
+    <Property Name="dti_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="wms_excessporeceive">
+    <Key>
+      <PropertyRef Name="epor_recID" />
+    </Key>
+    <Property Name="epor_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="epor_prID" Type="varchar" MaxLength="45" />
+    <Property Name="epor_poreceive_ID" Type="varchar" MaxLength="45" />
+    <Property Name="epor_item_ID" Type="varchar" MaxLength="45" />
+    <Property Name="epor_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="epor_qty" Type="int" />
+    <Property Name="epor_createdDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="wms_jobitem_unscan">
+    <Key>
+      <PropertyRef Name="jiu_unscan_ID" />
+    </Key>
+    <Property Name="jiu_country" Type="varchar" MaxLength="45" />
+    <Property Name="jiu_businessChannel_code" Type="varchar" MaxLength="45" />
+    <Property Name="jiu_itemID" Type="varchar" MaxLength="45" />
+    <Property Name="jiu_unscan_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="jiu_unscan_qty" Type="int" />
+    <Property Name="jiu_writeOff_tag" Type="varchar" MaxLength="1" />
+    <Property Name="jiu_batchNo" Type="varchar" MaxLength="45" />
+    <Property Name="jiu_createdDate" Type="datetime" />
+    <Property Name="jiu_posted_ind" Type="varchar" MaxLength="1" />
+    <Property Name="jiu_recID" Type="decimal" Precision="18" />
+  </EntityType>
+  <EntityType Name="wms_jobordscan">
+    <Key>
+      <PropertyRef Name="jos_jobordscan_ID" />
+      <PropertyRef Name="jos_recID" />
+    </Key>
+    <Property Name="jos_jobordscan_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="jos_consignmentNote" Type="varchar" MaxLength="12" />
+    <Property Name="jos_country_tag" Type="varchar" MaxLength="45" />
+    <Property Name="jos_deliveryRef" Type="varchar" MaxLength="75" />
+    <Property Name="jos_job_ID" Type="varchar" MaxLength="45" />
+    <Property Name="jos_jobmo_ID" Type="varchar" MaxLength="45" />
+    <Property Name="jos_ordRecNo" Type="varchar" MaxLength="45" />
+    <Property Name="jos_scanDate" Type="datetime" />
+    <Property Name="jos_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="jos_businessChannel_ID" Type="varchar" MaxLength="45" />
+    <Property Name="jos_businessChannel_code" Type="varchar" MaxLength="45" />
+    <Property Name="jos_exportDate" Type="datetime" />
+    <Property Name="jos_load_ind" Type="varchar" MaxLength="1" />
+    <Property Name="jos_doNo" Type="varchar" MaxLength="10" />
+    <Property Name="jos_jobOrdMaster_ID" Type="varchar" MaxLength="45" />
+    <Property Name="jos_createdDate" Type="datetime" />
+    <Property Name="jos_rangeTo" Type="datetime" />
+    <Property Name="jos_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="jos_netsuiteProgress" Type="varchar" MaxLength="66" />
+    <Property Name="jos_netsuiteProgressDummy" Type="varchar" MaxLength="66" />
+    <Property Name="jos_syncupdate" Type="varchar" MaxLength="66" />
+    <Property Name="jos_GMYInvoiceProgress" Type="varchar" MaxLength="66" />
+    <Property Name="jos_dropshipFulfillmentProgress" Type="varchar" MaxLength="66" />
+  </EntityType>
+  <EntityType Name="wms_jobordscan_history">
+    <Key>
+      <PropertyRef Name="jos_jobordscan_ID" />
+      <PropertyRef Name="jos_recID" />
+    </Key>
+    <Property Name="jos_jobordscan_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="jos_consignmentNote" Type="varchar" MaxLength="12" />
+    <Property Name="jos_country_tag" Type="varchar" MaxLength="45" />
+    <Property Name="jos_deliveryRef" Type="varchar" MaxLength="75" />
+    <Property Name="jos_job_ID" Type="varchar" MaxLength="45" />
+    <Property Name="jos_jobmo_ID" Type="varchar" MaxLength="45" />
+    <Property Name="jos_ordRecNo" Type="varchar" MaxLength="45" />
+    <Property Name="jos_scanDate" Type="datetime" />
+    <Property Name="jos_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="jos_businessChannel_ID" Type="varchar" MaxLength="45" />
+    <Property Name="jos_businessChannel_code" Type="varchar" MaxLength="45" />
+    <Property Name="jos_exportDate" Type="datetime" />
+    <Property Name="jos_load_ind" Type="varchar" MaxLength="1" />
+    <Property Name="jos_doNo" Type="varchar" MaxLength="10" />
+    <Property Name="jos_jobOrdMaster_ID" Type="varchar" MaxLength="45" />
+    <Property Name="jos_createdDate" Type="datetime" />
+    <Property Name="jos_rangeTo" Type="datetime" />
+    <Property Name="jos_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="jos_netsuiteProgress" Type="varchar" MaxLength="66" />
+    <Property Name="jos_netsuiteProgressDummy" Type="varchar" MaxLength="66" />
+    <Property Name="jos_syncupdate" Type="varchar" MaxLength="66" />
+    <Property Name="jos_GMYInvoiceProgress" Type="varchar" MaxLength="66" />
+    <Property Name="jos_dropshipFulfillmentProgress" Type="varchar" MaxLength="66" />
+  </EntityType>
+  <EntityType Name="wms_jobordscan_pack">
+    <Key>
+      <PropertyRef Name="josp_pack_ID" />
+      <PropertyRef Name="josp_recID" />
+    </Key>
+    <Property Name="josp_pack_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="josp_status" Type="varchar" MaxLength="1" />
+    <Property Name="josp_ordFulFill" Type="int" />
+    <Property Name="josp_ordPoint" Type="double" />
+    <Property Name="josp_posted_ind" Type="varchar" MaxLength="1" />
+    <Property Name="josp_jobOrdMaster_ID" Type="varchar" MaxLength="45" />
+    <Property Name="josp_createdDate" Type="datetime" />
+    <Property Name="josp_rangeTo" Type="datetime" />
+    <Property Name="josp_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="josp_excessQty" Type="int" />
+    <Property Name="josp_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="josp_jobID" Type="varchar" MaxLength="45" />
+    <Property Name="josp_ordRecNo" Type="varchar" MaxLength="45" />
+    <Property Name="josp_exportDate" Type="datetime" />
+    <Property Name="josp_ordUnFulFill" Type="int" />
+  </EntityType>
+  <EntityType Name="wms_jobordscan_pack_history">
+    <Key>
+      <PropertyRef Name="josp_pack_ID" />
+      <PropertyRef Name="josp_recID" />
+    </Key>
+    <Property Name="josp_pack_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="josp_status" Type="varchar" MaxLength="1" />
+    <Property Name="josp_ordFulFill" Type="int" />
+    <Property Name="josp_ordPoint" Type="double" />
+    <Property Name="josp_posted_ind" Type="varchar" MaxLength="1" />
+    <Property Name="josp_jobOrdMaster_ID" Type="varchar" MaxLength="45" />
+    <Property Name="josp_createdDate" Type="datetime" />
+    <Property Name="josp_rangeTo" Type="datetime" />
+    <Property Name="josp_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="josp_excessQty" Type="int" />
+    <Property Name="josp_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="josp_jobID" Type="varchar" MaxLength="45" />
+    <Property Name="josp_ordRecNo" Type="varchar" MaxLength="45" />
+    <Property Name="josp_exportDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="wms_poreceive">
+    <Key>
+      <PropertyRef Name="po_poreceive_ID" />
+      <PropertyRef Name="po_recID" />
+    </Key>
+    <Property Name="po_poreceive_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="po_createdBy" Type="varchar" MaxLength="45" />
+    <Property Name="po_modifiedBy" Type="varchar" MaxLength="45" />
+    <Property Name="po_modifiedDate" Type="datetime" />
+    <Property Name="po_poreceive_active" Type="bit" />
+    <Property Name="po_poreceive_desc" Type="varchar" MaxLength="120" />
+    <Property Name="po_poreceive_number" Type="varchar" MaxLength="45" />
+    <Property Name="po_poreceive_invoice" Type="varchar" MaxLength="50" />
+    <Property Name="po_poreference_ID" Type="varchar" MaxLength="45" />
+    <Property Name="po_pr_ID" Type="varchar" MaxLength="45" />
+    <Property Name="po_createdDate" Type="datetime" />
+    <Property Name="po_rangeTo" Type="datetime" />
+    <Property Name="po_recID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="po_netsuitePO" Type="varchar" MaxLength="66" />
+  </EntityType>
+  <EntityType Name="wms_poreceiveitem">
+    <Key>
+      <PropertyRef Name="poi_poreceiveitem_ID" />
+      <PropertyRef Name="poi_sort" />
+    </Key>
+    <Property Name="poi_poreceiveitem_ID" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="poi_createdDate" Type="datetime" />
+    <Property Name="poi_invoiceItem_qty" Type="int" />
+    <Property Name="poi_item_ID" Type="varchar" MaxLength="45" />
+    <Property Name="poi_location_code" Type="varchar" MaxLength="45" />
+    <Property Name="poi_poreceive_ID" Type="varchar" MaxLength="45" />
+    <Property Name="poi_poreceiveItem_qty" Type="decimal" Precision="18" />
+    <Property Name="poi_priItem_ID" Type="varchar" MaxLength="45" />
+    <Property Name="poi_sort" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="poi_damage_qty" Type="int" />
+    <Property Name="poi_excessQty" Type="int" />
+    <Property Name="poi_item_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="poi_netsuitePO" Type="varchar" MaxLength="66" />
+  </EntityType>
+  <EntityType Name="wms_rareceive">
+    <Key>
+      <PropertyRef Name="nsr_rr_ID" />
+      <PropertyRef Name="nsr_recID" />
+    </Key>
+    <Property Name="nsr_rr_ID" Type="varchar" Nullable="false" MaxLength="135" />
+    <Property Name="nsr_rr_schID" Type="varchar" MaxLength="135" />
+    <Property Name="nsr_rr_number" Type="varchar" MaxLength="135" />
+    <Property Name="nsr_rr_internalID" Type="varchar" MaxLength="135" />
+    <Property Name="nsr_rr_date" Type="datetime" />
+    <Property Name="nsr_rr_description" Type="varchar" MaxLength="450" />
+    <Property Name="nsr_rr_createdBy" Type="varchar" MaxLength="135" />
+    <Property Name="nsr_rr_reference" Type="varchar" MaxLength="135" />
+    <Property Name="nsr_rr_active" Type="bit" />
+    <Property Name="nsr_rr_returnDate" Type="datetime" />
+    <Property Name="nsr_rr_returnBy" Type="varchar" MaxLength="135" />
+    <Property Name="nsr_rr_status" Type="int" />
+    <Property Name="nsr_period" Type="varchar" MaxLength="135" />
+    <Property Name="nsr_ns_status" Type="varchar" MaxLength="300" />
+    <Property Name="nsr_createdDate" Type="datetime" />
+    <Property Name="nsr_rangeTo" Type="datetime" />
+    <Property Name="nsr_recID" Type="int" Nullable="false" />
+    <Property Name="nsr_netsuiteRA" Type="varchar" MaxLength="66" />
+  </EntityType>
+  <EntityType Name="wms_rareceiveitem">
+    <Key>
+      <PropertyRef Name="nsri_rritem_ID" />
+      <PropertyRef Name="nsri_recID" />
+    </Key>
+    <Property Name="nsri_rritem_ID" Type="varchar" Nullable="false" MaxLength="135" />
+    <Property Name="nsri_nsr_rr_ID" Type="varchar" MaxLength="135" />
+    <Property Name="nsri_rritem_invoice" Type="varchar" MaxLength="135" />
+    <Property Name="nsri_rritem_isbn" Type="varchar" MaxLength="135" />
+    <Property Name="nsri_rritem_isbn2" Type="varchar" MaxLength="240" />
+    <Property Name="nsri_rritem_return_qty" Type="int" />
+    <Property Name="nsri_tranDate" Type="datetime" />
+    <Property Name="nsri_createdBy" Type="varchar" MaxLength="135" />
+    <Property Name="nsri_rritem_status" Type="int" />
+    <Property Name="nsri_remarks" Type="varchar" MaxLength="150" />
+    <Property Name="nsri_rritem_max_return" Type="int" />
+    <Property Name="nsri_item_internalID" Type="varchar" MaxLength="135" />
+    <Property Name="nsri_rritem_receive_qty" Type="int" />
+    <Property Name="nsri_cn_id" Type="varchar" MaxLength="135" />
+    <Property Name="nsri_rritem_posting_qty" Type="int" />
+    <Property Name="nsri_pack_ID" Type="varchar" MaxLength="135" />
+    <Property Name="nsri_createdDate" Type="datetime" />
+    <Property Name="nsri_recID" Type="int" Nullable="false" />
+    <Property Name="nsri_netsuiteRA" Type="varchar" MaxLength="66" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.sde.dashboard_salesorder' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="dashboard_salesorder">
+    <Key>
+      <PropertyRef Name="nsj_jobID" />
+      <PropertyRef Name="nsjm_jobMo_ID" />
+    </Key>
+    <Property Name="nsj_jobID" Type="varchar" Nullable="false" MaxLength="36" />
+    <Property Name="nsjm_jobMo_ID" Type="varchar" Nullable="false" MaxLength="36" />
+    <Property Name="nsj_businessChannel_ID" Type="varchar" MaxLength="36" />
+    <Property Name="nsj_country_tag" Type="varchar" MaxLength="45" />
+    <Property Name="nsj_job_mo_count" Type="int" />
+    <Property Name="nsjm_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="nsjm_moNo_internalID" Type="varchar" MaxLength="45" />
+    <Property Name="nsj_rangeTo" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.sde.view_wms_jobordscan' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="view_wms_jobordscan">
+    <Key>
+      <PropertyRef Name="numOfRec" />
+    </Key>
+    <Property Name="jos_country_tag" Type="varchar" MaxLength="45" />
+    <Property Name="jos_job_ID" Type="varchar" MaxLength="45" />
+    <Property Name="jos_jobmo_ID" Type="varchar" MaxLength="45" />
+    <Property Name="jos_scanDate" Type="datetime" />
+    <Property Name="jos_moNo" Type="varchar" MaxLength="45" />
+    <Property Name="jos_businessChannel_ID" Type="varchar" MaxLength="45" />
+    <Property Name="jos_businessChannel_code" Type="varchar" MaxLength="45" />
+    <Property Name="jos_exportDate" Type="datetime" />
+    <Property Name="jos_rangeTo" Type="datetime" />
+    <Property Name="numOfRec" Type="bigint" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6013: The table/view 'def.sde.test' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="test">
+        <Property Name="test_cl" Type="varchar" MaxLength="50" />
+      </EntityType>-->
+</Schema>
